@@ -10,7 +10,11 @@ How to use:
 
 Available variants:
 
-**1) Nightdive-Like with Labels**<br>
+**1) Crispy with Labels**<br>
+Crispy HUD with labels. No other changes. I've de﻿cided to replace the labels for the ammo types with weapon slot numbers to provide maximum compatibility with mods which change ammo names. (HacX uses the enhanced font from the Nightdive-like﻿ HUD.)<br><br>
+   ![crispy_labels](https://github.com/user-attachments/assets/642b3baf-b33e-4525-b78c-b95557d5f74b)<br><br>
+
+**2) Nightdive-Like with Labels**<br>
 Replaces the Nightdive fullscreen HUD. To allow max compatibility with other (P/I)WADs, armor and ammo icons have been removed since they often end up being badly aligned/too large/etc. There are a few more features that were missing before, mainly ammo overview and weapons display.<br><br>
    ![nightdive_doom](https://github.com/user-attachments/assets/afdae6b6-5975-42b1-a227-3ab43c0dc97e)
    ![nightdive_hacx](https://github.com/user-attachments/assets/7db04c46-b59d-4e66-80a9-e9c61da69b3d)
@@ -22,8 +26,18 @@ Replaces the Nightdive fullscreen HUD. To allow max compatibility with other (P/
    - Chainsaw/SSG possession: "8" and "9" in ARMS panel lit
    - Backpack found: Numbers in ammo overview turn golden<br><br>
 
-**2) ﻿Essentials Minimal/Compact/Distributed**<br>
-K﻿eeps the mugshot, but focuses on the basic info provided by the original Nightdive fullscreen HUD to save more screen space. Numbers are taken from the <a href="https://github.com/team-eternity/eternity" target= "_blank">Eternity Engine</a>.<br><br>
+**3) ﻿Eternity Enhanced**<br>
+Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/eternity" target= "_blank">Eternity Engine</a>, but with mugshot and ammo overview (on the right screen corner).<br><br>
+
+   Indicators:
+   - Armor type: Armor number green (33%) or blue (50%)
+   - Berserker mode: Infinity symbol turns﻿ red when fists are selected + "1" in ARMS line turns golden
+   - Chainsaw/SSG possession (Compact/Distributed only): "8" and "9" in ARMS line turn golden
+   - Backpack found: Ammo numbers turns golden + totals in ammo overview double
+   - Invulnerability (powerup only): Health + Armor numbers turn golden<br><br>
+
+**4) ﻿Essentials**<br>
+K﻿eeps the mugshot, but focuses on the basic info provided by the original Nightdive fullscreen HUD to save more screen space. Numbers are taken from the Eternity Engine.<br><br>
    ![essentials_minimal](https://github.com/user-attachments/assets/53dd8467-1e21-49b7-a792-224274a9c19f)
    **Minimal:** All relevant info aligned on the left side of the screen, similar to Boom Compact.<br><br>
    ![essentials_compact](https://github.com/user-attachments/assets/debb7289-8f09-45eb-966a-c09e5fd5df07)
@@ -32,17 +46,9 @@ K﻿eeps the mugshot, but focuses on the basic info provided by the original Nig
    **Distributed:** Like Compact, but with weapo﻿ns﻿ and ammo overview shifted to the right scr﻿een ﻿corner﻿.
    
    Indicators:
-   - Armor type: Armor number green (33%) or blue (50%)
-   - Berserker mode: Infinity symbol turns﻿ red when fists are selected
-   - Chainsaw/SSG possession (Compact/Distributed only): "1" and "3" in ARMS line lit/golden (Doom 2: gray if only SG or SSG owned, golden if both owned)
-   - Backpack found: Ammo number turns golden
-   - Invulnerability (powerup only): Health + Armor numbers turn golden<br><br>
-   
-**3) Crispy with Labels**<br>
-Crispy HUD with labels - and that's it. No other changes. I've de﻿cided to replace the labels for the ammo types with weapon slot numbers to provide maximum compatibility with mods which change ammo names. (HacX uses the enhanced font from the Nightdive-like﻿ HUD.)<br><br>
-   ![crispy_labels](https://github.com/user-attachments/assets/642b3baf-b33e-4525-b78c-b95557d5f74b)<br><br>
+   - Same as "Eternity Enhanced", but without info from ARMS panel/ammo overview
 
-**4) Boom-Like Compact/Distributed**<br>
+**5) Boom-Like Compact/Distributed**<br>
 Lovers of the old Boom HUD may know and appreciate this one. Not exactly imitating the original by 100%, but with a bonus feature: Properly aligned keys (regardless which custom offsets are used in a PWAD).<br><br>
    ![boom_compact](https://github.com/user-attachments/assets/50924c5e-878a-4646-ba29-ec36ff16349f)
    **Compact:** Everything aligned on the left side of the screen.<br><br>
@@ -56,5 +62,3 @@ Lovers of the old Boom HUD may know and appreciate this one. Not exactly imitati
    - Backpack found: MUN numbers turn golden
    - Invulnerability (powerup only): Health + Armor numbers turn golden
    - Active ammo type: Ammo number highlighted in red
-
-
