@@ -11,14 +11,14 @@ How to use:
 Available variants:
 
 **1) Crispy with Labels**<br>
-Crispy HUD with labels. No other changes. I've de﻿cided to replace the labels for the ammo types with weapon slot numbers to provide maximum compatibility with mods which change ammo names. (HacX uses the enhanced font from the Nightdive-like﻿ HUD.)<br><br>
+Crispy HUD with labels. No other changes. I've de﻿cided to replace the labels for the ammo types with weapon slot numbers to provide maximum compatibility with mods which change ammo names. (HacX uses the enhanced font from "Nightdive-Like"﻿.)<br><br>
    ![crispy_labels](https://github.com/user-attachments/assets/642b3baf-b33e-4525-b78c-b95557d5f74b)<br><br>
 
 **2) Nightdive-Like with Labels**<br>
 Replaces the Nightdive fullscreen HUD. To allow max compatibility with other (P/I)WADs, armor and ammo icons have been removed since they often end up being badly aligned/too large/etc. There are a few more features that were missing before, mainly ammo overview and weapons display.<br><br>
    ![nightdive_doom](https://github.com/user-attachments/assets/afdae6b6-5975-42b1-a227-3ab43c0dc97e)
-   ![nightdive_hacx](https://github.com/user-attachments/assets/7db04c46-b59d-4e66-80a9-e9c61da69b3d)
-    [HacX comes with an extra font since the standard numbers look like absolute trash in fullscreen mode.]
+   ![nightdive_hacx](https://github.com/user-attachments/assets/2bae47e0-e750-4b47-963d-e8cf1bad2f9e)
+   (HacX comes with an extra font since the standard numbers look like absolute trash in fullscreen mode.)
    
    Indicators:
    - Armor type: Green 33% / blue 50% in "Armor" label
@@ -28,7 +28,7 @@ Replaces the Nightdive fullscreen HUD. To allow max compatibility with other (P/
 
 **3) ﻿Eternity Enhanced**<br>
 Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/eternity" target= "_blank">Eternity Engine</a>, but with mugshot and ammo overview (on the right screen corner).<br><br>
-
+![eternity](https://github.com/user-attachments/assets/1419eae8-9954-4af3-b13b-c008575117e9)<br><br>
    Indicators:
    - Armor type: Armor number green (33%) or blue (50%)
    - Berserker mode: Infinity symbol turns﻿ red when fists are selected + "1" in ARMS line turns golden
@@ -38,15 +38,10 @@ Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/et
 
 **4) ﻿Essentials**<br>
 K﻿eeps the mugshot, but focuses on the basic info provided by the original Nightdive fullscreen HUD to save more screen space. Numbers are taken from the Eternity Engine.<br><br>
-   ![essentials_minimal](https://github.com/user-attachments/assets/53dd8467-1e21-49b7-a792-224274a9c19f)
-   **Minimal:** All relevant info aligned on the left side of the screen, similar to Boom Compact.<br><br>
-   ![essentials_compact](https://github.com/user-attachments/assets/debb7289-8f09-45eb-966a-c09e5fd5df07)
-   **Compact:** For those who ﻿need all the info missing in Minimal, i.e. weapons + ammo overvi﻿ew.<br><br>
-   ![essentials_distributed](https://github.com/user-attachments/assets/23b69c51-6c15-4d5c-a9ae-1c18df3f1e1d)
-   **Distributed:** Like Compact, but with weapo﻿ns﻿ and ammo overview shifted to the right scr﻿een ﻿corner﻿.
+   ![essentials](https://github.com/user-attachments/assets/347b7d76-978b-463e-b397-50ebeac7ba20)
    
    Indicators:
-   - Same as "Eternity Enhanced", but without info from ARMS panel/ammo overview
+   - Same as "Eternity Enhanced", but without info from ARMS panel/ammo overview<br><br>
 
 **5) Boom-Like Compact/Distributed**<br>
 Lovers of the old Boom HUD may know and appreciate this one. Not exactly imitating the original by 100%, but with a bonus feature: Properly aligned keys (regardless which custom offsets are used in a PWAD).<br><br>
