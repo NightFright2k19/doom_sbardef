@@ -1,3 +1,5 @@
+**SBARDEF HUD MOD FOR WOOF!**
+
 The Nightdive port brought the possibility to edit the HUD/statusbar via SBARDEF. Unfortunately, the editor which is supposed to make statusbar modding a lot easier is still not completed. Bottom line: I couldn't wait for it and went ahead to create the HUD I wanted/needed.
 Woof! is the intended port for this mod and AFAIK there are currently no other "non-Nightdive" ports which support SBARDEF.
 
