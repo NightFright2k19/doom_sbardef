@@ -12,7 +12,7 @@ Available variants:
 
 **1) Crispy with Labels**<br>
 Crispy HUD with labels. No other changes. I've de﻿cided to replace the labels for the ammo types with weapon slot numbers to provide maximum compatibility with mods which change ammo names. (HacX uses the enhanced font from "Nightdive-Like"﻿.)<br><br>
-   ![crispy_labels](https://github.com/user-attachments/assets/642b3baf-b33e-4525-b78c-b95557d5f74b)<br><br>
+   ![crispy_labels](https://github.com/user-attachments/assets/c01b9a38-588c-41c3-baa9-753b5ca9ece2)<br><br>
 
 **2) Nightdive-Like with Labels**<br>
 Replaces the Nightdive fullscreen HUD. To allow max compatibility with other (P/I)WADs, armor and ammo icons have been removed since they often end up being badly aligned/too large/etc. There are a few more features that were missing before, mainly ammo overview and weapons display.<br><br>
