@@ -17,7 +17,8 @@ Crispy HUD with labels. No other changes. I've de﻿cided to replace the labels 
 **2) Nightdive-Like with Labels**<br>
 Replaces the Nightdive fullscreen HUD. To allow max compatibility with other (P/I)WADs, armor and ammo icons have been removed since they often end up being badly aligned/too large/etc. There are a few more features that were missing before, mainly ammo overview and weapons display.<br><br>
    ![nightdive_doom](https://github.com/user-attachments/assets/afdae6b6-5975-42b1-a227-3ab43c0dc97e)
-   ![nightdive_hacx](https://github.com/user-attachments/assets/2bae47e0-e750-4b47-963d-e8cf1bad2f9e)
+   ![nightdive_hacx](https://github.com/user-attachments/assets/48d0051f-e319-4595-a585-1c032b00fec2)
+
    (HacX comes with an extra font since the standard numbers look like absolute trash in fullscreen mode.)
    
    Indicators:
