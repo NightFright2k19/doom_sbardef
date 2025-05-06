@@ -4,9 +4,11 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **<a href="https://github.com/fabiangreffrath/woof" target= "_blank">Woof!</a> is the intended port for this mod (as there are currently no other "non-Nightdive" ports which support SBARDEF).**<br><br>
 
-How to use:
-- Unzip the archive into your Woof! installation directory. Files will be copied into the proper autoload subdirectories.
-- Launch Woof! and keep pressing F5 until you get to the HUD you want.<br><br>
+**How to use:**
+1) Unzip the archive into your Woof! installation directory. Files will be copied into the proper autoload subdirectories.
+2a) Without extras.wad: Launch Woof! normally.
+2b) With extras.wad: Launch Woof! with command line parameter **-noextras**
+3) When ingame, keep pressing F5 until you get to the HUD you want.<br><br>
 
 Available variants:
 
