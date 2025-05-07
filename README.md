@@ -2,7 +2,7 @@
 
 The Nightdive port brought the possibility to edit the Doom statusbar and fullscreen HUD via <a href="https://doomwiki.org/wiki/SBARDEF" target= "_blank">SBARDEF</a>. Unfortunately, an editor which is supposed to make statusbar modding a lot easier is still not completed. I couldn't wait for it and went ahead to create the HUDs I wanted/needed.
 
-**<a href="https://github.com/fabiangreffrath/woof" target= "_blank">Woof!</a> is the intended port for this mod (as there are currently no other "non-Nightdive" ports which support SBARDEF).**<br><br>
+**<a href="https://github.com/fabiangreffrath/woof" target= "_blank">Woof!</a> is the intended port for this mod. <a href="[https://github.com/fabiangreffrath/woof](https://github.com/MrAlaux/Nugget-Doom)" target= "_blank">Nugget Doom</a> should also work (but note that NUGHUD can only be toggled when the "Boom Distributed" HUD is selected).**<br><br>
 
 **How to use:**
 - Unzip the archive into your Woof! installation directory. Files will be copied into the proper autoload subdirectories.<br>
