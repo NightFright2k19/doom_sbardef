@@ -2785,6 +2785,10 @@
                             {
                               "condition": 11,
                               "param": 18
+                            },
+                            {
+                              "condition": 2,
+                              "param": 0
                             }
                           ],
                           "children": null
@@ -2804,301 +2808,536 @@
                             {
                               "condition": 10,
                               "param": 18
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "DIG050",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions":
-                          [
-                            {
-                              "condition": 7,
-                              "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "DIG050",
-                          "tranmap": null,
-                          "translation": "CRGOLD",
-                          "conditions":
-                          [
-                            {
-                              "condition": 6,
-                              "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "DIG051",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "DIG051",
-                          "tranmap": null,
-                          "translation": "CRGOLD",
-                          "conditions":
-                          [
-                            {
-                              "condition": 0,
-                              "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 0,
-                          "y": 7,
-                          "alignment": 32,
-                          "patch": "DIG052",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions":
-                          [
-                            {
-                              "condition": 7,
-                              "param": 4
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 0,
-                          "y": 7,
-                          "alignment": 32,
-                          "patch": "DIG052",
-                          "tranmap": null,
-                          "translation": "CRGOLD",
-                          "conditions":
-                          [
-                            {
-                              "condition": 6,
-                              "param": 4
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 8,
-                          "y": 7,
-                          "alignment": 32,
-                          "patch": "DIG053",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions":
-                          [
-                            {
-                              "condition": 7,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 8,
-                          "y": 7,
-                          "alignment": 32,
-                          "patch": "DIG053",
-                          "tranmap": null,
-                          "translation": "CRGOLD",
-                          "conditions":
-                          [
-                            {
-                              "condition": 6,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 16,
-                          "y": 7,
-                          "alignment": 32,
-                          "patch": "DIG054",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions":
-                          [
-                            {
-                              "condition": 7,
-                              "param": 6
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 16,
-                          "y": 7,
-                          "alignment": 32,
-                          "patch": "DIG054",
-                          "tranmap": null,
-                          "translation": "CRGOLD",
-                          "conditions":
-                          [
-                            {
-                              "condition": 6,
-                              "param": 6
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 0,
-                          "y": 14,
-                          "alignment": 32,
-                          "patch": "DIG055",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions":
-                          [
-                            {
-                              "condition": 7,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 0,
-                          "y": 14,
-                          "alignment": 32,
-                          "patch": "DIG055",
-                          "tranmap": null,
-                          "translation": "CRGOLD",
-                          "conditions":
-                          [
-                            {
-                              "condition": 6,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 8,
-                          "y": 14,
-                          "alignment": 32,
-                          "patch": "DIG056",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 8,
-                          "y": 14,
-                          "alignment": 32,
-                          "patch": "DIG056",
-                          "tranmap": null,
-                          "translation": "CRGOLD",
-                          "conditions":
-                          [
-                            {
-                              "condition": 0,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 16,
-                          "y": 14,
-                          "alignment": 32,
-                          "patch": "DIG057",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions":
-                          [
-                            {
-                              "condition": 16,
-                              "param": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic":
-                        {
-                          "x": 16,
-                          "y": 14,
-                          "alignment": 32,
-                          "patch": "DIG057",
-                          "tranmap": null,
-                          "translation": "CRGOLD",
-                          "conditions":
-                          [
-                            {
-                              "condition": 16,
-                              "param": 1
                             },
                             {
+                              "condition": 2,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG049",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 1,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 8,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG050",
+                          "tranmap": null,
+                          "translation": "CRBLACK",
+                          "conditions":
+                          [
+                            {
+                              "condition": 7,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 8,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG050",
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 2
+                            },
+                            {
+                              "condition": 2,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 8,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG050",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 2
+                            },
+                            {
+                              "condition": 1,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 16,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG051",
+                          "tranmap": null,
+                          "translation": "CRBLACK",
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 16,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG051",
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "conditions":
+                          [
+                            {
                               "condition": 0,
+                              "param": 2
+                            },
+                            {
+                              "condition": 2,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 16,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG051",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 0,
+                              "param": 2
+                            },
+                            {
+                              "condition": 1,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 0,
+                          "y": 7,
+                          "alignment": 32,
+                          "patch": "DIG052",
+                          "tranmap": null,
+                          "translation": "CRBLACK",
+                          "conditions":
+                          [
+                            {
+                              "condition": 7,
+                              "param": 4
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 0,
+                          "y": 7,
+                          "alignment": 32,
+                          "patch": "DIG052",
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 4
+                            },
+                            {
+                              "condition": 2,
+                              "param": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 0,
+                          "y": 7,
+                          "alignment": 32,
+                          "patch": "DIG052",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 4
+                            },
+                            {
+                              "condition": 1,
+                              "param": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 8,
+                          "y": 7,
+                          "alignment": 32,
+                          "patch": "DIG053",
+                          "tranmap": null,
+                          "translation": "CRBLACK",
+                          "conditions":
+                          [
+                            {
+                              "condition": 7,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 8,
+                          "y": 7,
+                          "alignment": 32,
+                          "patch": "DIG053",
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 5
+                            },
+                            {
+                              "condition": 2,
+                              "param": 4
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 8,
+                          "y": 7,
+                          "alignment": 32,
+                          "patch": "DIG053",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 5
+                            },
+                            {
+                              "condition": 1,
+                              "param": 4
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 16,
+                          "y": 7,
+                          "alignment": 32,
+                          "patch": "DIG054",
+                          "tranmap": null,
+                          "translation": "CRBLACK",
+                          "conditions":
+                          [
+                            {
+                              "condition": 7,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 16,
+                          "y": 7,
+                          "alignment": 32,
+                          "patch": "DIG054",
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 6
+                            },
+                            {
+                              "condition": 2,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 16,
+                          "y": 7,
+                          "alignment": 32,
+                          "patch": "DIG054",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 6
+                            },
+                            {
+                              "condition": 1,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 0,
+                          "y": 14,
+                          "alignment": 32,
+                          "patch": "DIG055",
+                          "tranmap": null,
+                          "translation": "CRBLACK",
+                          "conditions":
+                          [
+                            {
+                              "condition": 7,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 0,
+                          "y": 14,
+                          "alignment": 32,
+                          "patch": "DIG055",
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 7
+                            },
+                            {
+                              "condition": 2,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 0,
+                          "y": 14,
+                          "alignment": 32,
+                          "patch": "DIG055",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 7
+                            },
+                            {
+                              "condition": 1,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 8,
+                          "y": 14,
+                          "alignment": 32,
+                          "patch": "DIG056",
+                          "tranmap": null,
+                          "translation": "CRBLACK",
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 8,
+                          "y": 14,
+                          "alignment": 32,
+                          "patch": "DIG056",
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "conditions":
+                          [
+                            {
+                              "condition": 0,
+                              "param": 7
+                            },
+                            {
+                              "condition": 2,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 8,
+                          "y": 14,
+                          "alignment": 32,
+                          "patch": "DIG056",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 0,
+                              "param": 7
+                            },
+                            {
+                              "condition": 1,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 16,
+                          "y": 14,
+                          "alignment": 32,
+                          "patch": "DIG057",
+                          "tranmap": null,
+                          "translation": "CRBLACK",
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 16,
+                          "y": 14,
+                          "alignment": 32,
+                          "patch": "DIG057",
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "conditions":
+                          [
+                            {
+                              "condition": 0,
+                              "param": 8
+                            },
+                            {
+                              "condition": 2,
+                              "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 16,
+                          "y": 14,
+                          "alignment": 32,
+                          "patch": "DIG057",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 0,
+                              "param": 8
+                            },
+                            {
+                              "condition": 1,
                               "param": 8
                             }
                           ],
@@ -3816,6 +4055,10 @@
                             {
                               "condition": 11,
                               "param": 18
+                            },
+                            {
+                              "condition": 2,
+                              "param": 0
                             }
                           ],
                           "children": null
@@ -3835,6 +4078,29 @@
                             {
                               "condition": 10,
                               "param": 18
+                            },
+                            {
+                              "condition": 2,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "ETSNUM1",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 1,
+                              "param": 0
                             }
                           ],
                           "children": null
@@ -3873,6 +4139,33 @@
                             {
                               "condition": 6,
                               "param": 2
+                            },
+                            {
+                              "condition": 2,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 6,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "ETSNUM2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 2
+                            },
+                            {
+                              "condition": 1,
+                              "param": 1
                             }
                           ],
                           "children": null
@@ -3904,6 +4197,33 @@
                           [
                             {
                               "condition": 0,
+                              "param": 2
+                            },
+                            {
+                              "condition": 2,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 12,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "ETSNUM3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 0,
+                              "param": 2
+                            },
+                            {
+                              "condition": 1,
                               "param": 2
                             }
                           ],
@@ -3943,6 +4263,33 @@
                             {
                               "condition": 6,
                               "param": 4
+                            },
+                            {
+                              "condition": 2,
+                              "param": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "ETSNUM4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 4
+                            },
+                            {
+                              "condition": 1,
+                              "param": 3
                             }
                           ],
                           "children": null
@@ -3981,6 +4328,33 @@
                             {
                               "condition": 6,
                               "param": 5
+                            },
+                            {
+                              "condition": 2,
+                              "param": 4
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 24,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "ETSNUM5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 5
+                            },
+                            {
+                              "condition": 1,
+                              "param": 4
                             }
                           ],
                           "children": null
@@ -4019,6 +4393,33 @@
                             {
                               "condition": 6,
                               "param": 6
+                            },
+                            {
+                              "condition": 2,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 30,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "ETSNUM6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 6
+                            },
+                            {
+                              "condition": 1,
+                              "param": 5
                             }
                           ],
                           "children": null
@@ -4057,6 +4458,33 @@
                             {
                               "condition": 6,
                               "param": 7
+                            },
+                            {
+                              "condition": 2,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 36,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "ETSNUM7",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 7
+                            },
+                            {
+                              "condition": 1,
+                              "param": 6
                             }
                           ],
                           "children": null
@@ -4088,6 +4516,33 @@
                           [
                             {
                               "condition": 0,
+                              "param": 7
+                            },
+                            {
+                              "condition": 2,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 42,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "ETSNUM8",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 0,
+                              "param": 7
+                            },
+                            {
+                              "condition": 1,
                               "param": 7
                             }
                           ],
@@ -4125,11 +4580,34 @@
                           "conditions":
 			  [
                             {
-                              "condition": 16,
-                              "param": 1
+                              "condition": 0,
+                              "param": 8
                             },
                             {
+                              "condition": 2,
+                              "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 48,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "ETSNUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+			  [
+                            {
                               "condition": 0,
+                              "param": 8
+                            },
+                            {
+                              "condition": 1,
                               "param": 8
                             }
                           ],
@@ -8413,6 +8891,10 @@
                             {
                               "condition": 11,
                               "param": 18
+                            },
+                            {
+                              "condition": 2,
+                              "param": 0
                             }
                           ],
                           "children": null
@@ -8432,6 +8914,29 @@
                             {
                               "condition": 10,
                               "param": 18
+                            },
+                            {
+                              "condition": 2,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 19,
+                          "y": 7,
+                          "alignment": 16,
+                          "patch": "DIG049",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 1,
+                              "param": 0
                             }
                           ],
                           "children": null
@@ -8451,6 +8956,33 @@
                             {
                               "condition": 6,
                               "param": 2
+                            },
+                            {
+                              "condition": 2,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 27,
+                          "y": 7,
+                          "alignment": 16,
+                          "patch": "DIG050",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 2
+                            },
+                            {
+                              "condition": 1,
+                              "param": 1
                             }
                           ],
                           "children": null
@@ -8469,6 +9001,33 @@
                           [
                             {
                               "condition": 0,
+                              "param": 2
+                            },
+                            {
+                              "condition": 2,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 35,
+                          "y": 7,
+                          "alignment": 16,
+                          "patch": "DIG051",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 0,
+                              "param": 2
+                            },
+                            {
+                              "condition": 1,
                               "param": 2
                             }
                           ],
@@ -8489,6 +9048,33 @@
                             {
                               "condition": 6,
                               "param": 4
+                            },
+                            {
+                              "condition": 2,
+                              "param": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 43,
+                          "y": 7,
+                          "alignment": 16,
+                          "patch": "DIG052",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 4
+                            },
+                            {
+                              "condition": 1,
+                              "param": 3
                             }
                           ],
                           "children": null
@@ -8508,6 +9094,33 @@
                             {
                               "condition": 6,
                               "param": 5
+                            },
+                            {
+                              "condition": 2,
+                              "param": 4
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 51,
+                          "y": 7,
+                          "alignment": 16,
+                          "patch": "DIG053",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 5
+                            },
+                            {
+                              "condition": 1,
+                              "param": 4
                             }
                           ],
                           "children": null
@@ -8527,6 +9140,33 @@
                             {
                               "condition": 6,
                               "param": 6
+                            },
+                            {
+                              "condition": 2,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 59,
+                          "y": 7,
+                          "alignment": 16,
+                          "patch": "DIG054",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 6
+                            },
+                            {
+                              "condition": 1,
+                              "param": 5
                             }
                           ],
                           "children": null
@@ -8546,6 +9186,33 @@
                             {
                               "condition": 6,
                               "param": 7
+                            },
+                            {
+                              "condition": 2,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 67,
+                          "y": 7,
+                          "alignment": 16,
+                          "patch": "DIG055",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 6,
+                              "param": 7
+                            },
+                            {
+                              "condition": 1,
+                              "param": 6
                             }
                           ],
                           "children": null
@@ -8564,6 +9231,33 @@
                           [
                             {
                               "condition": 0,
+                              "param": 7
+                            },
+                            {
+                              "condition": 2,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 75,
+                          "y": 7,
+                          "alignment": 16,
+                          "patch": "DIG056",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 0,
+                              "param": 7
+                            },
+                            {
+                              "condition": 1,
                               "param": 7
                             }
                           ],
@@ -8601,11 +9295,34 @@
                           "conditions":
                           [
                             {
-                              "condition": 16,
-                              "param": 1
+                              "condition": 0,
+                              "param": 8
                             },
                             {
+                              "condition": 2,
+                              "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 83,
+                          "y": 7,
+                          "alignment": 16,
+                          "patch": "DIG057",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
                               "condition": 0,
+                              "param": 8
+                            },
+                            {
+                              "condition": 1,
                               "param": 8
                             }
                           ],
@@ -12762,6 +13479,10 @@
                             {
                               "condition": 11,
                               "param": 18
+                            },
+                            {
+                              "condition": 2,
+                              "param": 0
                             }
                           ],
                           "children": null
@@ -12785,6 +13506,33 @@
                             {
                               "condition": 10,
                               "param": 18
+                            },
+                            {
+                              "condition": 2,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 10,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG049",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 2
+                            },
+                            {
+                              "condition": 1,
+                              "param": 0
                             }
                           ],
                           "children": null
@@ -12808,6 +13556,37 @@
                             {
                               "condition": 6,
                               "param": 2
+                            },
+                            {
+                              "condition": 2,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG050",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 2
+                            },
+                            {
+                              "condition": 6,
+                              "param": 2
+                            },
+                            {
+                              "condition": 1,
+                              "param": 1
                             }
                           ],
                           "children": null
@@ -12830,6 +13609,37 @@
                             },
                             {
                               "condition": 0,
+                              "param": 2
+                            },
+                            {
+                              "condition": 2,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 26,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG051",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 2
+                            },
+                            {
+                              "condition": 0,
+                              "param": 2
+                            },
+                            {
+                              "condition": 1,
                               "param": 2
                             }
                           ],
@@ -12854,6 +13664,37 @@
                             {
                               "condition": 6,
                               "param": 4
+                            },
+                            {
+                              "condition": 2,
+                              "param": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 34,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG052",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 2
+                            },
+                            {
+                              "condition": 6,
+                              "param": 4
+                            },
+                            {
+                              "condition": 1,
+                              "param": 3
                             }
                           ],
                           "children": null
@@ -12877,6 +13718,37 @@
                             {
                               "condition": 6,
                               "param": 5
+                            },
+                            {
+                              "condition": 2,
+                              "param": 4
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 42,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG053",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 2
+                            },
+                            {
+                              "condition": 6,
+                              "param": 5
+                            },
+                            {
+                              "condition": 1,
+                              "param": 4
                             }
                           ],
                           "children": null
@@ -12900,6 +13772,37 @@
                             {
                               "condition": 6,
                               "param": 6
+                            },
+                            {
+                              "condition": 2,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 50,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG054",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 2
+                            },
+                            {
+                              "condition": 6,
+                              "param": 6
+                            },
+                            {
+                              "condition": 1,
+                              "param": 5
                             }
                           ],
                           "children": null
@@ -12923,6 +13826,37 @@
                             {
                               "condition": 6,
                               "param": 7
+                            },
+                            {
+                              "condition": 2,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 58,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG055",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 2
+                            },
+                            {
+                              "condition": 6,
+                              "param": 7
+                            },
+                            {
+                              "condition": 1,
+                              "param": 6
                             }
                           ],
                           "children": null
@@ -12945,6 +13879,37 @@
                             },
                             {
                               "condition": 0,
+                              "param": 7
+                            },
+                            {
+                              "condition": 2,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 66,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG056",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 2
+                            },
+                            {
+                              "condition": 0,
+                              "param": 7
+                            },
+                            {
+                              "condition": 1,
                               "param": 7
                             }
                           ],
@@ -12969,6 +13934,10 @@
                             {
                               "condition": 11,
                               "param": 18
+                            },
+                            {
+                              "condition": 2,
+                              "param": 0
                             }
                           ],
                           "children": null
@@ -12992,6 +13961,33 @@
                             {
                               "condition": 10,
                               "param": 18
+                            },
+                            {
+                              "condition": 2,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 2,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG049",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 1,
+                              "param": 0
                             }
                           ],
                           "children": null
@@ -13015,6 +14011,37 @@
                             {
                               "condition": 6,
                               "param": 2
+                            },
+                            {
+                              "condition": 2,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 10,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG050",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 6,
+                              "param": 2
+                            },
+                            {
+                              "condition": 1,
+                              "param": 1
                             }
                           ],
                           "children": null
@@ -13037,6 +14064,37 @@
                             },
                             {
                               "condition": 0,
+                              "param": 2
+                            },
+                            {
+                              "condition": 2,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG051",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 0,
+                              "param": 2
+                            },
+                            {
+                              "condition": 1,
                               "param": 2
                             }
                           ],
@@ -13061,6 +14119,37 @@
                             {
                               "condition": 6,
                               "param": 4
+                            },
+                            {
+                              "condition": 2,
+                              "param": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 26,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG052",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 6,
+                              "param": 4
+                            },
+                            {
+                              "condition": 1,
+                              "param": 3
                             }
                           ],
                           "children": null
@@ -13084,6 +14173,37 @@
                             {
                               "condition": 6,
                               "param": 5
+                            },
+                            {
+                              "condition": 2,
+                              "param": 4
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 34,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG053",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 6,
+                              "param": 5
+                            },
+                            {
+                              "condition": 1,
+                              "param": 4
                             }
                           ],
                           "children": null
@@ -13107,6 +14227,37 @@
                             {
                               "condition": 6,
                               "param": 6
+                            },
+                            {
+                              "condition": 2,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 42,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG054",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 6,
+                              "param": 6
+                            },
+                            {
+                              "condition": 1,
+                              "param": 5
                             }
                           ],
                           "children": null
@@ -13130,6 +14281,37 @@
                             {
                               "condition": 6,
                               "param": 7
+                            },
+                            {
+                              "condition": 2,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 50,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG055",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 6,
+                              "param": 7
+                            },
+                            {
+                              "condition": 1,
+                              "param": 6
                             }
                           ],
                           "children": null
@@ -13152,6 +14334,37 @@
                             },
                             {
                               "condition": 0,
+                              "param": 7
+                            },
+                            {
+                              "condition": 2,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 58,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG056",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 0,
+                              "param": 7
+                            },
+                            {
+                              "condition": 1,
                               "param": 7
                             }
                           ],
@@ -13194,6 +14407,37 @@
                             },
                             {
                               "condition": 0,
+                              "param": 8
+                            },
+                            {
+                              "condition": 2,
+                              "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic":
+                        {
+                          "x": 66,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DIG057",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions":
+                          [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 0,
+                              "param": 8
+                            },
+                            {
+                              "condition": 1,
                               "param": 8
                             }
                           ],
