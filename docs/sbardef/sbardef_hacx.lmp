@@ -43,6 +43,11 @@
         "name": "EternitySmall",
         "type": 0,
         "stem": "ETS"
+      },
+      {
+        "name": "Essentials",
+        "type": 0,
+        "stem": "ESS"
       }
     ],
     "hudfonts": [
@@ -7070,7 +7075,7 @@
                     "x": 43,
                     "y": 165,
                     "alignment": 16,
-                    "font": "EternityLarge",
+                    "font": "Essentials",
                     "tranmap": null,
                     "translation": null,
                     "type": 0,
@@ -7090,7 +7095,7 @@
                     "x": 43,
                     "y": 165,
                     "alignment": 16,
-                    "font": "EternityLarge",
+                    "font": "Essentials",
                     "tranmap": null,
                     "translation": "CRGOLD",
                     "type": 0,
@@ -7108,9 +7113,9 @@
                 {
                   "percent": {
                     "x": 43,
-                    "y": 177,
+                    "y": 175,
                     "alignment": 16,
-                    "font": "EternityLarge",
+                    "font": "Essentials",
                     "tranmap": null,
                     "translation": "CRGREEN",
                     "type": 1,
@@ -7132,9 +7137,9 @@
                 {
                   "percent": {
                     "x": 43,
-                    "y": 177,
+                    "y": 175,
                     "alignment": 16,
-                    "font": "EternityLarge",
+                    "font": "Essentials",
                     "tranmap": null,
                     "translation": "CRBLUE",
                     "type": 1,
@@ -7156,9 +7161,9 @@
                 {
                   "percent": {
                     "x": 43,
-                    "y": 177,
+                    "y": 175,
                     "alignment": 16,
-                    "font": "EternityLarge",
+                    "font": "Essentials",
                     "tranmap": null,
                     "translation": "CRGOLD",
                     "type": 1,
@@ -7176,7 +7181,7 @@
                 {
                   "canvas": {
                     "x": 43,
-                    "y": 189,
+                    "y": 185,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -7187,7 +7192,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "font": "EternityMedium",
+                          "font": "Essentials",
                           "tranmap": null,
                           "translation": "CRGRAY",
                           "type": 4,
@@ -7211,7 +7216,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "font": "EternityMedium",
+                          "font": "Essentials",
                           "tranmap": null,
                           "translation": "CRGOLD",
                           "type": 4,
@@ -7233,7 +7238,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 0,
+                          "y": 1,
                           "alignment": 16,
                           "patch": "ETRINF",
                           "tranmap": null,
@@ -7254,7 +7259,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 0,
+                          "y": 1,
                           "alignment": 16,
                           "patch": "ETRINF",
                           "tranmap": null,
@@ -7279,7 +7284,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 0,
+                          "y": 1,
                           "alignment": 16,
                           "patch": "ETRINF",
                           "tranmap": null,

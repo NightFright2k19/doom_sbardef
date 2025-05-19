@@ -1,4 +1,4 @@
-# ESSENTIALS
+## ESSENTIALS
 
       {
         "height": 200,
@@ -20,7 +20,7 @@
               ],
               "children": [
 
-		## MUGSHOT
+## MUGSHOT
                 {
                   "facebackground": {
                     "x": 3,
@@ -49,14 +49,14 @@
                   }
                 },
 
-		## HEALTH
-		## Colors: Red (normal), Gold (Invulnerability)
+## HEALTH
+## Colors: Red (normal), Gold (Invulnerability)
                 {
                   "percent": {
                     "x": 43,
                     "y": 165,
                     "alignment": 16,
-                    "font": "EternityLarge",
+                    "font": "Essentials",
                     "tranmap": null,
                     "translation": null,
                     "type": 0,
@@ -76,7 +76,7 @@
                     "x": 43,
                     "y": 165,
                     "alignment": 16,
-                    "font": "EternityLarge",
+                    "font": "Essentials",
                     "tranmap": null,
                     "translation": "CRGOLD",
                     "type": 0,
@@ -92,14 +92,14 @@
                   }
                 },
 
-		## ARMOR
-		## Colors: Green (33% Armor), Blue (50% Armor), Gold (Invulnerability)
+## ARMOR
+## Colors: Green (33%), Blue (50%), Gold (Invulnerability)
                 {
                   "percent": {
                     "x": 43,
-                    "y": 177,
+                    "y": 175,
                     "alignment": 16,
-                    "font": "EternityLarge",
+                    "font": "Essentials",
                     "tranmap": null,
                     "translation": "CRGREEN",
                     "type": 1,
@@ -121,9 +121,9 @@
                 {
                   "percent": {
                     "x": 43,
-                    "y": 177,
+                    "y": 175,
                     "alignment": 16,
-                    "font": "EternityLarge",
+                    "font": "Essentials",
                     "tranmap": null,
                     "translation": "CRBLUE",
                     "type": 1,
@@ -145,9 +145,9 @@
                 {
                   "percent": {
                     "x": 43,
-                    "y": 177,
+                    "y": 175,
                     "alignment": 16,
-                    "font": "EternityLarge",
+                    "font": "Essentials",
                     "tranmap": null,
                     "translation": "CRGOLD",
                     "type": 1,
@@ -163,12 +163,12 @@
                   }
                 },
 
-		## AMMO
-		## Colors: Gray (no backpack), Gold (backpack)
+## AMMO
+## Colors: Gray (no backpack), Gold (backpack)
                 {
                   "canvas": {
                     "x": 43,
-                    "y": 189,
+                    "y": 185,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -223,12 +223,12 @@
                         }
                       },
 
-		## AMMO: INFINITY SYMBOL
-		## Colors: Gray (no Berserk), Red (Berserk)
+## AMMO: INFINITY SYMBOL
+## Colors: Gray (no Berserk), Red (Berserk)
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 0,
+                          "y": 1,
                           "alignment": 16,
                           "patch": "ETRINF",
                           "tranmap": null,
@@ -249,7 +249,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 0,
+                          "y": 1,
                           "alignment": 16,
                           "patch": "ETRINF",
                           "tranmap": null,
@@ -274,7 +274,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 0,
+                          "y": 1,
                           "alignment": 16,
                           "patch": "ETRINF",
                           "tranmap": null,
@@ -300,7 +300,7 @@
                   }
                 },
 
-		## KEYS PANEL (3x, VERTICAL)
+## KEYS PANEL (3x, VERTICAL)
                 {
                   "canvas": {
                     "x": 80,
@@ -590,13 +590,13 @@
                   }
                 },
 
-		## FRAGS DISPLAY
+## FRAGS
                 {
                   "number": {
                     "x": 300,
                     "y": 5,
                     "alignment": 34,
-                    "font": "EternityLarge",
+                    "font": "Essentials",
                     "tranmap": null,
                     "translation": null,
                     "type": 2,
@@ -612,8 +612,8 @@
                   }
                 },
 
-		## WIDGETS
-		## Relevant are only the first 3 entries (stats + time)
+## WIDGETS
+## Relevant are only the first 3 entries (stats + time)
                 {
                   "widget": {
                     "x": 8,
