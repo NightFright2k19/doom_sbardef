@@ -56,7 +56,7 @@
                       },
 
 ## HEALTH
-## Colors: Green (normal), Gold (Invulnerability)
+## Colors: Green (no Invulnerability), Gold (Invulnerability)
                       {
                         "percent": {
                           "x": 19,
@@ -171,6 +171,7 @@
 
 ## AMMO
 ## Colors: Gray (no backpack), Green (backpack), Red (active)
+## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
                       {
                         "number": {
                           "x": 26,
@@ -414,6 +415,8 @@
 
 ## ARMS
 ## Colors: Dark Gray (not owned), Gray (partially owned), Green (owned), Red (selected)
+## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
+##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
                       {
                         "graphic": {
                           "x": 19,
@@ -832,7 +835,8 @@
 
 ## KEYS (6X, HORIZONTAL)
 ## Draws all six keys in a row, always left-aligned
-## Sorts keys relative to blue key, then skulls relative to blue skull, then skulls relative to keys
+## Sorts keycards relative to blue keycard
+## Checks how many keycards are owned, then sorts skulls relative to blue skull
                 {
                   "canvas": {
                     "x": 22,
@@ -2500,7 +2504,8 @@
                 },
 
 ## WIDGETS
-## Relevant are only the first 3 entries (stats + time)
+## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
+##        7 (message), 8 (announce), 9 (chat), 10 (title)
                 {
                   "widget": {
                     "x": 4,

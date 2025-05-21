@@ -50,7 +50,7 @@
                 },
 
 ## HEALTH
-## Colors: Red (normal), Gold (Invulnerability)
+## Colors: Red (no Invulnerability), Gold (Invulnerability)
                 {
                   "percent": {
                     "x": 41,
@@ -165,6 +165,7 @@
 
 ## AMMO
 ## Colors: Gray (no backpack), Gold (backpack)
+## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
                 {
                   "canvas": {
                     "x": 41,
@@ -225,6 +226,7 @@
 
 ## AMMO: INFINITY SYMBOL
 ## Colors: Gray (no Berserk), Red (Berserk)
+## Only colorized if Fists are selected
                       {
                         "graphic": {
                           "x": 0,
@@ -518,7 +520,8 @@
                 },
 
 ## WIDGETS
-## Relevant are only the first 3 entries (stats + time)
+## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
+##        7 (message), 8 (announce), 9 (chat), 10 (title)
                 {
                   "widget": {
                     "x": 6,

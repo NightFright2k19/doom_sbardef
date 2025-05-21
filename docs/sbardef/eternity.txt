@@ -50,7 +50,7 @@
                 },
 
 ## HEALTH
-## Colors: Red (normal), Gold (Invulnerability)
+## Colors: Red (no Invulnerability), Gold (Invulnerability)
                 {
                   "number": {
                     "x": 41,
@@ -179,6 +179,8 @@
 
 ## ARMS
 ## Colors: Dark Gray (not owned), Gray (partially owned), Gold (owned), Red (selected)
+## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
+##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
                 {
                   "canvas": {
                     "x": 70,
@@ -715,6 +717,8 @@
 
 ## AMMO: INFINITY SYMBOL
 ## Colors: Gray (no Berserk), Red (Berserk)
+## Only colorized if Fists are selected
+## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
                 {
                   "canvas": {
                     "x": 70,
@@ -1038,7 +1042,8 @@
 
 ## KEYS (6x, HORIZONTAL)
 ## Draws all six keys in a row, always left-aligned
-## Sorts keys relative to blue key, then skulls relative to blue skull, then skulls relative to keys
+## Sorts keycards relative to blue keycard
+## Checks how many keycards are owned, then sorts skulls relative to blue skull
                 {
                   "canvas": {
                     "x": 70,
@@ -3215,7 +3220,8 @@
                 },
 
 ## WIDGETS
-## Relevant are only the first 3 entries (stats + time)
+## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
+##        7 (message), 8 (announce), 9 (chat), 10 (title)
                 {
                   "widget": {
                     "x": 6,
