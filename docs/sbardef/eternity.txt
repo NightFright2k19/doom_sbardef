@@ -2690,6 +2690,7 @@
 
 ## AMMO OVERVIEW: NO BACKPACK
 ## Color: Gray
+## Types: 3 (current amount), 5 (maximum amount)
                 {
                   "canvas": {
                     "x": 298,
@@ -2764,6 +2765,21 @@
                           "children": null
                         }
                       },
+
+## AMMO OVERVIEW: DIVIDER SLASHES
+                      {
+                        "graphic": {
+                          "x": 5,
+                          "y": 0,
+                          "alignment": 34,
+                          "patch": "ETRSLASH",
+                          "tranmap": null,
+                          "translation": "CRGRAY",
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+
                       {
                         "number": {
                           "x": 18,
@@ -2830,6 +2846,7 @@
 
 ## AMMO OVERVIEW: BACKPACK
 ## Color: Gold
+## Types: 3 (current amount), 5 (maximum amount)
                 {
                   "canvas": {
                     "x": 298,
@@ -2968,8 +2985,10 @@
                   }
                 },
 
-## AMMO OVERVIEW: CURRENT ACTIVE
+## AMMO OVERVIEW: ACTIVE
 ## Color: Red
+## Types: 3 (current amount), 5 (maximum amount)
+## Must be the last ammo canvas, otherwise will be overwritten by the ones above
                 {
                   "canvas": {
                     "x": 298,
@@ -3059,61 +3078,6 @@
                           "children": null
                         }
                       },
-
-## AMMO OVERVIEW: SLASHES
-## Color: Gray
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 0,
-                          "alignment": 34,
-                          "patch": "ETRSLASH",
-                          "tranmap": null,
-                          "translation": "CRGRAY",
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 6,
-                          "alignment": 34,
-                          "patch": "ETRSLASH",
-                          "tranmap": null,
-                          "translation": "CRGRAY",
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 12,
-                          "alignment": 34,
-                          "patch": "ETRSLASH",
-                          "tranmap": null,
-                          "translation": "CRGRAY",
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 18,
-                          "alignment": 34,
-                          "patch": "ETRSLASH",
-                          "tranmap": null,
-                          "translation": "CRGRAY",
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-
-## AMMO OVERVIEW: TOTAL ACTIVE
-## Color: Red
-## Must be the last ammo canvas, otherwise will be overwritten by the ones above
                       {
                         "number": {
                           "x": 18,
