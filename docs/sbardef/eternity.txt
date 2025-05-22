@@ -2688,20 +2688,6 @@
                   }
                 },
 
-## AMMO OVERVIEW: DIVIDER SLASHES
-                      {
-                        "graphic": {
-                          "x": 303,
-                          "y": 173,
-                          "alignment": 34,
-                          "patch": "ETRSLASH",
-                          "tranmap": null,
-                          "translation": "CRGRAY",
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-
 ## AMMO OVERVIEW: NO BACKPACK
 ## Color: Gray
 ## Types: 3 (current amount), 5 (maximum amount)
@@ -3077,6 +3063,22 @@
                           "children": null
                         }
                       },
+
+## AMMO OVERVIEW: DIVIDER SLASHES
+## Always drawn
+                      {
+                        "graphic": {
+                          "x": 5,
+                          "y": 0,
+                          "alignment": 34,
+                          "patch": "ETRSLASH",
+                          "tranmap": null,
+                          "translation": "CRGRAY",
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+
                       {
                         "number": {
                           "x": 18,
