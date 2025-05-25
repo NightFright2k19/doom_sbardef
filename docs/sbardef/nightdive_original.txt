@@ -1,0 +1,791 @@
+## NIGHTDIVE ORIGINAL (WITH CENTERED ICONS, UNUSED)
+
+      {
+        "height": 200,
+        "fullscreenrender": true,
+        "fillflat": null,
+        "children": [
+          {
+            "canvas": {
+              "x": 0,
+              "y": 0,
+              "alignment": 0,
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 18,
+                  "param": 0
+                }
+              ],
+              "children": [
+
+## MUGSHOT
+                {
+                  "facebackground": {
+                    "x": 2,
+                    "y": 182,
+                    "alignment": 20,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 15,
+                        "param": 0
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "face": {
+                    "x": 3,
+                    "y": 181,
+                    "alignment": 20,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+
+## ICONS: ARMOR
+                {
+                  "graphic": {
+                    "x": 107,
+                    "y": 182,
+                    "alignment": 20,
+                    "patch": "ARM1A0",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 15
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 107,
+                    "y": 182,
+                    "alignment": 20,
+                    "patch": "ARM2A0",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 15
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+
+## ICONS: AMMO
+## For "Legacy of Rust" (id1.wad), replace "CELLA0" with "CELPB0"
+## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+                {
+                  "graphic": {
+                    "x": 287,
+                    "y": 183,
+                    "alignment": 36,
+                    "patch": "CLIPA0",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 0
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 287,
+                    "y": 183,
+                    "alignment": 36,
+                    "patch": "SHELA0",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 1
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 290,
+                    "y": 183,
+                    "alignment": 36,
+                    "patch": "CELLA0",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 290,
+                    "y": 182,
+                    "alignment": 36,
+                    "patch": "ROCKA0",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+
+## NUMBERS: HEALTH, ARMOR, AMMO
+                {
+                  "number": {
+                    "x": 37,
+                    "y": 175,
+                    "alignment": 16,
+                    "font": "BigRed",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 0,
+                    "param": 0,
+                    "maxlength": 3,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "number": {
+                    "x": 128,
+                    "y": 175,
+                    "alignment": 16,
+                    "font": "BigRed",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 1,
+                    "param": 0,
+                    "maxlength": 3,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "number": {
+                    "x": 275,
+                    "y": 175,
+                    "alignment": 34,
+                    "font": "BigRed",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 4,
+                    "param": 0,
+                    "maxlength": 3,
+                    "conditions": [
+                      {
+                        "condition": 4,
+                        "param": 0
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+
+## KEYS (3X, VERTICAL)
+                {
+                  "canvas": {
+                    "x": 305,
+                    "y": 170,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 36,
+                          "patch": "STKEYS0",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 1
+                            },
+                            {
+                              "condition": 11,
+                              "param": 4
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 36,
+                          "patch": "STKEYS3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 1
+                            },
+                            {
+                              "condition": 10,
+                              "param": 4
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 36,
+                          "patch": "STKEYS3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 1
+                            },
+                            {
+                              "condition": 10,
+                              "param": 4
+                            },
+                            {
+                              "condition": 13,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 36,
+                          "patch": "STKEYS6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 1
+                            },
+                            {
+                              "condition": 10,
+                              "param": 4
+                            },
+                            {
+                              "condition": 12,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 10,
+                          "alignment": 36,
+                          "patch": "STKEYS1",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 2
+                            },
+                            {
+                              "condition": 11,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 10,
+                          "alignment": 36,
+                          "patch": "STKEYS4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 2
+                            },
+                            {
+                              "condition": 10,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 10,
+                          "alignment": 36,
+                          "patch": "STKEYS4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 2
+                            },
+                            {
+                              "condition": 10,
+                              "param": 5
+                            },
+                            {
+                              "condition": 13,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 10,
+                          "alignment": 36,
+                          "patch": "STKEYS7",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 2
+                            },
+                            {
+                              "condition": 10,
+                              "param": 5
+                            },
+                            {
+                              "condition": 12,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 20,
+                          "alignment": 36,
+                          "patch": "STKEYS2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 3
+                            },
+                            {
+                              "condition": 11,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 20,
+                          "alignment": 36,
+                          "patch": "STKEYS5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 3
+                            },
+                            {
+                              "condition": 10,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 20,
+                          "alignment": 36,
+                          "patch": "STKEYS5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 3
+                            },
+                            {
+                              "condition": 10,
+                              "param": 6
+                            },
+                            {
+                              "condition": 13,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 20,
+                          "alignment": 36,
+                          "patch": "STKEYS8",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 3
+                            },
+                            {
+                              "condition": 10,
+                              "param": 6
+                            },
+                            {
+                              "condition": 12,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+
+## FRAGS
+                {
+                  "number": {
+                    "x": 300,
+                    "y": 5,
+                    "alignment": 34,
+                    "font": "BigRed",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 2,
+                    "param": 0,
+                    "maxlength": 2,
+                    "conditions": [
+                      {
+                        "condition": 14,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+
+## WIDGETS
+## Stats use vertical layout (top left)
+## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
+##        7 (message), 8 (announce), 9 (chat), 10 (title)
+                {
+                  "widget": {
+                    "x": 2,
+                    "y": 8,
+                    "alignment": 16,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 0,
+                    "font": "Digits",
+                    "vertical": true,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 2,
+                    "y": 29,
+                    "alignment": 16,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 1,
+                    "font": "Digits",
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4
+                      },
+                      {
+                        "condition": 20,
+                        "param": 0
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 2,
+                    "y": 8,
+                    "alignment": 16,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 1,
+                    "font": "Digits",
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4
+                      },
+                      {
+                        "condition": 21,
+                        "param": 0
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 2,
+                    "y": 8,
+                    "alignment": 16,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 0,
+                    "font": "Digits",
+                    "vertical": true,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 2,
+                    "y": 40,
+                    "alignment": 16,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 1,
+                    "font": "Digits",
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 318,
+                    "y": 8,
+                    "alignment": 34,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 2,
+                    "font": "Digits",
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 256,
+                    "y": 8,
+                    "alignment": 32,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 2,
+                    "font": "Digits",
+                    "vertical": true,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 318,
+                    "y": 0,
+                    "alignment": 34,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 3,
+                    "font": "Digits",
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 2,
+                    "y": 8,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 4,
+                    "font": "Digits",
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 318,
+                    "y": 167,
+                    "alignment": 42,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 5,
+                    "font": "Digits",
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 160,
+                    "y": 167,
+                    "alignment": 9,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 6,
+                    "font": "Digits",
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 16,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 7,
+                    "font": "Console",
+                    "duration": 4,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 160,
+                    "y": 68,
+                    "alignment": 1,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 8,
+                    "font": "Console",
+                    "duration": 2.5,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 0,
+                    "y": 8,
+                    "alignment": 16,
+                    "tranmap": null,
+                    "translation": "CRGOLD",
+                    "type": 9,
+                    "font": "Console",
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "widget": {
+                    "x": 0,
+                    "y": 155,
+                    "alignment": 16,
+                    "tranmap": null,
+                    "translation": "CRGOLD",
+                    "type": 10,
+                    "font": "Console",
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "carousel": {
+                    "x": 0,
+                    "y": 18,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
