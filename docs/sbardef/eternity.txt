@@ -21,6 +21,7 @@
               "children": [
 
 ## MUGSHOT
+## Condition: 15 (session type not equal to type)
                 {
                   "facebackground": {
                     "x": 1,
@@ -51,6 +52,7 @@
 
 ## HEALTH
 ## Colors: Red (no Invulnerability), Gold (Invulnerability)
+## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "number": {
                     "x": 41,
@@ -94,6 +96,7 @@
 
 ## ARMOR
 ## Colors: Green (33%), Blue (50%), Gold (Invulnerability)
+## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "number": {
                     "x": 41,
@@ -181,6 +184,9 @@
 ## Colors: Dark Gray (not owned), Gray (partially owned), Gold (owned), Red (selected)
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
 ##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
+## Conditions: 0 (weapon owned), 1 (weapon selected), 2 (weapon not selected), 
+##             6 (weapon in slot owned), 7 (weapon in slot not owned), 10 (item owned), 
+##             11 (item not owned), 16 (game mode equal to mode)
                 {
                   "canvas": {
                     "x": 70,
@@ -719,6 +725,8 @@
 ## Colors: Gray (no Berserk), Red (Berserk)
 ## Only colorized if Fists are selected
 ## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Conditions: 1 (weapon selected), 5 (ammo type matches selected weapon's ammo type), 
+##             10 (item owned), 11 (item not owned)
                 {
                   "canvas": {
                     "x": 70,
@@ -798,6 +806,8 @@
 
 ## AMMO: NO BACKPACK
 ## Color: Gray
+## Conditions: 4 (selected weapon has valid ammo type),
+##             5 (ammo type matches selected weapon's ammo type), 11 (item not owned)
                 {
                   "canvas": {
                     "x": 70,
@@ -920,6 +930,8 @@
 
 ## AMMO: BACKPACK
 ## Color: Gold
+## Conditions: 4 (selected weapon has valid ammo type),
+##             5 (ammo type matches selected weapon's ammo type), 10 (item owned)
                 {
                   "canvas": {
                     "x": 70,
@@ -1040,10 +1052,11 @@
                   }
                 },
 
-## KEYS (6x, HORIZONTAL)
+## KEYS (6X, HORIZONTAL)
 ## Draws all six keys in a row, always left-aligned
 ## Sorts keycards relative to blue keycard
 ## Checks how many keycards are owned, then sorts skulls relative to blue skull
+## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "canvas": {
                     "x": 70,
@@ -2691,6 +2704,7 @@
 ## AMMO OVERVIEW: NO BACKPACK
 ## Color: Gray
 ## Types: 3 (current amount), 5 (maximum amount)
+## Condition: 11 (item not owned)
                 {
                   "canvas": {
                     "x": 298,
@@ -2832,6 +2846,7 @@
 ## AMMO OVERVIEW: BACKPACK
 ## Color: Gold
 ## Types: 3 (current amount), 5 (maximum amount)
+## Condition: 10 (item owned)
                 {
                   "canvas": {
                     "x": 298,
@@ -2971,9 +2986,10 @@
                 },
 
 ## AMMO OVERVIEW: ACTIVE
+## Must be the last ammo canvas, otherwise will be overwritten by the ones above
 ## Color: Red
 ## Types: 3 (current amount), 5 (maximum amount)
-## Must be the last ammo canvas, otherwise will be overwritten by the ones above
+## Condition: 5 (ammo type matches selected weapon's ammo type)
                 {
                   "canvas": {
                     "x": 298,
@@ -3066,6 +3082,7 @@
 
 ## AMMO OVERVIEW: DIVIDER SLASHES
 ## Always drawn
+## Condition: 5 (ammo type matches selected weapon's ammo type)
                       {
                         "graphic": {
                           "x": 5,
@@ -3164,6 +3181,7 @@
                 },
 
 ## FRAGS
+## Condition: 14 (session type equal to type)
                 {
                   "number": {
                     "x": 300,
@@ -3188,6 +3206,7 @@
 ## WIDGETS
 ## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
 ##        7 (message), 8 (announce), 9 (chat), 10 (title)
+## Conditions: 19 (show widget), 20 (show stats widget), 21 (hide stats widget)
                 {
                   "widget": {
                     "x": 6,

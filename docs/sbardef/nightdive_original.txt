@@ -21,6 +21,7 @@
               "children": [
 
 ## MUGSHOT
+## Condition: 15 (session type not equal to type)
                 {
                   "facebackground": {
                     "x": 2,
@@ -50,6 +51,7 @@
                 },
 
 ## ICONS: ARMOR
+## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "graphic": {
                     "x": 107,
@@ -88,6 +90,7 @@
 ## ICONS: AMMO
 ## For "Legacy of Rust" (id1.wad), replace "CELLA0" with "CELPB0"
 ## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Condition: 5 (ammo type matches selected weapon's ammo type)
                 {
                   "graphic": {
                     "x": 287,
@@ -158,6 +161,7 @@
                 },
 
 ## NUMBERS: HEALTH, ARMOR, AMMO
+## Condition: 4 (selected weapon has valid ammo type)
                 {
                   "number": {
                     "x": 37,
@@ -210,6 +214,9 @@
                 },
 
 ## KEYS (3X, VERTICAL)
+## Conditions: 10 (item owned), 11 (item not owned), 
+##             12 (game version greater/equal to feature lvl), 
+##             13 (game version less than feature lvl)
                 {
                   "canvas": {
                     "x": 305,
@@ -500,6 +507,7 @@
                 },
 
 ## FRAGS
+## Condition: 14 (session type equal to type)
                 {
                   "number": {
                     "x": 300,
@@ -525,6 +533,7 @@
 ## Stats use vertical layout (top left)
 ## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
 ##        7 (message), 8 (announce), 9 (chat), 10 (title)
+## Conditions: 19 (show widget), 20 (show stats widget), 21 (hide stats widget)
                 {
                   "widget": {
                     "x": 2,
@@ -788,4 +797,4 @@
             }
           }
         ]
-      },
+      }

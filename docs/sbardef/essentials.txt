@@ -21,6 +21,7 @@
               "children": [
 
 ## MUGSHOT
+## Condition: 15 (session type not equal to type)
                 {
                   "facebackground": {
                     "x": 1,
@@ -51,6 +52,7 @@
 
 ## HEALTH
 ## Colors: Red (no Invulnerability), Gold (Invulnerability)
+## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "percent": {
                     "x": 41,
@@ -94,6 +96,7 @@
 
 ## ARMOR
 ## Colors: Green (33%), Blue (50%), Gold (Invulnerability)
+## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "percent": {
                     "x": 41,
@@ -166,6 +169,7 @@
 ## AMMO
 ## Colors: Gray (no backpack), Gold (backpack)
 ## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Conditions: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned)
                 {
                   "canvas": {
                     "x": 41,
@@ -225,8 +229,10 @@
                       },
 
 ## AMMO: INFINITY SYMBOL
-## Colors: Gray (no Berserk), Red (Berserk)
 ## Only colorized if Fists are selected
+## Colors: Gray (no Berserk), Red (Berserk)
+## Conditions: 1 (weapon selected), 5 (ammo type matches selected weapon's ammo type), 
+##             10 (item owned), 11 (item not owned)
                       {
                         "graphic": {
                           "x": 0,
@@ -302,11 +308,11 @@
                   }
                 },
 
-## KEYS PANEL (6x, VERTICAL)
+## KEYS PANEL (6X, VERTICAL)
 ## Draws keys in pairs (blue card + skull, yellow card + skull, red card + skull)
 ## Keycards first, then skulls take the position of any missing keycard with the same color
 ## Otherwise skulls are drawn to the right of the cards
-
+## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "canvas": {
                     "x": 78,
@@ -498,6 +504,7 @@
                 },
 
 ## FRAGS
+## Condition: 14 (session type equal to type)
                 {
                   "number": {
                     "x": 300,
@@ -522,6 +529,7 @@
 ## WIDGETS
 ## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
 ##        7 (message), 8 (announce), 9 (chat), 10 (title)
+## Conditions: 19 (show widget), 20 (show stats widget), 21 (hide stats widget)
                 {
                   "widget": {
                     "x": 6,

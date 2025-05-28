@@ -48,6 +48,7 @@
 
 ## LEFT HUD PANEL: HEALTH
 ## Colors: Green (no Invulnerability), Gold (Invulnerability)
+## Conditions: 10 (item owned), 11 (item not owned)
                       {
                         "percent": {
                           "x": 19,
@@ -91,6 +92,7 @@
 
 ## LEFT HUD PANEL: ARMOR
 ## Colors: Green (33%), Blue (50%), Gold (Invulnerability)
+## Conditions: 10 (item owned), 11 (item not owned)
                       {
                         "percent": {
                           "x": 66,
@@ -163,10 +165,11 @@
                   }
                 },
 
-## LEFT HUD PANEL: KEYS (6x, HORIZONTAL)
+## LEFT HUD PANEL: KEYS (6X, HORIZONTAL)
 ## Draws all six keys in a row, always left-aligned
 ## Sorts keycards relative to blue keycard
 ## Checks how many keycards are owned, then sorts skulls relative to blue skull
+## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "canvas": {
                     "x": 22,
@@ -1840,6 +1843,8 @@
 ## RIGHT HUD PANEL: AMMO
 ## Colors: Gray (no backpack), Green (backpack), Red (active)
 ## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Conditions: 5 (ammo type matches selected weapon's ammo type), 10 (item owned), 
+##             11 (item not owned)
                       {
                         "number": {
                           "x": 0,
@@ -2089,6 +2094,9 @@
 ## Colors: Dark Gray (not owned), Gray (partially owned), Green (owned), Red (selected)
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
 ##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
+## Conditions: 0 (weapon owned), 1 (weapon selected), 2 (weapon not selected), 
+##             6 (weapon in slot owned), 10 (item owned), 11 (item not owned), 
+##             16 (game mode equal to mode)
                 {
                   "canvas": {
                     "x": 228,
@@ -2530,6 +2538,9 @@
 ## Moved to the right by one slot compared to Doom II since "9" (SSG) is missing
 ## We use "Not Commercial" condition (17/1) to cover Doom 1.9 and Ultimate Doom
 ## Colors: Dark Gray (not owned), Gray (partially owned), Green (owned), Red (selected)
+## Conditions: 0 (weapon owned), 1 (weapon selected), 2 (weapon not selected), 
+##             6 (weapon in slot owned), 10 (item owned), 11 (item not owned), 
+##             17 (game mode not equal to mode)
                 {
                   "canvas": {
                     "x": 236,
@@ -2914,6 +2925,7 @@
                 },
 
 ## FRAGS
+## Condition: 14 (session type equal to type)
                 {
                   "number": {
                     "x": 300,
@@ -2938,6 +2950,7 @@
 ## WIDGETS
 ## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
 ##        7 (message), 8 (announce), 9 (chat), 10 (title)
+## Conditions: 19 (show widget), 20 (show stats widget), 21 (hide stats widget)
                 {
                   "widget": {
                     "x": 4,
