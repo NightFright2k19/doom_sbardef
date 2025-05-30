@@ -1,4 +1,4 @@
-## BOOM COMPACT
+## PRBOOM+
 
       {
         "height": 200,
@@ -22,7 +22,7 @@
                 {
                   "canvas": {
                     "x": 4,
-                    "y": 167,
+                    "y": 175,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -35,7 +35,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDPANEL",
+                          "patch": "HUDPAN4L",
                           "tranmap": null,
                           "translation": "CRGRAY",
                           "conditions": null,
@@ -51,368 +51,6 @@
                           "tranmap": null,
                           "translation": "CRBLACK",
                           "conditions": null,
-                          "children": null
-                        }
-                      },
-
-## HEALTH
-## Colors: Green (no Invulnerability), Gold (Invulnerability)
-## Conditions: 10 (item owned), 11 (item not owned)
-                      {
-                        "percent": {
-                          "x": 19,
-                          "y": 23,
-                          "alignment": 16,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGREEN",
-                          "type": 0,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 21
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "percent": {
-                          "x": 19,
-                          "y": 23,
-                          "alignment": 16,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGOLD",
-                          "type": 0,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 21
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-
-## ARMOR
-## Colors: Green (33%), Blue (50%), Gold (Invulnerability)
-## Conditions: 10 (item owned), 11 (item not owned)
-                      {
-                        "percent": {
-                          "x": 66,
-                          "y": 23,
-                          "alignment": 16,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGREEN",
-                          "type": 1,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 21
-                            },
-                            {
-                              "condition": 11,
-                              "param": 15
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "percent": {
-                          "x": 66,
-                          "y": 23,
-                          "alignment": 16,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRBLUE",
-                          "type": 1,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 21
-                            },
-                            {
-                              "condition": 10,
-                              "param": 15
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "percent": {
-                          "x": 66,
-                          "y": 23,
-                          "alignment": 16,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGOLD",
-                          "type": 1,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 21
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-
-## AMMO
-## Colors: Gray (no backpack), Green (backpack), Red (active)
-## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
-## Conditions: 5 (ammo type matches selected weapon's ammo type), 10 (item owned), 
-##             11 (item not owned)
-                      {
-                        "number": {
-                          "x": 26,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGRAY",
-                          "type": 3,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 26,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGREEN",
-                          "type": 3,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 26,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 47,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGRAY",
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 47,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGREEN",
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 47,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 68,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGRAY",
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 68,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGREEN",
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 68,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 89,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGRAY",
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 89,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGREEN",
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 89,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 2
-                            }
-                          ],
                           "children": null
                         }
                       },
@@ -835,6 +473,275 @@
                           ],
                           "children": null
                         }
+                      },
+
+## AMMO: CURRENT
+## Colors: Gray (no backpack), Green (backpack)
+## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Conditions: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned)
+                      {
+                        "number": {
+                          "x": 19,
+                          "y": 15,
+                          "alignment": 16,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": "CRGRAY",
+                          "type": 4,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 4,
+                              "param": 0
+                            },
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 19,
+                          "y": 15,
+                          "alignment": 16,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": "CRGREEN",
+                          "type": 4,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 4,
+                              "param": 0
+                            },
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+
+## AMMO: DIVIDER SLASH
+                      {
+                        "graphic": {
+                          "x": 35,
+                          "y": 15,
+                          "alignment": 16,
+                          "patch": "DIG047",
+                          "tranmap": null,
+                          "translation": "CRGRAY",
+                          "conditions": [
+                            {
+                              "condition": 4,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+
+## AMMO: MAXIMUM
+## Colors: Gray (no backpack), Green (backpack)
+## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Conditions: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned)
+                      {
+                        "number": {
+                          "x": 41,
+                          "y": 15,
+                          "alignment": 16,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": "CRGRAY",
+                          "type": 5,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 0
+                            },
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 41,
+                          "y": 15,
+                          "alignment": 16,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": "CRGRAY",
+                          "type": 5,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 1
+                            },
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 41,
+                          "y": 15,
+                          "alignment": 16,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": "CRGRAY",
+                          "type": 5,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 3
+                            },
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 41,
+                          "y": 15,
+                          "alignment": 16,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": "CRGRAY",
+                          "type": 5,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 2
+                            },
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 41,
+                          "y": 15,
+                          "alignment": 16,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": "CRGREEN",
+                          "type": 5,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 0
+                            },
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 41,
+                          "y": 15,
+                          "alignment": 16,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": "CRGREEN",
+                          "type": 5,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 1
+                            },
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 41,
+                          "y": 15,
+                          "alignment": 16,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": "CRGREEN",
+                          "type": 5,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 3
+                            },
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 41,
+                          "y": 15,
+                          "alignment": 16,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": "CRGREEN",
+                          "type": 5,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 2
+                            },
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
                       }
                     ]
                   }
@@ -848,7 +755,7 @@
                 {
                   "canvas": {
                     "x": 22,
-                    "y": 169,
+                    "y": 177,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -1019,7 +926,7 @@
                 {
                   "canvas": {
                     "x": 22,
-                    "y": 169,
+                    "y": 177,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -1203,7 +1110,7 @@
                 {
                   "canvas": {
                     "x": 49,
-                    "y": 169,
+                    "y": 177,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -1387,7 +1294,7 @@
                 {
                   "canvas": {
                     "x": 40,
-                    "y": 169,
+                    "y": 177,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -1571,7 +1478,7 @@
                 {
                   "canvas": {
                     "x": 40,
-                    "y": 169,
+                    "y": 177,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -1755,7 +1662,7 @@
                 {
                   "canvas": {
                     "x": 40,
-                    "y": 169,
+                    "y": 177,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -1939,7 +1846,7 @@
                 {
                   "canvas": {
                     "x": 31,
-                    "y": 169,
+                    "y": 177,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -2123,7 +2030,7 @@
                 {
                   "canvas": {
                     "x": 31,
-                    "y": 169,
+                    "y": 177,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -2307,7 +2214,7 @@
                 {
                   "canvas": {
                     "x": 31,
-                    "y": 169,
+                    "y": 177,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -2489,6 +2396,111 @@
                   }
                 },
 
+## HEALTH/ARMOR ICONS
+## Health: Can switch between Medipack and Berserk Pack
+## Armor: Can switch between Green and Blue Armor
+## Conditions: 10 (item owned), 11 (item not owned)
+                {
+                  "graphic": {
+                    "x": 256,
+                    "y": 167,
+                    "alignment": 36,
+                    "patch": "MEDIA0",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 256,
+                    "y": 167,
+                    "alignment": 36,
+                    "patch": "PSTRA0",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 256,
+                    "y": 188,
+                    "alignment": 36,
+                    "patch": "ARM1A0",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 15
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 256,
+                    "y": 188,
+                    "alignment": 36,
+                    "patch": "ARM2A0",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 15
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+
+## HEALTH/ARMOR NUMBERS
+                {
+                  "number": {
+                    "x": 317,
+                    "y": 160,
+                    "alignment": 34,
+                    "font": "BigRed",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 0,
+                    "param": 0,
+                    "maxlength": 3,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "number": {
+                    "x": 317,
+                    "y": 181,
+                    "alignment": 34,
+                    "font": "BigRed",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 1,
+                    "param": 0,
+                    "maxlength": 3,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+
 ## FRAGS
 ## Condition: 14 (session type equal to type)
                 {
@@ -2496,7 +2508,7 @@
                     "x": 300,
                     "y": 5,
                     "alignment": 34,
-                    "font": "SmallRed",
+                    "font": "BigRed",
                     "tranmap": null,
                     "translation": null,
                     "type": 2,
@@ -2519,7 +2531,7 @@
                 {
                   "widget": {
                     "x": 4,
-                    "y": 158,
+                    "y": 166,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
@@ -2537,7 +2549,7 @@
                 {
                   "widget": {
                     "x": 4,
-                    "y": 150,
+                    "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
@@ -2559,7 +2571,7 @@
                 {
                   "widget": {
                     "x": 4,
-                    "y": 158,
+                    "y": 166,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
