@@ -6818,18 +6818,6 @@
                         }
                       },
                       {
-                        "graphic": {
-                          "x": 5,
-                          "y": 0,
-                          "alignment": 34,
-                          "patch": "ETRSLASH",
-                          "tranmap": null,
-                          "translation": "CRGRAY",
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
                         "number": {
                           "x": 18,
                           "y": 0,
@@ -7115,6 +7103,18 @@
                               "param": 2
                             }
                           ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 5,
+                          "y": 0,
+                          "alignment": 34,
+                          "patch": "ETRSLASH",
+                          "tranmap": null,
+                          "translation": "CRGRAY",
+                          "conditions": null,
                           "children": null
                         }
                       },
@@ -18162,10 +18162,10 @@
                 },
                 {
                   "graphic": {
-                    "x": 258,
-                    "y": 158,
+                    "x": 246,
+                    "y": 165,
                     "alignment": 36,
-                    "patch": "MEDIA0",
+                    "patch": "ICONMEDI",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -18179,8 +18179,8 @@
                 },
                 {
                   "graphic": {
-                    "x": 258,
-                    "y": 158,
+                    "x": 260,
+                    "y": 162,
                     "alignment": 36,
                     "patch": "PSTRA0",
                     "tranmap": null,
@@ -18231,7 +18231,7 @@
                 {
                   "number": {
                     "x": 317,
-                    "y": 152,
+                    "y": 158,
                     "alignment": 34,
                     "font": "BigGreen",
                     "tranmap": null,
