@@ -1,5 +1,10 @@
 ## DOOM64
 
+## Alignments: 0 (center), 16 (widescreen/left), 32 (widescreen/right)
+##             top:    +0 (left), +1 (center), +2 (right)
+##             center: +3 (left), +4 (center), +5 (right)
+##             bottom: +6 (left), +7 (center), +8 (right)
+
       {
         "height": 200,
         "fullscreenrender": true,
@@ -253,6 +258,7 @@ Conditions: 10 (item owned), 11 (item not owned)
 ## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
 ##        7 (message), 8 (announce), 9 (chat), 10 (title)
 ## Conditions: 19 (show widget), 20 (show stats widget), 21 (hide stats widget)
+## Automap-related widget adjustments must be done in the definitions for the first statusbar!
           {
             "widget": {
               "x": 3,
