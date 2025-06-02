@@ -2,59 +2,81 @@
 
 The Nightdive port brought the possibility to edit the Doom statusbar and fullscreen HUD via <a href="https://doomwiki.org/wiki/SBARDEF" target= "_blank">SBARDEF</a>. Unfortunately, an editor which is supposed to make statusbar modding a lot easier is still not completed. I couldn't wait for it and went ahead to create the HUDs I wanted/needed.
 
-**<a href="https://github.com/fabiangreffrath/woof" target= "_blank">Woof!</a> is the intended port for this mod. <a href="https://github.com/MrAlaux/Nugget-Doom" target= "_blank">Nugget Doom</a> should also work (but note that NUGHUD can only be toggled when the "Boom Distributed" HUD is selected).**<br><br>
+**Intended ports:**
+- <a href="https://github.com/fabiangreffrath/woof" target= "_blank">Woof!</a> (mod has been primarily developed for this port)<br>
+- <a href="https://github.com/MrAlaux/Nugget-Doom" target= "_blank">Nugget Doom</a> (note that NUGHUD can only be toggled when the "PrBoom+"-style HUD is selected)
+<br><br>
 
 **How to use:**
 - Unzip the archive into your Woof! installation directory. Files will be copied into the proper autoload subdirectories.<br>
 - If you are using *extras.wad*, launch Woof! with command line parameter **-noextras**. Otherwise without it.<br>
-- Keep pressing F5 ingame until you get to the HUD you want.<br><br>
+- Keep pressing F5 ingame until you get to the HUD you want.
+<br>
 
-Available variants:
+**Features:**
+- **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
+- **Mugshot**: Featured in Nightdive, Eternity and Essentials.<br>
+- **Ammo overview**: Partial in Nightdive + Boom (no max amounts), full (current + max) in Crispy, Eternity and DSDA.<br>
+- **Arms**: Available weapons. 2-7 in Crispy, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chaingun and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1).<br><br>
+
+**Indicators:**
+- **Armor type**: Level of damage absorption. Shown explicitly as percentage in Nightdive and Doom64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+, the armor icon changes instead.<br>
+- **Backpack**: Recolored ammo numbers (usually gold) and/or doubling max ammo.<br>
+- **Berserk mode**: Usually shown as a fully lit "1" in the Arms display. In PrBoom+, the Medikit icon is replaced by a Berserk pack. In Eternity and Essentials, the infinity symbol turns red if fists are selected.<br>
+- **God mode**: Mugshot and/or recolored health/armor numbers (gold). Recolored numbers only work with powerups, not cheats.<br>
+- **Active ammo/weapon**: Red numbers in the Arms panel and/or ammo overview.<br><br>
+
+**Comparison Features / Indicators:**<br>
+
+| HUD style | Features | Indicators | Notes |
+| ----------- | ----------- | ----------- | ----------- |
+| Nightdive / Eternity  | ++++ | +++++ | All features/indicators included |
+| Boom / DSDA | +++ | +++++ | No mugshot |
+| Essentials / PrBoom+ | ++ | ++++ | Essentials: No arms or ammo overview; no active ammo/weapon<br>PrBoom+: No mugshot or ammo overview; no god mode, active weapon w/o ammo|
+| Crispy | +++ | + | No mugshot; backpack only |
+| Doom 64 | + | + | Vitals only; armor type only (also always centered) |
+
+<br>
+Available variants:<br><br>
 
 **1) Crispy with Labels**<br>
-Crispy HUD with labels. No other changes. I've de﻿cided to replace the labels for the ammo types with weapon slot numbers to provide maximum compatibility with mods which change ammo names. (HacX uses the enhanced font from "Nightdive-Like"﻿.)<br><br>
-   ![crispy_labels](https://github.com/user-attachments/assets/c01b9a38-588c-41c3-baa9-753b5ca9ece2)<br><br>
+Crispy HUD with labels. No other changes. I've de﻿cided to replace the labels for the ammo types with weapon slot numbers to provide maximum compatibility with mods which change ammo names. (HacX uses the enhanced font from "Nightdive-Like"﻿.)<br>
+![01_crispy](https://github.com/user-attachments/assets/8362d102-9550-4eab-a05a-eab36f457044)
+<br>
 
 **2) Nightdive-Like with Labels**<br>
-Replaces the Nightdive fullscreen HUD. To allow max compatibility with other (P/I)WADs, armor and ammo icons have been removed since they often end up being badly aligned/too large/etc. There are a few more features that were missing before, mainly ammo overview and weapons display.<br><br>
-   ![nightdive_doom](https://github.com/user-attachments/assets/afdae6b6-5975-42b1-a227-3ab43c0dc97e)
-   ![nightdive_hacx](https://github.com/user-attachments/assets/48d0051f-e319-4595-a585-1c032b00fec2)
-   (HacX comes with an extra font since the standard numbers look like absolute trash in fullscreen mode.)
-   
-   Indicators:
-   - Armor type: Green 33% / blue 50% in "Armor" label
-   - Berserker mode: "1" in ARMS panel turns golden
-   - Chainsaw/SSG possession: "8" and "9" in ARMS panel lit
-   - Backpack found: Numbers in ammo overview turn golden<br><br>
+Replaces the Nightdive fullscreen HUD. To allow max compatibility with other (P/I)WADs, armor and ammo icons have been removed since they often end up being badly aligned/too large/etc. A few features were added, mainly ammo overview and weapons display.<br>
+![02_nightdive](https://github.com/user-attachments/assets/41659919-d3a6-4e76-9470-b27232f91713)
+<br>
 
-**3) ﻿Eternity Enhanced**<br>
-Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/eternity" target= "_blank">Eternity Engine</a>, but with mugshot and ammo overview (on the right screen corner).<br><br>
-![eternity](https://github.com/user-attachments/assets/1419eae8-9954-4af3-b13b-c008575117e9)<br><br>
-   Indicators:
-   - Armor type: Armor number green (33%) or blue (50%)
-   - Berserker mode: Infinity symbol turns﻿ red when fists are selected + "1" in ARMS line turns golden
-   - Chainsaw/SSG possession (Compact/Distributed only): "8" and "9" in ARMS line turn golden
-   - Backpack found: Ammo numbers turns golden + totals in ammo overview double
-   - Invulnerability (powerup only): Health + Armor numbers turn golden<br><br>
+**3) Doom 64-Like**<br>
+Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Basically nothing besides the three centered vital stats plus an indicator for Armor protection level.<br>
+![03_doom64](https://github.com/user-attachments/assets/76d53143-b76f-442a-9c0d-38317e0929ad)
+<br>
 
-**4) ﻿Essentials**<br>
-K﻿eeps the mugshot, but focuses on the basic info provided by the original Nightdive fullscreen HUD to save more screen space. Numbers are taken from the Eternity Engine.<br><br>
-   ![essentials](https://github.com/user-attachments/assets/347b7d76-978b-463e-b397-50ebeac7ba20)
-   
-   Indicators:
-   - Same as "Eternity Enhanced", but without info from ARMS panel/ammo overview<br><br>
+**4) ﻿Eternity Enhanced**<br>
+Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/eternity" target= "_blank">Eternity Engine</a>, but with mugshot and ammo overview.<br>
+![04_eternity](https://github.com/user-attachments/assets/ea65df93-3f0e-4bd0-ad0f-9b1c8a8ce350)
+<br>
 
-**5) Boom-Like Compact/Distributed**<br>
-Lovers of the old Boom HUD may know and appreciate this one. Not exactly imitating the original by 100%, but with a bonus feature: Properly aligned keys (regardless which custom offsets are used in a PWAD).<br><br>
-   ![boom_compact](https://github.com/user-attachments/assets/50924c5e-878a-4646-ba29-ec36ff16349f)
+**5) ﻿Essentials**<br>
+Focuses on the basic info provided by the original Nightdive fullscreen HUD (plus a few extras) to save more screen space.<br>
+![05_essentials](https://github.com/user-attachments/assets/19c4ace6-f706-4f76-9165-c3e70d97c832)
+<br>
+
+**6) Boom-Like Compact/Distributed**<br>
+While not imitating the original Boom HUD 100% faithfully, this one comes with a bonus feature: Properly aligned keys (regardless which custom offsets are used in a PWAD).<br>
+![06_boom-compact](https://github.com/user-attachments/assets/bc0a7360-a7b6-42a8-850c-afb3e775797a)
    **Compact:** Everything aligned on the left side of the screen.<br><br>
-   ![boom_distributed](https://github.com/user-attachments/assets/0901317c-39f3-4c44-9a49-657049b68160)
-   **Distributed:** Ammo stats moved to the right side. Otherwise identica﻿l functions/features.
-   
-   Indicators:
-   - Armor type: ARM number green (33%) or blue (50%)
-   - Berserker mode: "1" in WEP turns green
-   - Chainsaw/SSG possession: "8" and "9" in WEP lit
-   - Backpack found: MUN numbers turn golden
-   - Invulnerability (powerup only): Health + Armor numbers turn golden
-   - Active ammo type: Ammo number highlighted in red
+![07_boom-distributed](https://github.com/user-attachments/assets/f9b48c0b-3603-4863-aab5-1cc4a5b1f72c)
+   **Distributed:** Ammo stats moved to the right side, otherwise identica﻿l.
+<br>
+
+**7) DSDA-Like**<br>
+A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right.<br>
+![08_dsda](https://github.com/user-attachments/assets/c0c0870b-69f8-4d22-9e5c-5da83d8360b0)
+<br>
+
+**8) PrBoomPlus-Like**<br>
+Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while Health and Armor to the right use the original Doom font. The icons change depending on whether you found the Berserk Pack or the Blue Armor.<br>
+![09_prboom+](https://github.com/user-attachments/assets/f3b0627f-bca7-4590-828f-ff0fb070fbb8)
