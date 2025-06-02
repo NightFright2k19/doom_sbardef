@@ -74,7 +74,7 @@ While not imitating the original Boom HUD 100% faithfully, this one comes with a
 
 **7) DSDA-Like**<br>
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right.<br>
-![08_dsda](https://github.com/user-attachments/assets/c0c0870b-69f8-4d22-9e5c-5da83d8360b0)
+![08_dsda](https://github.com/user-attachments/assets/d4e873f5-00f1-4afb-b5e3-7ed0c63ad066)
 <br>
 
 **8) PrBoomPlus-Like**<br>
