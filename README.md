@@ -16,11 +16,11 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 **Features:**
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Featured in Nightdive, Eternity and Essentials.<br>
-- **Ammo overview**: Partial in Nightdive + Boom (no max amounts), full (current + max) in Crispy, Eternity and DSDA.<br>
+- **Ammo overview**: Partial in Nightdive, Boom and PrBoom+ (no max amounts), full in Crispy, Eternity and DSDA.<br>
 - **Arms**: Available weapons. 2-7 in Crispy, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chaingun and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1).<br><br>
 
 **Indicators:**
-- **Armor type**: Level of damage absorption. Shown explicitly as percentage in Nightdive and Doom64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+, the armor icon changes instead.<br>
+- **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+, the armor icon changes instead.<br>
 - **Backpack**: Recolored ammo numbers (usually gold) and/or doubling max ammo.<br>
 - **Berserk mode**: Usually shown as a fully lit "1" in the Arms display. In PrBoom+, the Medikit icon is replaced by a Berserk pack. In Eternity and Essentials, the infinity symbol turns red if fists are selected.<br>
 - **God mode**: Mugshot and/or recolored health/armor numbers (gold). Recolored numbers only work with powerups, not cheats.<br>
@@ -32,16 +32,17 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | ----------- | ----------- | ----------- | ----------- |
 | Nightdive / Eternity  | ++++ | +++++ | All features/indicators included |
 | Boom / DSDA | +++ | +++++ | No mugshot |
-| Essentials / PrBoom+ | ++ | ++++ | Essentials: No arms or ammo overview; no active ammo/weapon<br>PrBoom+: No mugshot or ammo overview; no god mode, active weapon w/o ammo|
-| Crispy | +++ | + | No mugshot; backpack only |
-| Doom 64 | + | + | Vitals only; armor type only (also always centered) |
+| PrBoom+ | +++ | ++++ | No mugshot; no god mode |
+| Essentials | ++ | ++++ | No arms or ammo overview; no active ammo/weapon |
+| Crispy | +++ | ++ | No mugshot; armor type and backpack only |
+| Doom 64 | + | + | Vitals only; armor type only; always centered |
 
 <br>
 Available variants:<br><br>
 
 **1) Crispy with Labels**<br>
-Crispy HUD with labels. No other changes. I've de﻿cided to replace the labels for the ammo types with weapon slot numbers to provide maximum compatibility with mods which change ammo names. (HacX uses the enhanced font from "Nightdive-Like"﻿.)<br>
-![01_crispy](https://github.com/user-attachments/assets/8362d102-9550-4eab-a05a-eab36f457044)
+Crispy HUD with labels. Features armor type indicator as a bonus. I've de﻿cided to replace the labels for the ammo types with weapon slot numbers to provide maximum compatibility with mods which change ammo names.<br>
+![01_crispy](https://github.com/user-attachments/assets/2f9fcffb-7085-495b-be1f-c8e53d6466d2)
 <br>
 
 **2) Nightdive-Like with Labels**<br>
@@ -78,5 +79,6 @@ A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "
 <br>
 
 **8) PrBoomPlus-Like**<br>
-Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while Health and Armor to the right use the original Doom font. The icons change depending on whether you found the Berserk Pack or the Blue Armor.<br>
-![09_prboom+](https://github.com/user-attachments/assets/f3b0627f-bca7-4590-828f-ff0fb070fbb8)
+Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while Health and Armor move to the right, getting more emphasized through the original Doom font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. Ammo overview has been added to provide more info.<br>
+![09_prboom+](https://github.com/user-attachments/assets/375899ce-c7dc-4406-b94c-9d391b95bad5)
+
