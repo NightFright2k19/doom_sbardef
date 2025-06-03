@@ -1776,13 +1776,47 @@
           },
           {
             "graphic": {
-              "x": 194,
+              "x": 186,
               "y": 173,
               "alignment": 32,
               "patch": "HUDRIGHT",
               "tranmap": null,
               "translation": "CRGRAY",
               "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 214,
+              "y": 191,
+              "alignment": 32,
+              "patch": "HUDARM33",
+              "tranmap": null,
+              "translation": "CRGREEN",
+              "conditions": [
+                {
+                  "condition": 11,
+                  "param": 15
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 214,
+              "y": 191,
+              "alignment": 32,
+              "patch": "HUDARM50",
+              "tranmap": null,
+              "translation": "CRBLUE",
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 15
+                }
+              ],
               "children": null
             }
           },
