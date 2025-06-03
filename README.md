@@ -76,9 +76,10 @@ While not imitating the original Boom HUD 100% faithfully, this one comes with a
 **7) DSDA-Like**<br>
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right.<br>
 ![08_dsda](https://github.com/user-attachments/assets/d4e873f5-00f1-4afb-b5e3-7ed0c63ad066)
+<em>Note: Some mods may use different ammo names. In such cases, manual adjustments to the HUD image are required.</em>
 <br>
 
 **8) PrBoomPlus-Like**<br>
 Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while Health and Armor move to the right, getting more emphasized through the original Doom font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. Ammo overview has been added to provide more info.<br>
 ![09_prboom+](https://github.com/user-attachments/assets/375899ce-c7dc-4406-b94c-9d391b95bad5)
-
+<em>Note: Some mods may use different sprite sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
