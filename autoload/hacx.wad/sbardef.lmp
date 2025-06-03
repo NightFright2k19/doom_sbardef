@@ -16293,20 +16293,16 @@
                       },
                       {
                         "number": {
-                          "x": 19,
+                          "x": 26,
                           "y": 15,
-                          "alignment": 16,
+                          "alignment": 17,
                           "font": "SmallRed",
                           "tranmap": null,
                           "translation": "CRGRAY",
-                          "type": 4,
+                          "type": 3,
                           "param": 0,
                           "maxlength": 3,
                           "conditions": [
-                            {
-                              "condition": 4,
-                              "param": 0
-                            },
                             {
                               "condition": 11,
                               "param": 7
@@ -16317,20 +16313,16 @@
                       },
                       {
                         "number": {
-                          "x": 19,
+                          "x": 26,
                           "y": 15,
-                          "alignment": 16,
+                          "alignment": 17,
                           "font": "SmallRed",
                           "tranmap": null,
                           "translation": "CRGREEN",
-                          "type": 4,
+                          "type": 3,
                           "param": 0,
                           "maxlength": 3,
                           "conditions": [
-                            {
-                              "condition": 4,
-                              "param": 0
-                            },
                             {
                               "condition": 10,
                               "param": 7
@@ -16340,16 +16332,19 @@
                         }
                       },
                       {
-                        "graphic": {
-                          "x": 35,
+                        "number": {
+                          "x": 26,
                           "y": 15,
-                          "alignment": 16,
-                          "patch": "DIG047",
+                          "alignment": 17,
+                          "font": "SmallRed",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
+                          "type": 3,
+                          "param": 0,
+                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 4,
+                              "condition": 5,
                               "param": 0
                             }
                           ],
@@ -16358,20 +16353,16 @@
                       },
                       {
                         "number": {
-                          "x": 41,
+                          "x": 47,
                           "y": 15,
-                          "alignment": 16,
+                          "alignment": 17,
                           "font": "SmallRed",
                           "tranmap": null,
                           "translation": "CRGRAY",
-                          "type": 5,
-                          "param": 0,
+                          "type": 3,
+                          "param": 1,
                           "maxlength": 3,
                           "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 0
-                            },
                             {
                               "condition": 11,
                               "param": 7
@@ -16382,20 +16373,56 @@
                       },
                       {
                         "number": {
-                          "x": 41,
+                          "x": 47,
                           "y": 15,
-                          "alignment": 16,
+                          "alignment": 17,
                           "font": "SmallRed",
                           "tranmap": null,
-                          "translation": "CRGRAY",
-                          "type": 5,
+                          "translation": "CRGREEN",
+                          "type": 3,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 47,
+                          "y": 15,
+                          "alignment": 17,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
                           "param": 1,
                           "maxlength": 3,
                           "conditions": [
                             {
                               "condition": 5,
                               "param": 1
-                            },
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 68,
+                          "y": 15,
+                          "alignment": 17,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": "CRGRAY",
+                          "type": 3,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
                             {
                               "condition": 11,
                               "param": 7
@@ -16406,23 +16433,39 @@
                       },
                       {
                         "number": {
-                          "x": 41,
+                          "x": 68,
                           "y": 15,
-                          "alignment": 16,
+                          "alignment": 17,
                           "font": "SmallRed",
                           "tranmap": null,
-                          "translation": "CRGRAY",
-                          "type": 5,
+                          "translation": "CRGREEN",
+                          "type": 3,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 68,
+                          "y": 15,
+                          "alignment": 17,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
                           "param": 3,
                           "maxlength": 3,
                           "conditions": [
                             {
                               "condition": 5,
                               "param": 3
-                            },
-                            {
-                              "condition": 11,
-                              "param": 7
                             }
                           ],
                           "children": null
@@ -16430,20 +16473,16 @@
                       },
                       {
                         "number": {
-                          "x": 41,
+                          "x": 89,
                           "y": 15,
-                          "alignment": 16,
+                          "alignment": 17,
                           "font": "SmallRed",
                           "tranmap": null,
                           "translation": "CRGRAY",
-                          "type": 5,
+                          "type": 3,
                           "param": 2,
                           "maxlength": 3,
                           "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 2
-                            },
                             {
                               "condition": 11,
                               "param": 7
@@ -16454,20 +16493,16 @@
                       },
                       {
                         "number": {
-                          "x": 41,
+                          "x": 89,
                           "y": 15,
-                          "alignment": 16,
+                          "alignment": 17,
                           "font": "SmallRed",
                           "tranmap": null,
                           "translation": "CRGREEN",
-                          "type": 5,
-                          "param": 0,
+                          "type": 3,
+                          "param": 2,
                           "maxlength": 3,
                           "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 0
-                            },
                             {
                               "condition": 10,
                               "param": 7
@@ -16478,71 +16513,19 @@
                       },
                       {
                         "number": {
-                          "x": 41,
+                          "x": 89,
                           "y": 15,
-                          "alignment": 16,
+                          "alignment": 17,
                           "font": "SmallRed",
                           "tranmap": null,
-                          "translation": "CRGREEN",
-                          "type": 5,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 1
-                            },
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 41,
-                          "y": 15,
-                          "alignment": 16,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGREEN",
-                          "type": 5,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 3
-                            },
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 41,
-                          "y": 15,
-                          "alignment": 16,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": "CRGREEN",
-                          "type": 5,
+                          "translation": null,
+                          "type": 3,
                           "param": 2,
                           "maxlength": 3,
                           "conditions": [
                             {
                               "condition": 5,
                               "param": 2
-                            },
-                            {
-                              "condition": 10,
-                              "param": 7
                             }
                           ],
                           "children": null
