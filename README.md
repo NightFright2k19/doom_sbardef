@@ -41,17 +41,17 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 Available variants:<br><br>
 
 **1) Crispy with Labels**<br>
-Crispy HUD with labels. Features armor type indicator as a bonus. I've de﻿cided to replace the labels for the ammo types with weapon slot numbers to provide maximum compatibility with mods which change ammo names.<br>
+<a href="https://github.com/fabiangreffrath/crispy-doom" target= "_blank">Crispy Doom</a> fullscreen HUD with labels. Features armor type indicator as a bonus. I've de﻿cided to replace the labels for the ammo types with weapon slot numbers to provide maximum compatibility with mods which change ammo names.<br>
 ![01_crispy](https://github.com/user-attachments/assets/2f9fcffb-7085-495b-be1f-c8e53d6466d2)
 <br>
 
 **2) Nightdive-Like with Labels**<br>
-Replaces the Nightdive fullscreen HUD. To allow max compatibility with other (P/I)WADs, armor and ammo icons have been removed since they often end up being badly aligned/too large/etc. A few features were added, mainly ammo overview and weapons display.<br>
+Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Armor and ammo icons have been removed since they often end up being badly aligned/too large. Ammo overview, arms display and armor type indicator have been added.<br>
 ![02_nightdive](https://github.com/user-attachments/assets/41659919-d3a6-4e76-9470-b27232f91713)
 <br>
 
 **3) Doom 64-Like**<br>
-Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Basically nothing besides the three centered vital stats plus an indicator for Armor protection level.<br>
+Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Basically nothing besides the three centered vital stats plus an indicator for armor protection level.<br>
 ![03_doom64](https://github.com/user-attachments/assets/76d53143-b76f-442a-9c0d-38317e0929ad)
 <br>
 
@@ -61,12 +61,12 @@ Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/et
 <br>
 
 **5) ﻿Essentials**<br>
-Focuses on the basic info provided by the original Nightdive fullscreen HUD (plus a few extras) to save more screen space.<br>
+Sort of a minimized version of "Eternity Enhanced", with focus on saving more screen space.<br>
 ![05_essentials](https://github.com/user-attachments/assets/19c4ace6-f706-4f76-9165-c3e70d97c832)
 <br>
 
 **6) Boom-Like Compact/Distributed**<br>
-While not imitating the original Boom HUD 100% faithfully, this one comes with a bonus feature: Properly aligned keys (regardless which custom offsets are used in a PWAD).<br>
+The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.png/800px-NDCP-map23-end.png" target= "_blank">Boom HUD</a> returns! And this time even with properly aligned keys (regardless which custom offsets are used in a PWAD)...<br>
 ![06_boom-compact](https://github.com/user-attachments/assets/bc0a7360-a7b6-42a8-850c-afb3e775797a)
    **Compact:** Everything aligned on the left side of the screen.<br><br>
 ![07_boom-distributed](https://github.com/user-attachments/assets/f9b48c0b-3603-4863-aab5-1cc4a5b1f72c)
@@ -80,6 +80,6 @@ A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "
 <br>
 
 **8) PrBoomPlus-Like**<br>
-Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while Health and Armor move to the right, getting more emphasized through the original Doom font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. Ammo overview has been added to provide more info.<br>
+Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. Ammo overview has been added.<br>
 ![09_prboom+](https://github.com/user-attachments/assets/375899ce-c7dc-4406-b94c-9d391b95bad5)
 <em>Note: Some mods may use different sprite sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
