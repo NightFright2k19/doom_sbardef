@@ -76,7 +76,7 @@ The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.pn
 **7) DSDA-Like**<br>
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right.<br>
 ![08_dsda](https://github.com/user-attachments/assets/d4e873f5-00f1-4afb-b5e3-7ed0c63ad066)
-<em>Note: Some mods may use different ammo names. In such cases, manual adjustments to the HUD image are required.</em>
+<em>Note: Some mods use different ammo names. In such cases, you may additionally load <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/dsda_fix.pk3" target= "_blank">this small patch (1 KB)</a> for generic slot numbers.</em>
 <br>
 
 **8) PrBoomPlus-Like**<br>
