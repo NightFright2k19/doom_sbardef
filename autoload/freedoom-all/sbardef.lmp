@@ -16962,6 +16962,30 @@
                           "alignment": 16,
                           "font": "SmallRed",
                           "tranmap": null,
+                          "translation": "CRGRAY",
+                          "type": 4,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 4,
+                              "param": 0
+                            },
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 19,
+                          "y": 16,
+                          "alignment": 16,
+                          "font": "SmallRed",
+                          "tranmap": null,
                           "translation": "CRGREEN",
                           "type": 4,
                           "param": 0,
@@ -16970,6 +16994,10 @@
                             {
                               "condition": 4,
                               "param": 0
+                            },
+                            {
+                              "condition": 10,
+                              "param": 7
                             }
                           ],
                           "children": null
