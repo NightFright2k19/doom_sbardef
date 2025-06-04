@@ -40,7 +40,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDPAN5",
+                          "patch": "PRBOOM",
                           "tranmap": null,
                           "translation": "CRGRAY",
                           "conditions": null,
@@ -52,7 +52,7 @@
                           "x": 27,
                           "y": 8,
                           "alignment": 16,
-                          "patch": "HUDARMS",
+                          "patch": "BOOMARMS",
                           "tranmap": null,
                           "translation": "CRBLACK",
                           "conditions": null,
@@ -61,7 +61,7 @@
                       },
 
 ## ARMS
-## Colors: Dark Gray (not owned), Gray (partially owned), Green (owned), Red (selected)
+## Colors: Black (not owned), Gray (partially owned), Green (owned), Red (selected)
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
 ##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
 ## Conditions: 0 (weapon owned), 1 (weapon selected), 2 (weapon not selected), 

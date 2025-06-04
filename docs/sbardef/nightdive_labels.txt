@@ -195,7 +195,7 @@
                           "x": 253,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "HUDAMMO",
+                          "patch": "NDIVAMMO",
                           "tranmap": null,
                           "translation": "CRGRAY",
                           "conditions": null,
@@ -499,8 +499,22 @@
                   }
                 },
 
+## ARMS PANEL (DARK NUMBERS)
+                {
+                  "graphic": {
+                    "x": 221,
+                    "y": 173,
+                    "alignment": 32,
+                    "patch": "NDIVARMS",
+                    "tranmap": null,
+                    "translation": "CRBLACK",
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+
 ## ARMS
-## Colors: Dark Gray (not owned), Gray (partially owned), Gold (owned), Red (selected)
+## Colors: Black (not owned), Gray (partially owned), Gold (owned), Red (selected)
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
 ##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
 ## Conditions: 0 (weapon owned), 1 (weapon selected), 2 (weapon not selected), 
@@ -581,23 +595,6 @@
                           "alignment": 32,
                           "patch": "DIG050",
                           "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "DIG050",
-                          "tranmap": null,
                           "translation": "CRGOLD",
                           "conditions": [
                             {
@@ -640,18 +637,6 @@
                           "alignment": 32,
                           "patch": "DIG051",
                           "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "DIG051",
-                          "tranmap": null,
                           "translation": "CRGOLD",
                           "conditions": [
                             {
@@ -682,23 +667,6 @@
                             {
                               "condition": 1,
                               "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 7,
-                          "alignment": 32,
-                          "patch": "DIG052",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 4
                             }
                           ],
                           "children": null
@@ -753,23 +721,6 @@
                           "alignment": 32,
                           "patch": "DIG053",
                           "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 7,
-                          "alignment": 32,
-                          "patch": "DIG053",
-                          "tranmap": null,
                           "translation": "CRGOLD",
                           "conditions": [
                             {
@@ -812,23 +763,6 @@
                           "alignment": 32,
                           "patch": "DIG054",
                           "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 6
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 7,
-                          "alignment": 32,
-                          "patch": "DIG054",
-                          "tranmap": null,
                           "translation": "CRGOLD",
                           "conditions": [
                             {
@@ -859,23 +793,6 @@
                             {
                               "condition": 1,
                               "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 14,
-                          "alignment": 32,
-                          "patch": "DIG055",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 7
                             }
                           ],
                           "children": null
@@ -920,18 +837,6 @@
                               "param": 6
                             }
                           ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 14,
-                          "alignment": 32,
-                          "patch": "DIG056",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": null,
                           "children": null
                         }
                       },

@@ -1740,7 +1740,7 @@
               "x": 13,
               "y": 191,
               "alignment": 16,
-              "patch": "HUDLEFT",
+              "patch": "CRISPY1A",
               "tranmap": null,
               "translation": "CRGRAY",
               "conditions": [
@@ -1757,7 +1757,7 @@
               "x": 13,
               "y": 191,
               "alignment": 16,
-              "patch": "HUDLEFT2",
+              "patch": "CRISPY1B",
               "tranmap": null,
               "translation": "CRGRAY",
               "conditions": [
@@ -1774,7 +1774,7 @@
               "x": 186,
               "y": 173,
               "alignment": 32,
-              "patch": "HUDRIGHT",
+              "patch": "CRISPY2",
               "tranmap": null,
               "translation": "CRGRAY",
               "conditions": null,
@@ -2255,7 +2255,7 @@
                           "x": 253,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "HUDAMMO",
+                          "patch": "NDIVAMMO",
                           "tranmap": null,
                           "translation": "CRGRAY",
                           "conditions": null,
@@ -2554,6 +2554,18 @@
                   }
                 },
                 {
+                  "graphic": {
+                    "x": 221,
+                    "y": 173,
+                    "alignment": 32,
+                    "patch": "NDIVARMS",
+                    "tranmap": null,
+                    "translation": "CRBLACK",
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
                   "canvas": {
                     "x": 221,
                     "y": 172,
@@ -2628,23 +2640,6 @@
                           "alignment": 32,
                           "patch": "DIG050",
                           "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "DIG050",
-                          "tranmap": null,
                           "translation": "CRGOLD",
                           "conditions": [
                             {
@@ -2687,18 +2682,6 @@
                           "alignment": 32,
                           "patch": "DIG051",
                           "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "DIG051",
-                          "tranmap": null,
                           "translation": "CRGOLD",
                           "conditions": [
                             {
@@ -2729,23 +2712,6 @@
                             {
                               "condition": 1,
                               "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 7,
-                          "alignment": 32,
-                          "patch": "DIG052",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 4
                             }
                           ],
                           "children": null
@@ -2800,23 +2766,6 @@
                           "alignment": 32,
                           "patch": "DIG053",
                           "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 7,
-                          "alignment": 32,
-                          "patch": "DIG053",
-                          "tranmap": null,
                           "translation": "CRGOLD",
                           "conditions": [
                             {
@@ -2859,23 +2808,6 @@
                           "alignment": 32,
                           "patch": "DIG054",
                           "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 6
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 7,
-                          "alignment": 32,
-                          "patch": "DIG054",
-                          "tranmap": null,
                           "translation": "CRGOLD",
                           "conditions": [
                             {
@@ -2906,23 +2838,6 @@
                             {
                               "condition": 1,
                               "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 14,
-                          "alignment": 32,
-                          "patch": "DIG055",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 7
                             }
                           ],
                           "children": null
@@ -2967,18 +2882,6 @@
                               "param": 6
                             }
                           ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 14,
-                          "alignment": 32,
-                          "patch": "DIG056",
-                          "tranmap": null,
-                          "translation": "CRBLACK",
-                          "conditions": null,
                           "children": null
                         }
                       },
@@ -4276,7 +4179,7 @@
                     "x": 65,
                     "y": 173,
                     "alignment": 16,
-                    "patch": "HUDDIVDR",
+                    "patch": "ETRDIVDR",
                     "tranmap": null,
                     "translation": "CRGRAY",
                     "conditions": null,
@@ -7559,7 +7462,7 @@
                     "x": 41,
                     "y": 169,
                     "alignment": 16,
-                    "patch": "HUDPAN2",
+                    "patch": "ESSENTLS",
                     "tranmap": null,
                     "translation": "CRGRAY",
                     "conditions": null,
@@ -10613,7 +10516,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDPANEL",
+                          "patch": "BOOMCMP",
                           "tranmap": null,
                           "translation": "CRGRAY",
                           "conditions": null,
@@ -10625,7 +10528,7 @@
                           "x": 27,
                           "y": 8,
                           "alignment": 16,
-                          "patch": "HUDARMS",
+                          "patch": "BOOMARMS",
                           "tranmap": null,
                           "translation": "CRBLACK",
                           "conditions": null,
@@ -13354,7 +13257,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDPAN3L",
+                          "patch": "BOOMDST1",
                           "tranmap": null,
                           "translation": "CRGRAY",
                           "conditions": null,
@@ -15129,7 +15032,7 @@
                           "x": 10,
                           "y": 1,
                           "alignment": 32,
-                          "patch": "HUDPAN3R",
+                          "patch": "BOOMDST2",
                           "tranmap": null,
                           "translation": "CRGRAY",
                           "conditions": null,
@@ -15398,7 +15301,7 @@
                           "x": 8,
                           "y": 1,
                           "alignment": 32,
-                          "patch": "HUDARMS",
+                          "patch": "BOOMARMS",
                           "tranmap": null,
                           "translation": "CRBLACK",
                           "conditions": null,
@@ -15834,7 +15737,7 @@
                           "x": 8,
                           "y": 1,
                           "alignment": 32,
-                          "patch": "HUDARMS",
+                          "patch": "BOOMARMS",
                           "tranmap": null,
                           "translation": "CRBLACK",
                           "conditions": null,
@@ -16513,7 +16416,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "HUDPAN4L",
+                          "patch": "DSDA1",
                           "tranmap": null,
                           "translation": "CRGRAY",
                           "conditions": null,
@@ -16525,7 +16428,7 @@
                           "x": 27,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "HUDARMS",
+                          "patch": "BOOMARMS",
                           "tranmap": null,
                           "translation": "CRBLACK",
                           "conditions": null,
@@ -17368,7 +17271,7 @@
                     "x": 254,
                     "y": 167,
                     "alignment": 32,
-                    "patch": "HUDPAN4R",
+                    "patch": "DSDA2",
                     "tranmap": null,
                     "translation": "CRGRAY",
                     "conditions": null,
@@ -18137,7 +18040,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDPAN5",
+                          "patch": "PRBOOM",
                           "tranmap": null,
                           "translation": "CRGRAY",
                           "conditions": null,
@@ -18149,7 +18052,7 @@
                           "x": 27,
                           "y": 8,
                           "alignment": 16,
-                          "patch": "HUDARMS",
+                          "patch": "BOOMARMS",
                           "tranmap": null,
                           "translation": "CRBLACK",
                           "conditions": null,

@@ -43,7 +43,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDPAN3L",
+                          "patch": "BOOMDST1",
                           "tranmap": null,
                           "translation": "CRGRAY",
                           "conditions": null,
@@ -1837,7 +1837,7 @@
                           "x": 10,
                           "y": 1,
                           "alignment": 32,
-                          "patch": "HUDPAN3R",
+                          "patch": "BOOMDST2",
                           "tranmap": null,
                           "translation": "CRGRAY",
                           "conditions": null,
@@ -2096,7 +2096,7 @@
 
 ## RIGHT HUD PANEL: ARMS (DOOM II)
 ## Shows gray "9" if SSG is not owned
-## Colors: Dark Gray (not owned), Gray (partially owned), Green (owned), Red (selected)
+## Colors: Black (not owned), Gray (partially owned), Green (owned), Red (selected)
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
 ##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
 ## Conditions: 0 (weapon owned), 1 (weapon selected), 2 (weapon not selected), 
@@ -2121,7 +2121,7 @@
                           "x": 8,
                           "y": 1,
                           "alignment": 32,
-                          "patch": "HUDARMS",
+                          "patch": "BOOMARMS",
                           "tranmap": null,
                           "translation": "CRBLACK",
                           "conditions": null,
@@ -2565,7 +2565,7 @@
                           "x": 8,
                           "y": 1,
                           "alignment": 32,
-                          "patch": "HUDARMS",
+                          "patch": "BOOMARMS",
                           "tranmap": null,
                           "translation": "CRBLACK",
                           "conditions": null,
