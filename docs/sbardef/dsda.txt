@@ -646,6 +646,83 @@
                           ],
                           "children": null
                         }
+                      },
+
+## AMMO: INFINITY SYMBOL
+## Only colorized if Fists are selected
+## Colors: Gray (no Berserk), Red (Berserk)
+## Conditions: 1 (weapon selected), 5 (ammo type matches selected weapon's ammo type), 
+##             10 (item owned), 11 (item not owned)
+                      {
+                        "graphic": {
+                          "x": 19,
+                          "y": 17,
+                          "alignment": 16,
+                          "patch": "HUDINF",
+                          "tranmap": null,
+                          "translation": "CRGRAY",
+                          "conditions": [
+                            {
+                              "condition": 1,
+                              "param": 7
+                            },
+                            {
+                              "condition": 5,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 19,
+                          "y": 17,
+                          "alignment": 16,
+                          "patch": "HUDINF",
+                          "tranmap": null,
+                          "translation": "CRGRAY",
+                          "conditions": [
+                            {
+                              "condition": 1,
+                              "param": 0
+                            },
+                            {
+                              "condition": 11,
+                              "param": 18
+                            },
+                            {
+                              "condition": 5,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 19,
+                          "y": 17,
+                          "alignment": 16,
+                          "patch": "HUDINF",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 1,
+                              "param": 0
+                            },
+                            {
+                              "condition": 10,
+                              "param": 18
+                            },
+                            {
+                              "condition": 5,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
                       }
                     ]
                   }
