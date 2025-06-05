@@ -59,7 +59,7 @@
                 {
                   "graphic": {
                     "x": 41,
-                    "y": 169,
+                    "y": 172,
                     "alignment": 16,
                     "patch": "ESSENTLS",
                     "tranmap": null,
@@ -75,7 +75,7 @@
                 {
                   "percent": {
                     "x": 60,
-                    "y": 175,
+                    "y": 171,
                     "alignment": 16,
                     "font": "SmallRed",
                     "tranmap": null,
@@ -99,7 +99,7 @@
                 {
                   "percent": {
                     "x": 60,
-                    "y": 175,
+                    "y": 171,
                     "alignment": 16,
                     "font": "SmallRed",
                     "tranmap": null,
@@ -123,7 +123,7 @@
                 {
                   "percent": {
                     "x": 60,
-                    "y": 175,
+                    "y": 171,
                     "alignment": 16,
                     "font": "SmallRed",
                     "tranmap": null,
@@ -147,7 +147,7 @@
                 {
                   "percent": {
                     "x": 60,
-                    "y": 182,
+                    "y": 179,
                     "alignment": 16,
                     "font": "SmallRed",
                     "tranmap": null,
@@ -167,7 +167,7 @@
                 {
                   "percent": {
                     "x": 60,
-                    "y": 182,
+                    "y": 179,
                     "alignment": 16,
                     "font": "SmallRed",
                     "tranmap": null,
@@ -192,7 +192,7 @@
                 {
                   "canvas": {
                     "x": 60,
-                    "y": 189,
+                    "y": 187,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -327,17 +327,14 @@
                   }
                 },
 
-## KEYS PANEL (3X, HORIZONTAL)
-## Three different canvas groups, one for each key color
-## A key stays in place as long as there is at least one key of all the other colors
-## Blue keys are the easiest, they don't change their position ever
-## Yellow keys need 4 canvases, checking whether there's any sort of blue key to its left
-## Red keys require 16 (!) canvases since we need to check for combinations of four different key types
-## Conditions: 10 (item owned), 11 (item not owned)
+## KEYS (3X, VERTICAL)
+## Conditions: 10 (item owned), 11 (item not owned), 
+##             12 (game version greater/equal to feature lvl), 
+##             13 (game version less than feature lvl)
                 {
                   "canvas": {
-                    "x": 60,
-                    "y": 171,
+                    "x": 85,
+                    "y": 169,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -347,7 +344,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 16,
                           "patch": "STKEYS0",
                           "tranmap": null,
                           "translation": null,
@@ -368,7 +365,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 16,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -389,7 +386,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 16,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -414,7 +411,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 16,
                           "patch": "STKEYS6",
                           "tranmap": null,
                           "translation": null,
@@ -435,2396 +432,188 @@
                           "children": null
                         }
                       },
-
-## That's it for blue keys already, now going for the yellow ones. These can be in two positions.
                       {
-                        "canvas": {
-                          "x": 9,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 1
-                            },
-                            {
-                              "condition": 11,
-                              "param": 4
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS1",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 5
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS4",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 5
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS4",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 5
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS7",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 5
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 9,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 1
-                            },
-                            {
-                              "condition": 10,
-                              "param": 4
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS1",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 5
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS4",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 5
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS4",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 5
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS7",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 5
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 9,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 1
-                            },
-                            {
-                              "condition": 10,
-                              "param": 4
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS1",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 5
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS4",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 5
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS4",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 5
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS7",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 5
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
+                        "graphic": {
                           "x": 0,
-                          "y": 0,
-                          "alignment": 0,
+                          "y": 10,
+                          "alignment": 16,
+                          "patch": "STKEYS1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 1
-                            },
-                            {
-                              "condition": 11,
-                              "param": 4
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS1",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 5
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS4",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 5
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS4",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 5
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS7",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 2
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 5
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-
-## That's it for yellow keys. Now about the red ones... Three positions, four kinds of keys to check for!
-                      {
-                        "canvas": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 1
-                            },
                             {
                               "condition": 10,
                               "param": 2
                             },
                             {
                               "condition": 11,
-                              "param": 4
-                            },
-                            {
-                              "condition": 11,
                               "param": 5
                             }
                           ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
+                          "children": null
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 1
-                            },
-                            {
-                              "condition": 11,
-                              "param": 2
-                            },
-                            {
-                              "condition": 11,
-                              "param": 4
-                            },
-                            {
-                              "condition": 10,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 1
-                            },
-                            {
-                              "condition": 10,
-                              "param": 2
-                            },
-                            {
-                              "condition": 10,
-                              "param": 4
-                            },
-                            {
-                              "condition": 11,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 1
-                            },
-                            {
-                              "condition": 11,
-                              "param": 2
-                            },
-                            {
-                              "condition": 10,
-                              "param": 4
-                            },
-                            {
-                              "condition": 10,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 1
-                            },
-                            {
-                              "condition": 10,
-                              "param": 2
-                            },
-                            {
-                              "condition": 10,
-                              "param": 4
-                            },
-                            {
-                              "condition": 10,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 1
-                            },
-                            {
-                              "condition": 10,
-                              "param": 2
-                            },
-                            {
-                              "condition": 10,
-                              "param": 4
-                            },
-                            {
-                              "condition": 11,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 1
-                            },
-                            {
-                              "condition": 10,
-                              "param": 2
-                            },
-                            {
-                              "condition": 11,
-                              "param": 4
-                            },
-                            {
-                              "condition": 10,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 1
-                            },
-                            {
-                              "condition": 11,
-                              "param": 2
-                            },
-                            {
-                              "condition": 10,
-                              "param": 4
-                            },
-                            {
-                              "condition": 10,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 1
-                            },
-                            {
-                              "condition": 10,
-                              "param": 2
-                            },
-                            {
-                              "condition": 10,
-                              "param": 4
-                            },
-                            {
-                              "condition": 10,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 9,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 1
-                            },
-                            {
-                              "condition": 11,
-                              "param": 2
-                            },
-                            {
-                              "condition": 11,
-                              "param": 4
-                            },
-                            {
-                              "condition": 11,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 9,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 1
-                            },
-                            {
-                              "condition": 10,
-                              "param": 2
-                            },
-                            {
-                              "condition": 11,
-                              "param": 4
-                            },
-                            {
-                              "condition": 11,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 9,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 1
-                            },
-                            {
-                              "condition": 11,
-                              "param": 2
-                            },
-                            {
-                              "condition": 10,
-                              "param": 4
-                            },
-                            {
-                              "condition": 11,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 9,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 1
-                            },
-                            {
-                              "condition": 11,
-                              "param": 2
-                            },
-                            {
-                              "condition": 11,
-                              "param": 4
-                            },
-                            {
-                              "condition": 10,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 9,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 1
-                            },
-                            {
-                              "condition": 11,
-                              "param": 2
-                            },
-                            {
-                              "condition": 10,
-                              "param": 4
-                            },
-                            {
-                              "condition": 11,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
-                          "x": 9,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 1
-                            },
-                            {
-                              "condition": 10,
-                              "param": 2
-                            },
-                            {
-                              "condition": 11,
-                              "param": 4
-                            },
-                            {
-                              "condition": 10,
-                              "param": 5
-                            }
-                          ],
-                          "children": [
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "canvas": {
+                        "graphic": {
                           "x": 0,
-                          "y": 0,
-                          "alignment": 0,
+                          "y": 10,
+                          "alignment": 16,
+                          "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
                               "condition": 11,
-                              "param": 1
-                            },
-                            {
-                              "condition": 11,
                               "param": 2
                             },
                             {
-                              "condition": 11,
-                              "param": 4
-                            },
-                            {
-                              "condition": 11,
+                              "condition": 10,
                               "param": 5
                             }
                           ],
-                          "children": [
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 10,
+                          "alignment": 16,
+                          "patch": "STKEYS4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
                             {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS2",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 11,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
+                              "condition": 10,
+                              "param": 2
                             },
                             {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 11,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  }
-                                ],
-                                "children": null
-                              }
+                              "condition": 10,
+                              "param": 5
                             },
                             {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS5",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 13,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 20,
-                                "patch": "STKEYS8",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 10,
-                                    "param": 3
-                                  },
-                                  {
-                                    "condition": 10,
-                                    "param": 6
-                                  },
-                                  {
-                                    "condition": 12,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": null
-                              }
+                              "condition": 13,
+                              "param": 1
                             }
-                          ]
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 10,
+                          "alignment": 16,
+                          "patch": "STKEYS7",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 2
+                            },
+                            {
+                              "condition": 10,
+                              "param": 5
+                            },
+                            {
+                              "condition": 12,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 20,
+                          "alignment": 16,
+                          "patch": "STKEYS2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 3
+                            },
+                            {
+                              "condition": 11,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 20,
+                          "alignment": 16,
+                          "patch": "STKEYS5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 3
+                            },
+                            {
+                              "condition": 10,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 20,
+                          "alignment": 16,
+                          "patch": "STKEYS5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 3
+                            },
+                            {
+                              "condition": 10,
+                              "param": 6
+                            },
+                            {
+                              "condition": 13,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 20,
+                          "alignment": 16,
+                          "patch": "STKEYS8",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 3
+                            },
+                            {
+                              "condition": 10,
+                              "param": 6
+                            },
+                            {
+                              "condition": 12,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
                         }
                       }
                     ]
