@@ -62,7 +62,7 @@ Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/et
 
 **5) ﻿Essentials**<br>
 Sort of a minimized version of the following Boom variants, with focus on saving more screen space.<br>
-![05_essentials2](https://github.com/user-attachments/assets/2e07eb32-466f-4767-a655-b922d3ed55c5)
+![05_essentials2](https://github.com/user-attachments/assets/5613bba3-2018-4567-9361-15f33bca73c2)
 <br>
 
 **6) Boom-Like Compact/Distributed**<br>
@@ -76,10 +76,10 @@ The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.pn
 **7) DSDA-Like**<br>
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right.<br>
 ![08_dsda](https://github.com/user-attachments/assets/d4e873f5-00f1-4afb-b5e3-7ed0c63ad066)
-<em>Note: Slot numbers are used by default. You may additionally load <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/dsda_fix.pk3" target= "_blank">this small patch (1 KB)</a> to restore standard ammo names for Doom.</em>
+<em>Note: Slot numbers are used by default. You may additionally load <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/dsda_names.pk3" target= "_blank">this small patch (1 KB)</a> to restore standard ammo names for Doom.</em>
 <br>
 
 **8) PrBoomPlus-Like**<br>
 Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. Ammo overview has been added.<br>
 ![09_prboom+](https://github.com/user-attachments/assets/375899ce-c7dc-4406-b94c-9d391b95bad5)
-<em>Note: Some mods may use different sprite sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
+<em>Note: Some mods use different sprite sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
