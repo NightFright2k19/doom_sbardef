@@ -249,7 +249,7 @@
 
 ## AMMO: INFINITY SYMBOL
 ## Only colorized if Fists are selected
-## Colors: Gray (no Berserk), Red (Berserk)
+## Colors: Gold (no Berserk), Red (Berserk)
 ## Conditions: 1 (weapon selected), 5 (ammo type matches selected weapon's ammo type), 
 ##             10 (item owned), 11 (item not owned)
                       {
@@ -259,7 +259,7 @@
                           "alignment": 16,
                           "patch": "HUDINF",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": "CRGOLD",
                           "conditions": [
                             {
                               "condition": 1,
@@ -280,7 +280,7 @@
                           "alignment": 16,
                           "patch": "HUDINF",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": "CRGOLD",
                           "conditions": [
                             {
                               "condition": 1,
