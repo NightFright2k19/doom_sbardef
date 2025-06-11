@@ -45,7 +45,7 @@
                           "alignment": 16,
                           "patch": "BOOMDST1",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "conditions": null,
                           "children": null
                         }
@@ -59,9 +59,9 @@
                           "x": 19,
                           "y": 7,
                           "alignment": 16,
-                          "font": "SmallRed",
+                          "font": "DigitGreen",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "type": 0,
                           "param": 0,
                           "maxlength": 3,
@@ -79,9 +79,9 @@
                           "x": 19,
                           "y": 7,
                           "alignment": 16,
-                          "font": "SmallRed",
+                          "font": "DigitGold",
                           "tranmap": null,
-                          "translation": "CRGOLD",
+                          "translation": null,
                           "type": 0,
                           "param": 0,
                           "maxlength": 3,
@@ -103,9 +103,9 @@
                           "x": 66,
                           "y": 7,
                           "alignment": 16,
-                          "font": "SmallRed",
+                          "font": "DigitGreen",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "type": 1,
                           "param": 0,
                           "maxlength": 3,
@@ -127,9 +127,9 @@
                           "x": 66,
                           "y": 7,
                           "alignment": 16,
-                          "font": "SmallRed",
+                          "font": "DigitBlue",
                           "tranmap": null,
-                          "translation": "CRBLUE",
+                          "translation": null,
                           "type": 1,
                           "param": 0,
                           "maxlength": 3,
@@ -151,9 +151,9 @@
                           "x": 66,
                           "y": 7,
                           "alignment": 16,
-                          "font": "SmallRed",
+                          "font": "DigitGold",
                           "tranmap": null,
-                          "translation": "CRGOLD",
+                          "translation": null,
                           "type": 1,
                           "param": 0,
                           "maxlength": 3,
@@ -1839,14 +1839,14 @@
                           "alignment": 32,
                           "patch": "BOOMDST2",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "conditions": null,
                           "children": null
                         }
                       },
 
 ## RIGHT HUD PANEL: AMMO
-## Colors: Gray (no backpack), Green (backpack), Red (active)
+## Colors: White (no backpack), Green (backpack), Orange (active)
 ## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
 ## Conditions: 5 (ammo type matches selected weapon's ammo type), 10 (item owned), 
 ##             11 (item not owned)
@@ -1855,9 +1855,9 @@
                           "x": 0,
                           "y": 8,
                           "alignment": 33,
-                          "font": "SmallRed",
+                          "font": "DigitWhite",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "type": 3,
                           "param": 0,
                           "maxlength": 3,
@@ -1875,9 +1875,9 @@
                           "x": 0,
                           "y": 8,
                           "alignment": 33,
-                          "font": "SmallRed",
+                          "font": "DigitGreen",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "type": 3,
                           "param": 0,
                           "maxlength": 3,
@@ -1895,7 +1895,7 @@
                           "x": 0,
                           "y": 8,
                           "alignment": 33,
-                          "font": "SmallRed",
+                          "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -1915,9 +1915,9 @@
                           "x": 21,
                           "y": 8,
                           "alignment": 33,
-                          "font": "SmallRed",
+                          "font": "DigitWhite",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "type": 3,
                           "param": 1,
                           "maxlength": 3,
@@ -1935,9 +1935,9 @@
                           "x": 21,
                           "y": 8,
                           "alignment": 33,
-                          "font": "SmallRed",
+                          "font": "DigitGreen",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "type": 3,
                           "param": 1,
                           "maxlength": 3,
@@ -1955,7 +1955,7 @@
                           "x": 21,
                           "y": 8,
                           "alignment": 33,
-                          "font": "SmallRed",
+                          "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -1975,9 +1975,9 @@
                           "x": 42,
                           "y": 8,
                           "alignment": 33,
-                          "font": "SmallRed",
+                          "font": "DigitWhite",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "type": 3,
                           "param": 3,
                           "maxlength": 3,
@@ -1995,9 +1995,9 @@
                           "x": 42,
                           "y": 8,
                           "alignment": 33,
-                          "font": "SmallRed",
+                          "font": "DigitGreen",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "type": 3,
                           "param": 3,
                           "maxlength": 3,
@@ -2015,7 +2015,7 @@
                           "x": 42,
                           "y": 8,
                           "alignment": 33,
-                          "font": "SmallRed",
+                          "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -2035,9 +2035,9 @@
                           "x": 63,
                           "y": 8,
                           "alignment": 33,
-                          "font": "SmallRed",
+                          "font": "DigitWhite",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "type": 3,
                           "param": 2,
                           "maxlength": 3,
@@ -2055,9 +2055,9 @@
                           "x": 63,
                           "y": 8,
                           "alignment": 33,
-                          "font": "SmallRed",
+                          "font": "DigitGreen",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "type": 3,
                           "param": 2,
                           "maxlength": 3,
@@ -2075,7 +2075,7 @@
                           "x": 63,
                           "y": 8,
                           "alignment": 33,
-                          "font": "SmallRed",
+                          "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -2096,7 +2096,7 @@
 
 ## RIGHT HUD PANEL: ARMS (DOOM II)
 ## Shows gray "9" if SSG is not owned
-## Colors: Black (not owned), Gray (partially owned), Green (owned), Red (selected)
+## Colors: Black (not owned), White (partially owned), Green (owned), Orange (selected)
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
 ##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
 ## Conditions: 0 (weapon owned), 1 (weapon selected), 2 (weapon not selected), 
@@ -2123,7 +2123,7 @@
                           "alignment": 32,
                           "patch": "BOOMARMS",
                           "tranmap": null,
-                          "translation": "CRBLACK",
+                          "translation": null,
                           "conditions": null,
                           "children": null
                         }
@@ -2133,9 +2133,9 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG049",
+                          "patch": "DGT6NUM1",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 11,
@@ -2154,9 +2154,9 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG049",
+                          "patch": "DGT4NUM1",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 10,
@@ -2175,7 +2175,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG049",
+                          "patch": "DGT2NUM1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2192,9 +2192,9 @@
                           "x": 8,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG050",
+                          "patch": "DGT4NUM2",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -2213,7 +2213,7 @@
                           "x": 8,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG050",
+                          "patch": "DGT2NUM2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2234,9 +2234,9 @@
                           "x": 16,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG051",
+                          "patch": "DGT4NUM3",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 0,
@@ -2255,7 +2255,7 @@
                           "x": 16,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG051",
+                          "patch": "DGT2NUM3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2276,9 +2276,9 @@
                           "x": 24,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG052",
+                          "patch": "DGT4NUM4",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -2297,7 +2297,7 @@
                           "x": 24,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG052",
+                          "patch": "DGT2NUM4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2318,9 +2318,9 @@
                           "x": 32,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG053",
+                          "patch": "DGT4NUM5",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -2339,7 +2339,7 @@
                           "x": 32,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG053",
+                          "patch": "DGT2NUM5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2360,9 +2360,9 @@
                           "x": 40,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG054",
+                          "patch": "DGT4NUM6",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -2381,7 +2381,7 @@
                           "x": 40,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG054",
+                          "patch": "DGT2NUM6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2402,9 +2402,9 @@
                           "x": 48,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG055",
+                          "patch": "DGT4NUM7",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -2423,7 +2423,7 @@
                           "x": 48,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG055",
+                          "patch": "DGT2NUM7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2444,9 +2444,9 @@
                           "x": 56,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG056",
+                          "patch": "DGT4NUM8",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 0,
@@ -2465,7 +2465,7 @@
                           "x": 56,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG056",
+                          "patch": "DGT2NUM8",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2486,9 +2486,9 @@
                           "x": 64,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG057",
+                          "patch": "DGT7NUM9",
                           "tranmap": null,
-                          "translation": "CRBLACK",
+                          "translation": null,
                           "conditions": null,
                           "children": null
                         }
@@ -2498,9 +2498,9 @@
                           "x": 64,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG057",
+                          "patch": "DGT4NUM9",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 0,
@@ -2519,7 +2519,7 @@
                           "x": 64,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG057",
+                          "patch": "DGT2NUM9",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2542,7 +2542,7 @@
 ## RIGHT HUD PANEL: ARMS (DOOM I)
 ## Moved to the right by one slot compared to Doom II since "9" (SSG) is missing
 ## We use "Not Commercial" condition (17/1) to cover Doom 1.9 and Ultimate Doom
-## Colors: Dark Gray (not owned), Gray (partially owned), Green (owned), Red (selected)
+## Colors: Gray (not owned), White (partially owned), Green (owned), Red (selected)
 ## Conditions: 0 (weapon owned), 1 (weapon selected), 2 (weapon not selected), 
 ##             6 (weapon in slot owned), 10 (item owned), 11 (item not owned), 
 ##             17 (game mode not equal to mode)
@@ -2567,7 +2567,7 @@
                           "alignment": 32,
                           "patch": "BOOMARMS",
                           "tranmap": null,
-                          "translation": "CRBLACK",
+                          "translation": null,
                           "conditions": null,
                           "children": null
                         }
@@ -2577,9 +2577,9 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG049",
+                          "patch": "DGT6NUM1",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 11,
@@ -2598,9 +2598,9 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG049",
+                          "patch": "DGT4NUM1",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 10,
@@ -2619,7 +2619,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG049",
+                          "patch": "DGT2NUM1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2636,9 +2636,9 @@
                           "x": 8,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG050",
+                          "patch": "DGT4NUM2",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -2657,7 +2657,7 @@
                           "x": 8,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG050",
+                          "patch": "DGT2NUM2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2678,9 +2678,9 @@
                           "x": 16,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG051",
+                          "patch": "DGT4NUM3",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 0,
@@ -2699,7 +2699,7 @@
                           "x": 16,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG051",
+                          "patch": "DGT2NUM3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2720,9 +2720,9 @@
                           "x": 24,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG052",
+                          "patch": "DGT4NUM4",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -2741,7 +2741,7 @@
                           "x": 24,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG052",
+                          "patch": "DGT2NUM4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2762,9 +2762,9 @@
                           "x": 32,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG053",
+                          "patch": "DGT4NUM5",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -2783,7 +2783,7 @@
                           "x": 32,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG053",
+                          "patch": "DGT2NUM5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2804,9 +2804,9 @@
                           "x": 40,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG054",
+                          "patch": "DGT4NUM6",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -2825,7 +2825,7 @@
                           "x": 40,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG054",
+                          "patch": "DGT2NUM6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2846,9 +2846,9 @@
                           "x": 48,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG055",
+                          "patch": "DGT4NUM7",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -2867,7 +2867,7 @@
                           "x": 48,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG055",
+                          "patch": "DGT2NUM7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2888,9 +2888,9 @@
                           "x": 56,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG056",
+                          "patch": "DGT4NUM8",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 0,
@@ -2909,7 +2909,7 @@
                           "x": 56,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "DIG056",
+                          "patch": "DGT2NUM8",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2936,7 +2936,7 @@
                     "x": 300,
                     "y": 5,
                     "alignment": 34,
-                    "font": "SmallRed",
+                    "font": "DigitRed",
                     "tranmap": null,
                     "translation": null,
                     "type": 2,

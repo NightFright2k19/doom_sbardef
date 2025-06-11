@@ -34,7 +34,7 @@
                     "conditions": null,
                     "children": [
 
-## HUD PANEL IMAGE, ARMS NUMBERS (DARK)
+## HUD PANEL IMAGE, ARMS NUMBERS
                       {
                         "graphic": {
                           "x": 0,
@@ -42,7 +42,7 @@
                           "alignment": 16,
                           "patch": "PRBOOM",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "conditions": null,
                           "children": null
                         }
@@ -54,14 +54,14 @@
                           "alignment": 16,
                           "patch": "BOOMARMS",
                           "tranmap": null,
-                          "translation": "CRBLACK",
+                          "translation": null,
                           "conditions": null,
                           "children": null
                         }
                       },
 
 ## ARMS
-## Colors: Black (not owned), Gray (partially owned), Green (owned), Red (selected)
+## Colors: Gray (not owned), White (partially owned), Green (owned), Orange (selected)
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
 ##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
 ## Conditions: 0 (weapon owned), 1 (weapon selected), 2 (weapon not selected), 
@@ -72,9 +72,9 @@
                           "x": 19,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG049",
+                          "patch": "DGT6NUM1",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 11,
@@ -93,9 +93,9 @@
                           "x": 19,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG049",
+                          "patch": "DGT4NUM1",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 10,
@@ -114,7 +114,7 @@
                           "x": 19,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG049",
+                          "patch": "DGT2NUM1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -131,9 +131,9 @@
                           "x": 27,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG050",
+                          "patch": "DGT4NUM2",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -152,7 +152,7 @@
                           "x": 27,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG050",
+                          "patch": "DGT2NUM2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -173,9 +173,9 @@
                           "x": 35,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG051",
+                          "patch": "DGT4NUM3",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 0,
@@ -194,7 +194,7 @@
                           "x": 35,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG051",
+                          "patch": "DGT2NUM3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -215,9 +215,9 @@
                           "x": 43,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG052",
+                          "patch": "DGT4NUM4",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -236,7 +236,7 @@
                           "x": 43,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG052",
+                          "patch": "DGT2NUM4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -257,9 +257,9 @@
                           "x": 51,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG053",
+                          "patch": "DGT4NUM5",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -278,7 +278,7 @@
                           "x": 51,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG053",
+                          "patch": "DGT2NUM5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -299,9 +299,9 @@
                           "x": 59,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG054",
+                          "patch": "DGT4NUM6",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -320,7 +320,7 @@
                           "x": 59,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG054",
+                          "patch": "DGT2NUM6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -341,9 +341,9 @@
                           "x": 67,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG055",
+                          "patch": "DGT4NUM7",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
@@ -362,7 +362,7 @@
                           "x": 67,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG055",
+                          "patch": "DGT2NUM7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -383,9 +383,9 @@
                           "x": 75,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG056",
+                          "patch": "DGT4NUM8",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 0,
@@ -404,7 +404,7 @@
                           "x": 75,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG056",
+                          "patch": "DGT2NUM8",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -425,9 +425,9 @@
                           "x": 83,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG057",
+                          "patch": "DGT7NUM9",
                           "tranmap": null,
-                          "translation": "CRBLACK",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 16,
@@ -442,9 +442,9 @@
                           "x": 83,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG057",
+                          "patch": "DGT4NUM9",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "conditions": [
                             {
                               "condition": 0,
@@ -463,7 +463,7 @@
                           "x": 83,
                           "y": 7,
                           "alignment": 16,
-                          "patch": "DIG057",
+                          "patch": "DGT2NUM9",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -481,7 +481,7 @@
                       },
 
 ## AMMO
-## Colors: Gray (no backpack), Green (backpack), Red (active)
+## Colors: White (no backpack), Green (backpack), Orange (active)
 ## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
 ## Conditions: 5 (ammo type matches selected weapon's ammo type), 10 (item owned), 
 ##             11 (item not owned)
@@ -490,9 +490,9 @@
                           "x": 26,
                           "y": 15,
                           "alignment": 17,
-                          "font": "SmallRed",
+                          "font": "DigitWhite",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "type": 3,
                           "param": 0,
                           "maxlength": 3,
@@ -510,9 +510,9 @@
                           "x": 26,
                           "y": 15,
                           "alignment": 17,
-                          "font": "SmallRed",
+                          "font": "DigitGreen",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "type": 3,
                           "param": 0,
                           "maxlength": 3,
@@ -530,7 +530,7 @@
                           "x": 26,
                           "y": 15,
                           "alignment": 17,
-                          "font": "SmallRed",
+                          "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -550,9 +550,9 @@
                           "x": 47,
                           "y": 15,
                           "alignment": 17,
-                          "font": "SmallRed",
+                          "font": "DigitWhite",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "type": 3,
                           "param": 1,
                           "maxlength": 3,
@@ -570,9 +570,9 @@
                           "x": 47,
                           "y": 15,
                           "alignment": 17,
-                          "font": "SmallRed",
+                          "font": "DigitGreen",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "type": 3,
                           "param": 1,
                           "maxlength": 3,
@@ -590,7 +590,7 @@
                           "x": 47,
                           "y": 15,
                           "alignment": 17,
-                          "font": "SmallRed",
+                          "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -610,9 +610,9 @@
                           "x": 68,
                           "y": 15,
                           "alignment": 17,
-                          "font": "SmallRed",
+                          "font": "DigitWhite",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "type": 3,
                           "param": 3,
                           "maxlength": 3,
@@ -630,9 +630,9 @@
                           "x": 68,
                           "y": 15,
                           "alignment": 17,
-                          "font": "SmallRed",
+                          "font": "DigitGreen",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "type": 3,
                           "param": 3,
                           "maxlength": 3,
@@ -650,7 +650,7 @@
                           "x": 68,
                           "y": 15,
                           "alignment": 17,
-                          "font": "SmallRed",
+                          "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -670,9 +670,9 @@
                           "x": 89,
                           "y": 15,
                           "alignment": 17,
-                          "font": "SmallRed",
+                          "font": "DigitWhite",
                           "tranmap": null,
-                          "translation": "CRGRAY",
+                          "translation": null,
                           "type": 3,
                           "param": 2,
                           "maxlength": 3,
@@ -690,9 +690,9 @@
                           "x": 89,
                           "y": 15,
                           "alignment": 17,
-                          "font": "SmallRed",
+                          "font": "DigitGreen",
                           "tranmap": null,
-                          "translation": "CRGREEN",
+                          "translation": null,
                           "type": 3,
                           "param": 2,
                           "maxlength": 3,
@@ -710,7 +710,7 @@
                           "x": 89,
                           "y": 15,
                           "alignment": 17,
-                          "font": "SmallRed",
+                          "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
