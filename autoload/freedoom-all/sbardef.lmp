@@ -50,11 +50,6 @@
         "stem": "DGT6"
       },
       {
-        "name": "DigitGray",
-        "type": 0,
-        "stem": "DGT7"
-      },
-      {
         "name": "EternityLrgRed",
         "type": 0,
         "stem": "ETL1"
@@ -98,11 +93,6 @@
         "name": "EternitySmlWhite",
         "type": 0,
         "stem": "ETS6"
-      },
-      {
-        "name": "EternitySmlGray",
-        "type": 0,
-        "stem": "ETS7"
       }
     ],
     "hudfonts": [
@@ -1836,7 +1826,7 @@
           },
           {
             "graphic": {
-              "x": 186,
+              "x": 255,
               "y": 173,
               "alignment": 32,
               "patch": "CRISPY2",
@@ -1848,7 +1838,7 @@
           },
           {
             "graphic": {
-              "x": 214,
+              "x": 186,
               "y": 191,
               "alignment": 32,
               "patch": "HUDARM33",
@@ -1865,7 +1855,7 @@
           },
           {
             "graphic": {
-              "x": 214,
+              "x": 186,
               "y": 191,
               "alignment": 32,
               "patch": "HUDARM50",
@@ -2262,18 +2252,6 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDARMOR",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 28,
-                          "y": 0,
-                          "alignment": 16,
                           "patch": "HUDARM33",
                           "tranmap": null,
                           "translation": null,
@@ -2288,7 +2266,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 28,
+                          "x": 0,
                           "y": 0,
                           "alignment": 16,
                           "patch": "HUDARM50",
@@ -3611,18 +3589,6 @@
               "x": 260,
               "y": 174,
               "alignment": 1,
-              "patch": "HUDARMOR",
-              "tranmap": null,
-              "translation": null,
-              "conditions": null,
-              "children": null
-            }
-          },
-          {
-            "graphic": {
-              "x": 272,
-              "y": 174,
-              "alignment": 1,
               "patch": "HUDARM33",
               "tranmap": null,
               "translation": null,
@@ -3637,7 +3603,7 @@
           },
           {
             "graphic": {
-              "x": 272,
+              "x": 260,
               "y": 174,
               "alignment": 1,
               "patch": "HUDARM50",
@@ -4242,7 +4208,7 @@
                 {
                   "graphic": {
                     "x": 65,
-                    "y": 173,
+                    "y": 171,
                     "alignment": 16,
                     "patch": "ETRDIVDR",
                     "tranmap": null,
@@ -4324,23 +4290,6 @@
                           "x": 6,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "ETS7NUM2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 16,
                           "patch": "ETS3NUM2",
                           "tranmap": null,
                           "translation": null,
@@ -4383,18 +4332,6 @@
                           "x": 12,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "ETS7NUM3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 16,
                           "patch": "ETS3NUM3",
                           "tranmap": null,
                           "translation": null,
@@ -4427,23 +4364,6 @@
                             {
                               "condition": 1,
                               "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "ETS7NUM4",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 4
                             }
                           ],
                           "children": null
@@ -4496,23 +4416,6 @@
                           "x": 24,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "ETS7NUM5",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 24,
-                          "y": 0,
-                          "alignment": 16,
                           "patch": "ETS3NUM5",
                           "tranmap": null,
                           "translation": null,
@@ -4545,23 +4448,6 @@
                             {
                               "condition": 1,
                               "param": 4
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 30,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "ETS7NUM6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 6
                             }
                           ],
                           "children": null
@@ -4614,23 +4500,6 @@
                           "x": 36,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "ETS7NUM7",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 36,
-                          "y": 0,
-                          "alignment": 16,
                           "patch": "ETS3NUM7",
                           "tranmap": null,
                           "translation": null,
@@ -4665,18 +4534,6 @@
                               "param": 6
                             }
                           ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 42,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "ETS7NUM8",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": null,
                           "children": null
                         }
                       },
@@ -8378,18 +8235,6 @@
                           "y": 0,
                           "alignment": 16,
                           "patch": "BOOMCMP",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 27,
-                          "y": 8,
-                          "alignment": 16,
-                          "patch": "BOOMARMS",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -14286,18 +14131,6 @@
                       },
                       {
                         "graphic": {
-                          "x": 27,
-                          "y": 1,
-                          "alignment": 16,
-                          "patch": "BOOMARMS",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
                           "x": 19,
                           "y": 0,
                           "alignment": 16,
@@ -16001,18 +15834,6 @@
                           "y": 0,
                           "alignment": 16,
                           "patch": "PRBOOM+",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 27,
-                          "y": 8,
-                          "alignment": 16,
-                          "patch": "BOOMARMS",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,

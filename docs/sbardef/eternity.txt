@@ -175,7 +175,7 @@
                 {
                   "graphic": {
                     "x": 65,
-                    "y": 173,
+                    "y": 171,
                     "alignment": 16,
                     "patch": "ETRDIVDR",
                     "tranmap": null,
@@ -265,23 +265,6 @@
                           "x": 6,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "ETS7NUM2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 16,
                           "patch": "ETS3NUM2",
                           "tranmap": null,
                           "translation": null,
@@ -324,18 +307,6 @@
                           "x": 12,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "ETS7NUM3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 16,
                           "patch": "ETS3NUM3",
                           "tranmap": null,
                           "translation": null,
@@ -368,23 +339,6 @@
                             {
                               "condition": 1,
                               "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "ETS7NUM4",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 4
                             }
                           ],
                           "children": null
@@ -437,23 +391,6 @@
                           "x": 24,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "ETS7NUM5",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 24,
-                          "y": 0,
-                          "alignment": 16,
                           "patch": "ETS3NUM5",
                           "tranmap": null,
                           "translation": null,
@@ -486,23 +423,6 @@
                             {
                               "condition": 1,
                               "param": 4
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 30,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "ETS7NUM6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 6
                             }
                           ],
                           "children": null
@@ -555,23 +475,6 @@
                           "x": 36,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "ETS7NUM7",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 36,
-                          "y": 0,
-                          "alignment": 16,
                           "patch": "ETS3NUM7",
                           "tranmap": null,
                           "translation": null,
@@ -606,18 +509,6 @@
                               "param": 6
                             }
                           ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 42,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "ETS7NUM8",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": null,
                           "children": null
                         }
                       },
