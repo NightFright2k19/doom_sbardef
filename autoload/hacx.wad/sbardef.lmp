@@ -8239,7 +8239,31 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "BOOMCMP",
+                          "patch": "BOOM_KEY",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 8,
+                          "alignment": 16,
+                          "patch": "BOOM_WEA",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 24,
+                          "alignment": 16,
+                          "patch": "BOOM_HEL",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -10968,7 +10992,19 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "BOOMDST1",
+                          "patch": "BOOM_KEY",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 8,
+                          "alignment": 16,
+                          "patch": "BOOM_HEL",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -12743,7 +12779,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "BOOMDST2",
+                          "patch": "BOOM_WEA",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -15444,7 +15480,19 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PRBOOM+",
+                          "patch": "BOOM_KEY",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 8,
+                          "alignment": 16,
+                          "patch": "BOOM_WEA",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,

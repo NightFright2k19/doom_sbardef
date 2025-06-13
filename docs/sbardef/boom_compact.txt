@@ -34,13 +34,37 @@
                     "conditions": null,
                     "children": [
 
-## HUD PANEL IMAGE
+## HUD PANEL IMAGES
                       {
                         "graphic": {
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "BOOMCMP",
+                          "patch": "BOOM_KEY",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 8,
+                          "alignment": 16,
+                          "patch": "BOOM_WEA",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 24,
+                          "alignment": 16,
+                          "patch": "BOOM_HEL",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
