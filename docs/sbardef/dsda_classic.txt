@@ -49,7 +49,7 @@
                       },
 
 ## ARMS
-## Colors: Gray (not owned), Green (owned), Orange (selected)
+## Colors: Green (owned), Orange (selected)
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
 ##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
 ## Conditions: 0 (weapon owned), 1 (weapon selected), 2 (weapon not selected), 
@@ -382,23 +382,6 @@
                             {
                               "condition": 1,
                               "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 83,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT7NUM9",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 16,
-                              "param": 1
                             }
                           ],
                           "children": null
@@ -1468,7 +1451,7 @@
                     "x": 300,
                     "y": 5,
                     "alignment": 34,
-                    "font": "DigitRed",
+                    "font": "DigitGreen",
                     "tranmap": null,
                     "translation": null,
                     "type": 2,

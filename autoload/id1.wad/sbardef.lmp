@@ -20,11 +20,6 @@
         "stem": "STYS"
       },
       {
-        "name": "DigitRed",
-        "type": 0,
-        "stem": "DGT1"
-      },
-      {
         "name": "DigitOrange",
         "type": 0,
         "stem": "DGT2"
@@ -7881,7 +7876,7 @@
                     "x": 300,
                     "y": 5,
                     "alignment": 34,
-                    "font": "DigitRed",
+                    "font": "DigitGreen",
                     "tranmap": null,
                     "translation": null,
                     "type": 2,
@@ -10613,7 +10608,7 @@
                     "x": 300,
                     "y": 5,
                     "alignment": 34,
-                    "font": "DigitRed",
+                    "font": "DigitGreen",
                     "tranmap": null,
                     "translation": null,
                     "type": 2,
@@ -13369,7 +13364,7 @@
                     "x": 300,
                     "y": 5,
                     "alignment": 34,
-                    "font": "DigitRed",
+                    "font": "DigitGreen",
                     "tranmap": null,
                     "translation": null,
                     "type": 2,
@@ -14014,23 +14009,6 @@
                             {
                               "condition": 1,
                               "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 83,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT7NUM9",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 16,
-                              "param": 1
                             }
                           ],
                           "children": null
@@ -15059,7 +15037,7 @@
                     "x": 300,
                     "y": 5,
                     "alignment": 34,
-                    "font": "DigitRed",
+                    "font": "DigitGreen",
                     "tranmap": null,
                     "translation": null,
                     "type": 2,
@@ -16778,7 +16756,7 @@
                     "x": 300,
                     "y": 5,
                     "alignment": 34,
-                    "font": "DigitRed",
+                    "font": "DigitGreen",
                     "tranmap": null,
                     "translation": null,
                     "type": 2,
