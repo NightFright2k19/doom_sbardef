@@ -142,14 +142,14 @@
                 },
 
 ## HEALTH
-## Colors: Red (no Invulnerability), Gold (Invulnerability)
+## Colors: Green (no Invulnerability), Gold (Invulnerability)
 ## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "percent": {
                     "x": 60,
                     "y": 179,
                     "alignment": 16,
-                    "font": "DigitRed",
+                    "font": "DigitGreen",
                     "tranmap": null,
                     "translation": null,
                     "type": 0,
@@ -186,7 +186,7 @@
                 },
 
 ## AMMO
-## Colors: White (no backpack), Gold (backpack)
+## Colors: White (no backpack), Green (backpack)
 ## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
 ## Conditions: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned)
                 {
@@ -227,7 +227,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "font": "DigitGold",
+                          "font": "DigitGreen",
                           "tranmap": null,
                           "translation": null,
                           "type": 4,
@@ -249,7 +249,7 @@
 
 ## AMMO: INFINITY SYMBOL
 ## Only colorized if Fists are selected
-## Colors: Gold (no Berserk), Red (Berserk)
+## Colors: Green (no Berserk), Red (Berserk)
 ## Conditions: 1 (weapon selected), 5 (ammo type matches selected weapon's ammo type), 
 ##             10 (item owned), 11 (item not owned)
                       {
@@ -257,7 +257,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "HUDINF3",
+                          "patch": "HUDINF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -278,7 +278,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "HUDINF3",
+                          "patch": "HUDINF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
