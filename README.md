@@ -43,9 +43,8 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 Available variants:<br><br>
 
 **1) Crispy with Labels**<br>
-<a href="https://github.com/fabiangreffrath/crispy-doom" target= "_blank">Crispy Doom</a> fullscreen HUD with labels. Features armor type indicator as a bonus. I've de﻿cided to replace the labels for the ammo types with weapon slot numbers to provide maximum compatibility with mods which change ammo names.<br>
+<a href="https://github.com/fabiangreffrath/crispy-doom" target= "_blank">Crispy Doom</a> fullscreen HUD with labels. Features armor type indicator as a bonus. I've de﻿cided to replace the labels for the ammo types with weapon slot numbers to provide maximum compatibility with mods which change ammo names. Slot numbers are used by default in ammo overview.<br>
 ![01_crispy](https://github.com/user-attachments/assets/211ea2c6-09a0-40d1-b141-076b6f176029)
-<em>Note: Slot numbers are used by default. You may additionally load <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/ammo_names.pk3" target= "_blank">this small patch (1 KB)</a> to restore standard ammo names for Doom.</em>
 <br>
 
 **2) Nightdive-Like with Labels**<br>
@@ -77,12 +76,11 @@ The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.pn
 <br>
 
 **7) DSDA Classic/Enhanced**<br>
-A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right.<br>
+A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right. Slot numbers are used by default in ammo overview.<br>
 ![08_dsda-classic](https://github.com/user-attachments/assets/126c5710-80f4-424f-8aec-0a02ee366899)
    **Classic:** Close reproduction of the original HUD.<br><br>
 ![09_dsda-enhanced](https://github.com/user-attachments/assets/a71b94e2-7092-4db6-b838-05baa22c6a77)
-   **Enhanced:** Adds mugshot, reorganized vital stats and compressed WPN line ("1" indicates Chainsaw, "3" only turns green in Doom II if both shotguns are owned).<br><br>
-<em>Note: Slot numbers are used by default. You may additionally load <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/ammo_names.pk3" target= "_blank">this small patch (1 KB)</a> to restore standard ammo names for Doom.</em>
+   **Enhanced:** Adds mugshot, reorganized vital stats and compressed WPN line ("1" indicates Chainsaw, "3" only turns green in Doom II if both shotguns are owned).
 <br>
 
 **8) PrBoomPlus-Like**<br>
