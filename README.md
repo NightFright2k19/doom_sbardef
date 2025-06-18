@@ -1,6 +1,8 @@
 # SBARDEF HUD MOD FOR WOOF!
 
-The Nightdive port brought the possibility to edit the Doom statusbar and fullscreen HUD via <a href="https://doomwiki.org/wiki/SBARDEF" target= "_blank">SBARDEF</a>. Unfortunately, an editor which is supposed to make statusbar modding a lot easier is still not completed. I couldn't wait for it and went ahead to create the HUDs I wanted/needed.
+The Nightdive port brought the possibility to edit the Doom statusbar and fullscreen HUD via <a href="https://doomwiki.org/wiki/SBARDEF" target= "_blank">SBARDEF</a>. Unfortunately, an editor which is supposed to make statusbar modding a lot easier is still not completed. I couldn't wait for it and went ahead to create the HUDs I wanted/needed. At first I was only after a better version of the Nightdive HUD, but quickly shifted to the Eternity variant and eventually ended up using DSDA Enhanced on a regular basis.<br><br>
+**If you want to use any (or all) of these HUDs in a mod of yours, feel free to do so. However, please don't forget to give me credit for my work. A lot of effort and time has been invested into this project. It is only fair to acknowledge and appreciate this.**
+<br><br>
 
 **Intended ports:**
 - <a href="https://github.com/fabiangreffrath/woof" target= "_blank">Woof!</a> (mod has been primarily developed for this port)<br>
@@ -21,7 +23,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+, the armor icon changes instead.<br>
-- **Backpack**: Recolored ammo numbers (gold in Nightdive/Eternity, otherwise green) and/or doubling max ammo.<br>
+- **Backpack**: Recolored ammo numbers (gold/green) or doubling max ammo (Crispy, Eternity, DSDA).<br>
 - **Berserk mode**: Usually shown as a fully lit "1" in the Arms display (not in DSDA Enhanced). In PrBoom+, the Medikit icon is replaced by a Berserk pack. In Eternity, Essentials and DSDA, the infinity symbol turns red if fists are selected.<br>
 - **God mode**: Mugshot and/or recolored health/armor numbers (gold). Recolored numbers only work with powerups, not cheats.<br>
 - **Active ammo/weapon**: Red numbers in the Arms panel and/or ammo overview.<br><br>
@@ -87,3 +89,13 @@ A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "
 Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. Ammo overview has been added.<br>
 ![10_prboom](https://github.com/user-attachments/assets/8d992c69-1787-415c-9df2-cc27ced886c4)
 <em>Note: Some mods use different sprite sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
+<br><br>
+
+**BONUS CONTENT**<br><br>
+I. Addons (load externally, i.e. NOT via autoload):
+- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/ammo_names.pk3" target= "_blank">DSDA Ammo Names</a> (Names instead of slot numbers for ammo labels in DSDA Classic/Enhanced)
+- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/gradient.pk3" target= "_blank">Boom Font with Gradient Colors</a> (Check for a <a href="https://i.imgur.com/qdEqwTA.png" target= "_blank">preview here</a>)
+- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/gradient_names.pk3" target= "_blank">Boom Font with Gradient Colors + DSDA Ammo Names</a> (Combination of both addons)
+<br>
+II. Developer Kit (commented code for all HUDs):<br>
+<a href="https://github.com/NightFright2k19/doom_sbardef/tree/main/docs/sbardef" target= "_blank">Github subpage</a> (Useful for anybody who wants to start with SBARDEF coding on their own)
