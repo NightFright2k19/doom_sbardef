@@ -679,133 +679,9 @@
                   }
                 },
 
-## AMMO: NO BACKPACK
-## Color: White
-## Conditions: 4 (selected weapon has valid ammo type),
-##             5 (ammo type matches selected weapon's ammo type), 11 (item not owned)
-                {
-                  "canvas": {
-                    "x": 70,
-                    "y": 180,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 11,
-                        "param": 7
-                      },
-                      {
-                        "condition": 4,
-                        "param": 0
-                      }
-                    ],
-
-## Abuse percentage symbol for a dynamically moving slash
-                    "children": [
-                      {
-                        "percent": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 16,
-                          "font": "EternityMedWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 4,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 31,
-                          "y": 0,
-                          "alignment": 16,
-                          "font": "EternityMedWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 5,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 31,
-                          "y": 0,
-                          "alignment": 16,
-                          "font": "EternityMedWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 5,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 31,
-                          "y": 0,
-                          "alignment": 16,
-                          "font": "EternityMedWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 5,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 31,
-                          "y": 0,
-                          "alignment": 16,
-                          "font": "EternityMedWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 5,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-## AMMO: BACKPACK
+## AMMO
 ## Color: Gold
 ## Conditions: 4 (selected weapon has valid ammo type),
-##             5 (ammo type matches selected weapon's ammo type), 10 (item owned)
                 {
                   "canvas": {
                     "x": 70,
@@ -814,10 +690,6 @@
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 7
-                      },
                       {
                         "condition": 4,
                         "param": 0
@@ -2574,152 +2446,9 @@
                   }
                 },
 
-## AMMO OVERVIEW: NO BACKPACK
-## Color: White
-## Types: 3 (current amount), 5 (maximum amount)
-## Condition: 11 (item not owned)
-                {
-                  "canvas": {
-                    "x": 298,
-                    "y": 173,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 11,
-                        "param": 7
-                      }
-                    ],
-                    "children": [
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 34,
-                          "font": "EternitySmlWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 6,
-                          "alignment": 34,
-                          "font": "EternitySmlWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 12,
-                          "alignment": 34,
-                          "font": "EternitySmlWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 18,
-                          "alignment": 34,
-                          "font": "EternitySmlWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 34,
-                          "font": "EternitySmlWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 5,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 18,
-                          "y": 6,
-                          "alignment": 34,
-                          "font": "EternitySmlWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 5,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 18,
-                          "y": 12,
-                          "alignment": 34,
-                          "font": "EternitySmlWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 5,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 18,
-                          "y": 18,
-                          "alignment": 34,
-                          "font": "EternitySmlWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 5,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": null,
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-## AMMO OVERVIEW: BACKPACK
+## AMMO OVERVIEW
 ## Color: Gold
 ## Types: 3 (current amount), 5 (maximum amount)
-## Condition: 10 (item owned)
                 {
                   "canvas": {
                     "x": 298,
@@ -2727,12 +2456,7 @@
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 7
-                      }
-                    ],
+                    "conditions": null,
                     "children": [
                       {
                         "number": {
