@@ -188,249 +188,264 @@
                         }
                       },
 
-## AMMO
-## Colors: White (no backpack), Green (backpack), Orange (active)
+## AMMO: NO BACKPACK
+## Color: White
 ## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
-## Conditions: 5 (ammo type matches selected weapon's ammo type), 10 (item owned), 
-##             11 (item not owned)
+## Condition: 11 (item not owned)
                       {
-                        "number": {
+                        "canvas": {
                           "x": 26,
                           "y": 15,
-                          "alignment": 17,
-                          "font": "DigitWhite",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 3,
-                          "param": 0,
-                          "maxlength": 3,
                           "conditions": [
                             {
                               "condition": 11,
                               "param": 7
                             }
                           ],
-                          "children": null
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 17,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 3,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": null,
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 21,
+                                "y": 0,
+                                "alignment": 17,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 3,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": null,
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 42,
+                                "y": 0,
+                                "alignment": 17,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 3,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": null,
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 63,
+                                "y": 0,
+                                "alignment": 17,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 3,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": null,
+                                "children": null
+                              }
+                            }
+                          ]
                         }
                       },
+
+## AMMO: BACKPACK
+## Color: Green
+## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Condition: 10 (item owned)
                       {
-                        "number": {
+                        "canvas": {
                           "x": 26,
                           "y": 15,
-                          "alignment": 17,
-                          "font": "DigitGreen",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 3,
-                          "param": 0,
-                          "maxlength": 3,
                           "conditions": [
                             {
                               "condition": 10,
                               "param": 7
                             }
                           ],
-                          "children": null
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 17,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 3,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": null,
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 21,
+                                "y": 0,
+                                "alignment": 17,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 3,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": null,
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 42,
+                                "y": 0,
+                                "alignment": 17,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 3,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": null,
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 63,
+                                "y": 0,
+                                "alignment": 17,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 3,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": null,
+                                "children": null
+                              }
+                            }
+                          ]
                         }
                       },
+
+## AMMO: ACTIVE
+## Color: Orange
+## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Condition: 5 (ammo type matches selected weapon's ammo type)
                       {
-                        "number": {
+                        "canvas": {
                           "x": 26,
                           "y": 15,
-                          "alignment": 17,
-                          "font": "DigitOrange",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 3,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": [
+                          "conditions": null,
+                          "children": [
                             {
-                              "condition": 5,
-                              "param": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 47,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "DigitWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": [
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 17,
+                                "font": "DigitOrange",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 3,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
                             {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 47,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "DigitGreen",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": [
+                              "number": {
+                                "x": 21,
+                                "y": 0,
+                                "alignment": 17,
+                                "font": "DigitOrange",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 3,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
                             {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 47,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "DigitOrange",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": [
+                              "number": {
+                                "x": 42,
+                                "y": 0,
+                                "alignment": 17,
+                                "font": "DigitOrange",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 3,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
                             {
-                              "condition": 5,
-                              "param": 1
+                              "number": {
+                                "x": 63,
+                                "y": 0,
+                                "alignment": 17,
+                                "font": "DigitOrange",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 3,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": null
+                              }
                             }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 68,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "DigitWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 68,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "DigitGreen",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 68,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "DigitOrange",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 89,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "DigitWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 89,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "DigitGreen",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 89,
-                          "y": 15,
-                          "alignment": 17,
-                          "font": "DigitOrange",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 2
-                            }
-                          ],
-                          "children": null
+                          ]
                         }
                       },
 

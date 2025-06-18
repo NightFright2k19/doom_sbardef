@@ -195,8 +195,8 @@
                 },
 
 # AMMO
-## Color: Green
-## Condition: 4 (selected weapon has valid ammo type)
+## Color: White (no backpack), Green (backpack)
+## Condition: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned)
                 {
                   "canvas": {
                     "x": 60,
@@ -211,6 +211,30 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 4,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            },
+                            {
+                              "condition": 4,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
                           "font": "DigitGreen",
                           "tranmap": null,
                           "translation": null,
@@ -218,6 +242,10 @@
                           "param": 0,
                           "maxlength": 3,
                           "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            },
                             {
                               "condition": 4,
                               "param": 0
@@ -2561,8 +2589,9 @@
                   }
                 },
 
-## AMMO
-## Color: Green
+## AMMO: NO BACKPACK
+## Color: White
+## Condition: 11 (item not owned)
                 {
                   "canvas": {
                     "x": 294,
@@ -2570,7 +2599,153 @@
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "conditions": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 7
+                      }
+                    ],
+                    "children": [
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 8,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 16,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 24,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 22,
+                          "y": 0,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 22,
+                          "y": 8,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 22,
+                          "y": 16,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 22,
+                          "y": 24,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+
+## AMMO: BACKPACK
+## Color: Green
+## Condition: 10 (item owned)
+                {
+                  "canvas": {
+                    "x": 294,
+                    "y": 166,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 7
+                      }
+                    ],
                     "children": [
                       {
                         "number": {
