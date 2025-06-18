@@ -48,7 +48,7 @@ Available variants:<br><br>
 
 **2) Nightdive-Like with Labels**<br>
 Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Armor and ammo icons have been removed since they often end up being badly aligned/too large. Ammo overview, arms display and armor type indicator have been added.<br>
-![02_nightdive](https://github.com/user-attachments/assets/48b605b7-bf8f-400f-a5c8-c3bb8630985a)
+![02_nightdive](https://github.com/user-attachments/assets/b9d18324-8a8b-444a-a1f6-f10aa261e4bc)
 <br>
 
 **3) Doom 64-Like**<br>
@@ -68,22 +68,22 @@ Sort of a minimized version of the following Boom variants, with focus on saving
 
 **6) Boom-Like Compact/Distributed**<br>
 The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.png/800px-NDCP-map23-end.png" target= "_blank">Boom HUD</a> returns! And this time even with properly aligned keys (regardless which custom offsets are used in a PWAD)...<br>
-![06_boomcomp](https://github.com/user-attachments/assets/c4d98a78-952b-4048-ab13-f6f17bc68544)
+![06_boomcomp](https://github.com/user-attachments/assets/4a7a87fa-39f8-4845-a396-e347cca2114d)
    **Compact:** Everything aligned on the left side of the screen.<br><br>
-![07_boomdist](https://github.com/user-attachments/assets/492e0490-cd6c-49af-adee-60fc469d3892)
+![07_boomdist](https://github.com/user-attachments/assets/098df5df-5046-4882-92fd-c663ece64ecc)
    **Distributed:** Ammo stats moved to the right side, otherwise identica﻿l.
 <br>
 
 **7) DSDA Classic/Enhanced**<br>
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right.<br>
-![08_dsda-classic](https://github.com/user-attachments/assets/5c8cbfdb-8a51-402f-8053-541d5295713d)
+![08_dsda-classic](https://github.com/user-attachments/assets/126c5710-80f4-424f-8aec-0a02ee366899)
    **Classic:** Close reproduction of the original HUD.<br><br>
-![09_dsda-enhanced](https://github.com/user-attachments/assets/f7f91b38-1cd6-4b4a-b85e-de11457a3cb8)
+![09_dsda-enhanced](https://github.com/user-attachments/assets/a71b94e2-7092-4db6-b838-05baa22c6a77)
    **Enhanced:** Adds mugshot, reorganized vital stats and compressed WPN line ("1" indicates Chainsaw, "3" only turns green in Doom II if both shotguns are owned).<br><br>
 <em>Note: Slot numbers are used by default. You may additionally load <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/ammo_names.pk3" target= "_blank">this small patch (1 KB)</a> to restore standard ammo names for Doom.</em>
 <br>
 
 **8) PrBoomPlus-Like**<br>
 Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. Ammo overview has been added.<br>
-![10_prboom](https://github.com/user-attachments/assets/e49f82a7-6867-413f-8b03-416079c37c9f)
+![10_prboom](https://github.com/user-attachments/assets/8d992c69-1787-415c-9df2-cc27ced886c4)
 <em>Note: Some mods use different sprite sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
