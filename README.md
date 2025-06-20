@@ -16,7 +16,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Featured in Nightdive, Eternity and DSDA Enhanced.<br>
 - **Ammo overview**: Partial in Nightdive, Boom and PrBoom+ (no max amounts), full in Crispy, Eternity and DSDA.<br>
-- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA Enhanced, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA Classic/Enhanced I, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced works differently: No gray numbers, "8" and "9" are missing, "1" indicates Chainsaw, "3" is for Shotgun and Super Shotgun.<br><br>
+- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA Enhanced, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced works differently: No gray numbers, "8" and "9" are missing, "1" indicates Chainsaw, "3" is for Shotgun and Super Shotgun.<br><br>
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+, the armor icon changes instead.<br>
@@ -81,7 +81,7 @@ Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target=
 
 **BONUS CONTENT**<br><br>
 I. Addons (load externally, i.e. NOT via autoload - **currently not functional**):
-- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/ammo_names.pk3" target= "_blank">Ammo Names</a> (Names instead of slot numbers for ammo labels in Crispy and DSDA Classic/Enhanced I)
+- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/ammo_names.pk3" target= "_blank">Ammo Names</a> (Names instead of slot numbers for ammo labels in Crispy and DSDA)
 - <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/gradient.pk3" target= "_blank">Boom Font with Gradient Colors</a> (Check for a <a href="https://i.imgur.com/qdEqwTA.png" target= "_blank">preview here</a>)
 - <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/gradient_names.pk3" target= "_blank">Boom Font with Gradient Colors + Ammo Names</a> (Combines both addons)
 <br>
