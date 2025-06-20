@@ -16,7 +16,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Featured in Nightdive, Eternity and DSDA Enhanced.<br>
 - **Ammo overview**: Partial in Nightdive, Boom and PrBoom+ (no max amounts), full in Crispy, Eternity and DSDA.<br>
-- **Arms**: Available weapons. 2-7 in Crispy, 1-7/2-9 in DSDA Enhanced, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA Classic/Enhanced I, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced I works differently: No gray numbers, "8" and "9" are missing, "1" indicates Chainsaw, "3" is for Shotgun and Super Shotgun. DSDA Enhanced II integrates the info into the ammo overview panel, restoring "8" and "9" numbers while omitting "1".<br><br>
+- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA Enhanced, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA Classic/Enhanced I, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced works differently: No gray numbers, "8" and "9" are missing, "1" indicates Chainsaw, "3" is for Shotgun and Super Shotgun.<br><br>
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+, the armor icon changes instead.<br>
@@ -70,9 +70,7 @@ A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "
 ![08_dsda-classic](https://github.com/user-attachments/assets/126c5710-80f4-424f-8aec-0a02ee366899)
    **Classic:** Close reproduction of the original HUD.<br><br>
 ![09_dsda-enhanced](https://github.com/user-attachments/assets/a71b94e2-7092-4db6-b838-05baa22c6a77)
-   **Enhanced I:** With mugshot, reorganized vital stats and compressed WPN line ("1" indicates Chainsaw, "3" only turns green in Doom II if both shotguns are owned).<br><br>
-![09_dsda-enhanced2](https://github.com/user-attachments/assets/ab69040b-84a4-4eec-8557-9a930ac38e4b)
-   **Enhanced II:** Keys moved to the left side and WPN info integrated into the right panel, becoming part of the ammo overview.
+   **Enhanced:** With mugshot, reorganized vital stats and compressed WPN line ("1" indicates Chainsaw, "3" only turns green in Doom II if both shotguns are owned).
 <br><br>
 
 **7) PrBoomPlus-Like**<br>

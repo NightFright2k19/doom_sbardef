@@ -190,7 +190,7 @@
 
 ## AMMO: NO BACKPACK
 ## Color: White
-## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
 ## Condition: 11 (item not owned)
                       {
                         "canvas": {
@@ -272,7 +272,7 @@
 
 ## AMMO: BACKPACK
 ## Color: Green
-## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
 ## Condition: 10 (item owned)
                       {
                         "canvas": {
@@ -354,7 +354,7 @@
 
 ## AMMO: ACTIVE
 ## Color: Orange
-## Ammo IDs: 0 (clip), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
 ## Condition: 5 (ammo type matches selected weapon's ammo type)
                       {
                         "canvas": {
