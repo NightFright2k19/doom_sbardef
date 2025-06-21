@@ -49,7 +49,7 @@ Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" targ
 
 **3) Doom 64-Like**<br>
 Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Basically nothing besides the three centered vital stats plus an indicator for armor protection level.<br>
-![03_doom64](https://github.com/user-attachments/assets/e74861f3-46aa-4342-ab9d-f5c1d339c99e)
+![03_doom64](https://github.com/user-attachments/assets/497b47a7-0a5a-4eee-9232-f698431f23fc)
 <br><br>
 
 **4) ﻿Eternity Enhanced**<br>
