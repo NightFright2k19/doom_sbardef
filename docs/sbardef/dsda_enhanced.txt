@@ -69,7 +69,7 @@
                   }
                 },
 
-# ARMOR
+## ARMOR
 ## Colors: Green (33%), Blue (50%), Gold (Invulnerability)
 ## Conditions: 10 (item owned), 11 (item not owned)
                 {
@@ -141,7 +141,7 @@
                   }
                 },
 
-# HEALTH
+## HEALTH
 ## Colors: Green (no Invulnerability), Gold (Invulnerability)
 ## Conditions: 10 (item owned), 11 (item not owned)
                 {
@@ -185,7 +185,7 @@
                   }
                 },
 
-# AMMO
+## AMMO
 ## Color: White (no backpack), Green (backpack)
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
 ## Condition: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned)
@@ -247,7 +247,7 @@
                         }
                       },
 
-# AMMO: INFINITY SYMBOL
+## AMMO: INFINITY SYMBOL
 ## Only colorized if Fists are selected
 ## Colors: Green (no Berserk), Red (Berserk)
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
@@ -328,7 +328,7 @@
                   }
                 },
 
-# ARMS
+## ARMS
 ## Here "1" indicates Chainsaw ownership instead of Berserker mode ("8" is removed)
 ## Instead of a "9", we use "3" to show partial shotgun ownership (white if only SG or SSG is owned, otherwise green)
 ## Starting with slot 3, we also sort all following numbers relative to it (to avoid gaps)

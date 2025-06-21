@@ -1,4 +1,4 @@
-## DOOM 64
+## DOOM64 (ORIGINAL ALIGNMENTS)
 
 ## Alignments: 0 (center), 16 (widescreen/left), 32 (widescreen/right)
 ##             top:    +0 (left), +1 (center), +2 (right)
@@ -12,13 +12,12 @@
         "children": [
 
 ## LABELS: HEALTH, ARMOR
-## Health/Armor realign in "wide" layout
 ## Conditions: 10 (item owned), 11 (item not owned)
           {
             "graphic": {
-              "x": 80,
+              "x": 60,
               "y": 174,
-              "alignment": 17,
+              "alignment": 1,
               "patch": "HUDHEAL",
               "tranmap": null,
               "translation": null,
@@ -28,9 +27,9 @@
           },
           {
             "graphic": {
-              "x": 240,
+              "x": 260,
               "y": 174,
-              "alignment": 33,
+              "alignment": 1,
               "patch": "HUDARM33",
               "tranmap": null,
               "translation": null,
@@ -45,9 +44,9 @@
           },
           {
             "graphic": {
-              "x": 240,
+              "x": 260,
               "y": 174,
-              "alignment": 33,
+              "alignment": 1,
               "patch": "HUDARM50",
               "tranmap": null,
               "translation": null,
@@ -62,13 +61,12 @@
           },
 
 ## NUMBERS: HEALTH, AMMO, ARMOR
-## Health/Armor realign in "wide" layout, Ammo remains centered
 ## Condition: 4 (selected weapon has valid ammo type)
           {
             "number": {
-              "x": 80,
+              "x": 60,
               "y": 182,
-              "alignment": 17,
+              "alignment": 1,
               "font": "BigRed",
               "tranmap": null,
               "translation": null,
@@ -101,9 +99,9 @@
           },
           {
             "number": {
-              "x": 240,
+              "x": 260,
               "y": 182,
-              "alignment": 33,
+              "alignment": 1,
               "font": "BigRed",
               "tranmap": null,
               "translation": null,
@@ -121,7 +119,7 @@
             "number": {
               "x": 300,
               "y": 5,
-              "alignment": 1,
+              "alignment": 34,
               "font": "BigRed",
               "tranmap": null,
               "translation": null,
@@ -139,11 +137,10 @@
           },
 
 ## KEYS (6X, HORIZONTAL/DISTRIBUTED)
-## Keys remain centered (like Ammo)
 ## Condition: 10 (item owned)
           {
             "graphic": {
-              "x": 105,
+              "x": 91,
               "y": 190,
               "alignment": 4,
               "patch": "STKEYS0",
@@ -160,7 +157,7 @@
           },
           {
             "graphic": {
-              "x": 116,
+              "x": 105,
               "y": 190,
               "alignment": 4,
               "patch": "STKEYS1",
@@ -177,7 +174,7 @@
           },
           {
             "graphic": {
-              "x": 127,
+              "x": 119,
               "y": 190,
               "alignment": 4,
               "patch": "STKEYS2",
@@ -194,7 +191,7 @@
           },
           {
             "graphic": {
-              "x": 185,
+              "x": 192,
               "y": 190,
               "alignment": 4,
               "patch": "STKEYS3",
@@ -211,7 +208,7 @@
           },
           {
             "graphic": {
-              "x": 196,
+              "x": 206,
               "y": 190,
               "alignment": 4,
               "patch": "STKEYS4",
@@ -228,7 +225,7 @@
           },
           {
             "graphic": {
-              "x": 207,
+              "x": 220,
               "y": 190,
               "alignment": 4,
               "patch": "STKEYS5",
@@ -245,8 +242,7 @@
           },
 
 ## WIDGETS
-## Stats widget: Vertical layout (bottom left); 4 digits max in ratio mode (e.g. 1000/1000 monsters)
-## Time widget: Leaves gap for Health label
+## Stats use vertical layout (bottom left)
 ## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
 ##        7 (message), 8 (announce), 9 (chat), 10 (title)
 ## Conditions: 19 (show widget), 20 (show stats widget), 21 (hide stats widget)
@@ -254,17 +250,38 @@
           {
             "widget": {
               "x": 3,
-              "y": 177,
+              "y": 165,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
               "type": 0,
               "font": "Digits",
-              "vertical": true,
               "conditions": [
                 {
                   "condition": 19,
                   "param": 4
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 3,
+              "y": 157,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": 1,
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                },
+                {
+                  "condition": 20,
+                  "param": 0
                 }
               ],
               "children": null
@@ -283,6 +300,10 @@
                 {
                   "condition": 19,
                   "param": 4
+                },
+                {
+                  "condition": 21,
+                  "param": 0
                 }
               ],
               "children": null

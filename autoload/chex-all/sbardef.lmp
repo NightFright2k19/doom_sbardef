@@ -3548,9 +3548,9 @@
         "children": [
           {
             "graphic": {
-              "x": 60,
+              "x": 77,
               "y": 174,
-              "alignment": 1,
+              "alignment": 17,
               "patch": "HUDHEAL",
               "tranmap": null,
               "translation": null,
@@ -3560,9 +3560,9 @@
           },
           {
             "graphic": {
-              "x": 260,
+              "x": 243,
               "y": 174,
-              "alignment": 1,
+              "alignment": 33,
               "patch": "HUDARM33",
               "tranmap": null,
               "translation": null,
@@ -3577,9 +3577,9 @@
           },
           {
             "graphic": {
-              "x": 260,
+              "x": 243,
               "y": 174,
-              "alignment": 1,
+              "alignment": 33,
               "patch": "HUDARM50",
               "tranmap": null,
               "translation": null,
@@ -3594,9 +3594,9 @@
           },
           {
             "number": {
-              "x": 60,
+              "x": 77,
               "y": 182,
-              "alignment": 1,
+              "alignment": 17,
               "font": "BigRed",
               "tranmap": null,
               "translation": null,
@@ -3629,9 +3629,9 @@
           },
           {
             "number": {
-              "x": 260,
+              "x": 243,
               "y": 182,
-              "alignment": 1,
+              "alignment": 33,
               "font": "BigRed",
               "tranmap": null,
               "translation": null,
@@ -3646,7 +3646,7 @@
             "number": {
               "x": 300,
               "y": 5,
-              "alignment": 34,
+              "alignment": 1,
               "font": "BigRed",
               "tranmap": null,
               "translation": null,
@@ -3664,7 +3664,7 @@
           },
           {
             "graphic": {
-              "x": 87,
+              "x": 97,
               "y": 189,
               "alignment": 4,
               "patch": "STKEYS0",
@@ -3681,7 +3681,7 @@
           },
           {
             "graphic": {
-              "x": 101,
+              "x": 110,
               "y": 189,
               "alignment": 4,
               "patch": "STKEYS1",
@@ -3698,7 +3698,7 @@
           },
           {
             "graphic": {
-              "x": 115,
+              "x": 123,
               "y": 189,
               "alignment": 4,
               "patch": "STKEYS2",
@@ -3715,7 +3715,7 @@
           },
           {
             "graphic": {
-              "x": 188,
+              "x": 180,
               "y": 189,
               "alignment": 4,
               "patch": "STKEYS3",
@@ -3732,7 +3732,7 @@
           },
           {
             "graphic": {
-              "x": 202,
+              "x": 193,
               "y": 189,
               "alignment": 4,
               "patch": "STKEYS4",
@@ -3749,7 +3749,7 @@
           },
           {
             "graphic": {
-              "x": 216,
+              "x": 206,
               "y": 189,
               "alignment": 4,
               "patch": "STKEYS5",
@@ -3767,38 +3767,17 @@
           {
             "widget": {
               "x": 3,
-              "y": 165,
+              "y": 177,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
               "type": 0,
               "font": "Digits",
+              "vertical": true,
               "conditions": [
                 {
                   "condition": 19,
                   "param": 4
-                }
-              ],
-              "children": null
-            }
-          },
-          {
-            "widget": {
-              "x": 3,
-              "y": 157,
-              "alignment": 16,
-              "tranmap": null,
-              "translation": null,
-              "type": 1,
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 19,
-                  "param": 4
-                },
-                {
-                  "condition": 20,
-                  "param": 0
                 }
               ],
               "children": null
@@ -3817,10 +3796,6 @@
                 {
                   "condition": 19,
                   "param": 4
-                },
-                {
-                  "condition": 21,
-                  "param": 0
                 }
               ],
               "children": null

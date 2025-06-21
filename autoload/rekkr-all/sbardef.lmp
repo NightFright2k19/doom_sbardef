@@ -3548,9 +3548,9 @@
         "children": [
           {
             "graphic": {
-              "x": 60,
+              "x": 80,
               "y": 174,
-              "alignment": 1,
+              "alignment": 17,
               "patch": "HUDHEAL",
               "tranmap": null,
               "translation": null,
@@ -3560,9 +3560,9 @@
           },
           {
             "graphic": {
-              "x": 260,
+              "x": 240,
               "y": 174,
-              "alignment": 1,
+              "alignment": 33,
               "patch": "HUDARM33",
               "tranmap": null,
               "translation": null,
@@ -3577,9 +3577,9 @@
           },
           {
             "graphic": {
-              "x": 260,
+              "x": 240,
               "y": 174,
-              "alignment": 1,
+              "alignment": 33,
               "patch": "HUDARM50",
               "tranmap": null,
               "translation": null,
@@ -3594,9 +3594,9 @@
           },
           {
             "number": {
-              "x": 60,
+              "x": 80,
               "y": 182,
-              "alignment": 1,
+              "alignment": 17,
               "font": "BigRed",
               "tranmap": null,
               "translation": null,
@@ -3629,9 +3629,9 @@
           },
           {
             "number": {
-              "x": 260,
+              "x": 240,
               "y": 182,
-              "alignment": 1,
+              "alignment": 33,
               "font": "BigRed",
               "tranmap": null,
               "translation": null,
@@ -3646,7 +3646,7 @@
             "number": {
               "x": 300,
               "y": 5,
-              "alignment": 34,
+              "alignment": 1,
               "font": "BigRed",
               "tranmap": null,
               "translation": null,
@@ -3664,8 +3664,8 @@
           },
           {
             "graphic": {
-              "x": 91,
-              "y": 190,
+              "x": 106,
+              "y": 189,
               "alignment": 4,
               "patch": "STKEYS0",
               "tranmap": null,
@@ -3681,8 +3681,8 @@
           },
           {
             "graphic": {
-              "x": 105,
-              "y": 190,
+              "x": 117,
+              "y": 189,
               "alignment": 4,
               "patch": "STKEYS1",
               "tranmap": null,
@@ -3698,8 +3698,8 @@
           },
           {
             "graphic": {
-              "x": 119,
-              "y": 190,
+              "x": 128,
+              "y": 189,
               "alignment": 4,
               "patch": "STKEYS2",
               "tranmap": null,
@@ -3715,7 +3715,7 @@
           },
           {
             "graphic": {
-              "x": 192,
+              "x": 186,
               "y": 190,
               "alignment": 4,
               "patch": "STKEYS3",
@@ -3732,7 +3732,7 @@
           },
           {
             "graphic": {
-              "x": 206,
+              "x": 197,
               "y": 190,
               "alignment": 4,
               "patch": "STKEYS4",
@@ -3749,7 +3749,7 @@
           },
           {
             "graphic": {
-              "x": 220,
+              "x": 208,
               "y": 190,
               "alignment": 4,
               "patch": "STKEYS5",
@@ -3767,38 +3767,17 @@
           {
             "widget": {
               "x": 3,
-              "y": 165,
+              "y": 177,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
               "type": 0,
               "font": "Digits",
+              "vertical": true,
               "conditions": [
                 {
                   "condition": 19,
                   "param": 4
-                }
-              ],
-              "children": null
-            }
-          },
-          {
-            "widget": {
-              "x": 3,
-              "y": 157,
-              "alignment": 16,
-              "tranmap": null,
-              "translation": null,
-              "type": 1,
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 19,
-                  "param": 4
-                },
-                {
-                  "condition": 20,
-                  "param": 0
                 }
               ],
               "children": null
@@ -3817,10 +3796,6 @@
                 {
                   "condition": 19,
                   "param": 4
-                },
-                {
-                  "condition": 21,
-                  "param": 0
                 }
               ],
               "children": null
