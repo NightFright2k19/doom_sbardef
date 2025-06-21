@@ -49,7 +49,8 @@ Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" targ
 
 **3) Doom 64-Like**<br>
 Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Basically nothing besides the three centered vital stats plus an indicator for armor protection level.<br>
-![03_doom64](https://github.com/user-attachments/assets/497b47a7-0a5a-4eee-9232-f698431f23fc)
+![03_doom64](https://github.com/user-attachments/assets/f5cfbeff-0e87-498f-bdd2-c342de9346ae)
+*Note: Alignment of Health, Armor and keys will adjust depending on whether the stats widget is shown or not.*
 <br><br>
 
 **4) ﻿Eternity Enhanced**<br>
