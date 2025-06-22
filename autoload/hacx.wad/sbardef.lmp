@@ -14987,8 +14987,25 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 8,
-                              "param": 1
+                              "condition": 1,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM8",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 1,
+                              "param": 7
                             }
                           ],
                           "children": null
@@ -15125,8 +15142,25 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 8,
-                              "param": 3
+                              "condition": 1,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 1,
+                              "param": 8
                             }
                           ],
                           "children": null
