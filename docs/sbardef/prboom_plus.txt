@@ -65,7 +65,8 @@
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
 ##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
 ## Conditions: 0 (weapon owned), 1 (weapon selected), 2 (weapon not selected), 
-##             6 (weapon in slot owned), 10 (item owned), 11 (item not owned), 
+##             6 (weapon in slot owned), 8 (any weapon in slot selected), 
+##             9 (any weapon in slot not selected), 10 (item owned), 11 (item not owned), 
 ##             16 (game mode equal to mode)
                       {
                         "graphic": {
@@ -119,8 +120,8 @@
                               "param": 2
                             },
                             {
-                              "condition": 2,
-                              "param": 1
+                              "condition": 9,
+                              "param": 2
                             }
                           ],
                           "children": null
@@ -136,12 +137,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 6,
+                              "condition": 8,
                               "param": 2
-                            },
-                            {
-                              "condition": 1,
-                              "param": 1
                             }
                           ],
                           "children": null
@@ -203,8 +200,8 @@
                               "param": 4
                             },
                             {
-                              "condition": 2,
-                              "param": 3
+                              "condition": 9,
+                              "param": 4
                             }
                           ],
                           "children": null
@@ -220,12 +217,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 6,
+                              "condition": 8,
                               "param": 4
-                            },
-                            {
-                              "condition": 1,
-                              "param": 3
                             }
                           ],
                           "children": null
@@ -245,8 +238,8 @@
                               "param": 5
                             },
                             {
-                              "condition": 2,
-                              "param": 4
+                              "condition": 9,
+                              "param": 5
                             }
                           ],
                           "children": null
@@ -262,12 +255,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 6,
+                              "condition": 8,
                               "param": 5
-                            },
-                            {
-                              "condition": 1,
-                              "param": 4
                             }
                           ],
                           "children": null
@@ -287,8 +276,8 @@
                               "param": 6
                             },
                             {
-                              "condition": 2,
-                              "param": 5
+                              "condition": 9,
+                              "param": 6
                             }
                           ],
                           "children": null
@@ -304,12 +293,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 6,
+                              "condition": 8,
                               "param": 6
-                            },
-                            {
-                              "condition": 1,
-                              "param": 5
                             }
                           ],
                           "children": null
@@ -329,8 +314,8 @@
                               "param": 7
                             },
                             {
-                              "condition": 2,
-                              "param": 6
+                              "condition": 9,
+                              "param": 7
                             }
                           ],
                           "children": null
@@ -346,12 +331,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 6,
+                              "condition": 8,
                               "param": 7
-                            },
-                            {
-                              "condition": 1,
-                              "param": 6
                             }
                           ],
                           "children": null
@@ -387,10 +368,6 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
-                            {
-                              "condition": 0,
-                              "param": 7
-                            },
                             {
                               "condition": 1,
                               "param": 7
@@ -446,10 +423,6 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
-                            {
-                              "condition": 0,
-                              "param": 8
-                            },
                             {
                               "condition": 1,
                               "param": 8
