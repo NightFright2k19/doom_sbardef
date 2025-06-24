@@ -189,7 +189,7 @@
 ## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "canvas": {
-                    "x": 22,
+                    "x": 23,
                     "y": 185,
                     "alignment": 0,
                     "tranmap": null,
@@ -360,7 +360,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 22,
+                    "x": 23,
                     "y": 185,
                     "alignment": 0,
                     "tranmap": null,
@@ -544,7 +544,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 49,
+                    "x": 50,
                     "y": 185,
                     "alignment": 0,
                     "tranmap": null,
@@ -728,7 +728,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 40,
+                    "x": 41,
                     "y": 185,
                     "alignment": 0,
                     "tranmap": null,
@@ -912,7 +912,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 40,
+                    "x": 41,
                     "y": 185,
                     "alignment": 0,
                     "tranmap": null,
@@ -1096,7 +1096,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 40,
+                    "x": 41,
                     "y": 185,
                     "alignment": 0,
                     "tranmap": null,
@@ -1280,7 +1280,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 31,
+                    "x": 32,
                     "y": 185,
                     "alignment": 0,
                     "tranmap": null,
@@ -1464,7 +1464,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 31,
+                    "x": 32,
                     "y": 185,
                     "alignment": 0,
                     "tranmap": null,
@@ -1648,7 +1648,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 31,
+                    "x": 32,
                     "y": 185,
                     "alignment": 0,
                     "tranmap": null,
@@ -2529,6 +2529,30 @@
                   }
                 },
 
+## STATS WIDGET LABEL
+## Conditions: 19 (show widget), 20 (show stats widget)
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 175,
+                    "alignment": 16,
+                    "patch": "BOOM_STS",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4
+                      },
+                      {
+                        "condition": 20,
+                        "param": 0
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+
 ## WIDGETS
 ## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
 ##        7 (message), 8 (announce), 9 (chat), 10 (title)
@@ -2536,7 +2560,7 @@
 ## Automap-related widget adjustments must be done in the definitions for the first statusbar!
                 {
                   "widget": {
-                    "x": 4,
+                    "x": 23,
                     "y": 174,
                     "alignment": 16,
                     "tranmap": null,
