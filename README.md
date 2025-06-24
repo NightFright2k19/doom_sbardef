@@ -60,9 +60,9 @@ Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/et
 
 **5) Boom-Like Compact/Distributed**<br>
 The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.png/800px-NDCP-map23-end.png" target= "_blank">Boom HUD</a> with properly aligned keys (ignores custom offsets).<br>
-![06_boomcomp](https://github.com/user-attachments/assets/4a7a87fa-39f8-4845-a396-e347cca2114d)
+![05_boomcomp](https://github.com/user-attachments/assets/27d68636-3368-43c0-8d05-6325ded3afdf)
    **Compact:** Everything aligned on the left side of the screen.<br><br>
-![07_boomdist](https://github.com/user-attachments/assets/098df5df-5046-4882-92fd-c663ece64ecc)
+![06_boomdist](https://github.com/user-attachments/assets/42aa780a-df12-4fc9-adb2-20351023436c)
    **Distributed:** Ammo stats moved to the right side, otherwise identica﻿l.
 <br><br>
 
@@ -76,7 +76,7 @@ A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "
 
 **7) PrBoomPlus-Like**<br>
 Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. Ammo overview has been added.<br>
-![10_prboom](https://github.com/user-attachments/assets/8d992c69-1787-415c-9df2-cc27ced886c4)
+![10_prboom](https://github.com/user-attachments/assets/8158a51f-a86c-464d-ad57-6ac913feb8ba)
 <em>Note: Some mods use different sprite sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
 <br><br>
 
