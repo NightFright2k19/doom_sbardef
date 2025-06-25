@@ -1,4 +1,4 @@
-## PRBOOM+ HYBRID
+## PRBOOM+ ENHANCED
 
 ## Alignments: 0 (center), 16 (widescreen/left), 32 (widescreen/right)
 ##             top:    +0 (left), +1 (center), +2 (right)
@@ -339,7 +339,7 @@
 ##             16 (game mode equal to mode), 17 (game mode not equal to mode)
 
 
-## ARMS: FIRST PANEL (PRBM3A)
+## ARMS: FIRST PANEL (ENH_WPN1)
 ## For selecting weapons from slots 1+2: Fists (1), Pistol (2) or Chainsaw (8)
                 {
                   "canvas": {
@@ -376,7 +376,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "PRBM3A",
+                          "patch": "ENH_WPN1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -501,7 +501,7 @@
                   }
                 },
 
-## ARMS: SECOND PANEL (PRBM3B)
+## ARMS: SECOND PANEL (ENH_WPN2)
 ## For selecting weapons from slots 3+4: Shotgun (3), Chaingun (4) or Super Shotgun (9)
                 {
                   "canvas": {
@@ -538,7 +538,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "PRBM3B",
+                          "patch": "ENH_WPN2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -680,7 +680,7 @@
                   }
                 },
 
-## ARMS: THIRD PANEL (PRBM3C)
+## ARMS: THIRD PANEL (ENH_WPN3)
 ## For selecting weapons from slots 5-7: Rocket Launcher (5), Plasma Gun (6) or BFG (7)
                 {
                   "canvas": {
@@ -713,7 +713,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "PRBM3C",
+                          "patch": "ENH_WPN3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
