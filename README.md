@@ -1,6 +1,6 @@
 # SBARDEF HUD MOD FOR WOOF!
 
-The Nightdive port brought the possibility to edit the Doom statusbar and fullscreen HUD via <a href="https://doomwiki.org/wiki/SBARDEF" target= "_blank">SBARDEF</a>. Unfortunately, an editor which is supposed to make statusbar modding a lot easier is still not completed. I couldn't wait for it and went ahead to create the HUDs I wanted/needed. At first I was only after a better version of the Nightdive HUD, but quickly shifted to the Eternity variant and eventually ended up using DSDA Enhanced on a regular basis.<br><br>
+The Nightdive port brought the possibility to edit the Doom statusbar and fullscreen HUD via <a href="https://doomwiki.org/wiki/SBARDEF" target= "_blank">SBARDEF</a>. Unfortunately, an editor which is supposed to make statusbar modding a lot easier is still not completed. I couldn't wait for it and went ahead to create the HUDs I wanted/needed. At first I was only after a better version of the Nightdive HUD, but quickly shifted to the Eternity variant and eventually ended up using PrBoom+ Hybrid on a regular basis.<br><br>
 **If you want to use any (or all) of these HUDs in a mod of yours, feel free to do so. However, please be fair and credit me for my work. A lot of effort and time has been invested into this project.**<br><br>
 
 **Intended ports:**
@@ -16,12 +16,12 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Featured in Nightdive, Eternity, DSDA Enhanced and PrBoom+ Hybrid.<br>
 - **Ammo overview**: Partial in Nightdive, Boom and PrBoom+ (no max amounts), full in Crispy, Eternity and DSDA.<br>
-- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA Enhanced/PrBoom+ Hybrid, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced and PrBoom+ Hybrid work differently: No gray numbers, "8" and "9" are missing, "1" indicates Chainsaw, "3" is for Shotgun and Super Shotgun.<br><br>
+- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA Enhanced, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). In DSDA Enhanced, there are no gray numbers, "8" and "9" are missing, "1" indicates Chainsaw, "3" is for Shotgun and Super Shotgun. PrBoom+ Hybrid splits the display into three panels with light (1-2-8), medium (3-4-9) and heavy (5-6-7) class. A switch between panels occurs whenever a weapon of a different panel is selected.<br><br>
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+ Classic, the armor icon changes instead.<br>
 - **Backpack**: Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Crispy, Eternity, DSDA).<br>
-- **Berserk mode**: Usually shown as a fully lit "1" in the Arms display (not in DSDA Enhanced/PrBoom+ Hybrid). In PrBoom+ Classic, the Medikit icon is replaced by a Berserk pack. In Eternity, DSDA and PrBoom+ Hybrid, the infinity symbol turns red if fists are selected.<br>
+- **Berserk mode**: Usually shown as a fully lit "1" in the Arms display (not in DSDA Enhanced). In PrBoom+ Classic, the Medikit icon is replaced by a Berserk pack. In Eternity, DSDA and PrBoom+ Hybrid, the infinity symbol turns red if fists are selected.<br>
 - **God mode**: Mugshot and/or recolored health/armor numbers (gold). Recolored numbers only work with powerups, not cheats.<br>
 - **Active ammo/weapon**: Orange numbers in the Arms/WEA/WPN panel and/or ammo overview.<br><br>
 
@@ -79,8 +79,8 @@ Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target=
 ![10_prboom](https://github.com/user-attachments/assets/8158a51f-a86c-464d-ad57-6ac913feb8ba)
    **Classic:** Close reproduction of the original HUD.<br>
 <em>Note: Some mods use different sprite sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em><br><br>
-![11_prboom-hybrid](https://github.com/user-attachments/assets/b43ad058-fc34-47c2-972f-9600618547d4)
-   **Hybrid:** Mix of DSDA Enhanced, PrBoom+ and some custom elements.
+![11_prboom_hybrid](https://github.com/user-attachments/assets/9b7a4d2b-de52-4801-b023-170ba6d5432c)
+   **Hybrid:** Mix of DSDA Enhanced, PrBoom+ and some custom elements (WPN panel), not showing more than three digits for each stat.
 <br><br>
 
 **BONUS CONTENT**<br><br>
