@@ -5,7 +5,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **Intended ports:**
 - <a href="https://github.com/fabiangreffrath/woof" target= "_blank">Woof!</a> (mod has been primarily developed for this port)<br>
-- <a href="https://github.com/MrAlaux/Nugget-Doom" target= "_blank">Nugget Doom</a> (NUGHUD can only be toggled when the "PrBoom+ Enhanced"-style HUD is selected)<br><br>
+- <a href="https://github.com/MrAlaux/Nugget-Doom" target= "_blank">Nugget Doom</a> (NUGHUD can only be toggled when the "PrBoom+"-style HUD is selected)<br><br>
 
 **How to use:**
 - Unzip the archive into your Woof! installation directory. Files will be copied into the proper autoload subdirectories.<br>
@@ -14,14 +14,14 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **Features:**
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
-- **Mugshot**: Featured in Nightdive, Eternity, DSDA Enhanced and PrBoom+ Enhanced.<br>
+- **Mugshot**: Featured in Nightdive, Eternity and DSDA Enhanced/Condensed.<br>
 - **Ammo overview**: Partial in Nightdive, Boom and PrBoom+ (no max amounts), full in Crispy, Eternity and DSDA.<br>
-- **Arms**: Available weapons. 2-7 in Crispy, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). The Enhanced versions of DSDA and PrBoom+ split the display into three panels with light (1-2-8), medium (3-4-9) and heavy (5-6-7) class. A switch between panels occurs whenever a weapon of a different panel is selected.<br><br>
+- **Arms**: Available weapons. 2-7 in Crispy, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced/Condensed split the display into three panels with light (1-2-8), medium (3-4-9) and heavy (5-6-7) class. A switch between panels occurs whenever a weapon of a different panel is selected.<br><br>
 
 **Indicators:**
-- **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+ Classic, the armor icon changes instead.<br>
-- **Backpack**: Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Crispy, Eternity, DSDA).<br>
-- **Berserk mode**: Usually shown as a fully lit "1" in the Arms display. In PrBoom+ Classic, the Medikit icon is replaced by a Berserk pack. In Eternity, DSDA and PrBoom+ Enhanced, the infinity symbol turns red if fists are selected.<br>
+- **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+, the armor icon changes instead.<br>
+- **Backpack**: Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Crispy, Eternity, DSDA Classic/Enhanced).<br>
+- **Berserk mode**: Usually shown as a fully lit "1" in the Arms display. In PrBoom+, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA Enhanced/Condensed, the infinity symbol turns red if fists are selected.<br>
 - **God mode**: Mugshot and/or recolored health/armor numbers (gold). Recolored numbers only work with powerups, not cheats.<br>
 - **Active ammo/weapon**: Orange numbers in the Arms/WEA/WPN panel and/or ammo overview.<br><br>
 
@@ -29,9 +29,9 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 | HUD style | Features | Indicators | Notes |
 | ----------- | ----------- | ----------- | ----------- |
-| Nightdive / Eternity / DSDA + PrBoom+ Enhanced  | ++++ | +++++ | All features/indicators included |
+| Nightdive / Eternity / DSDA Enhanced/Condensed  | ++++ | +++++ | All features/indicators included |
 | Boom / DSDA Classic | +++ | +++++ | No mugshot |
-| PrBoom+ Classic | +++ | ++++ | No mugshot; no god mode |
+| PrBoom+ | +++ | ++++ | No mugshot; no god mode |
 | Crispy | +++ | ++ | No mugshot; armor type and backpack only |
 | Doom 64 | + | + | Vitals only; armor type only; always centered |
 <br>
@@ -58,29 +58,27 @@ Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/et
 ![04_eternity](https://github.com/user-attachments/assets/fcdf10b8-b35c-4163-a107-d9ba2d7718ad)
 <br><br>
 
-**5) Boom Compact/Distributed**<br>
+**5) Boom**<br>
 The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.png/800px-NDCP-map23-end.png" target= "_blank">Boom HUD</a> with properly aligned keys (ignores custom offsets).<br>
 ![05_boomcomp](https://github.com/user-attachments/assets/27d68636-3368-43c0-8d05-6325ded3afdf)
-   **Compact:** Everything aligned on the left side of the screen.<br><br>
+   **Compact**<br><br>
 ![06_boomdist](https://github.com/user-attachments/assets/42aa780a-df12-4fc9-adb2-20351023436c)
-   **Distributed:** Ammo stats moved to the right side, otherwise identica﻿l.
+   **Distributed**
 <br><br>
 
-**6) DSDA Classic/Enhanced**<br>
+**6) DSDA**<br>
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".) <br>
 ![08_dsda-classic](https://github.com/user-attachments/assets/126c5710-80f4-424f-8aec-0a02ee366899)
-   **Classic:** Close reproduction of the original HUD.<br><br>
+   **Classic**<br><br>
 ![08_dsda-enhanced1](https://github.com/user-attachments/assets/8ec9150c-4ff2-4481-b5e1-e0a1f0239aba)
-   **Enhanced:** With mugshot, reorganized vital stats and compressed WPN display (system explained above, see "Features" > "Arms").
-<br><br>
+   **Enhanced**<br><br>
+![09_dsda-condensed](https://github.com/user-attachments/assets/49b11568-9df7-40b8-b554-4556081fa142)
+   **Condensed**<br><br>
 
-**7) PrBoom+ Classic/Enhanced**<br>
+**7) PrBoom+**<br>
 Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. Ammo overview has been added.<br>
 ![10_prboom](https://github.com/user-attachments/assets/8158a51f-a86c-464d-ad57-6ac913feb8ba)
-   **Classic:** Close reproduction of the original HUD.<br>
-<em>Note: Some mods use different sprite sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em><br><br>
-![11_prboom_enhanced](https://github.com/user-attachments/assets/a592a3d3-3b6d-4a33-92ef-f1c0ecef976f)
-   **Enhanced:** Mix of DSDA Enhanced, PrBoom+ and some custom elements. WPN display works like in DSDA Enhanced.
+<em>Note: Some mods use different sprite sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
 <br><br>
 
 **BONUS CONTENT**<br><br>
