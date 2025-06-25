@@ -1,4 +1,4 @@
-## PRBOOM+ ENHANCED
+## DSDA CONDENSED
 
 ## Alignments: 0 (center), 16 (widescreen/left), 32 (widescreen/right)
 ##             top:    +0 (left), +1 (center), +2 (right)
@@ -61,7 +61,7 @@
                     "x": 4,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "PRBM1",
+                    "patch": "DSDA1C",
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
@@ -339,7 +339,7 @@
 ##             16 (game mode equal to mode), 17 (game mode not equal to mode)
 
 
-## ARMS: FIRST PANEL (ENH_WPN1)
+## ARMS: FIRST PANEL (DSDAWPN1)
 ## For selecting weapons from slots 1+2: Fists (1), Pistol (2) or Chainsaw (8)
                 {
                   "canvas": {
@@ -376,7 +376,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "ENH_WPN1",
+                          "patch": "DSDAWPN1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -501,7 +501,7 @@
                   }
                 },
 
-## ARMS: SECOND PANEL (ENH_WPN2)
+## ARMS: SECOND PANEL (DSDAWPN2)
 ## For selecting weapons from slots 3+4: Shotgun (3), Chaingun (4) or Super Shotgun (9)
                 {
                   "canvas": {
@@ -538,7 +538,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "ENH_WPN2",
+                          "patch": "DSDAWPN2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -680,7 +680,7 @@
                   }
                 },
 
-## ARMS: THIRD PANEL (ENH_WPN3)
+## ARMS: THIRD PANEL (DSDAWPN3)
 ## For selecting weapons from slots 5-7: Rocket Launcher (5), Plasma Gun (6) or BFG (7)
                 {
                   "canvas": {
@@ -713,7 +713,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "ENH_WPN3",
+                          "patch": "DSDAWPN3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -1138,7 +1138,7 @@
                     "x": 276,
                     "y": 170,
                     "alignment": 32,
-                    "patch": "PRBM2",
+                    "patch": "DSDA2B",
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,

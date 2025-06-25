@@ -338,7 +338,7 @@
 ##             7 (weapon in slot not owned), 8 (any weapon in slot selected), 9 (any weapon in slot not selected), 
 ##             16 (game mode equal to mode), 17 (game mode not equal to mode)
 
-## ARMS: FIRST PANEL (ENH_WPN1)
+## ARMS: FIRST PANEL (DSDAWPN1)
 ## For selecting weapons from slots 1+2: Fists (1), Pistol (2) or Chainsaw (8)
                 {
                   "canvas": {
@@ -375,7 +375,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "ENH_WPN1",
+                          "patch": "DSDAWPN1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -500,7 +500,7 @@
                   }
                 },
 
-## ARMS: SECOND PANEL (ENH_WPN2)
+## ARMS: SECOND PANEL (DSDAWPN2)
 ## For selecting weapons from slots 3+4: Shotgun (3), Chaingun (4) or Super Shotgun (9)
                 {
                   "canvas": {
@@ -537,7 +537,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "ENH_WPN2",
+                          "patch": "DSDAWPN2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -679,7 +679,7 @@
                   }
                 },
 
-## ARMS: THIRD PANEL (ENH_WPN3)
+## ARMS: THIRD PANEL (DSDAWPN3)
 ## For selecting weapons from slots 5-7: Rocket Launcher (5), Plasma Gun (6) or BFG (7)
                 {
                   "canvas": {
@@ -712,7 +712,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "ENH_WPN3",
+                          "patch": "DSDAWPN3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -1137,7 +1137,7 @@
                     "x": 254,
                     "y": 167,
                     "alignment": 32,
-                    "patch": "DSDA2",
+                    "patch": "DSDA2A",
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
