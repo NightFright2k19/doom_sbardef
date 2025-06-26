@@ -1634,11 +1634,13 @@
 ##        7 (message), 8 (announce), 9 (chat), 10 (title)
 ## Conditions: 19 (show widget), 20 (show stats widget), 21 (hide stats widget)
 ## Automap-related widget adjustments must be done in the definitions for the first statusbar!
+
+## STATS (ALIGNED ON RIGHT SIDE)
                 {
                   "widget": {
-                    "x": 6,
+                    "x": 316,
                     "y": 158,
-                    "alignment": 16,
+                    "alignment": 34,
                     "tranmap": null,
                     "translation": null,
                     "type": 0,
@@ -1652,11 +1654,13 @@
                     "children": null
                   }
                 },
+
+## TIME (ALIGNED ON RIGHT SIDE)
                 {
                   "widget": {
-                    "x": 6,
+                    "x": 320,
                     "y": 150,
-                    "alignment": 16,
+                    "alignment": 34,
                     "tranmap": null,
                     "translation": null,
                     "type": 1,
@@ -1676,9 +1680,9 @@
                 },
                 {
                   "widget": {
-                    "x": 6,
+                    "x": 320,
                     "y": 158,
-                    "alignment": 16,
+                    "alignment": 34,
                     "tranmap": null,
                     "translation": null,
                     "type": 1,
@@ -1696,6 +1700,7 @@
                     "children": null
                   }
                 },
+
                 {
                   "widget": {
                     "x": 2,
@@ -1796,10 +1801,12 @@
                     "children": null
                   }
                 },
+
+## COORDS (Y-16 FOR STATS/TIME)
                 {
                   "widget": {
                     "x": 318,
-                    "y": 162,
+                    "y": 146,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
@@ -1809,6 +1816,7 @@
                     "children": null
                   }
                 },
+
                 {
                   "widget": {
                     "x": 160,
