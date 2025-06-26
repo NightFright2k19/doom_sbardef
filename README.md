@@ -16,7 +16,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Featured in Nightdive, Eternity and DSDA Enhanced/Condensed.<br>
 - **Ammo overview**: Partial in Nightdive, Boom and PrBoom+ (no max amounts), full in Crispy, Eternity and DSDA.<br>
-- **Arms**: Available weapons. 2-7 in Crispy, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced/Condensed split the display into three panels with light (1-2-8), medium (3-4-9) and heavy (5-6-7) class. A switch between panels occurs whenever a weapon of a different panel is selected.<br><br>
+- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA Condensed, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced splits the display into three panels with light (1-2-8), medium (3-4-9) and heavy (5-6-7) class. A switch between panels occurs whenever a weapon of a different panel is selected. DSDA Condensed indicates Chainsaw through a lit "1" and possession of both shotguns with a fully lit "3".<br><br>
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+, the armor icon changes instead.<br>
@@ -72,7 +72,7 @@ A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "
    **Classic**<br><br>
 ![08_dsda-enhanced](https://github.com/user-attachments/assets/d1678cbf-54f8-47f0-bc5b-e1558183a5d5)
    **Enhanced**<br><br>
-![09_dsda-condensed](https://github.com/user-attachments/assets/49b11568-9df7-40b8-b554-4556081fa142)
+![09_dsda-condensed](https://github.com/user-attachments/assets/4bf8e504-c130-4902-a230-e837e3f94434)
    **Condensed**<br><br>
 
 **7) PrBoom+**<br>
