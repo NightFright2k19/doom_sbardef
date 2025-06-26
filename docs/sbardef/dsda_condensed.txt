@@ -329,9 +329,8 @@
                 },
 
 ## ARMS
-## Here "1" indicates Chainsaw ownership instead of Berserker mode ("8" is removed)
-## Instead of a "9", we use "3" to show partial shotgun ownership (white if only SG or SSG is owned, otherwise green)
-## Orange "8" shows up in slot 1 if Chainsaw is selected, orange "9" in slot 3 if Super Shotgun is selected
+## Chainsaw: White "1" if not owned; green "8" if owned w/o Berserk; green "1" with Berserk; 1/8 switches in slot 1
+## Shotgun: White "3" if only SG or SSG owned; green "3" if both owned; 3/9 switches in slot 3
 ## Starting with slot 3, we also sort all following numbers relative to it (to avoid gaps)
 ## This is realized through two major canvases, based on whether any shotgun is owned or not
 ## Colors: White (partially owned), Green (owned), Orange (selected)
@@ -354,6 +353,31 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
+                          "patch": "DGT4NUM8",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 0,
+                              "param": 7
+                            },
+                            {
+                              "condition": 9,
+                              "param": 1
+                            },
+                            {
+                              "condition": 11,
+                              "param": 18
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
                           "patch": "DGT4NUM1",
                           "tranmap": null,
                           "translation": null,
@@ -365,6 +389,10 @@
                             {
                               "condition": 9,
                               "param": 1
+                            },
+                            {
+                              "condition": 10,
+                              "param": 18
                             }
                           ],
                           "children": null

@@ -16675,6 +16675,31 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
+                          "patch": "DGT4NUM8",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 0,
+                              "param": 7
+                            },
+                            {
+                              "condition": 9,
+                              "param": 1
+                            },
+                            {
+                              "condition": 11,
+                              "param": 18
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
                           "patch": "DGT4NUM1",
                           "tranmap": null,
                           "translation": null,
@@ -16686,6 +16711,10 @@
                             {
                               "condition": 9,
                               "param": 1
+                            },
+                            {
+                              "condition": 10,
+                              "param": 18
                             }
                           ],
                           "children": null
