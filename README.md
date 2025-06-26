@@ -21,7 +21,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+, the armor icon changes instead.<br>
 - **Backpack**: Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Crispy, Eternity, DSDA Classic/Enhanced).<br>
-- **Berserk mode**: Usually shown as a fully lit "1" in the Arms display. In PrBoom+, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA Enhanced/Condensed, the infinity symbol turns red if fists are selected.<br>
+- **Berserk mode**: Usually shown as a fully lit "1" in the Arms display. In PrBoom+, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the infinity symbol turns red if fists are selected.<br>
 - **God mode**: Mugshot and/or recolored health/armor numbers (gold). Recolored numbers only work with powerups, not cheats.<br>
 - **Active ammo/weapon**: Orange numbers in the Arms/WEA/WPN panel and/or ammo overview.<br><br>
 
