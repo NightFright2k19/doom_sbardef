@@ -16,7 +16,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Featured in Nightdive, Eternity and DSDA Enhanced/Condensed.<br>
 - **Ammo overview**: Partial in Nightdive, Boom and PrBoom+ (no max amounts), full in Crispy, Eternity and DSDA.<br>
-- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA Condensed, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced splits the display into three panels with light (1-2-8), medium (3-4-9) and heavy (5-6-7) class. A switch between panels occurs whenever a weapon of a different panel is selected. DSDA Condensed indicates Chainsaw through a lit "1" and possession of both shotguns with a fully lit "3".<br><br>
+- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA Condensed, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced splits the display into three panels with light (1-2-8), medium (3-4-9) and heavy (5-6-7) class. A switch between panels occurs whenever a weapon of a different panel is selected. DSDA Condensed indicates Chainsaw through a lit "8" in slot 1 ("1" with Berserk) and possession of both shotguns with a fully lit "3".<br><br>
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+, the armor icon changes instead.<br>
