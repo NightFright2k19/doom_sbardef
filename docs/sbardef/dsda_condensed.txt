@@ -74,9 +74,9 @@
 ## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "number": {
-                    "x": 11,
+                    "x": 4,
                     "y": 190,
-                    "alignment": 17,
+                    "alignment": 16,
                     "font": "DigitGreen",
                     "tranmap": null,
                     "translation": null,
@@ -98,9 +98,9 @@
                 },
                 {
                   "number": {
-                    "x": 11,
+                    "x": 4,
                     "y": 190,
-                    "alignment": 17,
+                    "alignment": 16,
                     "font": "DigitBlue",
                     "tranmap": null,
                     "translation": null,
@@ -122,9 +122,9 @@
                 },
                 {
                   "number": {
-                    "x": 11,
+                    "x": 4,
                     "y": 190,
-                    "alignment": 17,
+                    "alignment": 16,
                     "font": "DigitGold",
                     "tranmap": null,
                     "translation": null,
@@ -146,9 +146,9 @@
 ## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "number": {
-                    "x": 30,
+                    "x": 23,
                     "y": 190,
-                    "alignment": 17,
+                    "alignment": 16,
                     "font": "DigitGreen",
                     "tranmap": null,
                     "translation": null,
@@ -166,9 +166,9 @@
                 },
                 {
                   "number": {
-                    "x": 30,
+                    "x": 23,
                     "y": 190,
-                    "alignment": 17,
+                    "alignment": 16,
                     "font": "DigitGold",
                     "tranmap": null,
                     "translation": null,
@@ -191,7 +191,7 @@
 ## Condition: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned)
                 {
                   "canvas": {
-                    "x": 43,
+                    "x": 42,
                     "y": 190,
                     "alignment": 0,
                     "tranmap": null,
@@ -200,9 +200,9 @@
                     "children": [
                       {
                         "number": {
-                          "x": 6,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 17,
+                          "alignment": 16,
                           "font": "DigitWhite",
                           "tranmap": null,
                           "translation": null,
@@ -224,9 +224,9 @@
                       },
                       {
                         "number": {
-                          "x": 6,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 17,
+                          "alignment": 16,
                           "font": "DigitGreen",
                           "tranmap": null,
                           "translation": null,
@@ -255,7 +255,7 @@
 ##             10 (item owned), 11 (item not owned)
                       {
                         "graphic": {
-                          "x": 0,
+                          "x": 1,
                           "y": 1,
                           "alignment": 16,
                           "patch": "HUDINF4",
@@ -276,7 +276,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 0,
+                          "x": 1,
                           "y": 1,
                           "alignment": 16,
                           "patch": "HUDINF4",
@@ -301,7 +301,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 0,
+                          "x": 1,
                           "y": 1,
                           "alignment": 16,
                           "patch": "HUDINF1",
