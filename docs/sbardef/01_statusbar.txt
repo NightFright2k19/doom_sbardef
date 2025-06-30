@@ -1,0 +1,1028 @@
+## ORIGINAL STATUS BAR
+
+## Alignments: 0 (center), 16 (widescreen/left), 32 (widescreen/right)
+##             top:    +0 (left), +1 (center), +2 (right)
+##             center: +3 (left), +4 (center), +5 (right)
+##             bottom: +6 (left), +7 (center), +8 (right)
+
+      {
+        "height": 200,
+        "fullscreenrender": false,
+        "fillflat": null,
+        "children": [
+
+## STATUS BAR IMAGE
+## Centered for widescreen support
+          {
+            "graphic": {
+              "x": 160,
+              "y": 168,
+              "alignment": 1,
+              "patch": "STBAR",
+              "tranmap": null,
+              "translation": null,
+              "conditions": null,
+              "children": null
+            }
+          },
+
+## MUGSHOT
+## Condition: 15 (session type not equal to type)
+          {
+            "facebackground": {
+              "x": 143,
+              "y": 169,
+              "alignment": 0,
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 15,
+                  "param": 0
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "face": {
+              "x": 143,
+              "y": 168,
+              "alignment": 0,
+              "tranmap": null,
+              "translation": null,
+              "conditions": null,
+              "children": null
+            }
+          },
+
+## AMMO, HEALTH, ARMOR
+## Percentage signs used
+## Condition: 4 (selected weapon has valid ammo type)
+          {
+            "number": {
+              "x": 44,
+              "y": 171,
+              "alignment": 2,
+              "font": "BigRed",
+              "tranmap": null,
+              "translation": null,
+              "type": 4,
+              "param": 0,
+              "maxlength": 3,
+              "conditions": [
+                {
+                  "condition": 4,
+                  "param": 0
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "percent": {
+              "x": 104,
+              "y": 171,
+              "alignment": 2,
+              "font": "BigRed",
+              "tranmap": null,
+              "translation": null,
+              "type": 0,
+              "param": 0,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "percent": {
+              "x": 235,
+              "y": 171,
+              "alignment": 2,
+              "font": "BigRed",
+              "tranmap": null,
+              "translation": null,
+              "type": 1,
+              "param": 0,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+
+## FRAGS
+## Shown instead of ARMS panel in multiplayer
+## Condition: 14 (session type equal to type)
+          {
+            "number": {
+              "x": 138,
+              "y": 171,
+              "alignment": 2,
+              "font": "BigRed",
+              "tranmap": null,
+              "translation": null,
+              "type": 2,
+              "param": 0,
+              "maxlength": 2,
+              "conditions": [
+                {
+                  "condition": 14,
+                  "param": 2
+                }
+              ],
+              "children": null
+            }
+          },
+
+## ARMS PANEL
+## Conditions: 6 (weapon in slot owned), 7 (weapon in slot not owned), 15 (session type not equal to type)
+          {
+            "graphic": {
+              "x": 104,
+              "y": 168,
+              "alignment": 0,
+              "patch": "STARMS",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                }
+              ],
+              "children": [
+                {
+                  "graphic": {
+                    "x": 7,
+                    "y": 4,
+                    "alignment": 0,
+                    "patch": "STGNUM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 7,
+                    "y": 4,
+                    "alignment": 0,
+                    "patch": "STYSNUM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 19,
+                    "y": 4,
+                    "alignment": 0,
+                    "patch": "STGNUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 19,
+                    "y": 4,
+                    "alignment": 0,
+                    "patch": "STYSNUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 31,
+                    "y": 4,
+                    "alignment": 0,
+                    "patch": "STGNUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 31,
+                    "y": 4,
+                    "alignment": 0,
+                    "patch": "STYSNUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 7,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STGNUM5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 5
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 7,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STYSNUM5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 5
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 19,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STGNUM6",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 6
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 19,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STYSNUM6",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 6
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 31,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STGNUM7",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 31,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STYSNUM7",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                }
+              ]
+            }
+          },
+
+## AMMO OVERVIEW
+## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+          {
+            "number": {
+              "x": 288,
+              "y": 173,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 3,
+              "param": 0,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 314,
+              "y": 173,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 5,
+              "param": 0,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 288,
+              "y": 179,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 3,
+              "param": 1,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 314,
+              "y": 179,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 5,
+              "param": 1,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 288,
+              "y": 185,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 3,
+              "param": 3,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 314,
+              "y": 185,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 5,
+              "param": 3,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 288,
+              "y": 191,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 3,
+              "param": 2,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 314,
+              "y": 191,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 5,
+              "param": 2,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+
+## KEYS (3X, VERTICAL)
+## Conditions: 10 (item owned), 11 (item not owned), 
+##             12 (game version greater/equal to feature lvl), 13 (game version less than feature lvl)
+          {
+            "graphic": {
+              "x": 239,
+              "y": 171,
+              "alignment": 0,
+              "patch": "STKEYS0",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 1
+                },
+                {
+                  "condition": 11,
+                  "param": 4
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 239,
+              "y": 171,
+              "alignment": 0,
+              "patch": "STKEYS3",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 11,
+                  "param": 1
+                },
+                {
+                  "condition": 10,
+                  "param": 4
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 239,
+              "y": 171,
+              "alignment": 0,
+              "patch": "STKEYS3",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 1
+                },
+                {
+                  "condition": 10,
+                  "param": 4
+                },
+                {
+                  "condition": 13,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 239,
+              "y": 171,
+              "alignment": 0,
+              "patch": "STKEYS6",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 1
+                },
+                {
+                  "condition": 10,
+                  "param": 4
+                },
+                {
+                  "condition": 12,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 239,
+              "y": 181,
+              "alignment": 0,
+              "patch": "STKEYS1",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 2
+                },
+                {
+                  "condition": 11,
+                  "param": 5
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 239,
+              "y": 181,
+              "alignment": 0,
+              "patch": "STKEYS4",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 11,
+                  "param": 2
+                },
+                {
+                  "condition": 10,
+                  "param": 5
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 239,
+              "y": 181,
+              "alignment": 0,
+              "patch": "STKEYS4",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 2
+                },
+                {
+                  "condition": 10,
+                  "param": 5
+                },
+                {
+                  "condition": 13,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 239,
+              "y": 181,
+              "alignment": 0,
+              "patch": "STKEYS7",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 2
+                },
+                {
+                  "condition": 10,
+                  "param": 5
+                },
+                {
+                  "condition": 12,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 239,
+              "y": 191,
+              "alignment": 0,
+              "patch": "STKEYS2",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 3
+                },
+                {
+                  "condition": 11,
+                  "param": 6
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 239,
+              "y": 191,
+              "alignment": 0,
+              "patch": "STKEYS5",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 11,
+                  "param": 3
+                },
+                {
+                  "condition": 10,
+                  "param": 6
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 239,
+              "y": 191,
+              "alignment": 0,
+              "patch": "STKEYS5",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 3
+                },
+                {
+                  "condition": 10,
+                  "param": 6
+                },
+                {
+                  "condition": 13,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 239,
+              "y": 191,
+              "alignment": 0,
+              "patch": "STKEYS8",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 3
+                },
+                {
+                  "condition": 10,
+                  "param": 6
+                },
+                {
+                  "condition": 12,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+
+## WIDGETS
+## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
+##        7 (message), 8 (announce), 9 (chat), 10 (title)
+## Conditions: 19 (show widget), 20 (show stats widget), 21 (hide stats widget)
+          {
+            "widget": {
+              "x": 2,
+              "y": 160,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": 0,
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 2,
+              "y": 152,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": 1,
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                },
+                {
+                  "condition": 20,
+                  "param": 0
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 2,
+              "y": 160,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": 1,
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                },
+                {
+                  "condition": 21,
+                  "param": 0
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 2,
+              "y": 8,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": 0,
+              "font": "Digits",
+              "vertical": true,
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 3
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 2,
+              "y": 40,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": 1,
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 3
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 318,
+              "y": 8,
+              "alignment": 34,
+              "tranmap": null,
+              "translation": null,
+              "type": 2,
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 256,
+              "y": 8,
+              "alignment": 32,
+              "tranmap": null,
+              "translation": null,
+              "type": 2,
+              "font": "Digits",
+              "vertical": true,
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 3
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 318,
+              "y": 0,
+              "alignment": 34,
+              "tranmap": null,
+              "translation": null,
+              "type": 3,
+              "font": "Digits",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 2,
+              "y": 8,
+              "alignment": 0,
+              "tranmap": null,
+              "translation": null,
+              "type": 4,
+              "font": "Digits",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 318,
+              "y": 167,
+              "alignment": 42,
+              "tranmap": null,
+              "translation": null,
+              "type": 5,
+              "font": "Digits",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 160,
+              "y": 167,
+              "alignment": 9,
+              "tranmap": null,
+              "translation": null,
+              "type": 6,
+              "font": "Digits",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 0,
+              "y": 0,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": 7,
+              "font": "Console",
+              "duration": 4,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 160,
+              "y": 52,
+              "alignment": 1,
+              "tranmap": null,
+              "translation": null,
+              "type": 8,
+              "font": "Console",
+              "duration": 2.5,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 0,
+              "y": 8,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": "CRGOLD",
+              "type": 9,
+              "font": "Console",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "widget": {
+              "x": 0,
+              "y": 160,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": "CRGOLD",
+              "type": 10,
+              "font": "Console",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 3
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "carousel": {
+              "x": 0,
+              "y": 18,
+              "alignment": 0,
+              "tranmap": null,
+              "translation": null,
+              "conditions": null,
+              "children": null
+            }
+          }
+        ]
+      }

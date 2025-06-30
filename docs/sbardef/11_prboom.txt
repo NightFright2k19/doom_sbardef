@@ -2330,6 +2330,26 @@
                   }
                 },
 
+## GOD MODE INDICATOR
+## Condition: 10 (item owned)
+                {
+                  "graphic": {
+                    "x": 276,
+                    "y": 151,
+                    "alignment": 32,
+                    "patch": "GODMODE",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+
 ## HEALTH/ARMOR ICONS
 ## X/Y values may require adjustments in some WADs due to varying sprite dimensions
 ## Health: Can switch between Medipack and Berserk Pack
