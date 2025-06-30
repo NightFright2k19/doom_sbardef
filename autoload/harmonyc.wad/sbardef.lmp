@@ -2622,10 +2622,6 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 10,
-                              "param": 18
-                            },
-                            {
                               "condition": 2,
                               "param": 0
                             }
@@ -4364,10 +4360,6 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 10,
-                              "param": 18
-                            },
-                            {
                               "condition": 2,
                               "param": 0
                             }
@@ -4721,79 +4713,24 @@
                   }
                 },
                 {
-                  "canvas": {
+                  "graphic": {
                     "x": 70,
                     "y": 180,
-                    "alignment": 0,
+                    "alignment": 16,
+                    "patch": "ETRINF3",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
+                      {
+                        "condition": 8,
+                        "param": 1
+                      },
                       {
                         "condition": 5,
                         "param": 5
                       }
                     ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "ETRINF3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 1,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "ETRINF3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 1,
-                              "param": 0
-                            },
-                            {
-                              "condition": 11,
-                              "param": 18
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "ETRINF1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 1,
-                              "param": 0
-                            },
-                            {
-                              "condition": 10,
-                              "param": 18
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
+                    "children": null
                   }
                 },
                 {
@@ -7839,10 +7776,6 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 18
-                            },
                             {
                               "condition": 2,
                               "param": 0
@@ -12238,10 +12171,6 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 10,
-                              "param": 18
-                            },
-                            {
                               "condition": 2,
                               "param": 0
                             }
@@ -12948,10 +12877,6 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 10,
-                              "param": 18
-                            },
-                            {
                               "condition": 2,
                               "param": 0
                             }
@@ -13450,58 +13375,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 1,
-                              "param": 7
-                            },
-                            {
-                              "condition": 5,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 19,
-                          "y": 17,
-                          "alignment": 16,
-                          "patch": "HUDINF4",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 1,
-                              "param": 0
-                            },
-                            {
-                              "condition": 11,
-                              "param": 18
-                            },
-                            {
-                              "condition": 5,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 19,
-                          "y": 17,
-                          "alignment": 16,
-                          "patch": "HUDINF1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 1,
-                              "param": 0
-                            },
-                            {
-                              "condition": 10,
-                              "param": 18
+                              "condition": 8,
+                              "param": 1
                             },
                             {
                               "condition": 5,
@@ -14776,58 +14651,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 1,
-                              "param": 7
-                            },
-                            {
-                              "condition": 5,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 1,
-                          "alignment": 16,
-                          "patch": "HUDINF4",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 1,
-                              "param": 0
-                            },
-                            {
-                              "condition": 11,
-                              "param": 18
-                            },
-                            {
-                              "condition": 5,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 1,
-                          "alignment": 16,
-                          "patch": "HUDINF1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 1,
-                              "param": 0
-                            },
-                            {
-                              "condition": 10,
-                              "param": 18
+                              "condition": 8,
+                              "param": 1
                             },
                             {
                               "condition": 5,
@@ -14891,10 +14716,6 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 18
-                            },
                             {
                               "condition": 2,
                               "param": 0
@@ -16592,58 +16413,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 1,
-                              "param": 7
-                            },
-                            {
-                              "condition": 5,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 1,
-                          "alignment": 16,
-                          "patch": "HUDINF4",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 1,
-                              "param": 0
-                            },
-                            {
-                              "condition": 11,
-                              "param": 18
-                            },
-                            {
-                              "condition": 5,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 1,
-                          "alignment": 16,
-                          "patch": "HUDINF1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 1,
-                              "param": 0
-                            },
-                            {
-                              "condition": 10,
-                              "param": 18
+                              "condition": 8,
+                              "param": 1
                             },
                             {
                               "condition": 5,
@@ -16670,6 +16441,23 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
+                          "patch": "DGT4NUM1",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 9,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
                           "patch": "DGT4NUM8",
                           "tranmap": null,
                           "translation": null,
@@ -16681,35 +16469,6 @@
                             {
                               "condition": 9,
                               "param": 1
-                            },
-                            {
-                              "condition": 11,
-                              "param": 18
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT4NUM1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 0,
-                              "param": 7
-                            },
-                            {
-                              "condition": 9,
-                              "param": 1
-                            },
-                            {
-                              "condition": 10,
-                              "param": 18
                             }
                           ],
                           "children": null
@@ -19665,10 +19424,6 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 18
-                            },
                             {
                               "condition": 2,
                               "param": 0
