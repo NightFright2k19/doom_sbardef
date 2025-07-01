@@ -29,8 +29,8 @@
 ## Condition: 15 (session type not equal to type)
                 {
                   "facebackground": {
-                    "x": 1,
-                    "y": 183,
+                    "x": 45,
+                    "y": 182,
                     "alignment": 20,
                     "tranmap": null,
                     "translation": null,
@@ -45,7 +45,7 @@
                 },
                 {
                   "face": {
-                    "x": 2,
+                    "x": 46,
                     "y": 182,
                     "alignment": 20,
                     "tranmap": null,
@@ -58,7 +58,7 @@
 ## LEFT HUD PANEL IMAGE
                 {
                   "graphic": {
-                    "x": 41,
+                    "x": 4,
                     "y": 167,
                     "alignment": 16,
                     "patch": "DSDA1B",
@@ -74,7 +74,7 @@
 ## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "percent": {
-                    "x": 60,
+                    "x": 23,
                     "y": 166,
                     "alignment": 16,
                     "font": "DigitGreen",
@@ -98,7 +98,7 @@
                 },
                 {
                   "percent": {
-                    "x": 60,
+                    "x": 23,
                     "y": 166,
                     "alignment": 16,
                     "font": "DigitBlue",
@@ -122,7 +122,7 @@
                 },
                 {
                   "percent": {
-                    "x": 60,
+                    "x": 23,
                     "y": 166,
                     "alignment": 16,
                     "font": "DigitGold",
@@ -146,7 +146,7 @@
 ## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "percent": {
-                    "x": 60,
+                    "x": 23,
                     "y": 174,
                     "alignment": 16,
                     "font": "DigitGreen",
@@ -166,7 +166,7 @@
                 },
                 {
                   "percent": {
-                    "x": 60,
+                    "x": 23,
                     "y": 174,
                     "alignment": 16,
                     "font": "DigitGold",
@@ -191,7 +191,7 @@
 ## Condition: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned)
                 {
                   "canvas": {
-                    "x": 60,
+                    "x": 23,
                     "y": 182,
                     "alignment": 0,
                     "tranmap": null,
@@ -342,7 +342,7 @@
 ## For selecting weapons from slots 1+2: Fists (1), Pistol (2) or Chainsaw (8)
                 {
                   "canvas": {
-                    "x": 60,
+                    "x": 23,
                     "y": 190,
                     "alignment": 0,
                     "tranmap": null,
@@ -504,7 +504,7 @@
 ## For selecting weapons from slots 3+4: Shotgun (3), Chaingun (4) or Super Shotgun (9)
                 {
                   "canvas": {
-                    "x": 60,
+                    "x": 23,
                     "y": 190,
                     "alignment": 0,
                     "tranmap": null,
@@ -683,7 +683,7 @@
 ## For selecting weapons from slots 5-7: Rocket Launcher (5), Plasma Gun (6) or BFG (7)
                 {
                   "canvas": {
-                    "x": 60,
+                    "x": 23,
                     "y": 190,
                     "alignment": 0,
                     "tranmap": null,
@@ -1635,12 +1635,12 @@
 ## Conditions: 19 (show widget), 20 (show stats widget), 21 (hide stats widget)
 ## Automap-related widget adjustments must be done in the definitions for the first statusbar!
 
-## STATS (ALIGNED ON RIGHT SIDE)
+## STATS (ALIGNED ON LEFT SIDE)
                 {
                   "widget": {
-                    "x": 316,
+                    "x": 4,
                     "y": 158,
-                    "alignment": 34,
+                    "alignment": 16,
                     "tranmap": null,
                     "translation": null,
                     "type": 0,
@@ -1655,12 +1655,12 @@
                   }
                 },
 
-## TIME (ALIGNED ON RIGHT SIDE)
+## TIME (ALIGNED ON LEFT SIDE)
                 {
                   "widget": {
-                    "x": 320,
+                    "x": 4,
                     "y": 150,
-                    "alignment": 34,
+                    "alignment": 16,
                     "tranmap": null,
                     "translation": null,
                     "type": 1,
@@ -1680,9 +1680,9 @@
                 },
                 {
                   "widget": {
-                    "x": 320,
+                    "x": 4,
                     "y": 158,
-                    "alignment": 34,
+                    "alignment": 16,
                     "tranmap": null,
                     "translation": null,
                     "type": 1,
