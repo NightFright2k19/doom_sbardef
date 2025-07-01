@@ -69,7 +69,7 @@ The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.pn
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".) <br>
 ![08_dsda-classic](https://github.com/user-attachments/assets/126c5710-80f4-424f-8aec-0a02ee366899)
    **Classic**<br><br>
-![08_dsda-enhanced](https://github.com/user-attachments/assets/d1678cbf-54f8-47f0-bc5b-e1558183a5d5)
+![08_dsda-enhanced](https://github.com/user-attachments/assets/48e3f61b-3734-464c-9be1-65063679a526)
    **Enhanced**<br><br>
 ![09_dsda-condensed](https://github.com/user-attachments/assets/4bf8e504-c130-4902-a230-e837e3f94434)
    **Condensed**<br><br>
