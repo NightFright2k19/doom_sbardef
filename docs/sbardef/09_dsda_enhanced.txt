@@ -338,8 +338,8 @@
 ##             7 (weapon in slot not owned), 8 (any weapon in slot selected), 9 (any weapon in slot not selected), 
 ##             16 (game mode equal to mode), 17 (game mode not equal to mode)
 
-## ARMS: FIRST PANEL (DSDAWPN1)
-## For selecting weapons from slots 1+2: Fists (1), Pistol (2) or Chainsaw (8)
+## ARMS: FIRST PANEL (DSDAWP1)
+## For selecting weapons from slots 1+2: Fists (1), Chainsaw (8) or Pistol (2)
                 {
                   "canvas": {
                     "x": 23,
@@ -375,13 +375,33 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "DSDAWPN1",
+                          "patch": "DSDAWP1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
                           "children": null
                         }
                       },
+
+## Link dot between 1 and 8 (lit if Chainsaw is owned)
+                      {
+                        "graphic": {
+                          "x": 5,
+                          "y": 3,
+                          "alignment": 16,
+                          "patch": "DSDALINK",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 0,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+
                       {
                         "graphic": {
                           "x": 0,
@@ -425,44 +445,6 @@
                           "x": 7,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT4NUM2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 6,
-                              "param": 2
-                            },
-                            {
-                              "condition": 9,
-                              "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 7,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT2NUM2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 8,
-                              "param": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 14,
-                          "y": 0,
-                          "alignment": 16,
                           "patch": "DGT4NUM8",
                           "tranmap": null,
                           "translation": null,
@@ -481,7 +463,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 14,
+                          "x": 7,
                           "y": 0,
                           "alignment": 16,
                           "patch": "DGT2NUM8",
@@ -495,14 +477,54 @@
                           ],
                           "children": null
                         }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT4NUM2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 6,
+                              "param": 2
+                            },
+                            {
+                              "condition": 9,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 8,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
                       }
                     ]
                   }
                 },
 
-## ARMS: SECOND PANEL (DSDAWPN2)
-## For selecting weapons from slots 3+4: Shotgun (3), Chaingun (4) or Super Shotgun (9)
-                {
+## ARMS: SECOND PANEL (DSDAWP2A/DSDAWP2B)
+## For selecting weapons from slots 3+4: Shotgun (3), Super Shotgun (9) or Chaingun (4)
+## Doom I (DSDAWP2A): Draw numbers in order 3-4, with optional "9" added at the end (if cheat is used)
+## Doom II (DSDAWP2B): Draw numbers in order 3-9-4 
+                 {
                   "canvas": {
                     "x": 23,
                     "y": 190,
@@ -537,13 +559,63 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "DSDAWPN2",
+                          "patch": "DSDAWP2A",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": null,
+                          "conditions": [
+                            {
+                              "condition": 17,
+                              "param": 1
+                            }
+                          ],
                           "children": null
                         }
                       },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 1,
+                          "alignment": 16,
+                          "patch": "DSDAWP2B",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+
+## Link dot between 3 and 9 (Doom II only; lit if both shotguns are owned)
+                      {
+                        "graphic": {
+                          "x": 5,
+                          "y": 3,
+                          "alignment": 16,
+                          "patch": "DSDALINK",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 0,
+                              "param": 2
+                            },
+                            {
+                              "condition": 0,
+                              "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+
                       {
                         "graphic": {
                           "x": 0,
@@ -592,6 +664,10 @@
                           "translation": null,
                           "conditions": [
                             {
+                              "condition": 17,
+                              "param": 1
+                            },
+                            {
                               "condition": 6,
                               "param": 4
                             },
@@ -613,6 +689,10 @@
                           "translation": null,
                           "conditions": [
                             {
+                              "condition": 17,
+                              "param": 1
+                            },
+                            {
                               "condition": 8,
                               "param": 4
                             }
@@ -622,16 +702,45 @@
                       },
                       {
                         "graphic": {
-                          "x": 14,
+                          "x": 7,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT7NUM9",
+                          "patch": "DGT4NUM9",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
                               "condition": 16,
                               "param": 1
+                            },
+                            {
+                              "condition": 0,
+                              "param": 8
+                            },
+                            {
+                              "condition": 2,
+                              "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 7,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 1,
+                              "param": 8
                             }
                           ],
                           "children": null
@@ -646,6 +755,10 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
+                            {
+                              "condition": 17,
+                              "param": 1
+                            },
                             {
                               "condition": 0,
                               "param": 8
@@ -668,8 +781,58 @@
                           "translation": null,
                           "conditions": [
                             {
+                              "condition": 17,
+                              "param": 1
+                            },
+                            {
                               "condition": 1,
                               "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT4NUM4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 6,
+                              "param": 4
+                            },
+                            {
+                              "condition": 9,
+                              "param": 4
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 8,
+                              "param": 4
                             }
                           ],
                           "children": null
@@ -679,7 +842,7 @@
                   }
                 },
 
-## ARMS: THIRD PANEL (DSDAWPN3)
+## ARMS: THIRD PANEL (DSDAWP3)
 ## For selecting weapons from slots 5-7: Rocket Launcher (5), Plasma Gun (6) or BFG (7)
                 {
                   "canvas": {
@@ -712,7 +875,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "DSDAWPN3",
+                          "patch": "DSDAWP3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
