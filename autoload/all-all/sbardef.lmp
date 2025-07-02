@@ -14893,23 +14893,6 @@
                       },
                       {
                         "graphic": {
-                          "x": 5,
-                          "y": 3,
-                          "alignment": 16,
-                          "patch": "DSDALINK",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 0,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
@@ -15084,31 +15067,6 @@
                             {
                               "condition": 16,
                               "param": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 3,
-                          "alignment": 16,
-                          "patch": "DSDALINK",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 16,
-                              "param": 1
-                            },
-                            {
-                              "condition": 0,
-                              "param": 2
-                            },
-                            {
-                              "condition": 0,
-                              "param": 8
                             }
                           ],
                           "children": null

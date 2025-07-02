@@ -382,26 +382,6 @@
                           "children": null
                         }
                       },
-
-## Link dot between 1 and 8 (lit if Chainsaw is owned)
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 3,
-                          "alignment": 16,
-                          "patch": "DSDALINK",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 0,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-
                       {
                         "graphic": {
                           "x": 0,
@@ -588,34 +568,6 @@
                           "children": null
                         }
                       },
-
-## Link dot between 3 and 9 (Doom II only; lit if both shotguns are owned)
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 3,
-                          "alignment": 16,
-                          "patch": "DSDALINK",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 16,
-                              "param": 1
-                            },
-                            {
-                              "condition": 0,
-                              "param": 2
-                            },
-                            {
-                              "condition": 0,
-                              "param": 8
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-
                       {
                         "graphic": {
                           "x": 0,
