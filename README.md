@@ -16,7 +16,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Featured in Nightdive, Eternity and DSDA Enhanced/Condensed.<br>
 - **Ammo overview**: Partial in Nightdive, Boom and PrBoom+ (no max amounts), full in Crispy, Eternity and DSDA.<br>
-- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA Condensed, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced splits the display into three panels with light (1-8-2), medium (3-9-4) and heavy (5-6-7) class. A switch between panels occurs whenever a weapon of a different panel is selected. DSDA Condensed indicates Chainsaw through a lit "8" in slot 1 ("1" with Berserk) and possession of both shotguns with a fully lit "3".<br><br>
+- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA Condensed, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced splits the display into three panels (1-2-3 / 4-5-6 / 7-8-9). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA Condensed indicates Chainsaw through a lit "8" in slot 1 ("1" with Berserk) and possession of both shotguns with a fully lit "3".<br><br>
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+, the armor icon changes instead.<br>
@@ -69,7 +69,7 @@ The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.pn
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".) <br>
 ![08_dsda-classic](https://github.com/user-attachments/assets/126c5710-80f4-424f-8aec-0a02ee366899)
    **Classic**<br><br>
-![08_dsda-enhanced](https://github.com/user-attachments/assets/f51c9b0c-ea9b-4cb0-bee8-2c9df6f8e3e8)
+![08_dsda-enhanced](https://github.com/user-attachments/assets/7b91111e-38d4-4494-8983-5bd447ab4ad1)
    **Enhanced**<br><br>
 ![09_dsda-condensed](https://github.com/user-attachments/assets/4bf8e504-c130-4902-a230-e837e3f94434)
    **Condensed**<br><br>
