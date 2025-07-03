@@ -329,15 +329,16 @@
                 },
 
 ## ARMS
-## Three panels with slots 1-2-3, 4-5-6 and 7-8-9
+## Three panels with slots 1-3, 4-6 and 7-9
 ## Switch between panels occurs when one weapon from a specific panel is selected
 ## Colors: Gray (not owned), Green (owned), Orange (selected)
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
 ##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
 ## Conditions: 0 (weapon owned), 1 (weapon selected), 2 (weapon not selected), 6 (weapon in slot owned), 
 ##             7 (weapon in slot not owned), 8 (any weapon in slot selected), 9 (any weapon in slot not selected)
+##             10 (item owned), 11 (item not owned)
 
-## ARMS: FIRST PANEL
+## ARMS: FIRST PANEL (1-2-3)
 ## Weapons: Fists (0), Pistol (1), Shotgun (2)
                 {
                   "canvas": {
@@ -512,7 +513,7 @@
                   }
                 },
 
-## ARMS: SECOND PANEL
+## ARMS: SECOND PANEL (4-5-6)
 ## Weapons: Chaingun (3), Rocket Launcher (4), Plasma Gun (5)
                 {
                   "canvas": {
@@ -523,28 +524,20 @@
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 2,
-                        "param": 0
-                      },
-                      {
-                        "condition": 2,
+                        "condition": 9,
                         "param": 1
                       },
                       {
-                        "condition": 2,
+                        "condition": 9,
                         "param": 2
                       },
                       {
-                        "condition": 2,
-                        "param": 6
+                        "condition": 9,
+                        "param": 3
                       },
                       {
-                        "condition": 2,
+                        "condition": 9,
                         "param": 7
-                      },
-                      {
-                        "condition": 2,
-                        "param": 8
                       }
                     ],
                     "children": [
@@ -898,7 +891,7 @@
                   }
                 },
 
-## ARMS: THIRD PANEL
+## ARMS: THIRD PANEL (7-8-9)
 ## Weapons: BFG (6), Chainsaw (7), Super Shotgun (8)
 ## Since there's no "weapon not owned" condition (so far), we draw "9" before "8" so it can be overwritten
                 {
