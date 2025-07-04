@@ -60,19 +60,19 @@ Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/et
 **5) Boom**<br>
 The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.png/800px-NDCP-map23-end.png" target= "_blank">Boom HUD</a> with properly aligned keys (ignores custom offsets).<br>
 ![05_boomcomp](https://github.com/user-attachments/assets/27d68636-3368-43c0-8d05-6325ded3afdf)
-   **Compact**<br><br>
+   **Compact**: Everything grouped on the left side of the screen.<br><br>
 ![06_boomdist](https://github.com/user-attachments/assets/42aa780a-df12-4fc9-adb2-20351023436c)
-   **Distributed**
+   **Distributed**: Weapon and ammo-related info move to the right side, otherwise the same.
 <br><br>
 
 **6) DSDA**<br>
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".) <br>
 ![08_dsda-classic](https://github.com/user-attachments/assets/126c5710-80f4-424f-8aec-0a02ee366899)
-   **Classic**<br><br>
+   **Classic**: Imitates the original HUD as closely as possible.<br><br>
 ![08_dsda-enhanced](https://github.com/user-attachments/assets/7b91111e-38d4-4494-8983-5bd447ab4ad1)
-   **Enhanced**<br><br>
+   **Enhanced**: Adds mugshot and reorganizes ARM/HEL/AMM/WPN widgets on the left side.<br><br>
 ![09_dsda-condensed](https://github.com/user-attachments/assets/4bf8e504-c130-4902-a230-e837e3f94434)
-   **Condensed**<br><br>
+   **Condensed**: Widgets on the left are all aligned in a single line. Ammo overview is minimized and mugshot moves to the right side.<br><br>
 
 **7) PrBoom+**<br>
 Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. Ammo overview and God Mode indicator (temporary mugshot) have been added.<br>
