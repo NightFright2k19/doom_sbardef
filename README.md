@@ -14,23 +14,23 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **Features:**
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
-- **Mugshot**: Featured in Nightdive, Eternity and DSDA Enhanced/Condensed.<br>
+- **Mugshot**: Featured in Nightdive, Eternity Enhanced and DSDA Enhanced/Condensed.<br>
 - **Ammo overview**: Partial in Nightdive, Boom and PrBoom+ (no max amounts), full in Crispy, Eternity and DSDA.<br>
 - **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA Condensed, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced splits the display into three panels (1-2-3 / 4-5-6 / 7-8-9). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA Condensed indicates Chainsaw through a lit "8" in slot 1 ("1" with Berserk) and possession of both shotguns with a fully lit "3".<br><br>
 
 **Indicators:**
-- **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In PrBoom+, the armor icon changes instead.<br>
+- **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In Eternity Boomity and PrBoom+, the armor icon changes instead.<br>
 - **Backpack**: Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Crispy, Eternity, DSDA Classic/Enhanced).<br>
-- **Berserk mode**: Usually shown as a fully lit "1" in the Arms display. In PrBoom+, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
-- **God mode**: Mugshot and/or recolored health/armor numbers (gold). Recolored numbers only work with powerups, not cheats.<br>
+- **Berserk mode**: Usually shown as a fully lit "1" in the Arms display. The green cross icon in Eternity Boomity turns red. In PrBoom+, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
+- **God mode**: Mugshot and/or recolored health/armor numbers (gold). Recolored numbers only work with powerups, not cheats. In Eternity Boomity, icons turn golden, too.<br>
 - **Active ammo/weapon**: Orange numbers in the Arms/WEA/WPN panel and/or ammo overview.<br><br>
 
 **Comparison Features / Indicators:**<br>
 
 | HUD style | Features | Indicators | Notes |
 | ----------- | ----------- | ----------- | ----------- |
-| Nightdive<br>Eternity<br>DSDA Enhanced<br>DSDA Condensed  | ++++ | +++++ | All features/indicators included |
-| Boom<br>DSDA Classic<br>PrBoom+ | +++ | +++++ | No mugshot |
+| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | +++++ | All features/indicators included |
+| Boom<br>Eternity II<br>DSDA I<br>PrBoom+ | +++ | +++++ | No mugshot |
 | Crispy | +++ | ++ | No mugshot; armor type and backpack only |
 | Doom 64 | + | + | Vitals only; armor type only; always centered |
 <br>
@@ -52,27 +52,30 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 *Note: Alignment of Health, Armor and keys will adjust depending on whether the stats widget is shown or not.*
 <br><br>
 
-**4) ﻿Eternity Enhanced**<br>
-Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/eternity" target= "_blank">Eternity Engine</a>, but with mugshot and ammo overview.<br>
+**4) ﻿Eternity**<br>
+Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/eternity" target= "_blank">Eternity Engine</a>.<br>
 ![04_eternity](https://github.com/user-attachments/assets/fcdf10b8-b35c-4163-a107-d9ba2d7718ad)
+   **I. Enhanced**: Uses original font with different sizes and mugshot. No labels.<br><br>
+![05_boomity](https://github.com/user-attachments/assets/4ffa2d8d-c6ea-47a6-9f12-02c67cef1d12)
+   **II. Boomity**: Uses Boom font instead, one size only, no mugshot. Health/Armor icons indicate Berserk/God modes and MegaArmor (colors depend on selected game), taken from the statusbar of <a href="https://doomwiki.org/wiki/Jenesis" target= "_blank">"Jenesis" by Jimmy</a> (with modifications by me).
 <br><br>
 
 **5) Boom**<br>
 The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.png/800px-NDCP-map23-end.png" target= "_blank">Boom HUD</a> with properly aligned keys (ignores custom offsets).<br>
 ![05_boomcomp](https://github.com/user-attachments/assets/27d68636-3368-43c0-8d05-6325ded3afdf)
-   **Compact**: Everything grouped on the left side of the screen.<br><br>
+   **I. Compact**: Everything grouped on the left side of the screen.<br><br>
 ![06_boomdist](https://github.com/user-attachments/assets/42aa780a-df12-4fc9-adb2-20351023436c)
-   **Distributed**: Weapon and ammo-related info move to the right side, otherwise the same.
+   **II. Distributed**: Weapon and ammo-related info move to the right side, otherwise the same.
 <br><br>
 
 **6) DSDA**<br>
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".) <br>
 ![08_dsda-classic](https://github.com/user-attachments/assets/126c5710-80f4-424f-8aec-0a02ee366899)
-   **Classic**: Imitates the original HUD as closely as possible.<br><br>
+   **I. Classic**: Imitates the original HUD as closely as possible.<br><br>
 ![08_dsda-enhanced](https://github.com/user-attachments/assets/7b91111e-38d4-4494-8983-5bd447ab4ad1)
-   **Enhanced**: Adds mugshot and reorganizes ARM/HEL/AMM/WPN widgets on the left side.<br><br>
+   **II. Enhanced**: Adds mugshot and reorganizes ARM/HEL/AMM/WPN widgets on the left side.<br><br>
 ![09_dsda-condensed](https://github.com/user-attachments/assets/4bf8e504-c130-4902-a230-e837e3f94434)
-   **Condensed**: Widgets on the left are all aligned in a single line. Ammo overview is minimized and mugshot moves to the right side.<br><br>
+   **III. Condensed**: Widgets on the left are all aligned in a single line. Ammo overview is minimized and mugshot moves to the right side.<br><br>
 
 **7) PrBoom+**<br>
 Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. Ammo overview and God Mode indicator (temporary mugshot) have been added.<br>
