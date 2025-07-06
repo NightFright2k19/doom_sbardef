@@ -487,20 +487,6 @@
                   }
                 },
 
-## ARMS PANEL
-                {
-                  "graphic": {
-                    "x": 221,
-                    "y": 173,
-                    "alignment": 32,
-                    "patch": "NDIVARMS",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": null,
-                    "children": null
-                  }
-                },
-
 ## ARMS
 ## Colors: Gray (not owned), Gold (owned), Orange (selected)
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
@@ -518,6 +504,116 @@
                     "translation": null,
                     "conditions": null,
                     "children": [
+                      {
+                        "graphic": {
+                          "x": 16,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DGT7NUM3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 7,
+                          "alignment": 32,
+                          "patch": "DGT7NUM4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 8,
+                          "y": 7,
+                          "alignment": 32,
+                          "patch": "DGT7NUM5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 16,
+                          "y": 7,
+                          "alignment": 32,
+                          "patch": "DGT7NUM6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 14,
+                          "alignment": 32,
+                          "patch": "DGT7NUM7",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 8,
+                          "y": 14,
+                          "alignment": 32,
+                          "patch": "DGT7NUM8",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 16,
+                          "y": 14,
+                          "alignment": 32,
+                          "patch": "DGT7NUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "DGT6NUM1",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 18
+                            },
+                            {
+                              "condition": 2,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
                       {
                         "graphic": {
                           "x": 0,
@@ -624,6 +720,10 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
+                            {
+                              "condition": 0,
+                              "param": 2
+                            },
                             {
                               "condition": 1,
                               "param": 2
@@ -817,23 +917,6 @@
                             {
                               "condition": 1,
                               "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 14,
-                          "alignment": 32,
-                          "patch": "DGT7NUM9",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 16,
-                              "param": 1
                             }
                           ],
                           "children": null
