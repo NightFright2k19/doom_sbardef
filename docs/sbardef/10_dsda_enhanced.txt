@@ -329,7 +329,7 @@
                 },
 
 ## ARMS
-## Three panels with slots 1-3, 4-6 and 7-9
+## Three panels with slots 1-2-8, 3-4-9 and 5-7
 ## Switch between panels occurs when one weapon from a specific panel is selected
 ## Colors: Gray (not owned), Green (owned), Orange (selected)
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
@@ -338,8 +338,8 @@
 ##             7 (weapon in slot not owned), 8 (any weapon in slot selected), 9 (any weapon in slot not selected)
 ##             10 (item owned), 11 (item not owned)
 
-## ARMS: FIRST PANEL (1-2-3)
-## Weapons: Fists (0), Pistol (1), Shotgun (2)
+## ARMS: FIRST PANEL (1-2-8)
+## Weapons: Fists (0), Pistol (1), Chainsaw (8)
                 {
                   "canvas": {
                     "x": 23,
@@ -349,28 +349,24 @@
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 2,
+                        "condition": 9,
                         "param": 3
                       },
                       {
-                        "condition": 2,
+                        "condition": 9,
                         "param": 4
                       },
                       {
-                        "condition": 2,
+                        "condition": 9,
                         "param": 5
                       },
                       {
-                        "condition": 2,
+                        "condition": 9,
                         "param": 6
                       },
                       {
-                        "condition": 2,
+                        "condition": 9,
                         "param": 7
-                      },
-                      {
-                        "condition": 2,
-                        "param": 8
                       }
                     ],
                     "children": [
@@ -476,17 +472,17 @@
                           "x": 14,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT4NUM3",
+                          "patch": "DGT4NUM8",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
                               "condition": 0,
-                              "param": 2
+                              "param": 7
                             },
                             {
                               "condition": 2,
-                              "param": 2
+                              "param": 7
                             }
                           ],
                           "children": null
@@ -497,13 +493,13 @@
                           "x": 14,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT2NUM3",
+                          "patch": "DGT2NUM8",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
                               "condition": 1,
-                              "param": 2
+                              "param": 7
                             }
                           ],
                           "children": null
@@ -513,8 +509,9 @@
                   }
                 },
 
-## ARMS: SECOND PANEL (4-5-6)
-## Weapons: Chaingun (3), Rocket Launcher (4), Plasma Gun (5)
+## ARMS: SECOND PANEL (3-4-9)
+## Weapons: Shotgun (2), Chaingun (3), Super Shotgun (8)
+## Note: Condition "Shotgun not owned" cannot be checked. This leads to limitations. See below.
                 {
                   "canvas": {
                     "x": 23,
@@ -533,7 +530,11 @@
                       },
                       {
                         "condition": 9,
-                        "param": 3
+                        "param": 5
+                      },
+                      {
+                        "condition": 9,
+                        "param": 6
                       },
                       {
                         "condition": 9,
@@ -546,10 +547,54 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
+                          "patch": "DGT4NUM3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 0,
+                              "param": 2
+                            },
+                            {
+                              "condition": 2,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 1,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+
+## "4" only checks for possession of any shotgun (slot 3), not Shotgun (weapon 2) specifically
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
                           "patch": "DGT4NUM4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
+                            {
+                              "condition": 7,
+                              "param": 3
+                            },
                             {
                               "condition": 6,
                               "param": 4
@@ -572,6 +617,10 @@
                           "translation": null,
                           "conditions": [
                             {
+                              "condition": 7,
+                              "param": 3
+                            },
+                            {
                               "condition": 8,
                               "param": 4
                             }
@@ -581,24 +630,24 @@
                       },
                       {
                         "graphic": {
-                          "x": 0,
+                          "x": 7,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT4NUM5",
+                          "patch": "DGT4NUM4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 7,
-                              "param": 4
+                              "condition": 6,
+                              "param": 3
                             },
                             {
                               "condition": 6,
-                              "param": 5
+                              "param": 4
                             },
                             {
                               "condition": 9,
-                              "param": 5
+                              "param": 4
                             }
                           ],
                           "children": null
@@ -606,20 +655,47 @@
                       },
                       {
                         "graphic": {
-                          "x": 0,
+                          "x": 7,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT2NUM5",
+                          "patch": "DGT2NUM4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 7,
-                              "param": 4
+                              "condition": 6,
+                              "param": 3
                             },
                             {
                               "condition": 8,
-                              "param": 5
+                              "param": 4
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+
+## "9" only checks for absence of Chaingun (slot 4), not Shotgun (weapon 2)
+                      {
+                        "graphic": {
+                          "x": 7,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT4NUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 7,
+                              "param": 4
+                            },
+                            {
+                              "condition": 0,
+                              "param": 8
+                            },
+                            {
+                              "condition": 2,
+                              "param": 8
                             }
                           ],
                           "children": null
@@ -630,53 +706,7 @@
                           "x": 7,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT4NUM5",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 6,
-                              "param": 4
-                            },
-                            {
-                              "condition": 6,
-                              "param": 5
-                            },
-                            {
-                              "condition": 9,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 7,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT2NUM5",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 6,
-                              "param": 4
-                            },
-                            {
-                              "condition": 8,
-                              "param": 5
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT4NUM6",
+                          "patch": "DGT2NUM9",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -685,149 +715,8 @@
                               "param": 4
                             },
                             {
-                              "condition": 7,
-                              "param": 5
-                            },
-                            {
-                              "condition": 6,
-                              "param": 6
-                            },
-                            {
-                              "condition": 9,
-                              "param": 6
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT2NUM6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 4
-                            },
-                            {
-                              "condition": 7,
-                              "param": 5
-                            },
-                            {
-                              "condition": 8,
-                              "param": 6
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 7,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT4NUM6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 6,
-                              "param": 4
-                            },
-                            {
-                              "condition": 7,
-                              "param": 5
-                            },
-                            {
-                              "condition": 6,
-                              "param": 6
-                            },
-                            {
-                              "condition": 9,
-                              "param": 6
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 7,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT2NUM6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 6,
-                              "param": 4
-                            },
-                            {
-                              "condition": 7,
-                              "param": 5
-                            },
-                            {
-                              "condition": 8,
-                              "param": 6
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 7,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT4NUM6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 4
-                            },
-                            {
-                              "condition": 6,
-                              "param": 5
-                            },
-                            {
-                              "condition": 6,
-                              "param": 6
-                            },
-                            {
-                              "condition": 9,
-                              "param": 6
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 7,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT2NUM6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 4
-                            },
-                            {
-                              "condition": 6,
-                              "param": 5
-                            },
-                            {
-                              "condition": 8,
-                              "param": 6
+                              "condition": 1,
+                              "param": 8
                             }
                           ],
                           "children": null
@@ -838,7 +727,7 @@
                           "x": 14,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT4NUM6",
+                          "patch": "DGT4NUM9",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -847,16 +736,12 @@
                               "param": 4
                             },
                             {
-                              "condition": 6,
-                              "param": 5
+                              "condition": 0,
+                              "param": 8
                             },
                             {
-                              "condition": 6,
-                              "param": 6
-                            },
-                            {
-                              "condition": 9,
-                              "param": 6
+                              "condition": 2,
+                              "param": 8
                             }
                           ],
                           "children": null
@@ -867,7 +752,7 @@
                           "x": 14,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT2NUM6",
+                          "patch": "DGT2NUM9",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -876,12 +761,8 @@
                               "param": 4
                             },
                             {
-                              "condition": 6,
-                              "param": 5
-                            },
-                            {
-                              "condition": 8,
-                              "param": 6
+                              "condition": 1,
+                              "param": 8
                             }
                           ],
                           "children": null
@@ -891,9 +772,8 @@
                   }
                 },
 
-## ARMS: THIRD PANEL (7-8-9)
-## Weapons: BFG (6), Chainsaw (7), Super Shotgun (8)
-## Since there's no "weapon not owned" condition (so far), we draw "9" before "8" so it can be overwritten
+## ARMS: THIRD PANEL (5-6-7)
+## Weapons: Rocket Launcher (4), Plasma Gun (5), BFG (6)
                 {
                   "canvas": {
                     "x": 23,
@@ -903,31 +783,153 @@
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 2,
-                        "param": 0
-                      },
-                      {
-                        "condition": 2,
+                        "condition": 9,
                         "param": 1
                       },
                       {
-                        "condition": 2,
+                        "condition": 9,
                         "param": 2
                       },
                       {
-                        "condition": 2,
+                        "condition": 9,
                         "param": 3
                       },
                       {
-                        "condition": 2,
+                        "condition": 9,
                         "param": 4
-                      },
-                      {
-                        "condition": 2,
-                        "param": 5
                       }
                     ],
                     "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT4NUM5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 6,
+                              "param": 5
+                            },
+                            {
+                              "condition": 9,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 8,
+                              "param": 5
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT4NUM6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 7,
+                              "param": 5
+                            },
+                            {
+                              "condition": 6,
+                              "param": 6
+                            },
+                            {
+                              "condition": 9,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 7,
+                              "param": 5
+                            },
+                            {
+                              "condition": 8,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 7,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT4NUM6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 6,
+                              "param": 5
+                            },
+                            {
+                              "condition": 6,
+                              "param": 6
+                            },
+                            {
+                              "condition": 9,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 7,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 6,
+                              "param": 5
+                            },
+                            {
+                              "condition": 8,
+                              "param": 6
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
                       {
                         "graphic": {
                           "x": 0,
@@ -937,6 +939,14 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
+                            {
+                              "condition": 7,
+                              "param": 5
+                            },
+                            {
+                              "condition": 7,
+                              "param": 6
+                            },
                             {
                               "condition": 6,
                               "param": 7
@@ -959,6 +969,14 @@
                           "translation": null,
                           "conditions": [
                             {
+                              "condition": 7,
+                              "param": 5
+                            },
+                            {
+                              "condition": 7,
+                              "param": 6
+                            },
+                            {
                               "condition": 8,
                               "param": 7
                             }
@@ -968,91 +986,28 @@
                       },
                       {
                         "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT4NUM9",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 7
-                            },
-                            {
-                              "condition": 0,
-                              "param": 8
-                            },
-                            {
-                              "condition": 2,
-                              "param": 8
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT2NUM9",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 7
-                            },
-                            {
-                              "condition": 1,
-                              "param": 8
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
                           "x": 7,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT4NUM9",
+                          "patch": "DGT4NUM7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
-                              "param": 7
+                              "param": 5
                             },
                             {
-                              "condition": 0,
-                              "param": 8
+                              "condition": 7,
+                              "param": 6
                             },
-                            {
-                              "condition": 2,
-                              "param": 8
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 7,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT2NUM9",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
                             {
                               "condition": 6,
                               "param": 7
                             },
                             {
-                              "condition": 1,
-                              "param": 8
+                              "condition": 9,
+                              "param": 7
                             }
                           ],
                           "children": null
@@ -1063,21 +1018,21 @@
                           "x": 7,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT4NUM9",
+                          "patch": "DGT2NUM7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 0,
+                              "condition": 6,
+                              "param": 5
+                            },
+                            {
+                              "condition": 7,
+                              "param": 6
+                            },
+                            {
+                              "condition": 8,
                               "param": 7
-                            },
-                            {
-                              "condition": 0,
-                              "param": 8
-                            },
-                            {
-                              "condition": 2,
-                              "param": 8
                             }
                           ],
                           "children": null
@@ -1088,17 +1043,50 @@
                           "x": 7,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT2NUM9",
+                          "patch": "DGT4NUM7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 0,
+                              "condition": 7,
+                              "param": 5
+                            },
+                            {
+                              "condition": 6,
+                              "param": 6
+                            },
+                            {
+                              "condition": 6,
                               "param": 7
                             },
                             {
-                              "condition": 1,
-                              "param": 8
+                              "condition": 9,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 7,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM7",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 7,
+                              "param": 5
+                            },
+                            {
+                              "condition": 6,
+                              "param": 6
+                            },
+                            {
+                              "condition": 8,
+                              "param": 7
                             }
                           ],
                           "children": null
@@ -1109,25 +1097,25 @@
                           "x": 14,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT4NUM9",
+                          "patch": "DGT4NUM7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
+                              "param": 5
+                            },
+                            {
+                              "condition": 6,
+                              "param": 6
+                            },
+                            {
+                              "condition": 6,
                               "param": 7
                             },
                             {
-                              "condition": 0,
+                              "condition": 9,
                               "param": 7
-                            },
-                            {
-                              "condition": 0,
-                              "param": 8
-                            },
-                            {
-                              "condition": 2,
-                              "param": 8
                             }
                           ],
                           "children": null
@@ -1138,112 +1126,20 @@
                           "x": 14,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT2NUM9",
+                          "patch": "DGT2NUM7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
                               "condition": 6,
-                              "param": 7
+                              "param": 5
                             },
-                            {
-                              "condition": 0,
-                              "param": 7
-                            },
-                            {
-                              "condition": 1,
-                              "param": 8
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT4NUM8",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 7
-                            },
-                            {
-                              "condition": 0,
-                              "param": 7
-                            },
-                            {
-                              "condition": 2,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT2NUM8",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 7,
-                              "param": 7
-                            },
-                            {
-                              "condition": 1,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 7,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT4NUM8",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
                             {
                               "condition": 6,
-                              "param": 7
+                              "param": 6
                             },
                             {
-                              "condition": 0,
-                              "param": 7
-                            },
-                            {
-                              "condition": 2,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 7,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "DGT2NUM8",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 6,
-                              "param": 7
-                            },
-                            {
-                              "condition": 1,
+                              "condition": 8,
                               "param": 7
                             }
                           ],
