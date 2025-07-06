@@ -64,7 +64,7 @@ Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/et
 The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.png/800px-NDCP-map23-end.png" target= "_blank">Boom HUD</a> with properly aligned keys (ignores custom offsets).<br>
 ![05_boomcomp](https://github.com/user-attachments/assets/27d68636-3368-43c0-8d05-6325ded3afdf)
    **I. Compact**: Everything grouped on the left side of the screen.<br><br>
-![06_boomdist](https://github.com/user-attachments/assets/42aa780a-df12-4fc9-adb2-20351023436c)
+![07_boomdist](https://github.com/user-attachments/assets/044dba00-7b17-4412-9006-8948273f88b5)
    **II. Distributed**: Weapon and ammo-related info move to the right side, otherwise the same.
 <br><br>
 
