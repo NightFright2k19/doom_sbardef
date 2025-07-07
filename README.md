@@ -64,7 +64,7 @@ Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/et
 The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.png/800px-NDCP-map23-end.png" target= "_blank">Boom HUD</a> with properly aligned keys (ignores custom offsets).<br>
 ![05_boomcomp](https://github.com/user-attachments/assets/27d68636-3368-43c0-8d05-6325ded3afdf)
    **I. Compact**: Everything grouped on the left side of the screen.<br><br>
-![07_boomdist](https://github.com/user-attachments/assets/044dba00-7b17-4412-9006-8948273f88b5)
+![07_boomdist](https://github.com/user-attachments/assets/b6042ffe-b44b-498d-936c-0402deef7aba)
    **II. Distributed**: Weapon and ammo-related info move to the right side, otherwise the same.
 <br><br>
 
@@ -72,7 +72,7 @@ The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.pn
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".) <br>
 ![08_dsda-classic](https://github.com/user-attachments/assets/126c5710-80f4-424f-8aec-0a02ee366899)
    **I. Classic**: Imitates the original HUD as closely as possible.<br><br>
-![08_dsda-enhanced](https://github.com/user-attachments/assets/7b91111e-38d4-4494-8983-5bd447ab4ad1)
+![09_dsda-enhanced](https://github.com/user-attachments/assets/a66538ae-9e3a-4d80-9fd9-88f0f48015c4)
    **II. Enhanced**: Adds mugshot and reorganizes ARM/HEL/AMM/WPN widgets on the left side.<br><br>
 ![09_dsda-condensed](https://github.com/user-attachments/assets/4bf8e504-c130-4902-a230-e837e3f94434)
    **III. Condensed**: Widgets on the left are all aligned in a single line. Ammo overview is minimized and mugshot moves to the right side.<br><br>
