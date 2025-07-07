@@ -339,7 +339,8 @@
 ##             10 (item owned), 11 (item not owned)
 
 ## ARMS: FIRST PANEL (1-2-8)
-## Weapons: Fists (0), Pistol (1), Chainsaw (8)
+## Weapons: Fists (0), Pistol (1), Chainsaw (7)
+## Slots: 1+2
                 {
                   "canvas": {
                     "x": 23,
@@ -511,6 +512,7 @@
 
 ## ARMS: SECOND PANEL (3-4-9)
 ## Weapons: Shotgun (2), Chaingun (3), Super Shotgun (8)
+## Slots: 3+4
 ## Note: Condition "Shotgun not owned" cannot be checked. This leads to limitations. See below.
                 {
                   "canvas": {
@@ -774,6 +776,7 @@
 
 ## ARMS: THIRD PANEL (5-6-7)
 ## Weapons: Rocket Launcher (4), Plasma Gun (5), BFG (6)
+## Slots: 5-7
                 {
                   "canvas": {
                     "x": 23,
