@@ -15638,13 +15638,35 @@
                     "children": [
                       {
                         "graphic": {
-                          "x": 0,
+                          "x": 17,
                           "y": 0,
                           "alignment": 32,
                           "patch": "BOOM_WEA",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": null,
+                          "conditions": [
+                            {
+                              "condition": 17,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 9,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "BOOM_WEA",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            }
+                          ],
                           "children": null
                         }
                       },
@@ -15947,7 +15969,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 248,
+                    "x": 255,
                     "y": 182,
                     "alignment": 0,
                     "tranmap": null,
@@ -15961,7 +15983,7 @@
                     "children": [
                       {
                         "graphic": {
-                          "x": 18,
+                          "x": 16,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT7NUM3",
@@ -15973,7 +15995,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 27,
+                          "x": 24,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT7NUM4",
@@ -15985,7 +16007,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 36,
+                          "x": 32,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT7NUM5",
@@ -15997,7 +16019,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 45,
+                          "x": 40,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT7NUM6",
@@ -16009,7 +16031,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 54,
+                          "x": 48,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT7NUM7",
@@ -16021,7 +16043,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 63,
+                          "x": 56,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT7NUM8",
@@ -16092,7 +16114,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 9,
+                          "x": 8,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM2",
@@ -16113,7 +16135,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 9,
+                          "x": 8,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM2",
@@ -16130,7 +16152,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 18,
+                          "x": 16,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM3",
@@ -16151,7 +16173,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 18,
+                          "x": 16,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM3",
@@ -16168,7 +16190,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 18,
+                          "x": 16,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM9",
@@ -16185,7 +16207,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 27,
+                          "x": 24,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM4",
@@ -16206,7 +16228,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 27,
+                          "x": 24,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM4",
@@ -16223,7 +16245,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 36,
+                          "x": 32,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM5",
@@ -16244,7 +16266,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 36,
+                          "x": 32,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM5",
@@ -16261,7 +16283,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 45,
+                          "x": 40,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM6",
@@ -16282,7 +16304,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 45,
+                          "x": 40,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM6",
@@ -16299,7 +16321,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 54,
+                          "x": 48,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM7",
@@ -16320,7 +16342,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 54,
+                          "x": 48,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM7",
@@ -16337,7 +16359,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 63,
+                          "x": 56,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM8",
@@ -16358,7 +16380,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 63,
+                          "x": 56,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM8",
@@ -16378,7 +16400,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 239,
+                    "x": 247,
                     "y": 182,
                     "alignment": 0,
                     "tranmap": null,
@@ -16392,7 +16414,7 @@
                     "children": [
                       {
                         "graphic": {
-                          "x": 18,
+                          "x": 16,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT7NUM3",
@@ -16404,7 +16426,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 27,
+                          "x": 24,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT7NUM4",
@@ -16416,7 +16438,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 36,
+                          "x": 32,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT7NUM5",
@@ -16428,7 +16450,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 45,
+                          "x": 40,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT7NUM6",
@@ -16440,7 +16462,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 54,
+                          "x": 48,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT7NUM7",
@@ -16452,7 +16474,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 63,
+                          "x": 56,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT7NUM8",
@@ -16464,7 +16486,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 72,
+                          "x": 64,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT7NUM9",
@@ -16535,7 +16557,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 9,
+                          "x": 8,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM2",
@@ -16556,7 +16578,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 9,
+                          "x": 8,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM2",
@@ -16573,7 +16595,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 18,
+                          "x": 16,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM3",
@@ -16594,7 +16616,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 18,
+                          "x": 16,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM3",
@@ -16611,7 +16633,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 27,
+                          "x": 24,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM4",
@@ -16632,7 +16654,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 27,
+                          "x": 24,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM4",
@@ -16649,7 +16671,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 36,
+                          "x": 32,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM5",
@@ -16670,7 +16692,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 36,
+                          "x": 32,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM5",
@@ -16687,7 +16709,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 45,
+                          "x": 40,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM6",
@@ -16708,7 +16730,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 45,
+                          "x": 40,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM6",
@@ -16725,7 +16747,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 54,
+                          "x": 48,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM7",
@@ -16746,7 +16768,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 54,
+                          "x": 48,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM7",
@@ -16763,7 +16785,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 63,
+                          "x": 56,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM8",
@@ -16784,7 +16806,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 63,
+                          "x": 56,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM8",
@@ -16801,7 +16823,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 72,
+                          "x": 64,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT4NUM9",
@@ -16822,7 +16844,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 72,
+                          "x": 64,
                           "y": 0,
                           "alignment": 32,
                           "patch": "DGT2NUM9",
