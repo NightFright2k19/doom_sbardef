@@ -19,10 +19,10 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA Condensed, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA Enhanced splits the display into three slot-grouped panels (1-2-8 / 3-4-9 / 5-6-7). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA Condensed indicates Chainsaw through a lit "8" in slot 1 ("1" with Berserk) and possession of both shotguns with a fully lit "3".<br><br>
 
 **Indicators:**
-- **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In Eternity Boomity and PrBoom+, the armor icon changes instead.<br>
+- **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In Eternity Boomified and PrBoom+, the armor icon changes instead.<br>
 - **Backpack**: Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Crispy, Eternity, DSDA Classic/Enhanced).<br>
-- **Berserk mode**: Usually shown as a fully lit "1" in the Arms display. The green cross icon in Eternity Boomity turns red. In PrBoom+ Classic, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
-- **God mode**: Mugshot and/or recolored health/armor numbers (gold). Recolored numbers only work with powerups, not cheats. In Eternity Boomity, icons turn golden, too.<br>
+- **Berserk mode**: Usually shown as a fully lit "1" in the Arms display. The green cross icon in Eternity Boomified turns red. In PrBoom+ Classic, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
+- **God mode**: Mugshot and/or recolored health/armor numbers (gold). Recolored numbers only work with powerups, not cheats. In Eternity Boomified, icons turn golden, too.<br>
 - **Active ammo/weapon**: Orange numbers in the Arms/WEA/WPN panel and/or ammo overview.<br><br>
 
 **Comparison Features / Indicators:**<br>
@@ -58,7 +58,7 @@ Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/et
 ![04_eternity](https://github.com/user-attachments/assets/fcdf10b8-b35c-4163-a107-d9ba2d7718ad)
    **I. Enhanced**: Uses original font with different sizes and mugshot. No labels.<br><br>
 ![05_boomity](https://github.com/user-attachments/assets/4ffa2d8d-c6ea-47a6-9f12-02c67cef1d12)
-   **II. Boomity**: Uses Boom font instead, one size only, no mugshot. Health/Armor icons indicate Berserk/God modes and MegaArmor (colors depend on selected game), taken from the statusbar of <a href="https://doomwiki.org/wiki/Jenesis" target= "_blank">"Jenesis" by Jimmy</a> (with modifications by me).
+   **II. Boomified**: Uses Boom font instead, one size only, no mugshot. Health/Armor icons indicate Berserk/God modes and MegaArmor (colors depend on selected game), taken from the statusbar of <a href="https://doomwiki.org/wiki/Jenesis" target= "_blank">"Jenesis" by Jimmy</a> (with modifications by me).
 <br><br>
 
 **5) Boom**<br>
@@ -85,7 +85,7 @@ Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target=
 <em>Note: Some mods use different sprite sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
 <br><br>
 ![12_prboom-balanced](https://github.com/user-attachments/assets/bfab92b6-7f7a-4f5a-a49c-9a28a9b731bf)
-   **II. Balanced**: Uses more neutral/universal icons (from Boomity) and splits them to both sides of the screens, using the double-sized Boom font. Ammo overview is missing. No colorization here (only in the WEA widget for selected weapon).<br><br>
+   **II. Balanced**: Uses more neutral/universal icons (from Eternity Boomified) and splits them to both sides of the screens, using the double-sized Boom font. Ammo overview is missing. No colorization here (only in the WEA widget for selected weapon).<br><br>
 
 **BONUS CONTENT**<br><br>
 I. Addons (load externally, i.e. NOT via autoload - **currently not functional**):
