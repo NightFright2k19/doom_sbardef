@@ -69,6 +69,1065 @@
                   }
                 },
 
+## WPN WIDGET BRACKET
+## Dynamically resized, depending on how many weapon slots are occupied
+                {
+                  "graphic": {
+                    "x": 60,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WPN",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WPN",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WPN",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WPN",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WPN",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WPN",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP6",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP6",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 7,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP6",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 7,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP6",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 7,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP6",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 63,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "DSDA_WP7",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      },
+                      {
+                        "condition": 6,
+                        "param": 4
+                      },
+                      {
+                        "condition": 6,
+                        "param": 5
+                      },
+                      {
+                        "condition": 6,
+                        "param": 6
+                      },
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+
 ## ARMOR
 ## Colors: Green (33%), Blue (50%), Gold (Invulnerability)
 ## Conditions: 10 (item owned), 11 (item not owned)
