@@ -22382,7 +22382,28 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT4NUM8",
+                          "patch": "DIG049",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 9,
+                              "param": 1
+                            },
+                            {
+                              "condition": 10,
+                              "param": 18
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT4NUM1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -22407,7 +22428,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT4NUM1",
+                          "patch": "DGT3NUM1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [

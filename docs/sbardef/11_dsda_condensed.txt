@@ -1388,8 +1388,9 @@
                 },
 
 ## ARMS
-## Chainsaw: White "1" if not owned; green "8" if owned w/o Berserk; green "1" with Berserk; 1/8 switches in slot 1
-## Shotgun: White "3" if only SG or SSG owned; green "3" if both owned; 3/9 switches in slot 3
+## Fists: White "1"; red with Berserk (but w/o Chainsaw)
+## Chainsaw: Green "1" if owned w/o Berserk; gold with Berserk; 1/8 switches in slot 1 (if selected)
+## Shotgun: White "3" if only SG or SSG owned; green "3" if both owned; 3/9 switches in slot 3 (if selected)
 ## Starting with slot 3, we also sort all following numbers relative to it (to avoid gaps)
 ## This is realized through four canvases for slots 4-7 (positions of slots 1-3 always remain fixed)
 ## Colors: White (partially owned), Green (owned), Orange (selected)
@@ -1412,7 +1413,28 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT4NUM8",
+                          "patch": "DIG049",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 9,
+                              "param": 1
+                            },
+                            {
+                              "condition": 10,
+                              "param": 18
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT4NUM1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -1437,7 +1459,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "DGT4NUM1",
+                          "patch": "DGT3NUM1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
