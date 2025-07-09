@@ -112,20 +112,46 @@
                   }
                 },
 
-## SLASHES (AMMO WIDGET + AMMO OVERVIEW)
-## Condition: 4 (valid ammo type for selected weapon)
+## COLORIZED SLASHES (AMMO WIDGET + AMMO OVERVIEW)
+## Colors: White (no backpack), Green (backpack), Orange (selected)
+## Condition: 4 (valid ammo type for selected weapon), 10 (item owned), 11 (item not owned)
                 {
                   "graphic": {
                     "x": 55,
                     "y": 183,
                     "alignment": 16,
-                    "patch": "BMTYSLSH",
+                    "patch": "BOOM6SLS",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
                         "condition": 4,
                         "param": 0
+                      },
+                      {
+                        "condition": 11,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 55,
+                    "y": 183,
+                    "alignment": 16,
+                    "patch": "BOOM4SLS",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 4,
+                        "param": 0
+                      },
+                      {
+                        "condition": 10,
+                        "param": 7
                       }
                     ],
                     "children": null
@@ -136,10 +162,15 @@
                     "x": 296,
                     "y": 171,
                     "alignment": 32,
-                    "patch": "BMTYSLSH",
+                    "patch": "BOOM6SLS",
                     "tranmap": null,
                     "translation": null,
-                    "conditions": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 7
+                      }
+                    ],
                     "children": null
                   }
                 },
@@ -148,10 +179,15 @@
                     "x": 296,
                     "y": 178,
                     "alignment": 32,
-                    "patch": "BMTYSLSH",
+                    "patch": "BOOM6SLS",
                     "tranmap": null,
                     "translation": null,
-                    "conditions": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 7
+                      }
+                    ],
                     "children": null
                   }
                 },
@@ -160,10 +196,15 @@
                     "x": 296,
                     "y": 185,
                     "alignment": 32,
-                    "patch": "BMTYSLSH",
+                    "patch": "BOOM6SLS",
                     "tranmap": null,
                     "translation": null,
-                    "conditions": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 7
+                      }
+                    ],
                     "children": null
                   }
                 },
@@ -172,10 +213,152 @@
                     "x": 296,
                     "y": 192,
                     "alignment": 32,
-                    "patch": "BMTYSLSH",
+                    "patch": "BOOM6SLS",
                     "tranmap": null,
                     "translation": null,
-                    "conditions": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+
+                {
+                  "graphic": {
+                    "x": 296,
+                    "y": 171,
+                    "alignment": 32,
+                    "patch": "BOOM4SLS",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 296,
+                    "y": 178,
+                    "alignment": 32,
+                    "patch": "BOOM4SLS",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 296,
+                    "y": 185,
+                    "alignment": 32,
+                    "patch": "BOOM4SLS",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 296,
+                    "y": 192,
+                    "alignment": 32,
+                    "patch": "BOOM4SLS",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 296,
+                    "y": 171,
+                    "alignment": 32,
+                    "patch": "BOOM2SLS",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 0
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 296,
+                    "y": 178,
+                    "alignment": 32,
+                    "patch": "BOOM2SLS",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 1
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 296,
+                    "y": 185,
+                    "alignment": 32,
+                    "patch": "BOOM2SLS",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 296,
+                    "y": 192,
+                    "alignment": 32,
+                    "patch": "BOOM2SLS",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 2
+                      }
+                    ],
                     "children": null
                   }
                 },

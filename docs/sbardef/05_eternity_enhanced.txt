@@ -185,6 +185,112 @@
                   }
                 },
 
+## COLORIZED SLASHES (AMMO OVERVIEW)
+## Colors: White (no backpack), Gold (backpack), Orange (selected)
+## Conditions: 5 (ammo type matches selected weapon's ammo type), 10 (item owned), 11 (item not owned)
+                {
+                  "graphic": {
+                    "x": 299,
+                    "y": 173,
+                    "alignment": 32,
+                    "patch": "ETR6SLSH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 299,
+                    "y": 173,
+                    "alignment": 32,
+                    "patch": "ETR3SLSH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 299,
+                    "y": 173,
+                    "alignment": 32,
+                    "patch": "ETR2SLSH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 0
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 299,
+                    "y": 179,
+                    "alignment": 32,
+                    "patch": "ETR2SLSH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 1
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 299,
+                    "y": 185,
+                    "alignment": 32,
+                    "patch": "ETR2SLSH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 299,
+                    "y": 191,
+                    "alignment": 32,
+                    "patch": "ETR2SLSH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                }, 
+
 ## ARMS
 ## Colors: Gray (not owned), Gold (owned), Orange (selected)
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
@@ -2926,23 +3032,6 @@
                           "children": null
                         }
                       },
-
-## AMMO OVERVIEW: DIVIDER SLASHES
-## Always drawn
-## Condition: 5 (ammo type matches selected weapon's ammo type)
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 0,
-                          "alignment": 34,
-                          "patch": "ETRSLASH",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": null,
-                          "children": null
-                        }
-                      },
-
                       {
                         "number": {
                           "x": 18,
