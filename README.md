@@ -55,36 +55,36 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 
 **4) ﻿Eternity**<br>
 Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/eternity" target= "_blank">Eternity Engine</a>.<br>
-![04_eternity](https://github.com/user-attachments/assets/fcdf10b8-b35c-4163-a107-d9ba2d7718ad)
+![04_eternity_enhanced](https://github.com/user-attachments/assets/169b4109-bf46-4486-a24f-d7abda1c76a8)
    **I. Enhanced**: Uses original font with different sizes and mugshot. No labels.<br><br>
-![05_boomity](https://github.com/user-attachments/assets/4ffa2d8d-c6ea-47a6-9f12-02c67cef1d12)
+![05_eternity_boomified](https://github.com/user-attachments/assets/00908507-548c-44b8-8e53-26548de77348)
    **II. Boomified**: Uses Boom font instead, one size only, no mugshot. Health/Armor icons indicate Berserk/God modes and MegaArmor (colors depend on selected game), taken from the statusbar of <a href="https://doomwiki.org/wiki/Jenesis" target= "_blank">"Jenesis" by Jimmy</a> (with modifications by me).
 <br><br>
 
 **5) Boom**<br>
 The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.png/800px-NDCP-map23-end.png" target= "_blank">Boom HUD</a> with properly aligned keys (ignores custom offsets).<br>
-![05_boomcomp](https://github.com/user-attachments/assets/27d68636-3368-43c0-8d05-6325ded3afdf)
+![06_boomcomp](https://github.com/user-attachments/assets/a34ce37d-6570-45eb-b185-3177e2d4382e)
    **I. Compact**: Everything grouped on the left side of the screen.<br><br>
-![07_boomdist](https://github.com/user-attachments/assets/b6042ffe-b44b-498d-936c-0402deef7aba)
+![07_boomdist](https://github.com/user-attachments/assets/e12daf99-e744-4f4e-8073-77f63541dceb)
    **II. Distributed**: Weapon and ammo-related info move to the right side, otherwise the same.
 <br><br>
 
 **6) DSDA**<br>
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".) <br>
-![08_dsda-classic](https://github.com/user-attachments/assets/126c5710-80f4-424f-8aec-0a02ee366899)
+![08_dsda-classic](https://github.com/user-attachments/assets/94d338d7-b3ad-443c-a34d-5e23a65de9c6)
    **I. Classic**: Imitates the original HUD as closely as possible.<br><br>
-![09_dsda-enhanced](https://github.com/user-attachments/assets/a66538ae-9e3a-4d80-9fd9-88f0f48015c4)
+![09_dsda-enhanced](https://github.com/user-attachments/assets/1bb0016f-1008-492c-a6ec-df99452e14a0)
    **II. Enhanced**: Adds mugshot and reorganizes ARM/HEL/AMM/WPN widgets on the left side.<br><br>
-![09_dsda-condensed](https://github.com/user-attachments/assets/4bf8e504-c130-4902-a230-e837e3f94434)
+![10_dsda-condensed](https://github.com/user-attachments/assets/a698d366-b25f-4604-bbe8-0d8ed8365f6f)
    **III. Condensed**: Widgets on the left are all aligned in a single line. Ammo overview is minimized and mugshot moves to the right side.<br><br>
 
 **7) PrBoom+**<br>
 Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. Ammo overview and God Mode indicator (temporary mugshot) have been added.<br>
-![10_prboom](https://github.com/user-attachments/assets/8158a51f-a86c-464d-ad57-6ac913feb8ba)
+![11_prboom-classic](https://github.com/user-attachments/assets/db165fcb-69ec-4ed5-b961-6db63b448428)
    **I. Classic**: Imitates the original HUD as closely as possible: Boom Compact with Health and Armor isolated on the right side.<br>
 <em>Note: Some mods use different sprite sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
 <br><br>
-![12_prboom-balanced](https://github.com/user-attachments/assets/bfab92b6-7f7a-4f5a-a49c-9a28a9b731bf)
+![12_prboom-balanced](https://github.com/user-attachments/assets/75d68b7f-2345-4a80-b3d9-7ca08d4449ef)
    **II. Balanced**: Uses more neutral/universal icons (from Eternity Boomified) and splits them to both sides of the screens, using the double-sized Boom font. Ammo overview is missing. No colorization here (only in the WEA widget for selected weapon).<br><br>
 
 **BONUS CONTENT**<br><br>
