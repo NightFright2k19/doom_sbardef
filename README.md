@@ -57,7 +57,7 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/eternity" target= "_blank">Eternity Engine</a>.<br>
 ![04_eternity_enhanced](https://github.com/user-attachments/assets/169b4109-bf46-4486-a24f-d7abda1c76a8)
    **I. Enhanced**: Uses original font with different sizes and mugshot. No labels.<br><br>
-![05_eternity_boomified](https://github.com/user-attachments/assets/00908507-548c-44b8-8e53-26548de77348)
+![05_eternity_boomified](https://github.com/user-attachments/assets/07dd604c-a973-4e89-bc1a-e065604e70f6)
    **II. Boomified**: Uses Boom font instead, one size only, no mugshot. Health/Armor icons indicate Berserk/God modes and MegaArmor (colors depend on selected game), taken from the statusbar of <a href="https://doomwiki.org/wiki/Jenesis" target= "_blank">"Jenesis" by Jimmy</a> (with modifications by me).
 <br><br>
 
