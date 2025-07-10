@@ -1795,7 +1795,31 @@
               "x": 13,
               "y": 191,
               "alignment": 16,
-              "patch": "CRISPY1A",
+              "patch": "TAG_AMMO",
+              "tranmap": null,
+              "translation": null,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 61,
+              "y": 191,
+              "alignment": 16,
+              "patch": "TAG_HEAL",
+              "tranmap": null,
+              "translation": null,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 115,
+              "y": 191,
+              "alignment": 16,
+              "patch": "TAG_ARMS",
               "tranmap": null,
               "translation": null,
               "conditions": [
@@ -1809,10 +1833,10 @@
           },
           {
             "graphic": {
-              "x": 13,
+              "x": 115,
               "y": 191,
               "alignment": 16,
-              "patch": "CRISPY1B",
+              "patch": "TAG_FRAG",
               "tranmap": null,
               "translation": null,
               "conditions": [
@@ -1841,7 +1865,7 @@
               "x": 186,
               "y": 191,
               "alignment": 32,
-              "patch": "HUDARM33",
+              "patch": "TAG_ARM1",
               "tranmap": null,
               "translation": null,
               "conditions": [
@@ -1858,7 +1882,7 @@
               "x": 186,
               "y": 191,
               "alignment": 32,
-              "patch": "HUDARM50",
+              "patch": "TAG_ARM2",
               "tranmap": null,
               "translation": null,
               "conditions": [
@@ -2252,7 +2276,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDARM33",
+                          "patch": "TAG_ARM1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2269,7 +2293,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDARM50",
+                          "patch": "TAG_ARM2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -2286,7 +2310,7 @@
                           "x": 92,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDHEAL",
+                          "patch": "TAG_HEAL",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -2298,7 +2322,7 @@
                           "x": 253,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "NDIVAMMO",
+                          "patch": "TAG_AMMO",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -3659,7 +3683,7 @@
                     "x": 60,
                     "y": 174,
                     "alignment": 1,
-                    "patch": "HUDHEAL",
+                    "patch": "TAG_HEAL",
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
@@ -3671,7 +3695,7 @@
                     "x": 260,
                     "y": 174,
                     "alignment": 1,
-                    "patch": "HUDARM33",
+                    "patch": "TAG_ARM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -3688,7 +3712,7 @@
                     "x": 260,
                     "y": 174,
                     "alignment": 1,
-                    "patch": "HUDARM50",
+                    "patch": "TAG_ARM2",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -3854,7 +3878,7 @@
                     "x": 80,
                     "y": 174,
                     "alignment": 1,
-                    "patch": "HUDHEAL",
+                    "patch": "TAG_HEAL",
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
@@ -3866,7 +3890,7 @@
                     "x": 240,
                     "y": 174,
                     "alignment": 1,
-                    "patch": "HUDARM33",
+                    "patch": "TAG_ARM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -3883,7 +3907,7 @@
                     "x": 240,
                     "y": 174,
                     "alignment": 1,
-                    "patch": "HUDARM50",
+                    "patch": "TAG_ARM2",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -8559,7 +8583,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -8576,7 +8600,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -8597,7 +8621,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDINF1",
+                          "patch": "TAG_INF1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -11253,7 +11277,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "BOOM_KEY",
+                          "patch": "TAG_KEY",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -11265,7 +11289,7 @@
                           "x": 0,
                           "y": 8,
                           "alignment": 16,
-                          "patch": "BOOM_WEA",
+                          "patch": "TAG_WEA",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -11277,7 +11301,7 @@
                           "x": 0,
                           "y": 16,
                           "alignment": 16,
-                          "patch": "BOOM_AMM",
+                          "patch": "TAG_AMM",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -11325,7 +11349,19 @@
                           "x": 0,
                           "y": 24,
                           "alignment": 16,
-                          "patch": "BOOM_HEL",
+                          "patch": "TAG_HEL",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 47,
+                          "y": 24,
+                          "alignment": 16,
+                          "patch": "TAG_ARM",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -13809,7 +13845,7 @@
                     "x": 4,
                     "y": 159,
                     "alignment": 16,
-                    "patch": "BOOM_STS",
+                    "patch": "TAG_STS",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -14121,7 +14157,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "BOOM_KEY",
+                          "patch": "TAG_KEY",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -14133,7 +14169,19 @@
                           "x": 0,
                           "y": 8,
                           "alignment": 16,
-                          "patch": "BOOM_HEL",
+                          "patch": "TAG_HEL",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 47,
+                          "y": 8,
+                          "alignment": 16,
+                          "patch": "TAG_ARM",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -15908,7 +15956,7 @@
                           "x": 17,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "BOOM_WEA",
+                          "patch": "TAG_WEA",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -15925,7 +15973,7 @@
                           "x": 9,
                           "y": 0,
                           "alignment": 32,
-                          "patch": "BOOM_WEA",
+                          "patch": "TAG_WEA",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -15942,7 +15990,7 @@
                           "x": 0,
                           "y": 8,
                           "alignment": 32,
-                          "patch": "BOOM_AMM",
+                          "patch": "TAG_AMM",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -17154,7 +17202,7 @@
                     "x": 4,
                     "y": 175,
                     "alignment": 16,
-                    "patch": "BOOM_STS",
+                    "patch": "TAG_STS",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -17466,7 +17514,55 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "DSDA1A",
+                          "patch": "TAG_WPN",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 9,
+                          "alignment": 16,
+                          "patch": "TAG_HEL",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 47,
+                          "y": 9,
+                          "alignment": 16,
+                          "patch": "TAG_ARM",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 17,
+                          "alignment": 16,
+                          "patch": "TAG_AMM",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 19,
+                          "y": 1,
+                          "alignment": 16,
+                          "patch": "DGT6NUM1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -18065,7 +18161,7 @@
                           "x": 19,
                           "y": 17,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -18086,7 +18182,7 @@
                           "x": 19,
                           "y": 17,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -18111,7 +18207,7 @@
                           "x": 19,
                           "y": 17,
                           "alignment": 16,
-                          "patch": "HUDINF1",
+                          "patch": "TAG_INF1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -19350,7 +19446,43 @@
                     "x": 4,
                     "y": 167,
                     "alignment": 16,
-                    "patch": "DSDA1B",
+                    "patch": "TAG_ARM",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 175,
+                    "alignment": 16,
+                    "patch": "TAG_HEL",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 183,
+                    "alignment": 16,
+                    "patch": "TAG_AMM",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 191,
+                    "alignment": 16,
+                    "patch": "TAG_WPN",
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
@@ -19527,7 +19659,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -19548,7 +19680,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -19573,7 +19705,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "HUDINF1",
+                          "patch": "TAG_INF1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -21610,7 +21742,31 @@
                     "x": 4,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA1C",
+                    "patch": "TAG_ARM",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 23,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "TAG_HEL",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 42,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "TAG_AMM",
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
@@ -21622,7 +21778,7 @@
                     "x": 60,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA_WPN",
+                    "patch": "TAG_WPN",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -21655,7 +21811,7 @@
                     "x": 63,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA_WPN",
+                    "patch": "TAG_WPN",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -21688,7 +21844,7 @@
                     "x": 63,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA_WPN",
+                    "patch": "TAG_WPN",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -21721,7 +21877,7 @@
                     "x": 63,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA_WPN",
+                    "patch": "TAG_WPN",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -21754,7 +21910,7 @@
                     "x": 63,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA_WPN",
+                    "patch": "TAG_WPN",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -21787,7 +21943,7 @@
                     "x": 63,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA_WPN",
+                    "patch": "TAG_WPN",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -22843,7 +22999,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -22864,7 +23020,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -22889,7 +23045,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "HUDINF1",
+                          "patch": "TAG_INF1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -22921,6 +23077,18 @@
                     "translation": null,
                     "conditions": null,
                     "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT6NUM1",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
                       {
                         "graphic": {
                           "x": 0,
@@ -25864,7 +26032,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "BOOM_KEY",
+                          "patch": "TAG_KEY",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -25876,7 +26044,7 @@
                           "x": 0,
                           "y": 8,
                           "alignment": 16,
-                          "patch": "BOOM_WEA",
+                          "patch": "TAG_WEA",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -25888,7 +26056,7 @@
                           "x": 0,
                           "y": 16,
                           "alignment": 16,
-                          "patch": "BOOM_AMM",
+                          "patch": "TAG_AMM",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -28416,7 +28584,7 @@
                     "x": 4,
                     "y": 167,
                     "alignment": 16,
-                    "patch": "BOOM_STS",
+                    "patch": "TAG_STS",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -28728,7 +28896,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "BOOM_STS",
+                          "patch": "TAG_STS",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -28749,7 +28917,7 @@
                           "x": 0,
                           "y": 8,
                           "alignment": 16,
-                          "patch": "BOOM_KEY",
+                          "patch": "TAG_KEY",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -30482,7 +30650,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 32,
-                          "patch": "BOOM_WEA",
+                          "patch": "TAG_WEA",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -30499,7 +30667,7 @@
                           "x": 8,
                           "y": 1,
                           "alignment": 32,
-                          "patch": "BOOM_WEA",
+                          "patch": "TAG_WEA",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -30516,7 +30684,7 @@
                           "x": 33,
                           "y": 9,
                           "alignment": 32,
-                          "patch": "BOOM_AMM",
+                          "patch": "TAG_AMM",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -31511,7 +31679,7 @@
                           "x": 73,
                           "y": 9,
                           "alignment": 32,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [

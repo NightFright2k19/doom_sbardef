@@ -55,13 +55,37 @@
                   }
                 },
 
-## LEFT HUD PANEL IMAGE
+## LEFT HUD PANEL IMAGES
                 {
                   "graphic": {
                     "x": 4,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA1C",
+                    "patch": "TAG_ARM",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 23,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "TAG_HEL",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 42,
+                    "y": 184,
+                    "alignment": 16,
+                    "patch": "TAG_AMM",
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
@@ -76,7 +100,7 @@
                     "x": 60,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA_WPN",
+                    "patch": "TAG_WPN",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -109,7 +133,7 @@
                     "x": 63,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA_WPN",
+                    "patch": "TAG_WPN",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -142,7 +166,7 @@
                     "x": 63,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA_WPN",
+                    "patch": "TAG_WPN",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -175,7 +199,7 @@
                     "x": 63,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA_WPN",
+                    "patch": "TAG_WPN",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -208,7 +232,7 @@
                     "x": 63,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA_WPN",
+                    "patch": "TAG_WPN",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -241,7 +265,7 @@
                     "x": 63,
                     "y": 184,
                     "alignment": 16,
-                    "patch": "DSDA_WPN",
+                    "patch": "TAG_WPN",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -1317,7 +1341,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -1338,7 +1362,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -1363,7 +1387,7 @@
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "HUDINF1",
+                          "patch": "TAG_INF1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -1407,6 +1431,18 @@
                     "translation": null,
                     "conditions": null,
                     "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT6NUM1",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
                       {
                         "graphic": {
                           "x": 0,

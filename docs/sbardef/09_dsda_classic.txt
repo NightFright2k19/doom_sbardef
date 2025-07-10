@@ -34,13 +34,49 @@
                     "conditions": null,
                     "children": [
 
-## LEFT HUD PANEL IMAGE
-                     {
+## LEFT HUD PANEL IMAGES
+                      {
                         "graphic": {
                           "x": 0,
                           "y": 1,
                           "alignment": 16,
-                          "patch": "DSDA1A",
+                          "patch": "TAG_WPN",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 9,
+                          "alignment": 16,
+                          "patch": "TAG_HEL",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 47,
+                          "y": 9,
+                          "alignment": 16,
+                          "patch": "TAG_ARM",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 17,
+                          "alignment": 16,
+                          "patch": "TAG_AMM",
                           "tranmap": null,
                           "translation": null,
                           "conditions": null,
@@ -56,6 +92,18 @@
 ##             6 (weapon in slot owned), 8 (any weapon in slot selected), 
 ##             9 (any weapon in slot not selected), 10 (item owned), 11 (item not owned), 
 ##             16 (game mode equal to mode)
+                      {
+                        "graphic": {
+                          "x": 19,
+                          "y": 1,
+                          "alignment": 16,
+                          "patch": "DGT6NUM1",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
                       {
                         "graphic": {
                           "x": 35,
@@ -672,7 +720,7 @@
                           "x": 19,
                           "y": 17,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -693,7 +741,7 @@
                           "x": 19,
                           "y": 17,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -718,7 +766,7 @@
                           "x": 19,
                           "y": 17,
                           "alignment": 16,
-                          "patch": "HUDINF1",
+                          "patch": "TAG_INF1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
