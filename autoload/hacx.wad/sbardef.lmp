@@ -3640,6 +3640,7 @@
               "type": 4,
               "param": 0,
               "maxlength": 3,
+	      "transparency": true,
               "conditions": [
                 {
                   "condition": 4,
@@ -3691,6 +3692,7 @@
                     "patch": "TAG_HEAL",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": null,
                     "children": null
                   }
@@ -3703,6 +3705,7 @@
                     "patch": "TAG_ARM1",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 11,
@@ -3720,6 +3723,7 @@
                     "patch": "TAG_ARM2",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -3740,6 +3744,7 @@
                     "type": 0,
                     "param": 0,
                     "maxlength": 3,
+	            "transparency": true,
                     "conditions": null,
                     "children": null
                   }
@@ -3755,6 +3760,7 @@
                     "type": 1,
                     "param": 0,
                     "maxlength": 3,
+	            "transparency": true,
                     "conditions": null,
                     "children": null
                   }
@@ -3767,6 +3773,7 @@
                     "patch": "STKEYS0",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -3784,6 +3791,7 @@
                     "patch": "STKEYS1",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -3801,6 +3809,7 @@
                     "patch": "STKEYS2",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -3818,6 +3827,7 @@
                     "patch": "STKEYS3",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -3835,6 +3845,7 @@
                     "patch": "STKEYS4",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -3852,6 +3863,7 @@
                     "patch": "STKEYS5",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -3886,6 +3898,7 @@
                     "patch": "TAG_HEAL",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": null,
                     "children": null
                   }
@@ -3898,6 +3911,7 @@
                     "patch": "TAG_ARM1",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 11,
@@ -3915,6 +3929,7 @@
                     "patch": "TAG_ARM2",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -3935,6 +3950,7 @@
                     "type": 0,
                     "param": 0,
                     "maxlength": 3,
+	            "transparency": true,
                     "conditions": null,
                     "children": null
                   }
@@ -3950,6 +3966,7 @@
                     "type": 1,
                     "param": 0,
                     "maxlength": 3,
+	            "transparency": true,
                     "conditions": null,
                     "children": null
                   }
@@ -3962,6 +3979,7 @@
                     "patch": "STKEYS0",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -3979,6 +3997,7 @@
                     "patch": "STKEYS1",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -3996,6 +4015,7 @@
                     "patch": "STKEYS2",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -4013,6 +4033,7 @@
                     "patch": "STKEYS3",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -4030,6 +4051,7 @@
                     "patch": "STKEYS4",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -4047,6 +4069,7 @@
                     "patch": "STKEYS5",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -27443,6 +27466,7 @@
                     "alignment": 39,
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -27460,6 +27484,7 @@
                     "patch": "ICONMEDI",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 11,
@@ -27481,6 +27506,7 @@
                     "patch": "PSTRA0",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -27502,6 +27528,7 @@
                     "patch": "ARM1A0",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 11,
@@ -27519,6 +27546,7 @@
                     "patch": "ARM2A0",
                     "tranmap": null,
                     "translation": null,
+	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -27539,6 +27567,7 @@
                     "type": 0,
                     "param": 0,
                     "maxlength": 3,
+	            "transparency": true,
                     "conditions": null,
                     "children": null
                   }
@@ -27554,6 +27583,7 @@
                     "type": 1,
                     "param": 0,
                     "maxlength": 3,
+	            "transparency": true,
                     "conditions": null,
                     "children": null
                   }
