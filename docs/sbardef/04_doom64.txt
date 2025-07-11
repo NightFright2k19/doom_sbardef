@@ -469,9 +469,8 @@
 
 ## WIDGETS
 ## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
-##        7 (message), 8 (announce), 9 (chat), 10 (title)
-## Conditions: 19 (show widget), 20 (show stats widget), 21 (hide stats widget)
-## Automap-related widget adjustments must be done in the definitions for the first statusbar!
+##        7 (message), 8 (level announce), 9 (MP chat), 10 (level title)
+## Conditions: 19 (automap mode), 20 (widget enabled), 21 (widget disabled)
 
 ## STATS
 ## Vertical layout (bottom left); 4 digits max in ratio mode (e.g. 1000/1000 monsters) for 4:3 layout
