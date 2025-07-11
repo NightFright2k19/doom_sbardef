@@ -19763,8 +19763,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 7,
-                              "param": 3
+                              "condition": 22,
+                              "param": 2
                             },
                             {
                               "condition": 6,
@@ -19788,8 +19788,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 7,
-                              "param": 3
+                              "condition": 22,
+                              "param": 2
                             },
                             {
                               "condition": 8,
@@ -19809,8 +19809,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 6,
-                              "param": 3
+                              "condition": 0,
+                              "param": 2
                             },
                             {
                               "condition": 6,
@@ -19834,12 +19834,66 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 6,
-                              "param": 3
+                              "condition": 0,
+                              "param": 2
                             },
                             {
                               "condition": 8,
                               "param": 4
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT4NUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 22,
+                              "param": 2
+                            },
+                            {
+                              "condition": 7,
+                              "param": 4
+                            },
+                            {
+                              "condition": 0,
+                              "param": 8
+                            },
+                            {
+                              "condition": 2,
+                              "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 22,
+                              "param": 2
+                            },
+                            {
+                              "condition": 7,
+                              "param": 4
+                            },
+                            {
+                              "condition": 1,
+                              "param": 8
                             }
                           ],
                           "children": null
@@ -19854,6 +19908,10 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
+                            {
+                              "condition": 0,
+                              "param": 2
+                            },
                             {
                               "condition": 7,
                               "param": 4
@@ -19880,7 +19938,65 @@
                           "translation": null,
                           "conditions": [
                             {
+                              "condition": 0,
+                              "param": 2
+                            },
+                            {
                               "condition": 7,
+                              "param": 4
+                            },
+                            {
+                              "condition": 1,
+                              "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 7,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT4NUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 22,
+                              "param": 2
+                            },
+                            {
+                              "condition": 6,
+                              "param": 4
+                            },
+                            {
+                              "condition": 0,
+                              "param": 8
+                            },
+                            {
+                              "condition": 2,
+                              "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 7,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 22,
+                              "param": 2
+                            },
+                            {
+                              "condition": 6,
                               "param": 4
                             },
                             {
@@ -19901,6 +20017,10 @@
                           "translation": null,
                           "conditions": [
                             {
+                              "condition": 0,
+                              "param": 2
+                            },
+                            {
                               "condition": 6,
                               "param": 4
                             },
@@ -19925,6 +20045,10 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
+                            {
+                              "condition": 0,
+                              "param": 2
+                            },
                             {
                               "condition": 6,
                               "param": 4
