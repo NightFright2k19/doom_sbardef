@@ -56,8 +56,9 @@
             }
           },
 
-## CANVAS 1: STATS WIDGET INACTIVE
-## Valid if stats widget is NOT shown in HUD view
+## CANVAS 1: WIDESCREEN LAYOUT
+## Valid if "General" > "Widescreen" is set to "ON"
+## Condition: 35 (widescreen mode)
           {
             "canvas": {
               "x": 0,
@@ -67,8 +68,8 @@
               "translation": null,
               "conditions": [
                 {
-                  "condition": 21,
-                  "param": 0
+                  "condition": 35,
+                  "param": 1
                 }
               ],
               "children": [
@@ -83,7 +84,6 @@
                     "patch": "TAG_HEAL",
                     "tranmap": null,
                     "translation": null,
-	            "transparency": true,
                     "conditions": null,
                     "children": null
                   }
@@ -96,7 +96,6 @@
                     "patch": "TAG_ARM1",
                     "tranmap": null,
                     "translation": null,
-	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 11,
@@ -114,7 +113,6 @@
                     "patch": "TAG_ARM2",
                     "tranmap": null,
                     "translation": null,
-	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
@@ -273,8 +271,9 @@
             }
           },
 
-## CANVAS 2: STATS WIDGET ACTIVE
-## Valid if stats widget is shown in HUD view
+## CANVAS 2: ORIGINAL (4:3) LAYOUT
+## Valid if "General" > "Widescreen" is set to "OFF"
+## Condition: 35 (widescreen mode)
           {
             "canvas": {
               "x": 0,
@@ -284,7 +283,7 @@
               "translation": null,
               "conditions": [
                 {
-                  "condition": 20,
+                  "condition": 35,
                   "param": 0
                 }
               ],
@@ -300,7 +299,6 @@
                     "patch": "TAG_HEAL",
                     "tranmap": null,
                     "translation": null,
-	            "transparency": true,
                     "conditions": null,
                     "children": null
                   }
@@ -313,7 +311,6 @@
                     "patch": "TAG_ARM1",
                     "tranmap": null,
                     "translation": null,
-	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 11,
@@ -331,7 +328,6 @@
                     "patch": "TAG_ARM2",
                     "tranmap": null,
                     "translation": null,
-	            "transparency": true,
                     "conditions": [
                       {
                         "condition": 10,
