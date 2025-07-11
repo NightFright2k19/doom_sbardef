@@ -374,7 +374,7 @@
 ##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
 ## Conditions: 0 (weapon owned), 6 (weapon in slot owned), 7 (weapon in slot not owned), 
 ##             8 (any weapon in slot selected), 9 (any weapon in slot not selected), 
-##             16 (game mode equal to mode), 17 (game mode not equal to mode)
+##             16 (game mode equal to mode), 17 (game mode not equal to mode), 22 (weapon not owned)
                 {
                   "canvas": {
                     "x": 61,
@@ -503,8 +503,41 @@
                               "param": 1
                             },
                             {
-                              "condition": 6,
+                              "condition": 0,
+                              "param": 2
+                            },
+                            {
+                              "condition": 22,
+                              "param": 8
+                            },
+                            {
+                              "condition": 9,
                               "param": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT6NUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 16,
+                              "param": 1
+                            },
+                            {
+                              "condition": 22,
+                              "param": 2
+                            },
+                            {
+                              "condition": 0,
+                              "param": 8
                             },
                             {
                               "condition": 9,
