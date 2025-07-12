@@ -26,7 +26,10 @@
               "children": [
 
 ## LEFT SIDE: LABELS, HEALTH
-## Conditions: 10 (item owned), 11 (item not owned), 19 (show widget), 20 (show stats widget)
+## Health icon: Blue (health > 100, no Berserk), Red (Berserk), Gold (Invulnerability)
+## Armor icon: Blue with Blue Armor, Gold with Invulnerability
+## Conditions: 10 (item owned), 11 (item not owned), 19 (show widget), 20 (show stats widget),
+##             23 (health >= parm), 24 (health < parm)
                 {
                   "canvas": {
                     "x": 4,
@@ -78,6 +81,31 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
+                            {
+                              "condition": 24,
+                              "param": 101
+                            },
+                            {
+                              "condition": 11,
+                              "param": 18
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 16,
+                          "alignment": 16,
+                          "patch": "PRBMHEL4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 101
+                            },
                             {
                               "condition": 11,
                               "param": 18

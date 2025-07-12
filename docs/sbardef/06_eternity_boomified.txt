@@ -40,15 +40,36 @@
                 },
 
 ## ICONS: HEALTH, ARMOR
-## Health: Red with Berserker, Gold with Invulnerability
+## Health: Blue (health > 100, no Berserk), Red (Berserk), Gold (Invulnerability)
 ## Armor: Blue with Blue Armor, Gold with Invulnerability
-## Conditions: 10 (item owned)
+## Conditions: 10 (item owned), 11 (item not owned), 23 (health >= parm)
                 {
                   "graphic": {
                     "x": 6,
                     "y": 177,
                     "alignment": 16,
-                    "patch": "BMTYHEL",
+                    "patch": "BMTYHEL2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 101
+                      },
+                      {
+                        "condition": 11,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 6,
+                    "y": 177,
+                    "alignment": 16,
+                    "patch": "BMTYHEL1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -364,8 +385,8 @@
                 },
 
 ## HEALTH
-## Colors: Green (no Invulnerability), Gold (Invulnerability)
-## Conditions: 10 (item owned), 11 (item not owned)
+## Colors: Green (0-100, no Invulnerability), Blue (>100, no Invulnerability), Gold (Invulnerability)
+## Conditions: 10 (item owned), 11 (item not owned), 23 (health >= parm), 24 (health < parm)
                 {
                   "number": {
                     "x": 33,
@@ -378,6 +399,34 @@
                     "param": 0,
                     "maxlength": 3,
                     "conditions": [
+                      {
+                        "condition": 24,
+                        "param": 101
+                      },
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "number": {
+                    "x": 33,
+                    "y": 177,
+                    "alignment": 18,
+                    "font": "DigitBlue",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 0,
+                    "param": 0,
+                    "maxlength": 3,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 101
+                      },
                       {
                         "condition": 11,
                         "param": 21

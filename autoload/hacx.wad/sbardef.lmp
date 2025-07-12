@@ -4370,6 +4370,34 @@
                     "maxlength": 3,
                     "conditions": [
                       {
+                        "condition": 24,
+                        "param": 101
+                      },
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "number": {
+                    "x": 62,
+                    "y": 172,
+                    "alignment": 18,
+                    "font": "EternityLrgBlue",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 0,
+                    "param": 0,
+                    "maxlength": 3,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 101
+                      },
+                      {
                         "condition": 11,
                         "param": 21
                       }
@@ -7666,7 +7694,28 @@
                     "x": 6,
                     "y": 177,
                     "alignment": 16,
-                    "patch": "BMTYHEL",
+                    "patch": "BMTYHEL2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 101
+                      },
+                      {
+                        "condition": 11,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 6,
+                    "y": 177,
+                    "alignment": 16,
+                    "patch": "BMTYHEL1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -7988,6 +8037,34 @@
                     "param": 0,
                     "maxlength": 3,
                     "conditions": [
+                      {
+                        "condition": 24,
+                        "param": 101
+                      },
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "number": {
+                    "x": 33,
+                    "y": 177,
+                    "alignment": 18,
+                    "font": "DigitBlue",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 0,
+                    "param": 0,
+                    "maxlength": 3,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 101
+                      },
                       {
                         "condition": 11,
                         "param": 21
@@ -11403,6 +11480,34 @@
                           "maxlength": 3,
                           "conditions": [
                             {
+                              "condition": 24,
+                              "param": 101
+                            },
+                            {
+                              "condition": 11,
+                              "param": 21
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "percent": {
+                          "x": 19,
+                          "y": 23,
+                          "alignment": 16,
+                          "font": "DigitBlue",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 0,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 101
+                            },
+                            {
                               "condition": 11,
                               "param": 21
                             }
@@ -14222,6 +14327,34 @@
                           "param": 0,
                           "maxlength": 3,
                           "conditions": [
+                            {
+                              "condition": 24,
+                              "param": 101
+                            },
+                            {
+                              "condition": 11,
+                              "param": 21
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "percent": {
+                          "x": 19,
+                          "y": 7,
+                          "alignment": 16,
+                          "font": "DigitBlue",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 0,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 101
+                            },
                             {
                               "condition": 11,
                               "param": 21
@@ -18035,6 +18168,34 @@
                           "maxlength": 3,
                           "conditions": [
                             {
+                              "condition": 24,
+                              "param": 101
+                            },
+                            {
+                              "condition": 11,
+                              "param": 21
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "percent": {
+                          "x": 19,
+                          "y": 8,
+                          "alignment": 16,
+                          "font": "DigitBlue",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 0,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 101
+                            },
+                            {
                               "condition": 11,
                               "param": 21
                             }
@@ -19591,6 +19752,34 @@
                     "param": 0,
                     "maxlength": 3,
                     "conditions": [
+                      {
+                        "condition": 24,
+                        "param": 101
+                      },
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "percent": {
+                    "x": 23,
+                    "y": 174,
+                    "alignment": 16,
+                    "font": "DigitBlue",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 0,
+                    "param": 0,
+                    "maxlength": 3,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 101
+                      },
                       {
                         "condition": 11,
                         "param": 21
@@ -22011,6 +22200,34 @@
                     "param": 0,
                     "maxlength": 3,
                     "conditions": [
+                      {
+                        "condition": 24,
+                        "param": 101
+                      },
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "number": {
+                    "x": 23,
+                    "y": 190,
+                    "alignment": 16,
+                    "font": "DigitBlue",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 0,
+                    "param": 0,
+                    "maxlength": 3,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 101
+                      },
                       {
                         "condition": 11,
                         "param": 21
@@ -28113,6 +28330,31 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
+                            {
+                              "condition": 24,
+                              "param": 101
+                            },
+                            {
+                              "condition": 11,
+                              "param": 18
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 16,
+                          "alignment": 16,
+                          "patch": "PRBMHEL4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 101
+                            },
                             {
                               "condition": 11,
                               "param": 18
