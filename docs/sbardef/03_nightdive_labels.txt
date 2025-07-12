@@ -964,12 +964,292 @@
                   }
                 },
 
-## AMMO
-## No max amounts
-## Colors: White (no backpack), Gold (backpack), Orange (active)
+## AMMO: "MAX" LABELS
+## Only shown when specific ammo type is maxed out
+## Colors: White (no Backpack), Gold (Backpack), Orange (weapon selected) 
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
-## Conditions: 5 (ammo type matches selected weapon's ammo type), 10 (item owned),
-##             11 (item not owned)
+## Condition: 11 (item not owned), 37 (ammo % >= param)
+                {
+                  "canvas": {
+                    "x": 298,
+                    "y": 171,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 37,
+                        "param": 100,
+                        "param2": 0
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 298,
+                    "y": 177,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 37,
+                        "param": 100,
+                        "param2": 1
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 298,
+                    "y": 183,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 37,
+                        "param": 100,
+                        "param2": 3
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 298,
+                    "y": 189,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 37,
+                        "param": 100,
+                        "param2": 2
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+
+## AMMO: NO BACKPACK
+## Color: White
+## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Condition: 11 (item not owned), 38 (ammo % < param)
                 {
                   "canvas": {
                     "x": 313,
@@ -977,7 +1257,12 @@
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "conditions": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 7
+                      }
+                    ],
                     "children": [
                       {
                         "number": {
@@ -992,13 +1277,99 @@
                           "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 11,
-                              "param": 7
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 0
                             }
                           ],
                           "children": null
                         }
                       },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 6,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 12,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 18,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+
+## AMMO: BACKPACK
+## Color: Gold
+## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Condition: 10 (item owned), 38 (ammo % < param)
+                {
+                  "canvas": {
+                    "x": 313,
+                    "y": 170,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 7
+                      }
+                    ],
+                    "children": [
                       {
                         "number": {
                           "x": 0,
@@ -1012,13 +1383,94 @@
                           "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 10,
-                              "param": 7
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 0
                             }
                           ],
                           "children": null
                         }
                       },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 6,
+                          "alignment": 34,
+                          "font": "DigitGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 12,
+                          "alignment": 34,
+                          "font": "DigitGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 18,
+                          "alignment": 34,
+                          "font": "DigitGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+
+## AMMO: ACTIVE
+## Color: Orange
+## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Condition: 5 (ammo type matches selected weapon's ammo type), 38 (ammo % < param)
+                {
+                  "canvas": {
+                    "x": 313,
+                    "y": 170,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": [
                       {
                         "number": {
                           "x": 0,
@@ -1031,6 +1483,11 @@
                           "param": 0,
                           "maxlength": 3,
                           "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 0
+                            },
                             {
                               "condition": 5,
                               "param": 0
@@ -1044,46 +1501,6 @@
                           "x": 0,
                           "y": 6,
                           "alignment": 34,
-                          "font": "DigitWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 6,
-                          "alignment": 34,
-                          "font": "DigitGold",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 6,
-                          "alignment": 34,
                           "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
@@ -1091,6 +1508,11 @@
                           "param": 1,
                           "maxlength": 3,
                           "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 1
+                            },
                             {
                               "condition": 5,
                               "param": 1
@@ -1104,46 +1526,6 @@
                           "x": 0,
                           "y": 12,
                           "alignment": 34,
-                          "font": "DigitWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 12,
-                          "alignment": 34,
-                          "font": "DigitGold",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 12,
-                          "alignment": 34,
                           "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
@@ -1151,6 +1533,11 @@
                           "param": 3,
                           "maxlength": 3,
                           "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 3
+                            },
                             {
                               "condition": 5,
                               "param": 3
@@ -1164,46 +1551,6 @@
                           "x": 0,
                           "y": 18,
                           "alignment": 34,
-                          "font": "DigitWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 18,
-                          "alignment": 34,
-                          "font": "DigitGold",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 18,
-                          "alignment": 34,
                           "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
@@ -1211,6 +1558,11 @@
                           "param": 2,
                           "maxlength": 3,
                           "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 2
+                            },
                             {
                               "condition": 5,
                               "param": 2

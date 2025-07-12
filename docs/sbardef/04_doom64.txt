@@ -58,7 +58,7 @@
 
 ## CANVAS 1: WIDESCREEN LAYOUT
 ## Valid if "General" > "Widescreen" is set to "ON"
-## Condition: 35 (widescreen mode)
+## Condition: 39 (widescreen mode)
           {
             "canvas": {
               "x": 0,
@@ -68,7 +68,7 @@
               "translation": null,
               "conditions": [
                 {
-                  "condition": 35,
+                  "condition": 39,
                   "param": 1
                 }
               ],
@@ -273,7 +273,7 @@
 
 ## CANVAS 2: ORIGINAL (4:3) LAYOUT
 ## Valid if "General" > "Widescreen" is set to "OFF"
-## Condition: 35 (widescreen mode)
+## Condition: 39 (widescreen mode)
           {
             "canvas": {
               "x": 0,
@@ -283,7 +283,7 @@
               "translation": null,
               "conditions": [
                 {
-                  "condition": 35,
+                  "condition": 39,
                   "param": 0
                 }
               ],
