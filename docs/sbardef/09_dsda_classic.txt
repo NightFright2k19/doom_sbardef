@@ -690,6 +690,23 @@
 ## Conditions: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned),
 ##             31 (ammo for selected weapon >= <parm>), 33 (ammo % for selected weapon >= <parm>)
                       {
+                        "graphic": {
+                          "x": 19,
+                          "y": 17,
+                          "alignment": 16,
+                          "patch": "PROGBAR7",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 4,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
                         "canvas": {
                           "x": 19,
                           "y": 17,
