@@ -1,9 +1,9 @@
 ## DOOM 64
 
-## Alignments: 0 (center), 16 (widescreen/left), 32 (widescreen/right)
+## Alignments: 0 (original), 16 (widescreen/left), 32 (widescreen/right)
 ##             top:    +0 (left), +1 (center), +2 (right)
-##             center: +3 (left), +4 (center), +5 (right)
-##             bottom: +6 (left), +7 (center), +8 (right)
+##             center: +4 (left), +5 (center), +6 (right)
+##             bottom: +8 (left), +9 (center), +10 (right)
 
       {
         "height": 200,
@@ -161,9 +161,9 @@
 ## Condition: 10 (item owned)
                 {
                   "graphic": {
-                    "x": 91,
+                    "x": 94,
                     "y": 190,
-                    "alignment": 4,
+                    "alignment": 5,
                     "patch": "STKEYS0",
                     "tranmap": null,
                     "translation": null,
@@ -179,9 +179,9 @@
                 },
                 {
                   "graphic": {
-                    "x": 105,
+                    "x": 108,
                     "y": 190,
-                    "alignment": 4,
+                    "alignment": 5,
                     "patch": "STKEYS1",
                     "tranmap": null,
                     "translation": null,
@@ -197,9 +197,9 @@
                 },
                 {
                   "graphic": {
-                    "x": 119,
+                    "x": 122,
                     "y": 190,
-                    "alignment": 4,
+                    "alignment": 5,
                     "patch": "STKEYS2",
                     "tranmap": null,
                     "translation": null,
@@ -215,9 +215,9 @@
                 },
                 {
                   "graphic": {
-                    "x": 192,
+                    "x": 195,
                     "y": 190,
-                    "alignment": 4,
+                    "alignment": 5,
                     "patch": "STKEYS3",
                     "tranmap": null,
                     "translation": null,
@@ -233,9 +233,9 @@
                 },
                 {
                   "graphic": {
-                    "x": 206,
+                    "x": 209,
                     "y": 190,
-                    "alignment": 4,
+                    "alignment": 5,
                     "patch": "STKEYS4",
                     "tranmap": null,
                     "translation": null,
@@ -251,9 +251,9 @@
                 },
                 {
                   "graphic": {
-                    "x": 220,
+                    "x": 223,
                     "y": 190,
-                    "alignment": 4,
+                    "alignment": 5,
                     "patch": "STKEYS5",
                     "tranmap": null,
                     "translation": null,
@@ -376,9 +376,9 @@
 ## Condition: 10 (item owned)
                 {
                   "graphic": {
-                    "x": 105,
+                    "x": 108,
                     "y": 190,
-                    "alignment": 4,
+                    "alignment": 5,
                     "patch": "STKEYS0",
                     "tranmap": null,
                     "translation": null,
@@ -394,9 +394,9 @@
                 },
                 {
                   "graphic": {
-                    "x": 116,
+                    "x": 119,
                     "y": 190,
-                    "alignment": 4,
+                    "alignment": 5,
                     "patch": "STKEYS1",
                     "tranmap": null,
                     "translation": null,
@@ -412,9 +412,9 @@
                 },
                 {
                   "graphic": {
-                    "x": 127,
+                    "x": 130,
                     "y": 190,
-                    "alignment": 4,
+                    "alignment": 5,
                     "patch": "STKEYS2",
                     "tranmap": null,
                     "translation": null,
@@ -430,9 +430,9 @@
                 },
                 {
                   "graphic": {
-                    "x": 185,
+                    "x": 188,
                     "y": 190,
-                    "alignment": 4,
+                    "alignment": 5,
                     "patch": "STKEYS3",
                     "tranmap": null,
                     "translation": null,
@@ -448,9 +448,9 @@
                 },
                 {
                   "graphic": {
-                    "x": 196,
+                    "x": 199,
                     "y": 190,
-                    "alignment": 4,
+                    "alignment": 5,
                     "patch": "STKEYS4",
                     "tranmap": null,
                     "translation": null,
@@ -466,9 +466,9 @@
                 },
                 {
                   "graphic": {
-                    "x": 207,
+                    "x": 210,
                     "y": 190,
-                    "alignment": 4,
+                    "alignment": 5,
                     "patch": "STKEYS5",
                     "tranmap": null,
                     "translation": null,
@@ -487,8 +487,9 @@
           },
 
 ## WIDGETS
-## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
-##        7 (message), 8 (level announce), 9 (MP chat), 10 (level title)
+## Types: 0 (stat_totals), 1 (time), 2 (coordinates), 3 (fps_counter), 4 (render_stats), 
+##        5 (command_history), 6 (speedometer), 7 (message), 8 (announce_level_title),
+##        9 (chat), 10 (level_title)
 ## Conditions: 19 (automap mode), 20 (widget enabled), 21 (widget disabled)
 
 ## STATS
