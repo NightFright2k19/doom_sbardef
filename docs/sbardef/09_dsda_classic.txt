@@ -688,10 +688,27 @@
 ## Color: White (no backpack), Green (backpack)
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
 ## Conditions: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned),
-##             31 (ammo for selected weapon >= <parm>), 33 (ammo % for selected weapon >= <parm>)
+##             33 (ammo % for selected weapon >= <parm>)
                       {
                         "graphic": {
                           "x": 19,
+                          "y": 17,
+                          "alignment": 16,
+                          "patch": "PROGBAR7",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 4,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 39,
                           "y": 17,
                           "alignment": 16,
                           "patch": "PROGBAR7",
@@ -734,8 +751,8 @@
                                 "translation": null,
                                 "conditions": [
                                   {
-                                    "condition": 31,
-                                    "param": 1
+                                    "condition": 33,
+                                    "param": 5
                                   }
                                 ],
                                 "children": null
@@ -752,7 +769,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 15
+                                    "param": 10
                                   }
                                 ],
                                 "children": null
@@ -769,7 +786,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 25
+                                    "param": 15
                                   }
                                 ],
                                 "children": null
@@ -786,7 +803,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 35
+                                    "param": 20
                                   }
                                 ],
                                 "children": null
@@ -803,7 +820,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 45
+                                    "param": 25
                                   }
                                 ],
                                 "children": null
@@ -820,7 +837,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 55
+                                    "param": 30
                                   }
                                 ],
                                 "children": null
@@ -837,7 +854,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 65
+                                    "param": 35
                                   }
                                 ],
                                 "children": null
@@ -854,7 +871,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 75
+                                    "param": 40
                                   }
                                 ],
                                 "children": null
@@ -871,7 +888,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 85
+                                    "param": 45
                                   }
                                 ],
                                 "children": null
@@ -888,7 +905,177 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
+                                    "param": 50
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 20,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR6",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 55
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 22,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR6",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 60
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 24,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR6",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 65
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 26,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR6",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 70
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 28,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR6",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 75
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 30,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR6",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 80
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 32,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR6",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 85
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 34,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR6",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 90
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 36,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR6",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
                                     "param": 95
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 38,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR6",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 100
                                   }
                                 ],
                                 "children": null
@@ -925,8 +1112,8 @@
                                 "translation": null,
                                 "conditions": [
                                   {
-                                    "condition": 31,
-                                    "param": 1
+                                    "condition": 33,
+                                    "param": 5
                                   }
                                 ],
                                 "children": null
@@ -943,7 +1130,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 15
+                                    "param": 10
                                   }
                                 ],
                                 "children": null
@@ -960,7 +1147,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 25
+                                    "param": 15
                                   }
                                 ],
                                 "children": null
@@ -977,7 +1164,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 35
+                                    "param": 20
                                   }
                                 ],
                                 "children": null
@@ -994,7 +1181,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 45
+                                    "param": 25
                                   }
                                 ],
                                 "children": null
@@ -1011,7 +1198,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 55
+                                    "param": 30
                                   }
                                 ],
                                 "children": null
@@ -1028,7 +1215,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 65
+                                    "param": 35
                                   }
                                 ],
                                 "children": null
@@ -1045,7 +1232,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 75
+                                    "param": 40
                                   }
                                 ],
                                 "children": null
@@ -1062,7 +1249,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 85
+                                    "param": 45
                                   }
                                 ],
                                 "children": null
@@ -1079,7 +1266,177 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
+                                    "param": 50
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 20,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 55
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 22,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 60
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 24,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 65
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 26,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 70
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 28,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 75
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 30,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 80
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 32,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 85
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 34,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 90
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 36,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
                                     "param": 95
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 38,
+                                "y": 0,
+                                "alignment": 16,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 100
                                   }
                                 ],
                                 "children": null
@@ -1095,7 +1452,7 @@
 ## Condition: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned)
                       {
                         "number": {
-                          "x": 43,
+                          "x": 63,
                           "y": 16,
                           "alignment": 16,
                           "font": "DigitWhite",
@@ -1119,7 +1476,7 @@
                       },
                       {
                         "number": {
-                          "x": 43,
+                          "x": 63,
                           "y": 16,
                           "alignment": 16,
                           "font": "DigitGreen",

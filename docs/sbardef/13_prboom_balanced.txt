@@ -2903,7 +2903,7 @@
 ## Color: Green
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
 ## Conditions: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned),
-##             31 (ammo for selected weapon >= <parm>), 33 (ammo % for selected weapon >= <parm>)
+##             33 (ammo % for selected weapon >= <parm>)
                       {
                         "graphic": {
                           "x": 28,
@@ -2945,8 +2945,8 @@
                                 "translation": null,
                                 "conditions": [
                                   {
-                                    "condition": 31,
-                                    "param": 1
+                                    "condition": 33,
+                                    "param": 10
                                   }
                                 ],
                                 "children": null
@@ -2963,7 +2963,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 15
+                                    "param": 20
                                   }
                                 ],
                                 "children": null
@@ -2980,7 +2980,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 25
+                                    "param": 30
                                   }
                                 ],
                                 "children": null
@@ -2997,7 +2997,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 35
+                                    "param": 40
                                   }
                                 ],
                                 "children": null
@@ -3014,7 +3014,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 45
+                                    "param": 50
                                   }
                                 ],
                                 "children": null
@@ -3031,7 +3031,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 55
+                                    "param": 60
                                   }
                                 ],
                                 "children": null
@@ -3048,7 +3048,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 65
+                                    "param": 70
                                   }
                                 ],
                                 "children": null
@@ -3065,7 +3065,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 75
+                                    "param": 80
                                   }
                                 ],
                                 "children": null
@@ -3082,7 +3082,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 85
+                                    "param": 90
                                   }
                                 ],
                                 "children": null
@@ -3099,7 +3099,7 @@
                                 "conditions": [
                                   {
                                     "condition": 33,
-                                    "param": 95
+                                    "param": 100
                                   }
                                 ],
                                 "children": null
