@@ -8542,11 +8542,10 @@
                   }
                 },
                 {
-                  "graphic": {
+                  "canvas": {
                     "x": 55,
                     "y": 183,
-                    "alignment": 16,
-                    "patch": "BOOM6SLS",
+                    "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -8555,19 +8554,53 @@
                         "param": 0
                       },
                       {
-                        "condition": 11,
-                        "param": 7
+                        "condition": 31,
+                        "param": 100
                       }
                     ],
-                    "children": null
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "BOOM6SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "BOOM4SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
                   }
                 },
                 {
-                  "graphic": {
-                    "x": 55,
+                  "canvas": {
+                    "x": 50,
                     "y": 183,
-                    "alignment": 16,
-                    "patch": "BOOM4SLS",
+                    "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -8576,11 +8609,105 @@
                         "param": 0
                       },
                       {
-                        "condition": 10,
-                        "param": 7
+                        "condition": 31,
+                        "param": 10
+                      },
+                      {
+                        "condition": 32,
+                        "param": 100
                       }
                     ],
-                    "children": null
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "BOOM6SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "BOOM4SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 45,
+                    "y": 183,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 4,
+                        "param": 0
+                      },
+                      {
+                        "condition": 32,
+                        "param": 10
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "BOOM6SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "BOOM4SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -9535,83 +9662,298 @@
                         }
                       },
                       {
-                        "number": {
+                        "canvas": {
                           "x": 21,
                           "y": 0,
-                          "alignment": 16,
-                          "font": "DigitWhite",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 5,
-                          "param": 0,
-                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 5,
-                              "param": 0
+                              "condition": 31,
+                              "param": 100
                             }
                           ],
-                          "children": null
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": null
+                              }
+                            }
+                          ]
                         }
                       },
                       {
-                        "number": {
-                          "x": 21,
+                        "canvas": {
+                          "x": 16,
                           "y": 0,
-                          "alignment": 16,
-                          "font": "DigitWhite",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 5,
-                          "param": 1,
-                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 5,
-                              "param": 1
+                              "condition": 31,
+                              "param": 10
+                            },
+                            {
+                              "condition": 32,
+                              "param": 100
                             }
                           ],
-                          "children": null
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": null
+                              }
+                            }
+                          ]
                         }
                       },
                       {
-                        "number": {
-                          "x": 21,
+                        "canvas": {
+                          "x": 11,
                           "y": 0,
-                          "alignment": 16,
-                          "font": "DigitWhite",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 5,
-                          "param": 3,
-                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 5,
-                              "param": 3
+                              "condition": 32,
+                              "param": 10
                             }
                           ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 21,
-                          "y": 0,
-                          "alignment": 16,
-                          "font": "DigitWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 5,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
+                          "children": [
                             {
-                              "condition": 5,
-                              "param": 2
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": null
+                              }
                             }
-                          ],
-                          "children": null
+                          ]
                         }
                       }
                     ]
@@ -9651,83 +9993,298 @@
                         }
                       },
                       {
-                        "number": {
+                        "canvas": {
                           "x": 21,
                           "y": 0,
-                          "alignment": 16,
-                          "font": "DigitGreen",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 5,
-                          "param": 0,
-                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 5,
-                              "param": 0
+                              "condition": 31,
+                              "param": 100
                             }
                           ],
-                          "children": null
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": null
+                              }
+                            }
+                          ]
                         }
                       },
                       {
-                        "number": {
-                          "x": 21,
+                        "canvas": {
+                          "x": 16,
                           "y": 0,
-                          "alignment": 16,
-                          "font": "DigitGreen",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 5,
-                          "param": 1,
-                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 5,
-                              "param": 1
+                              "condition": 31,
+                              "param": 10
+                            },
+                            {
+                              "condition": 32,
+                              "param": 100
                             }
                           ],
-                          "children": null
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": null
+                              }
+                            }
+                          ]
                         }
                       },
                       {
-                        "number": {
-                          "x": 21,
+                        "canvas": {
+                          "x": 11,
                           "y": 0,
-                          "alignment": 16,
-                          "font": "DigitGreen",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 5,
-                          "param": 3,
-                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 5,
-                              "param": 3
+                              "condition": 32,
+                              "param": 10
                             }
                           ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 21,
-                          "y": 0,
-                          "alignment": 16,
-                          "font": "DigitGreen",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 5,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
+                          "children": [
                             {
-                              "condition": 5,
-                              "param": 2
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": null
+                              }
                             }
-                          ],
-                          "children": null
+                          ]
                         }
                       }
                     ]
