@@ -137,6 +137,8 @@
 ## Colors: White (no backpack), Green (backpack), Orange (selected)
 ## Conditions: 4 (valid ammo type for selected weapon), 10 (item owned), 11 (item not owned)
 ##             31 (ammo for selected weapon >= parm), 32 (ammo for selected weapon < parm)
+
+## Dynamically moving slash
                 {
                   "canvas": {
                     "x": 55,
@@ -306,6 +308,7 @@
                     ]
                   }
                 },
+
                 {
                   "graphic": {
                     "x": 296,
@@ -1293,6 +1296,8 @@
                           "children": null
                         }
                       },
+
+## Dynamically moving total ammo amount
                       {
                         "canvas": {
                           "x": 21,
@@ -1631,6 +1636,8 @@
                           "children": null
                         }
                       },
+
+## Dynamically moving total ammo amount
                       {
                         "canvas": {
                           "x": 21,
