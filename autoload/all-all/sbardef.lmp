@@ -841,13 +841,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 160,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 0,
+              "type": "stat_totals",
               "font": "Digits",
               "conditions": [
                 {
@@ -859,13 +859,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 152,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 1,
+              "type": "time",
               "font": "Digits",
               "conditions": [
                 {
@@ -881,13 +881,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 160,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 1,
+              "type": "time",
               "font": "Digits",
               "conditions": [
                 {
@@ -903,13 +903,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 8,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 0,
+              "type": "stat_totals",
               "font": "Digits",
               "vertical": true,
               "conditions": [
@@ -922,13 +922,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 40,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 1,
+              "type": "time",
               "font": "Digits",
               "conditions": [
                 {
@@ -940,13 +940,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 318,
               "y": 8,
               "alignment": 34,
               "tranmap": null,
               "translation": null,
-              "type": 2,
+              "type": "coordinates",
               "font": "Digits",
               "conditions": [
                 {
@@ -958,13 +958,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 256,
               "y": 8,
               "alignment": 32,
               "tranmap": null,
               "translation": null,
-              "type": 2,
+              "type": "coordinates",
               "font": "Digits",
               "vertical": true,
               "conditions": [
@@ -977,65 +977,65 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 318,
               "y": 0,
               "alignment": 34,
               "tranmap": null,
               "translation": null,
-              "type": 3,
+              "type": "fps_counter",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 8,
               "alignment": 0,
               "tranmap": null,
               "translation": null,
-              "type": 4,
+              "type": "render_stats",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 318,
               "y": 167,
               "alignment": 42,
               "tranmap": null,
               "translation": null,
-              "type": 5,
+              "type": "command_history",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 160,
               "y": 167,
               "alignment": 9,
               "tranmap": null,
               "translation": null,
-              "type": 6,
+              "type": "speedometer",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 0,
               "y": 0,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 7,
+              "type": "message",
               "font": "Console",
               "duration": 4,
               "conditions": null,
@@ -1043,13 +1043,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 160,
               "y": 52,
               "alignment": 1,
               "tranmap": null,
               "translation": null,
-              "type": 8,
+              "type": "announce_level_title",
               "font": "Console",
               "duration": 2.5,
               "conditions": null,
@@ -1057,26 +1057,26 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 0,
               "y": 8,
               "alignment": 16,
               "tranmap": null,
               "translation": "CRGOLD",
-              "type": 9,
+              "type": "chat",
               "font": "Console",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 0,
               "y": 160,
               "alignment": 16,
               "tranmap": null,
               "translation": "CRGOLD",
-              "type": 10,
+              "type": "level_title",
               "font": "Console",
               "conditions": [
                 {
@@ -1895,13 +1895,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 162,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 0,
+              "type": "stat_totals",
               "font": "Digits",
               "conditions": [
                 {
@@ -1913,13 +1913,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 154,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 1,
+              "type": "time",
               "font": "Digits",
               "conditions": [
                 {
@@ -1935,13 +1935,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 162,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 1,
+              "type": "time",
               "font": "Digits",
               "conditions": [
                 {
@@ -1957,13 +1957,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 8,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 0,
+              "type": "stat_totals",
               "font": "Digits",
               "vertical": true,
               "conditions": [
@@ -1976,13 +1976,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 40,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 1,
+              "type": "time",
               "font": "Digits",
               "conditions": [
                 {
@@ -1994,13 +1994,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 318,
               "y": 8,
               "alignment": 34,
               "tranmap": null,
               "translation": null,
-              "type": 2,
+              "type": "coordinates",
               "font": "Digits",
               "conditions": [
                 {
@@ -2012,13 +2012,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 256,
               "y": 8,
               "alignment": 32,
               "tranmap": null,
               "translation": null,
-              "type": 2,
+              "type": "coordinates",
               "font": "Digits",
               "vertical": true,
               "conditions": [
@@ -2031,65 +2031,65 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 318,
               "y": 0,
               "alignment": 34,
               "tranmap": null,
               "translation": null,
-              "type": 3,
+              "type": "fps_counter",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 8,
               "alignment": 0,
               "tranmap": null,
               "translation": null,
-              "type": 4,
+              "type": "render_stats",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 318,
               "y": 167,
               "alignment": 42,
               "tranmap": null,
               "translation": null,
-              "type": 5,
+              "type": "command_history",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 160,
               "y": 167,
               "alignment": 9,
               "tranmap": null,
               "translation": null,
-              "type": 6,
+              "type": "speedometer",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 0,
               "y": 0,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 7,
+              "type": "message",
               "font": "Console",
               "duration": 4,
               "conditions": null,
@@ -2097,13 +2097,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 160,
               "y": 52,
               "alignment": 1,
               "tranmap": null,
               "translation": null,
-              "type": 8,
+              "type": "announce_level_title",
               "font": "Console",
               "duration": 2.5,
               "conditions": null,
@@ -2111,26 +2111,26 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 0,
               "y": 8,
               "alignment": 16,
               "tranmap": null,
               "translation": "CRGOLD",
-              "type": 9,
+              "type": "chat",
               "font": "Console",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 0,
               "y": 160,
               "alignment": 16,
               "tranmap": null,
               "translation": "CRGOLD",
-              "type": 10,
+              "type": "level_title",
               "font": "Console",
               "conditions": [
                 {
@@ -3695,13 +3695,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 8,
                     "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3713,13 +3713,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 8,
                     "y": 150,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3735,13 +3735,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 8,
                     "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3757,13 +3757,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -3776,13 +3776,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3794,13 +3794,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 8,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3812,13 +3812,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -3831,65 +3831,65 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 167,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -3897,13 +3897,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -3911,26 +3911,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {
@@ -4410,13 +4410,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 3,
               "y": 177,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 0,
+              "type": "stat_totals",
               "font": "Digits",
               "vertical": true,
               "conditions": [
@@ -4429,13 +4429,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 3,
               "y": 165,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 1,
+              "type": "time",
               "font": "Digits",
               "conditions": [
                 {
@@ -4447,13 +4447,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 8,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 0,
+              "type": "stat_totals",
               "font": "Digits",
               "vertical": true,
               "conditions": [
@@ -4466,13 +4466,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 40,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 1,
+              "type": "time",
               "font": "Digits",
               "conditions": [
                 {
@@ -4484,13 +4484,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 318,
               "y": 8,
               "alignment": 34,
               "tranmap": null,
               "translation": null,
-              "type": 2,
+              "type": "coordinates",
               "font": "Digits",
               "conditions": [
                 {
@@ -4502,13 +4502,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 256,
               "y": 8,
               "alignment": 32,
               "tranmap": null,
               "translation": null,
-              "type": 2,
+              "type": "coordinates",
               "font": "Digits",
               "vertical": true,
               "conditions": [
@@ -4521,65 +4521,65 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 318,
               "y": 0,
               "alignment": 34,
               "tranmap": null,
               "translation": null,
-              "type": 3,
+              "type": "fps_counter",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 8,
               "alignment": 0,
               "tranmap": null,
               "translation": null,
-              "type": 4,
+              "type": "render_stats",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 318,
               "y": 167,
               "alignment": 42,
               "tranmap": null,
               "translation": null,
-              "type": 5,
+              "type": "command_history",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 160,
               "y": 167,
               "alignment": 9,
               "tranmap": null,
               "translation": null,
-              "type": 6,
+              "type": "speedometer",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 0,
               "y": 0,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 7,
+              "type": "message",
               "font": "Console",
               "duration": 4,
               "conditions": null,
@@ -4587,13 +4587,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 160,
               "y": 52,
               "alignment": 1,
               "tranmap": null,
               "translation": null,
-              "type": 8,
+              "type": "announce_level_title",
               "font": "Console",
               "duration": 2.5,
               "conditions": null,
@@ -4601,26 +4601,26 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 0,
               "y": 8,
               "alignment": 16,
               "tranmap": null,
               "translation": "CRGOLD",
-              "type": 9,
+              "type": "chat",
               "font": "Console",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 0,
               "y": 160,
               "alignment": 16,
               "tranmap": null,
               "translation": "CRGOLD",
-              "type": 10,
+              "type": "level_title",
               "font": "Console",
               "conditions": [
                 {
@@ -8159,13 +8159,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 6,
                     "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -8177,13 +8177,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 6,
                     "y": 150,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -8199,13 +8199,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 6,
                     "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -8221,13 +8221,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -8240,13 +8240,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -8258,13 +8258,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 8,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -8276,13 +8276,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -8295,65 +8295,65 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 167,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -8361,13 +8361,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -8375,26 +8375,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {
@@ -12400,13 +12400,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 6,
                     "y": 164,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -12418,13 +12418,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 6,
                     "y": 156,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -12440,13 +12440,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 6,
                     "y": 164,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -12462,13 +12462,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -12481,13 +12481,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -12499,13 +12499,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 8,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -12517,13 +12517,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -12536,65 +12536,65 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 167,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -12602,13 +12602,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -12616,26 +12616,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {
@@ -17414,13 +17414,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 23,
                     "y": 150,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -17432,13 +17432,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 142,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -17454,13 +17454,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 150,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -17476,13 +17476,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -17495,13 +17495,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -17513,13 +17513,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 8,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -17531,13 +17531,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -17550,65 +17550,65 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 167,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -17616,13 +17616,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -17630,26 +17630,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {
@@ -22905,13 +22905,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 23,
                     "y": 166,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -22923,13 +22923,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -22945,13 +22945,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 166,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -22967,13 +22967,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -22986,13 +22986,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -23004,13 +23004,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 8,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -23022,13 +23022,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -23041,65 +23041,65 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 167,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -23107,13 +23107,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -23121,26 +23121,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {
@@ -25603,13 +25603,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 166,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -25621,13 +25621,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -25643,13 +25643,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 166,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -25665,13 +25665,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -25684,13 +25684,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -25702,13 +25702,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 8,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -25720,13 +25720,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -25739,65 +25739,65 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 162,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -25805,13 +25805,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -25819,26 +25819,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {
@@ -29562,13 +29562,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -29580,13 +29580,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 150,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -29602,13 +29602,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -29624,13 +29624,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -29643,13 +29643,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -29661,13 +29661,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -29679,13 +29679,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -29698,65 +29698,65 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 146,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -29764,13 +29764,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -29778,26 +29778,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {
@@ -33231,13 +33231,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 175,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -33249,13 +33249,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 167,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -33271,13 +33271,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 175,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -33293,13 +33293,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -33312,13 +33312,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -33330,13 +33330,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -33348,13 +33348,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -33367,65 +33367,65 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 162,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -33433,13 +33433,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -33447,26 +33447,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {
@@ -36102,13 +36102,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 23,
                     "y": 166,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -36120,13 +36120,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -36142,13 +36142,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 166,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -36164,13 +36164,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -36183,13 +36183,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -36201,13 +36201,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 8,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -36219,13 +36219,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -36238,65 +36238,65 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 153,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -36304,13 +36304,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -36318,26 +36318,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {
@@ -39573,13 +39573,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 23,
                     "y": 164,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -39591,13 +39591,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 156,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -39613,13 +39613,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 164,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -39635,13 +39635,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -39654,13 +39654,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -39672,13 +39672,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 8,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -39690,13 +39690,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -39709,65 +39709,65 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 153,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -39775,13 +39775,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -39789,26 +39789,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {
@@ -39841,13 +39841,13 @@
         "fillflat": null,
         "children": [
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 192,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 0,
+              "type": "stat_totals",
               "font": "Digits",
               "conditions": [
                 {
@@ -39859,13 +39859,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 184,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 1,
+              "type": "time",
               "font": "Digits",
               "conditions": [
                 {
@@ -39881,13 +39881,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 192,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 1,
+              "type": "time",
               "font": "Digits",
               "conditions": [
                 {
@@ -39903,13 +39903,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 8,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 0,
+              "type": "stat_totals",
               "font": "Digits",
               "vertical": true,
               "conditions": [
@@ -39922,13 +39922,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 40,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 1,
+              "type": "time",
               "font": "Digits",
               "conditions": [
                 {
@@ -39940,13 +39940,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 318,
               "y": 8,
               "alignment": 34,
               "tranmap": null,
               "translation": null,
-              "type": 2,
+              "type": "coordinates",
               "font": "Digits",
               "conditions": [
                 {
@@ -39958,13 +39958,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 256,
               "y": 8,
               "alignment": 32,
               "tranmap": null,
               "translation": null,
-              "type": 2,
+              "type": "coordinates",
               "font": "Digits",
               "vertical": true,
               "conditions": [
@@ -39977,65 +39977,65 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 318,
               "y": 0,
               "alignment": 34,
               "tranmap": null,
               "translation": null,
-              "type": 3,
+              "type": "fps_counter",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 2,
               "y": 8,
               "alignment": 0,
               "tranmap": null,
               "translation": null,
-              "type": 4,
+              "type": "render_stats",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 318,
               "y": 200,
               "alignment": 42,
               "tranmap": null,
               "translation": null,
-              "type": 5,
+              "type": "command_history",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 160,
               "y": 200,
               "alignment": 9,
               "tranmap": null,
               "translation": null,
-              "type": 6,
+              "type": "speedometer",
               "font": "Digits",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 0,
               "y": 0,
               "alignment": 16,
               "tranmap": null,
               "translation": null,
-              "type": 7,
+              "type": "message",
               "font": "Console",
               "duration": 4,
               "conditions": null,
@@ -40043,13 +40043,13 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 160,
               "y": 68,
               "alignment": 1,
               "tranmap": null,
               "translation": null,
-              "type": 8,
+              "type": "announce_level_title",
               "font": "Console",
               "duration": 2.5,
               "conditions": null,
@@ -40057,26 +40057,26 @@
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 0,
               "y": 8,
               "alignment": 16,
               "tranmap": null,
               "translation": "CRGOLD",
-              "type": 9,
+              "type": "chat",
               "font": "Console",
               "conditions": null,
               "children": null
             }
           },
           {
-            "widget": {
+            "component": {
               "x": 0,
               "y": 192,
               "alignment": 16,
               "tranmap": null,
               "translation": "CRGOLD",
-              "type": 10,
+              "type": "level_title",
               "font": "Console",
               "conditions": [
                 {
