@@ -40777,7 +40777,29 @@
                           "patch": "TAG_AMM",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": null,
+                          "conditions": [
+                            {
+                              "condition": 4,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 54,
+                          "y": 9,
+                          "alignment": 32,
+                          "patch": "TAG_AMM",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 5
+                            }
+                          ],
                           "children": null
                         }
                       },

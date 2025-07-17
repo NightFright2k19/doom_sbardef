@@ -1817,7 +1817,8 @@
                 },
 
 ## RIGHT SIDE: LABELS, ARMOR
-## Conditions: 10 (item owned), 11 (item not owned), 16 (game mode equal to mode), 17 (game mode not equal to mode)
+## Conditions: 4 (selected weapon has valid ammo type), 5 (ammo type matches selected weapon ammo type)
+##             10 (item owned), 11 (item not owned), 16 (game mode equal to mode), 17 (game mode not equal to mode)
                 {
                   "canvas": {
                     "x": 228,
@@ -1869,7 +1870,29 @@
                           "patch": "TAG_AMM",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": null,
+                          "conditions": [
+                            {
+                              "condition": 4,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 54,
+                          "y": 9,
+                          "alignment": 32,
+                          "patch": "TAG_AMM",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 5
+                            }
+                          ],
                           "children": null
                         }
                       },
@@ -2876,7 +2899,7 @@
 ## AMMO: INFINITY ("N/A") SYMBOL
 ## Colors: Green
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
-## Conditions: 5 (ammo type matches selected weapon's ammo type), 8 (weapon in slot selected)
+## Conditions: 5 (ammo type matches selected weapon ammo type), 8 (weapon in slot selected)
                       {
                         "graphic": {
                           "x": 73,
