@@ -1,9 +1,9 @@
 ## DSDA ENHANCED
 
-## Alignments: 0 (center), 16 (widescreen/left), 32 (widescreen/right)
+## Alignments: 0 (original), 16 (widescreen/left), 32 (widescreen/right)
 ##             top:    +0 (left), +1 (center), +2 (right)
-##             center: +3 (left), +4 (center), +5 (right)
-##             bottom: +6 (left), +7 (center), +8 (right)
+##             center: +4 (left), +5 (center), +6 (right)
+##             bottom: +8 (left), +9 (center), +10 (right)
 
       {
         "height": 200,
@@ -29,9 +29,9 @@
 ## Condition: 15 (session type not equal to type)
                 {
                   "facebackground": {
-                    "x": 45,
+                    "x": 86,
                     "y": 182,
-                    "alignment": 20,
+                    "alignment": 21,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -45,9 +45,9 @@
                 },
                 {
                   "face": {
-                    "x": 46,
+                    "x": 87,
                     "y": 182,
-                    "alignment": 20,
+                    "alignment": 21,
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
@@ -55,7 +55,7 @@
                   }
                 },
 
-## LEFT HUD PANEL IMAGE
+## LEFT HUD PANEL IMAGES
                 {
                   "graphic": {
                     "x": 4,
@@ -105,12 +105,597 @@
                   }
                 },
 
+## ARMOR: PROGRESS BAR
+## Color: Green (Green Armor), Blue (Blue Armor), Gold (Invulnerability)
+## Conditions: 10 (item owned), 11 (item not owned), 27 (armor >= <parm>)
+                {
+                  "graphic": {
+                    "x": 23,
+                    "y": 167,
+                    "alignment": 16,
+                    "patch": "PROGBAR7",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 23,
+                    "y": 167,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 15
+                      },
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 10
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 2,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 20
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 30
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 6,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 40
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 8,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 50
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 10,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 60
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 12,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 70
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 80
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 16,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 90
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 100
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 23,
+                    "y": 167,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 15
+                      },
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 10
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 2,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 20
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 30
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 6,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 40
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 8,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 50
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 10,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 60
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 12,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 70
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 80
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 16,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 90
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 100
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 23,
+                    "y": 167,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 21
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 10
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 2,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 20
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 30
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 6,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 40
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 8,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 50
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 10,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 60
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 12,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 70
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 80
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 16,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 90
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 27,
+                              "param": 100
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+
 ## ARMOR
 ## Colors: Green (33%), Blue (50%), Gold (Invulnerability)
 ## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "percent": {
-                    "x": 23,
+                    "x": 47,
                     "y": 166,
                     "alignment": 16,
                     "font": "DigitGreen",
@@ -134,7 +719,7 @@
                 },
                 {
                   "percent": {
-                    "x": 23,
+                    "x": 47,
                     "y": 166,
                     "alignment": 16,
                     "font": "DigitBlue",
@@ -158,7 +743,7 @@
                 },
                 {
                   "percent": {
-                    "x": 23,
+                    "x": 47,
                     "y": 166,
                     "alignment": 16,
                     "font": "DigitGold",
@@ -177,12 +762,547 @@
                   }
                 },
 
+## HEALTH: PROGRESS BAR
+## Color: Green (Health <= 100), Blue (Health > 100), Gold (Invulnerability)
+## Conditions: 10 (item owned), 11 (item not owned), 23 (health >= <parm>), 24 (health < <parm>)
+                {
+                  "graphic": {
+                    "x": 23,
+                    "y": 175,
+                    "alignment": 16,
+                    "patch": "PROGBAR7",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 23,
+                    "y": 175,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 21
+                      },
+                      {
+                        "condition": 24,
+                        "param": 101
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 10
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 2,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 20
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 30
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 6,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 40
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 8,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 50
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 10,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 60
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 12,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 70
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 80
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 16,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 90
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 100
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 23,
+                    "y": 175,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 21
+                      },
+                      {
+                        "condition": 23,
+                        "param": 101
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 2,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 6,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 8,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 10,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 12,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 16,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR5",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 23,
+                    "y": 175,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 21
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 10
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 2,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 20
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 30
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 6,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 40
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 8,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 50
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 10,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 60
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 12,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 70
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 80
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 16,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 90
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 100
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+
 ## HEALTH
-## Colors: Green (no Invulnerability), Gold (Invulnerability)
-## Conditions: 10 (item owned), 11 (item not owned)
+## Colors: Green (0-100, no Invulnerability), Blue (>100, no Invulnerability), Gold (Invulnerability)
+## Conditions: 10 (item owned), 11 (item not owned), 23 (health >= parm), 24 (health < parm)
                 {
                   "percent": {
-                    "x": 23,
+                    "x": 47,
                     "y": 174,
                     "alignment": 16,
                     "font": "DigitGreen",
@@ -193,6 +1313,10 @@
                     "maxlength": 3,
                     "conditions": [
                       {
+                        "condition": 24,
+                        "param": 101
+                      },
+                      {
                         "condition": 11,
                         "param": 21
                       }
@@ -202,7 +1326,31 @@
                 },
                 {
                   "percent": {
-                    "x": 23,
+                    "x": 47,
+                    "y": 174,
+                    "alignment": 16,
+                    "font": "DigitBlue",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 0,
+                    "param": 0,
+                    "maxlength": 3,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 101
+                      },
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "percent": {
+                    "x": 47,
                     "y": 174,
                     "alignment": 16,
                     "font": "DigitGold",
@@ -221,6 +1369,411 @@
                   }
                 },
 
+## AMMO: PROGRESS BAR
+## Color: White (no backpack), Green (backpack)
+## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Conditions: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned),
+##             33 (ammo % for selected weapon >= <parm>)
+                {
+                  "graphic": {
+                    "x": 23,
+                    "y": 183,
+                    "alignment": 16,
+                    "patch": "PROGBAR7",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 4,
+                        "param": 0
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 23,
+                    "y": 183,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 4,
+                        "param": 0
+                      },
+                      {
+                        "condition": 11,
+                        "param": 7
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 10
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 2,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 20
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 30
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 6,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 40
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 8,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 50
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 10,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 60
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 12,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 70
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 80
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 16,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 90
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 100
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 23,
+                    "y": 183,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 4,
+                        "param": 0
+                      },
+                      {
+                        "condition": 10,
+                        "param": 7
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 10
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 2,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 20
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 30
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 6,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 40
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 8,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 50
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 10,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 60
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 12,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 70
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 14,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 80
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 16,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 90
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 33,
+                              "param": 100
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+
 ## AMMO
 ## Color: White (no backpack), Green (backpack)
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
@@ -236,7 +1789,7 @@
                     "children": [
                       {
                         "number": {
-                          "x": 0,
+                          "x": 24,
                           "y": 0,
                           "alignment": 16,
                           "font": "DigitWhite",
@@ -260,7 +1813,7 @@
                       },
                       {
                         "number": {
-                          "x": 0,
+                          "x": 24,
                           "y": 0,
                           "alignment": 16,
                           "font": "DigitGreen",
@@ -372,7 +1925,7 @@
 ##             5 (Plasma Rifle), 6 (BFG), 7 (Chainsaw), 8 (Super Shotgun)
 ## Conditions: 0 (weapon owned), 1 (weapon selected), 2 (weapon not selected), 6 (weapon in slot owned), 
 ##             7 (weapon in slot not owned), 8 (any weapon in slot selected), 9 (any weapon in slot not selected)
-##             10 (item owned), 11 (item not owned)
+##             10 (item owned), 11 (item not owned), 22 (weapon not owned)
 
 ## ARMS: FIRST PANEL (1-2-8)
 ## Weapons: Fists (0), Pistol (1), Chainsaw (7)
@@ -549,7 +2102,6 @@
 ## ARMS: SECOND PANEL (3-4-9)
 ## Weapons: Shotgun (2), Chaingun (3), Super Shotgun (8)
 ## Slots: 3+4
-## Note: Condition "Shotgun not owned" cannot be checked. This leads to limitations. See below.
                 {
                   "canvas": {
                     "x": 23,
@@ -618,8 +2170,6 @@
                           "children": null
                         }
                       },
-
-## "4" only checks for possession of any shotgun (slot 3), not Shotgun (weapon 2) specifically
                       {
                         "graphic": {
                           "x": 0,
@@ -630,8 +2180,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 7,
-                              "param": 3
+                              "condition": 22,
+                              "param": 2
                             },
                             {
                               "condition": 6,
@@ -655,8 +2205,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 7,
-                              "param": 3
+                              "condition": 22,
+                              "param": 2
                             },
                             {
                               "condition": 8,
@@ -676,8 +2226,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 6,
-                              "param": 3
+                              "condition": 0,
+                              "param": 2
                             },
                             {
                               "condition": 6,
@@ -701,8 +2251,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 6,
-                              "param": 3
+                              "condition": 0,
+                              "param": 2
                             },
                             {
                               "condition": 8,
@@ -712,8 +2262,60 @@
                           "children": null
                         }
                       },
-
-## "9" only checks for absence of Chaingun (slot 4), not Shotgun (weapon 2)
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT4NUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 22,
+                              "param": 2
+                            },
+                            {
+                              "condition": 7,
+                              "param": 4
+                            },
+                            {
+                              "condition": 0,
+                              "param": 8
+                            },
+                            {
+                              "condition": 2,
+                              "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 22,
+                              "param": 2
+                            },
+                            {
+                              "condition": 7,
+                              "param": 4
+                            },
+                            {
+                              "condition": 1,
+                              "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
                       {
                         "graphic": {
                           "x": 7,
@@ -723,6 +2325,10 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
+                            {
+                              "condition": 0,
+                              "param": 2
+                            },
                             {
                               "condition": 7,
                               "param": 4
@@ -749,7 +2355,65 @@
                           "translation": null,
                           "conditions": [
                             {
+                              "condition": 0,
+                              "param": 2
+                            },
+                            {
                               "condition": 7,
+                              "param": 4
+                            },
+                            {
+                              "condition": 1,
+                              "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 7,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT4NUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 22,
+                              "param": 2
+                            },
+                            {
+                              "condition": 6,
+                              "param": 4
+                            },
+                            {
+                              "condition": 0,
+                              "param": 8
+                            },
+                            {
+                              "condition": 2,
+                              "param": 8
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 7,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "DGT2NUM9",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 22,
+                              "param": 2
+                            },
+                            {
+                              "condition": 6,
                               "param": 4
                             },
                             {
@@ -770,6 +2434,10 @@
                           "translation": null,
                           "conditions": [
                             {
+                              "condition": 0,
+                              "param": 2
+                            },
+                            {
                               "condition": 6,
                               "param": 4
                             },
@@ -794,6 +2462,10 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
+                            {
+                              "condition": 0,
+                              "param": 2
+                            },
                             {
                               "condition": 6,
                               "param": 4
@@ -2122,19 +3794,20 @@
                 },
 
 ## WIDGETS
-## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
-##        7 (message), 8 (level announce), 9 (MP chat), 10 (level title)
+## Types: 0 (stat_totals), 1 (time), 2 (coordinates), 3 (fps_counter), 4 (render_stats), 
+##        5 (command_history), 6 (speedometer), 7 (message), 8 (announce_level_title),
+##        9 (chat), 10 (level_title)
 ## Conditions: 19 (automap mode), 20 (widget enabled), 21 (widget disabled)
 
 ## STATS (ALIGNED ON LEFT SIDE)
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -2148,13 +3821,13 @@
 
 ## TIME (ALIGNED ON LEFT SIDE)
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 150,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -2170,13 +3843,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -2193,13 +3866,13 @@
                 },
 
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -2212,13 +3885,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -2230,13 +3903,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -2248,13 +3921,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -2267,26 +3940,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
@@ -2295,13 +3968,13 @@
 
 ## COORDS (Y-16 FOR STATS/TIME)
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 146,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
@@ -2309,26 +3982,26 @@
                 },
 
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -2336,13 +4009,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -2350,26 +4023,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {

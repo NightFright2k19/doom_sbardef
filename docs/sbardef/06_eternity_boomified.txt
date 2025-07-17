@@ -1,9 +1,9 @@
 ## ETERNITY BOOMIFIED
 
-## Alignments: 0 (center), 16 (widescreen/left), 32 (widescreen/right)
+## Alignments: 0 (original), 16 (widescreen/left), 32 (widescreen/right)
 ##             top:    +0 (left), +1 (center), +2 (right)
-##             center: +3 (left), +4 (center), +5 (right)
-##             bottom: +6 (left), +7 (center), +8 (right)
+##             center: +4 (left), +5 (center), +6 (right)
+##             bottom: +8 (left), +9 (center), +10 (right)
 
       {
         "height": 200,
@@ -40,15 +40,36 @@
                 },
 
 ## ICONS: HEALTH, ARMOR
-## Health: Red with Berserker, Gold with Invulnerability
+## Health: Blue (health > 100, no Berserk), Red (Berserk), Gold (Invulnerability)
 ## Armor: Blue with Blue Armor, Gold with Invulnerability
-## Conditions: 10 (item owned)
+## Conditions: 10 (item owned), 11 (item not owned), 23 (health >= parm)
                 {
                   "graphic": {
                     "x": 6,
                     "y": 177,
                     "alignment": 16,
-                    "patch": "BMTYHEL",
+                    "patch": "BMTYHEL2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 101
+                      },
+                      {
+                        "condition": 11,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 6,
+                    "y": 177,
+                    "alignment": 16,
+                    "patch": "BMTYHEL1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -114,13 +135,15 @@
 
 ## COLORIZED SLASHES (AMMO WIDGET + AMMO OVERVIEW)
 ## Colors: White (no backpack), Green (backpack), Orange (selected)
-## Condition: 4 (valid ammo type for selected weapon), 10 (item owned), 11 (item not owned)
+## Conditions: 4 (valid ammo type for selected weapon), 10 (item owned), 11 (item not owned)
+##             31 (ammo for selected weapon >= parm), 32 (ammo for selected weapon < parm)
+
+## Dynamically moving slash
                 {
-                  "graphic": {
+                  "canvas": {
                     "x": 55,
                     "y": 183,
-                    "alignment": 16,
-                    "patch": "BOOM6SLS",
+                    "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -129,19 +152,53 @@
                         "param": 0
                       },
                       {
-                        "condition": 11,
-                        "param": 7
+                        "condition": 31,
+                        "param": 100
                       }
                     ],
-                    "children": null
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "BOOM6SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "BOOM4SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
                   }
                 },
                 {
-                  "graphic": {
-                    "x": 55,
+                  "canvas": {
+                    "x": 50,
                     "y": 183,
-                    "alignment": 16,
-                    "patch": "BOOM4SLS",
+                    "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -150,13 +207,108 @@
                         "param": 0
                       },
                       {
-                        "condition": 10,
-                        "param": 7
+                        "condition": 31,
+                        "param": 10
+                      },
+                      {
+                        "condition": 32,
+                        "param": 100
                       }
                     ],
-                    "children": null
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "BOOM6SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "BOOM4SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
                   }
                 },
+                {
+                  "canvas": {
+                    "x": 45,
+                    "y": 183,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 4,
+                        "param": 0
+                      },
+                      {
+                        "condition": 32,
+                        "param": 10
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "BOOM6SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "BOOM4SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+
                 {
                   "graphic": {
                     "x": 296,
@@ -364,8 +516,8 @@
                 },
 
 ## HEALTH
-## Colors: Green (no Invulnerability), Gold (Invulnerability)
-## Conditions: 10 (item owned), 11 (item not owned)
+## Colors: Green (0-100, no Invulnerability), Blue (>100, no Invulnerability), Gold (Invulnerability)
+## Conditions: 10 (item owned), 11 (item not owned), 23 (health >= parm), 24 (health < parm)
                 {
                   "number": {
                     "x": 33,
@@ -378,6 +530,34 @@
                     "param": 0,
                     "maxlength": 3,
                     "conditions": [
+                      {
+                        "condition": 24,
+                        "param": 101
+                      },
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "number": {
+                    "x": 33,
+                    "y": 177,
+                    "alignment": 18,
+                    "font": "DigitBlue",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 0,
+                    "param": 0,
+                    "maxlength": 3,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 101
+                      },
                       {
                         "condition": 11,
                         "param": 21
@@ -1019,7 +1199,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -1036,7 +1216,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDINF4",
+                          "patch": "TAG_INF4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -1057,7 +1237,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "HUDINF1",
+                          "patch": "TAG_INF1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -1081,7 +1261,8 @@
 ## Color: White
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
 ## Conditions: 4 (selected weapon has valid ammo type),
-##             5 (ammo type matches selected weapon's ammo type), 11 (item not owned)
+##             5 (ammo type matches selected weapon's ammo type), 11 (item not owned),
+##             31 (ammo for selected weapon >= parm), 32 (ammo for selected weapon < parm)
                 {
                   "canvas": {
                     "x": 39,
@@ -1115,84 +1296,301 @@
                           "children": null
                         }
                       },
+
+## Dynamically moving total ammo amount
                       {
-                        "number": {
+                        "canvas": {
                           "x": 21,
                           "y": 0,
-                          "alignment": 16,
-                          "font": "DigitWhite",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 5,
-                          "param": 0,
-                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 5,
-                              "param": 0
+                              "condition": 31,
+                              "param": 100
                             }
                           ],
-                          "children": null
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": null
+                              }
+                            }
+                          ]
                         }
                       },
                       {
-                        "number": {
-                          "x": 21,
+                        "canvas": {
+                          "x": 16,
                           "y": 0,
-                          "alignment": 16,
-                          "font": "DigitWhite",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 5,
-                          "param": 1,
-                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 5,
-                              "param": 1
+                              "condition": 31,
+                              "param": 10
+                            },
+                            {
+                              "condition": 32,
+                              "param": 100
                             }
                           ],
-                          "children": null
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": null
+                              }
+                            }
+                          ]
                         }
                       },
                       {
-                        "number": {
-                          "x": 21,
+                        "canvas": {
+                          "x": 11,
                           "y": 0,
-                          "alignment": 16,
-                          "font": "DigitWhite",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 5,
-                          "param": 3,
-                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 5,
-                              "param": 3
+                              "condition": 32,
+                              "param": 10
                             }
                           ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 21,
-                          "y": 0,
-                          "alignment": 16,
-                          "font": "DigitWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 5,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
+                          "children": [
                             {
-                              "condition": 5,
-                              "param": 2
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": null
+                              }
                             }
-                          ],
-                          "children": null
+                          ]
                         }
                       }
                     ]
@@ -1203,7 +1601,8 @@
 ## Color: Green
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
 ## Conditions: 4 (selected weapon has valid ammo type),
-##             5 (ammo type matches selected weapon's ammo type), 10 (item owned)
+##             5 (ammo type matches selected weapon's ammo type), 10 (item owned),
+##             31 (ammo for selected weapon >= parm), 32 (ammo for selected weapon < parm)
                 {
                   "canvas": {
                     "x": 39,
@@ -1237,84 +1636,301 @@
                           "children": null
                         }
                       },
+
+## Dynamically moving total ammo amount
                       {
-                        "number": {
+                        "canvas": {
                           "x": 21,
                           "y": 0,
-                          "alignment": 16,
-                          "font": "DigitGreen",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 5,
-                          "param": 0,
-                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 5,
-                              "param": 0
+                              "condition": 31,
+                              "param": 100
                             }
                           ],
-                          "children": null
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": null
+                              }
+                            }
+                          ]
                         }
                       },
                       {
-                        "number": {
-                          "x": 21,
+                        "canvas": {
+                          "x": 16,
                           "y": 0,
-                          "alignment": 16,
-                          "font": "DigitGreen",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 5,
-                          "param": 1,
-                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 5,
-                              "param": 1
+                              "condition": 31,
+                              "param": 10
+                            },
+                            {
+                              "condition": 32,
+                              "param": 100
                             }
                           ],
-                          "children": null
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": null
+                              }
+                            }
+                          ]
                         }
                       },
                       {
-                        "number": {
-                          "x": 21,
+                        "canvas": {
+                          "x": 11,
                           "y": 0,
-                          "alignment": 16,
-                          "font": "DigitGreen",
+                          "alignment": 0,
                           "tranmap": null,
                           "translation": null,
-                          "type": 5,
-                          "param": 3,
-                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 5,
-                              "param": 3
+                              "condition": 32,
+                              "param": 10
                             }
                           ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 21,
-                          "y": 0,
-                          "alignment": 16,
-                          "font": "DigitGreen",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 5,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
+                          "children": [
                             {
-                              "condition": 5,
-                              "param": 2
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 16,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": null
+                              }
                             }
-                          ],
-                          "children": null
+                          ]
                         }
                       }
                     ]
@@ -1328,7 +1944,7 @@
 ## Conditions: 10 (item owned), 11 (item not owned)
                 {
                   "canvas": {
-                    "x": 39,
+                    "x": 42,
                     "y": 193,
                     "alignment": 0,
                     "tranmap": null,
@@ -1339,7 +1955,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS0",
                           "tranmap": null,
                           "translation": null,
@@ -1356,7 +1972,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS1",
                           "tranmap": null,
                           "translation": null,
@@ -1377,7 +1993,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS1",
                           "tranmap": null,
                           "translation": null,
@@ -1398,7 +2014,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS2",
                           "tranmap": null,
                           "translation": null,
@@ -1423,7 +2039,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS2",
                           "tranmap": null,
                           "translation": null,
@@ -1448,7 +2064,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS2",
                           "tranmap": null,
                           "translation": null,
@@ -1473,7 +2089,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS2",
                           "tranmap": null,
                           "translation": null,
@@ -1499,7 +2115,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 39,
+                    "x": 42,
                     "y": 193,
                     "alignment": 0,
                     "tranmap": null,
@@ -1523,7 +2139,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -1540,7 +2156,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1561,7 +2177,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1582,7 +2198,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1607,7 +2223,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1632,7 +2248,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1657,7 +2273,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1683,7 +2299,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 66,
+                    "x": 69,
                     "y": 193,
                     "alignment": 0,
                     "tranmap": null,
@@ -1707,7 +2323,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -1724,7 +2340,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1745,7 +2361,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1766,7 +2382,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1791,7 +2407,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1816,7 +2432,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1841,7 +2457,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1867,7 +2483,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 57,
+                    "x": 60,
                     "y": 193,
                     "alignment": 0,
                     "tranmap": null,
@@ -1891,7 +2507,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -1908,7 +2524,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1929,7 +2545,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1950,7 +2566,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1975,7 +2591,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2000,7 +2616,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2025,7 +2641,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2051,7 +2667,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 57,
+                    "x": 60,
                     "y": 193,
                     "alignment": 0,
                     "tranmap": null,
@@ -2075,7 +2691,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -2092,7 +2708,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -2113,7 +2729,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -2134,7 +2750,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2159,7 +2775,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2184,7 +2800,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2209,7 +2825,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2235,7 +2851,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 57,
+                    "x": 60,
                     "y": 193,
                     "alignment": 0,
                     "tranmap": null,
@@ -2259,7 +2875,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -2276,7 +2892,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -2297,7 +2913,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -2318,7 +2934,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2343,7 +2959,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2368,7 +2984,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2393,7 +3009,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2419,7 +3035,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 48,
+                    "x": 51,
                     "y": 193,
                     "alignment": 0,
                     "tranmap": null,
@@ -2443,7 +3059,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -2460,7 +3076,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -2481,7 +3097,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -2502,7 +3118,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2527,7 +3143,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2552,7 +3168,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2577,7 +3193,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2603,7 +3219,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 48,
+                    "x": 51,
                     "y": 193,
                     "alignment": 0,
                     "tranmap": null,
@@ -2627,7 +3243,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -2644,7 +3260,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -2665,7 +3281,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -2686,7 +3302,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2711,7 +3327,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2736,7 +3352,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2761,7 +3377,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2787,7 +3403,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 48,
+                    "x": 51,
                     "y": 193,
                     "alignment": 0,
                     "tranmap": null,
@@ -2811,7 +3427,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -2828,7 +3444,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -2849,7 +3465,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -2870,7 +3486,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2895,7 +3511,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2920,7 +3536,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -2945,7 +3561,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -3459,17 +4075,18 @@
                 },
 
 ## WIDGETS
-## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
-##        7 (message), 8 (level announce), 9 (MP chat), 10 (level title)
+## Types: 0 (stat_totals), 1 (time), 2 (coordinates), 3 (fps_counter), 4 (render_stats), 
+##        5 (command_history), 6 (speedometer), 7 (message), 8 (announce_level_title),
+##        9 (chat), 10 (level_title)
 ## Conditions: 19 (automap mode), 20 (widget enabled), 21 (widget disabled)
                 {
-                  "widget": {
+                  "component": {
                     "x": 6,
                     "y": 164,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3481,13 +4098,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 6,
                     "y": 156,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3503,13 +4120,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 6,
                     "y": 164,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3525,13 +4142,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -3544,13 +4161,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3562,13 +4179,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 8,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3580,13 +4197,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -3599,65 +4216,65 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 167,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -3665,13 +4282,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -3679,26 +4296,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {

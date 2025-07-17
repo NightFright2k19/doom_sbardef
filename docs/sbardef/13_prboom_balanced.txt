@@ -1,9 +1,9 @@
 ## PRBOOM+ BALANCED
 
-## Alignments: 0 (center), 16 (widescreen/left), 32 (widescreen/right)
+## Alignments: 0 (original), 16 (widescreen/left), 32 (widescreen/right)
 ##             top:    +0 (left), +1 (center), +2 (right)
-##             center: +3 (left), +4 (center), +5 (right)
-##             bottom: +6 (left), +7 (center), +8 (right)
+##             center: +4 (left), +5 (center), +6 (right)
+##             bottom: +8 (left), +9 (center), +10 (right)
 
       {
         "height": 200,
@@ -26,7 +26,10 @@
               "children": [
 
 ## LEFT SIDE: LABELS, HEALTH
-## Conditions: 10 (item owned), 11 (item not owned), 19 (show widget), 20 (show stats widget)
+## Health icon: Blue (health > 100, no Berserk), Red (Berserk), Gold (Invulnerability)
+## Armor icon: Blue with Blue Armor, Gold with Invulnerability
+## Conditions: 10 (item owned), 11 (item not owned), 19 (show widget), 20 (show stats widget),
+##             23 (health >= parm), 24 (health < parm)
                 {
                   "canvas": {
                     "x": 4,
@@ -78,6 +81,31 @@
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
+                            {
+                              "condition": 24,
+                              "param": 101
+                            },
+                            {
+                              "condition": 11,
+                              "param": 18
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 16,
+                          "alignment": 16,
+                          "patch": "PRBMHEL4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 101
+                            },
                             {
                               "condition": 11,
                               "param": 18
@@ -144,10 +172,9 @@
 ## Sorts keycards relative to blue keycard
 ## Checks how many keycards are owned, then sorts skulls relative to blue skull
 ## Conditions: 10 (item owned), 11 (item not owned)
-
                 {
                   "canvas": {
-                    "x": 23,
+                    "x": 26,
                     "y": 175,
                     "alignment": 0,
                     "tranmap": null,
@@ -158,7 +185,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS0",
                           "tranmap": null,
                           "translation": null,
@@ -175,7 +202,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS1",
                           "tranmap": null,
                           "translation": null,
@@ -196,7 +223,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS1",
                           "tranmap": null,
                           "translation": null,
@@ -217,7 +244,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS2",
                           "tranmap": null,
                           "translation": null,
@@ -242,7 +269,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS2",
                           "tranmap": null,
                           "translation": null,
@@ -267,7 +294,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS2",
                           "tranmap": null,
                           "translation": null,
@@ -292,7 +319,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS2",
                           "tranmap": null,
                           "translation": null,
@@ -318,7 +345,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 23,
+                    "x": 26,
                     "y": 175,
                     "alignment": 0,
                     "tranmap": null,
@@ -342,7 +369,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -359,7 +386,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -380,7 +407,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -401,7 +428,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -426,7 +453,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -451,7 +478,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -476,7 +503,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -502,7 +529,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 50,
+                    "x": 53,
                     "y": 175,
                     "alignment": 0,
                     "tranmap": null,
@@ -526,7 +553,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -543,7 +570,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -564,7 +591,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -585,7 +612,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -610,7 +637,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -635,7 +662,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -660,7 +687,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -686,7 +713,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 41,
+                    "x": 44,
                     "y": 175,
                     "alignment": 0,
                     "tranmap": null,
@@ -710,7 +737,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -727,7 +754,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -748,7 +775,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -769,7 +796,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -794,7 +821,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -819,7 +846,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -844,7 +871,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -870,7 +897,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 41,
+                    "x": 44,
                     "y": 175,
                     "alignment": 0,
                     "tranmap": null,
@@ -894,7 +921,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -911,7 +938,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -932,7 +959,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -953,7 +980,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -978,7 +1005,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1003,7 +1030,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1028,7 +1055,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1054,7 +1081,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 41,
+                    "x": 44,
                     "y": 175,
                     "alignment": 0,
                     "tranmap": null,
@@ -1078,7 +1105,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -1095,7 +1122,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1116,7 +1143,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1137,7 +1164,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1162,7 +1189,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1187,7 +1214,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1212,7 +1239,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1238,7 +1265,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 32,
+                    "x": 35,
                     "y": 175,
                     "alignment": 0,
                     "tranmap": null,
@@ -1262,7 +1289,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -1279,7 +1306,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1300,7 +1327,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1321,7 +1348,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1346,7 +1373,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1371,7 +1398,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1396,7 +1423,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1422,7 +1449,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 32,
+                    "x": 35,
                     "y": 175,
                     "alignment": 0,
                     "tranmap": null,
@@ -1446,7 +1473,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -1463,7 +1490,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1484,7 +1511,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1505,7 +1532,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1530,7 +1557,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1555,7 +1582,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1580,7 +1607,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1606,7 +1633,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 32,
+                    "x": 35,
                     "y": 175,
                     "alignment": 0,
                     "tranmap": null,
@@ -1630,7 +1657,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS3",
                           "tranmap": null,
                           "translation": null,
@@ -1647,7 +1674,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1668,7 +1695,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS4",
                           "tranmap": null,
                           "translation": null,
@@ -1689,7 +1716,7 @@
                         "graphic": {
                           "x": 18,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1714,7 +1741,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1739,7 +1766,7 @@
                         "graphic": {
                           "x": 9,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1764,7 +1791,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 20,
+                          "alignment": 21,
                           "patch": "STKEYS5",
                           "tranmap": null,
                           "translation": null,
@@ -1790,7 +1817,8 @@
                 },
 
 ## RIGHT SIDE: LABELS, ARMOR
-## Conditions: 10 (item owned), 11 (item not owned), 16 (game mode equal to mode), 17 (game mode not equal to mode)
+## Conditions: 4 (selected weapon has valid ammo type), 5 (ammo type matches selected weapon ammo type)
+##             10 (item owned), 11 (item not owned), 16 (game mode equal to mode), 17 (game mode not equal to mode)
                 {
                   "canvas": {
                     "x": 228,
@@ -1836,13 +1864,35 @@
                       },
                       {
                         "graphic": {
-                          "x": 33,
+                          "x": 9,
                           "y": 9,
                           "alignment": 32,
                           "patch": "TAG_AMM",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": null,
+                          "conditions": [
+                            {
+                              "condition": 4,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 54,
+                          "y": 9,
+                          "alignment": 32,
+                          "patch": "TAG_AMM",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 5
+                            }
+                          ],
                           "children": null
                         }
                       },
@@ -2849,7 +2899,7 @@
 ## AMMO: INFINITY ("N/A") SYMBOL
 ## Colors: Green
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
-## Conditions: 5 (ammo type matches selected weapon's ammo type), 8 (weapon in slot selected)
+## Conditions: 5 (ammo type matches selected weapon ammo type), 8 (weapon in slot selected)
                       {
                         "graphic": {
                           "x": 73,
@@ -2869,6 +2919,216 @@
                             }
                           ],
                           "children": null
+                        }
+                      },
+
+## AMMO: PROGRESS BAR
+## Color: Green
+## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Conditions: 4 (selected weapon has valid ammo type), 10 (item owned), 11 (item not owned),
+##             33 (ammo % for selected weapon >= <parm>)
+                      {
+                        "graphic": {
+                          "x": 28,
+                          "y": 9,
+                          "alignment": 32,
+                          "patch": "PROGBAR7",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 4,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "canvas": {
+                          "x": 28,
+                          "y": 9,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 4,
+                              "param": 0
+                            }
+                          ],
+                          "children": [
+                            {
+                              "graphic": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 32,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 10
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 2,
+                                "y": 0,
+                                "alignment": 32,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 20
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 4,
+                                "y": 0,
+                                "alignment": 32,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 30
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 6,
+                                "y": 0,
+                                "alignment": 32,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 40
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 8,
+                                "y": 0,
+                                "alignment": 32,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 50
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 10,
+                                "y": 0,
+                                "alignment": 32,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 60
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 12,
+                                "y": 0,
+                                "alignment": 32,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 70
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 14,
+                                "y": 0,
+                                "alignment": 32,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 80
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 16,
+                                "y": 0,
+                                "alignment": 32,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 90
+                                  }
+                                ],
+                                "children": null
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 18,
+                                "y": 0,
+                                "alignment": 32,
+                                "patch": "PROGBAR4",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [
+                                  {
+                                    "condition": 33,
+                                    "param": 100
+                                  }
+                                ],
+                                "children": null
+                              }
+                            }
+                          ]
                         }
                       },
 
@@ -3028,17 +3288,18 @@
                 },
 
 ## WIDGETS
-## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
-##        7 (message), 8 (level announce), 9 (MP chat), 10 (level title)
+## Types: 0 (stat_totals), 1 (time), 2 (coordinates), 3 (fps_counter), 4 (render_stats), 
+##        5 (command_history), 6 (speedometer), 7 (message), 8 (announce_level_title),
+##        9 (chat), 10 (level_title)
 ## Conditions: 19 (automap mode), 20 (widget enabled), 21 (widget disabled)
                 {
-                  "widget": {
+                  "component": {
                     "x": 23,
                     "y": 164,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3050,13 +3311,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 156,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3072,13 +3333,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 4,
                     "y": 164,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3094,13 +3355,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -3113,13 +3374,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3131,13 +3392,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 8,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -3149,13 +3410,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -3168,65 +3429,65 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 153,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -3234,13 +3495,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -3248,26 +3509,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {

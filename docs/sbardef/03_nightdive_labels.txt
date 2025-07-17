@@ -1,9 +1,9 @@
 ## NIGHTDIVE WITH LABELS
 
-## Alignments: 0 (center), 16 (widescreen/left), 32 (widescreen/right)
+## Alignments: 0 (original), 16 (widescreen/left), 32 (widescreen/right)
 ##             top:    +0 (left), +1 (center), +2 (right)
-##             center: +3 (left), +4 (center), +5 (right)
-##             bottom: +6 (left), +7 (center), +8 (right)
+##             center: +4 (left), +5 (center), +6 (right)
+##             bottom: +8 (left), +9 (center), +10 (right)
 
       {
         "height": 200,
@@ -29,9 +29,9 @@
 ## Condition: 15 (session type not equal to type)
                 {
                   "facebackground": {
-                    "x": 53,
+                    "x": 70,
                     "y": 181,
-                    "alignment": 20,
+                    "alignment": 21,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -45,9 +45,9 @@
                 },
                 {
                   "face": {
-                    "x": 54,
+                    "x": 71,
                     "y": 181,
-                    "alignment": 20,
+                    "alignment": 21,
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
@@ -964,12 +964,292 @@
                   }
                 },
 
-## AMMO
-## No max amounts
-## Colors: White (no backpack), Gold (backpack), Orange (active)
+## AMMO: "MAX" LABELS
+## Only shown when specific ammo type is maxed out
+## Colors: White (no Backpack), Gold (Backpack), Orange (weapon selected) 
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
-## Conditions: 5 (ammo type matches selected weapon's ammo type), 10 (item owned),
-##             11 (item not owned)
+## Condition: 11 (item not owned), 37 (ammo % >= param)
+                {
+                  "canvas": {
+                    "x": 298,
+                    "y": 171,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 37,
+                        "param": 100,
+                        "param2": 0
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 298,
+                    "y": 177,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 37,
+                        "param": 100,
+                        "param2": 1
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 298,
+                    "y": 183,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 37,
+                        "param": 100,
+                        "param2": 3
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 298,
+                    "y": 189,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 37,
+                        "param": 100,
+                        "param2": 2
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX6",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 32,
+                          "patch": "TAG_MAX2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+
+## AMMO: NO BACKPACK
+## Color: White
+## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Condition: 11 (item not owned), 38 (ammo % < param)
                 {
                   "canvas": {
                     "x": 313,
@@ -977,7 +1257,12 @@
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "conditions": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 7
+                      }
+                    ],
                     "children": [
                       {
                         "number": {
@@ -992,13 +1277,99 @@
                           "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 11,
-                              "param": 7
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 0
                             }
                           ],
                           "children": null
                         }
                       },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 6,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 12,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 18,
+                          "alignment": 34,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+
+## AMMO: BACKPACK
+## Color: Gold
+## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Condition: 10 (item owned), 38 (ammo % < param)
+                {
+                  "canvas": {
+                    "x": 313,
+                    "y": 170,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 7
+                      }
+                    ],
+                    "children": [
                       {
                         "number": {
                           "x": 0,
@@ -1012,13 +1383,94 @@
                           "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 10,
-                              "param": 7
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 0
                             }
                           ],
                           "children": null
                         }
                       },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 6,
+                          "alignment": 34,
+                          "font": "DigitGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 12,
+                          "alignment": 34,
+                          "font": "DigitGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 18,
+                          "alignment": 34,
+                          "font": "DigitGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+
+## AMMO: ACTIVE
+## Color: Orange
+## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Condition: 5 (ammo type matches selected weapon's ammo type), 38 (ammo % < param)
+                {
+                  "canvas": {
+                    "x": 313,
+                    "y": 170,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": [
                       {
                         "number": {
                           "x": 0,
@@ -1031,6 +1483,11 @@
                           "param": 0,
                           "maxlength": 3,
                           "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 0
+                            },
                             {
                               "condition": 5,
                               "param": 0
@@ -1044,46 +1501,6 @@
                           "x": 0,
                           "y": 6,
                           "alignment": 34,
-                          "font": "DigitWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 6,
-                          "alignment": 34,
-                          "font": "DigitGold",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 1,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 6,
-                          "alignment": 34,
                           "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
@@ -1091,6 +1508,11 @@
                           "param": 1,
                           "maxlength": 3,
                           "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 1
+                            },
                             {
                               "condition": 5,
                               "param": 1
@@ -1104,46 +1526,6 @@
                           "x": 0,
                           "y": 12,
                           "alignment": 34,
-                          "font": "DigitWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 12,
-                          "alignment": 34,
-                          "font": "DigitGold",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 3,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 12,
-                          "alignment": 34,
                           "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
@@ -1151,6 +1533,11 @@
                           "param": 3,
                           "maxlength": 3,
                           "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 3
+                            },
                             {
                               "condition": 5,
                               "param": 3
@@ -1164,46 +1551,6 @@
                           "x": 0,
                           "y": 18,
                           "alignment": 34,
-                          "font": "DigitWhite",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 18,
-                          "alignment": 34,
-                          "font": "DigitGold",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 3,
-                          "param": 2,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 0,
-                          "y": 18,
-                          "alignment": 34,
                           "font": "DigitOrange",
                           "tranmap": null,
                           "translation": null,
@@ -1211,6 +1558,11 @@
                           "param": 2,
                           "maxlength": 3,
                           "conditions": [
+                            {
+                              "condition": 38,
+                              "param": 100,
+                              "param2": 2
+                            },
                             {
                               "condition": 5,
                               "param": 2
@@ -1247,17 +1599,18 @@
                 },
 
 ## WIDGETS
-## Types: 0 (stats), 1 (time), 2 (coords), 3 (FPS), 4 (rate), 5 (cmd history), 6 (speed),
-##        7 (message), 8 (level announce), 9 (MP chat), 10 (level title)
+## Types: 0 (stat_totals), 1 (time), 2 (coordinates), 3 (fps_counter), 4 (render_stats), 
+##        5 (command_history), 6 (speedometer), 7 (message), 8 (announce_level_title),
+##        9 (chat), 10 (level_title)
 ## Conditions: 19 (automap mode), 20 (widget enabled), 21 (widget disabled)
                 {
-                  "widget": {
+                  "component": {
                     "x": 8,
                     "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -1269,13 +1622,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 8,
                     "y": 150,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -1291,13 +1644,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 8,
                     "y": 158,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -1313,13 +1666,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 0,
+                    "type": "stat_totals",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -1332,13 +1685,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 40,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 1,
+                    "type": "time",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -1350,13 +1703,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 8,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "conditions": [
                       {
@@ -1368,13 +1721,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 256,
                     "y": 8,
                     "alignment": 32,
                     "tranmap": null,
                     "translation": null,
-                    "type": 2,
+                    "type": "coordinates",
                     "font": "Digits",
                     "vertical": true,
                     "conditions": [
@@ -1387,65 +1740,65 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 0,
                     "alignment": 34,
                     "tranmap": null,
                     "translation": null,
-                    "type": 3,
+                    "type": "fps_counter",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 2,
                     "y": 8,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": 4,
+                    "type": "render_stats",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 318,
                     "y": 167,
                     "alignment": 42,
                     "tranmap": null,
                     "translation": null,
-                    "type": 5,
+                    "type": "command_history",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 167,
                     "alignment": 9,
                     "tranmap": null,
                     "translation": null,
-                    "type": 6,
+                    "type": "speedometer",
                     "font": "Digits",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 0,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": null,
-                    "type": 7,
+                    "type": "message",
                     "font": "Console",
                     "duration": 4,
                     "conditions": null,
@@ -1453,13 +1806,13 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 160,
                     "y": 68,
                     "alignment": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": 8,
+                    "type": "announce_level_title",
                     "font": "Console",
                     "duration": 2.5,
                     "conditions": null,
@@ -1467,26 +1820,26 @@
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 8,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 9,
+                    "type": "chat",
                     "font": "Console",
                     "conditions": null,
                     "children": null
                   }
                 },
                 {
-                  "widget": {
+                  "component": {
                     "x": 0,
                     "y": 155,
                     "alignment": 16,
                     "tranmap": null,
                     "translation": "CRGOLD",
-                    "type": 10,
+                    "type": "level_title",
                     "font": "Console",
                     "conditions": [
                       {
