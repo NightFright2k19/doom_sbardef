@@ -1,6 +1,6 @@
 # SBARDEF HUD MOD FOR WOOF!
 
-The Nightdive port brought the possibility to edit the Doom statusbar and fullscreen HUD via <a href="https://doomwiki.org/wiki/SBARDEF" target= "_blank">SBARDEF</a>. Unfortunately, an editor which is supposed to make statusbar modding a lot easier is still not completed. I couldn't wait for it and went ahead to create the HUDs I wanted/needed.<br><br>
+The Nightdive port brought the possibility to edit the Doom statusbar and fullscreen HUD via <a href="https://doomwiki.org/wiki/SBARDEF" target= "_blank">SBARDEF</a>. Unfortunately, a proper editor for this purpose is still not completed. I couldn't wait for it and went ahead to create the HUDs I wanted, using nothing but Notepad.<br><br>
 **If you want to use any (or all) of these HUDs in a mod of yours, feel free to do so. However, please be fair and credit me for my work. A lot of effort and time has been invested into this project.**<br><br>
 
 **Intended ports:**
@@ -16,7 +16,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Animated face. Featured in Nightdive, Eternity I and DSDA II/III.<br>
 - **Ammo overview**: Amount of ammo available for each weapon. Partial in Nightdive and DSDA III (no max amounts), full in Crispy, Eternity and DSDA I+II.<br>
-- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA III, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel ("9" not in Doom 1). DSDA II splits the display into three slot-grouped panels (1-2-8 / 3-4-9 / 5-6-7). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA III indicates Chainsaw through a lit "1" in slot 1 and possession of both shotguns with a fully lit "3".<br><br>
+- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA III, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel. DSDA II splits the display into two slot-grouped panels (1-2-3-8-9 / 4-5-6-7). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA III indicates Chainsaw through a lit "1" in slot 1 and possession of both shotguns with a fully lit "3".<br><br>
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In Eternity II and PrBoom+, the armor icon changes instead.<br>
@@ -43,7 +43,7 @@ Available variants:<br><br>
 <br><br>
 
 **2) Nightdive with Labels**<br>
-Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Armor and ammo icons have been removed since they often end up being badly aligned/too large. Ammo overview, arms display and armor type indicator have been added.<br>
+Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Armor and ammo icons have been removed. In return, ammo overview, arms display and armor type indicator were added.<br>
 <img width="1917" height="328" alt="02_nightdive" src="https://github.com/user-attachments/assets/b28e07b3-e1d8-4945-a754-6c528c4ec98c" />
 <br><br>
 
@@ -79,13 +79,13 @@ A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "
    **III. Condensed**: Widgets on the left are all aligned in a single line. Ammo overview is minimized and mugshot moves to the right side.<br><br>
 
 **7) PrBoom+**<br>
-Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. Ammo overview and God Mode indicator (temporary mugshot) have been added.<br>
+Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. God Mode indicator (temporary mugshot) has been added.<br>
 <img width="1917" height="328" alt="11_prboom-classic" src="https://github.com/user-attachments/assets/d57ec38a-77b4-4e1a-9f71-8f11213dc503" />
    **I. Classic**: Imitates the original HUD as closely as possible: Boom Compact with Health and Armor isolated on the right side.<br>
-<em>Note: Some mods use different sprite sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
+<em>Note: Some mods use sprites with different sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
 <br><br>
 <img width="1917" height="328" alt="12_prboom-balanced" src="https://github.com/user-attachments/assets/9e7ed4ec-21b8-421e-a681-13166d1103c1" />
-   **II. Balanced**: Uses more neutral/universal icons (from Eternity Boomified) and splits them to both sides of the screens, using the double-sized Boom font. Ammo overview is missing. No colorization here (only in the WEA widget for selected weapon).<br><br>
+   **II. Balanced**: Uses more neutral/universal icons (from Eternity Boomified) and splits them, using a double-sized Boom font. No colorization here (only in the WEA widget for selected weapon).<br><br>
 
 **BONUS CONTENT**<br><br>
 I. Addons (load externally, i.e. NOT via autoload - **currently not all are functional**):
