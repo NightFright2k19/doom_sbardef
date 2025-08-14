@@ -80,7 +80,7 @@ A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "
 
 **7) PrBoom+**<br>
 Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. God Mode indicator (temporary mugshot) has been added.<br>
-<img width="1917" height="328" alt="11_prboom-classic" src="https://github.com/user-attachments/assets/d57ec38a-77b4-4e1a-9f71-8f11213dc503" />
+<img width="1917" height="328" alt="11_prboom-classic" src="https://github.com/user-attachments/assets/ceabb10f-838d-4c2c-9f5a-8f2e841d6ff8" />
    **I. Classic**: Imitates the original HUD as closely as possible: Boom Compact with Health and Armor isolated on the right side.<br>
 <em>Note: Some mods use sprites with different sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
 <br><br>
