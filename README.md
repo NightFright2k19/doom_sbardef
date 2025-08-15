@@ -10,7 +10,8 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 **How to use:**
 - Unzip the archive into your Woof! installation directory. Files will be copied into the proper autoload subdirectories.<br>
 - If you are using *extras.wad*, launch Woof! with command line parameter **-noextras**.<br>
-- Keep pressing F5 ingame until you get to the HUD you want.<br><br>
+- Keep pressing F5 ingame until you get to the HUD you want.<br>
+- Note: For best visuals, be sure the "Wide Shift" slider ("Status Bar/HUD") in your Woof! menu is maxed out.<br><br>
 
 **Features:**
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
