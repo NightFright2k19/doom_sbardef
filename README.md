@@ -74,7 +74,7 @@ The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.pn
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".) <br>
 <img width="1917" height="328" alt="08_dsda-classic" src="https://github.com/user-attachments/assets/363946cf-f1f5-497a-8d99-db8f2b4cbc4f" />
    **I. Classic**: Imitates the original HUD as closely as possible.<br><br>
-<img width="1917" height="328" alt="09_dsda-enhanced" src="https://github.com/user-attachments/assets/14bc01d2-bfea-4fd9-b933-d7ae10cdaea6" />
+<img width="1917" height="328" alt="09_dsda-enhanced" src="https://github.com/user-attachments/assets/512a5fd9-b1a6-408b-b402-04e05b7cb0ca" />
    **II. Enhanced**: Adds mugshot and reorganizes ARM/HEL/AMM/WPN widgets on the left side.<br><br>
 <img width="1917" height="328" alt="10_dsda-condensed" src="https://github.com/user-attachments/assets/1a179ad2-6f3b-4c47-bd99-03d823a881c9" />
    **III. Condensed**: Widgets on the left are all aligned in a single line. Ammo overview is minimized and mugshot moves to the right side.<br><br>
