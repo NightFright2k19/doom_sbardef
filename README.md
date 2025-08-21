@@ -29,14 +29,14 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **Comparison Features / Indicators:**<br>
 
-| HUD style | Features | Indicators | Notes |
-| ----------- | ----------- | ----------- | ----------- |
-| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | All features/indicators included |
-| Eternity II<br>DSDA I | +++ | ++++++ | No mugshot |
-| Boom<br>PrBoom+ | ++ | ++++++ | No mugshot; no ammo overview |
-| Status Bar | ++++ | ++ | All features; backpack and god mode only |
-| Crispy | +++ | ++ | No mugshot; armor type and backpack only |
-| Doom 64 | + | + | Vitals only; armor type only; always centered |
+| HUD style | Features | Indicators |  Score | Notes |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10/10 | All features/indicators included |
+| Eternity II<br>DSDA I | +++ | ++++++ | 9/10 | No mugshot |
+| Boom<br>PrBoom+ | ++ | ++++++ | 8/10 | No mugshot; no ammo overview |
+| Status Bar | ++++ | ++ | 6/10 | All features; backpack and god mode only |
+| Crispy | +++ | ++ | 5/10 | No mugshot; armor type and backpack only |
+| Doom 64 | + | + | 2/10 | Vitals only; armor type only; always centered |
 <br>
 Available variants:<br><br>
 
