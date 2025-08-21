@@ -34,6 +34,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | All features/indicators included |
 | Eternity II<br>DSDA I | +++ | ++++++ | No mugshot |
 | Boom<br>PrBoom+ | ++ | ++++++ | No mugshot; no ammo overview |
+| Status Bar | ++++ | ++ | All features; backpack and god mode only |
 | Crispy | +++ | ++ | No mugshot; armor type and backpack only |
 | Doom 64 | + | + | Vitals only; armor type only; always centered |
 <br>
