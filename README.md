@@ -17,11 +17,12 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Animated face. Featured in Nightdive, Eternity I and DSDA II/III.<br>
 - **Ammo overview**: Amount of ammo available for each weapon. Partial in Nightdive and DSDA III (no max amounts), full in Crispy, Eternity and DSDA I+II.<br>
-- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA III, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). Chainsaw and Super Shotgun shown as "8" and "9" in the Arms panel. DSDA II splits the display into two slot-grouped panels (1-2-3-8-9 / 4-5-6-7). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA III indicates Chainsaw through a lit "1" in slot 1 and possession of both shotguns with a fully lit "3".<br><br>
+- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA III, otherwise 1-9. Either arranged as a square (Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). DSDA II splits the display into two slot-grouped panels (1-2-3-8-9 / 4-5-6-7). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA III indicates Chainsaw through a lit "1" in slot 1 and possession of both shotguns with a fully lit "3".<br><br>
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). In Eternity II and PrBoom+, the armor icon changes instead.<br>
 - **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Crispy, Eternity, DSDA I/II).<br>
+- **Chainsaw/Super Shotgun**: Not shown on the vanilla status bar, these weapons are listed in the Arms display in more modern ports, usually as "8" and "9".
 - **Berserk mode**: Powerup which increases punching power with Fists. Usually shown as a fully lit "1" in the Arms display. The green cross icon in Eternity II turns red. In PrBoom+ I, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
 - **God mode**: Mugshot and/or recolored health/armor numbers (gold). In Eternity II and PrBoom+ II, icons turn golden, too.<br>
 - **Active ammo/weapon**: Currently selected weapon and fitting ammo. Orange numbers in the Arms/WEA/WPN panel and/or ammo overview.<br><br>
@@ -30,9 +31,9 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 | HUD style | Features | Indicators | Notes |
 | ----------- | ----------- | ----------- | ----------- |
-| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | +++++ | All features/indicators included |
-| Eternity II<br>DSDA I | +++ | +++++ | No mugshot |
-| Boom<br>PrBoom+ | ++ | +++++ | No mugshot; no ammo overview |
+| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | All features/indicators included |
+| Eternity II<br>DSDA I | +++ | ++++++ | No mugshot |
+| Boom<br>PrBoom+ | ++ | ++++++ | No mugshot; no ammo overview |
 | Crispy | +++ | ++ | No mugshot; armor type and backpack only |
 | Doom 64 | + | + | Vitals only; armor type only; always centered |
 <br>
