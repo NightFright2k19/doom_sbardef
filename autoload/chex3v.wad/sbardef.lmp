@@ -127,7 +127,7 @@
           },
           {
             "facebackground": {
-              "x": 160,
+              "x": 144,
               "y": 169,
               "alignment": 0,
               "tranmap": null,
@@ -883,6 +883,1105 @@
           {
             "component": {
               "x": 2,
+              "y": 160,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "time",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                },
+                {
+                  "condition": 21,
+                  "param": 0
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 2,
+              "y": 8,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "stat_totals",
+              "font": "Digits",
+              "vertical": true,
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 3
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 2,
+              "y": 40,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "time",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 3
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 318,
+              "y": 8,
+              "alignment": 34,
+              "tranmap": null,
+              "translation": null,
+              "type": "coordinates",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 256,
+              "y": 8,
+              "alignment": 32,
+              "tranmap": null,
+              "translation": null,
+              "type": "coordinates",
+              "font": "Digits",
+              "vertical": true,
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 3
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 318,
+              "y": 0,
+              "alignment": 34,
+              "tranmap": null,
+              "translation": null,
+              "type": "fps_counter",
+              "font": "Digits",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 2,
+              "y": 8,
+              "alignment": 0,
+              "tranmap": null,
+              "translation": null,
+              "type": "render_stats",
+              "font": "Digits",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 318,
+              "y": 167,
+              "alignment": 42,
+              "tranmap": null,
+              "translation": null,
+              "type": "command_history",
+              "font": "Digits",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 160,
+              "y": 167,
+              "alignment": 9,
+              "tranmap": null,
+              "translation": null,
+              "type": "speedometer",
+              "font": "Digits",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 0,
+              "y": 0,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "message",
+              "font": "Console",
+              "duration": 4,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 160,
+              "y": 52,
+              "alignment": 1,
+              "tranmap": null,
+              "translation": null,
+              "type": "announce_level_title",
+              "font": "Console",
+              "duration": 2.5,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 0,
+              "y": 8,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": "CRGOLD",
+              "type": "chat",
+              "font": "Console",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 0,
+              "y": 160,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": "CRGOLD",
+              "type": "level_title",
+              "font": "Console",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 3
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "carousel": {
+              "x": 0,
+              "y": 18,
+              "alignment": 0,
+              "tranmap": null,
+              "translation": null,
+              "conditions": null,
+              "children": null
+            }
+          }
+        ]
+      },
+      {
+        "height": 200,
+        "fullscreenrender": true,
+        "fillflat": null,
+        "children": [
+          {
+            "graphic": {
+              "x": 160,
+              "y": 168,
+              "width": 105,
+              "height": 0,
+              "topoffset": 0,
+              "leftoffset": 0,
+              "midoffset": -160,
+              "alignment": 1,
+              "patch": "STBAR",
+              "tranmap": null,
+              "translation": null,
+              "translucency": true,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 160,
+              "y": 168,
+              "width": 178,
+              "height": 0,
+              "topoffset": 0,
+              "leftoffset": 0,
+              "midoffset": -18,
+              "alignment": 1,
+              "patch": "STBAR",
+              "tranmap": null,
+              "translation": null,
+              "translucency": true,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "facebackground": {
+              "x": 144,
+              "y": 169,
+              "width": 34,
+              "height": 31,
+              "topoffset": 0,
+              "leftoffset": 0,
+              "midoffset": 0,
+              "alignment": 0,
+              "tranmap": null,
+              "translation": null,
+              "translucency": true,
+              "conditions": [
+                {
+                  "condition": 15,
+                  "param": 0
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "face": {
+              "x": 161,
+              "y": 183,
+              "alignment": 5,
+              "tranmap": null,
+              "translation": null,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 144,
+              "y": 170,
+              "alignment": 0,
+              "patch": "ARM_LOW",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 11,
+                  "param": 15
+                },
+                {
+                  "condition": 27,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 144,
+              "y": 170,
+              "alignment": 0,
+              "patch": "ARM_HIGH",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 15
+                },
+                {
+                  "condition": 27,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 44,
+              "y": 171,
+              "alignment": 2,
+              "font": "BigRed",
+              "tranmap": null,
+              "translation": null,
+              "type": 4,
+              "param": 0,
+              "maxlength": 3,
+              "conditions": [
+                {
+                  "condition": 4,
+                  "param": 0
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "percent": {
+              "x": 104,
+              "y": 171,
+              "alignment": 2,
+              "font": "BigRed",
+              "tranmap": null,
+              "translation": null,
+              "type": 0,
+              "param": 0,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "percent": {
+              "x": 235,
+              "y": 171,
+              "alignment": 2,
+              "font": "BigRed",
+              "tranmap": null,
+              "translation": null,
+              "type": 1,
+              "param": 0,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 138,
+              "y": 171,
+              "alignment": 2,
+              "font": "BigRed",
+              "tranmap": null,
+              "translation": null,
+              "type": 2,
+              "param": 0,
+              "maxlength": 2,
+              "conditions": [
+                {
+                  "condition": 14,
+                  "param": 2
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 104,
+              "y": 168,
+              "alignment": 0,
+              "patch": "STARMS",
+              "tranmap": null,
+              "translation": null,
+              "translucency": true,
+              "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                }
+              ],
+              "children": [
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 3,
+                    "alignment": 0,
+                    "patch": "STGNUM1",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 3,
+                    "alignment": 0,
+                    "patch": "STYSNUM1",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 9,
+                    "y": 5,
+                    "alignment": 0,
+                    "patch": "STGNUM8",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 22,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 9,
+                    "y": 5,
+                    "alignment": 0,
+                    "patch": "STYSNUM8",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 0,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 19,
+                    "y": 4,
+                    "alignment": 0,
+                    "patch": "STGNUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 19,
+                    "y": 4,
+                    "alignment": 0,
+                    "patch": "STYSNUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 31,
+                    "y": 4,
+                    "alignment": 0,
+                    "patch": "STGNUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 31,
+                    "y": 4,
+                    "alignment": 0,
+                    "patch": "STYSNUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 7,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STGNUM5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 5
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 7,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STYSNUM5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 5
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 19,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STGNUM6",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 6
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 19,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STYSNUM6",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 6
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 31,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STGNUM7",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 31,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STYSNUM7",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "number": {
+              "x": 288,
+              "y": 173,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 3,
+              "param": 0,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 314,
+              "y": 173,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 5,
+              "param": 0,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 288,
+              "y": 179,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 3,
+              "param": 1,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 314,
+              "y": 179,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 5,
+              "param": 1,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 288,
+              "y": 185,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 3,
+              "param": 3,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 314,
+              "y": 185,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 5,
+              "param": 3,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 288,
+              "y": 191,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 3,
+              "param": 2,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 314,
+              "y": 191,
+              "alignment": 2,
+              "font": "SmallYellow",
+              "tranmap": null,
+              "translation": null,
+              "type": 5,
+              "param": 2,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 246,
+              "y": 174,
+              "alignment": 5,
+              "patch": "STKEYS0",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 1
+                },
+                {
+                  "condition": 11,
+                  "param": 4
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 245,
+              "y": 174,
+              "alignment": 5,
+              "patch": "STKEYS3",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 11,
+                  "param": 1
+                },
+                {
+                  "condition": 10,
+                  "param": 4
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 245,
+              "y": 174,
+              "alignment": 5,
+              "patch": "STKEYS3",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 1
+                },
+                {
+                  "condition": 10,
+                  "param": 4
+                },
+                {
+                  "condition": 13,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 246,
+              "y": 174,
+              "alignment": 5,
+              "patch": "STKEYS6",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 1
+                },
+                {
+                  "condition": 10,
+                  "param": 4
+                },
+                {
+                  "condition": 12,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 246,
+              "y": 184,
+              "alignment": 5,
+              "patch": "STKEYS1",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 2
+                },
+                {
+                  "condition": 11,
+                  "param": 5
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 245,
+              "y": 184,
+              "alignment": 5,
+              "patch": "STKEYS4",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 11,
+                  "param": 2
+                },
+                {
+                  "condition": 10,
+                  "param": 5
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 245,
+              "y": 184,
+              "alignment": 5,
+              "patch": "STKEYS4",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 2
+                },
+                {
+                  "condition": 10,
+                  "param": 5
+                },
+                {
+                  "condition": 13,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 246,
+              "y": 184,
+              "alignment": 5,
+              "patch": "STKEYS7",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 2
+                },
+                {
+                  "condition": 10,
+                  "param": 5
+                },
+                {
+                  "condition": 12,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 246,
+              "y": 194,
+              "alignment": 5,
+              "patch": "STKEYS2",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 3
+                },
+                {
+                  "condition": 11,
+                  "param": 6
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 245,
+              "y": 194,
+              "alignment": 5,
+              "patch": "STKEYS5",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 11,
+                  "param": 3
+                },
+                {
+                  "condition": 10,
+                  "param": 6
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 245,
+              "y": 194,
+              "alignment": 5,
+              "patch": "STKEYS5",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 3
+                },
+                {
+                  "condition": 10,
+                  "param": 6
+                },
+                {
+                  "condition": 13,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 246,
+              "y": 194,
+              "alignment": 5,
+              "patch": "STKEYS8",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 3
+                },
+                {
+                  "condition": 10,
+                  "param": 6
+                },
+                {
+                  "condition": 12,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 53,
+              "y": 160,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "stat_totals",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 53,
+              "y": 152,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "time",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                },
+                {
+                  "condition": 20,
+                  "param": 0
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 53,
               "y": 160,
               "alignment": 16,
               "tranmap": null,
