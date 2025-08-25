@@ -13,6 +13,30 @@
 
 ## STATUS BAR IMAGE
 ## Centered for widescreen support, cut into two parts for proper STARMS transparency effect
+## Conditions: 14 (session type equal to type), 15 (session type not equal to type)
+          {
+            "graphic": {
+              "x": 160,
+              "y": 168,
+              "width": 320,
+              "height": 0,
+              "topoffset": 0,
+              "leftoffset": 0,
+              "midoffset": -160,
+              "alignment": 1,
+              "patch": "STBAR",
+              "tranmap": null,
+              "translation": null,
+              "translucency": true,
+              "conditions": [
+                {
+                  "condition": 14,
+                  "param": 2
+                }
+              ],
+              "children": null
+            }
+          },
           {
             "graphic": {
               "x": 160,
@@ -27,7 +51,12 @@
               "tranmap": null,
               "translation": null,
               "translucency": true,
-              "conditions": null,
+              "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                }
+              ],
               "children": null
             }
           },
@@ -45,7 +74,12 @@
               "tranmap": null,
               "translation": null,
               "translucency": true,
-              "conditions": null,
+              "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                }
+              ],
               "children": null
             }
           },

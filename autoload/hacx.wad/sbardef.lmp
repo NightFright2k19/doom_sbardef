@@ -1114,6 +1114,29 @@
             "graphic": {
               "x": 160,
               "y": 168,
+              "width": 320,
+              "height": 0,
+              "topoffset": 0,
+              "leftoffset": 0,
+              "midoffset": -160,
+              "alignment": 1,
+              "patch": "STBAR",
+              "tranmap": null,
+              "translation": null,
+              "translucency": true,
+              "conditions": [
+                {
+                  "condition": 14,
+                  "param": 2
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 160,
+              "y": 168,
               "width": 108,
               "height": 0,
               "topoffset": 0,
@@ -1124,7 +1147,12 @@
               "tranmap": null,
               "translation": null,
               "translucency": true,
-              "conditions": null,
+              "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                }
+              ],
               "children": null
             }
           },
@@ -1142,7 +1170,12 @@
               "tranmap": null,
               "translation": null,
               "translucency": true,
-              "conditions": null,
+              "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                }
+              ],
               "children": null
             }
           },

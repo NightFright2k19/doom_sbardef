@@ -1107,6 +1107,29 @@
         "children": [
           {
             "graphic": {
+              "x": 160,
+              "y": 168,
+              "width": 320,
+              "height": 0,
+              "topoffset": 0,
+              "leftoffset": 0,
+              "midoffset": -160,
+              "alignment": 1,
+              "patch": "STBAR",
+              "tranmap": null,
+              "translation": null,
+              "translucency": true,
+              "conditions": [
+                {
+                  "condition": 14,
+                  "param": 2
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
               "x": 198,
               "y": 168,
               "width": 105,
@@ -1119,7 +1142,12 @@
               "tranmap": null,
               "translation": null,
               "translucency": true,
-              "conditions": null,
+              "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                }
+              ],
               "children": null
             }
           },
@@ -1137,7 +1165,12 @@
               "tranmap": null,
               "translation": null,
               "translucency": true,
-              "conditions": null,
+              "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                }
+              ],
               "children": null
             }
           },
@@ -1593,6 +1626,80 @@
           },
           {
             "component": {
+              "x": 2,
+              "y": 160,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "stat_totals",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 14,
+                  "param": 2
+                },
+                {
+                  "condition": 19,
+                  "param": 4
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 2,
+              "y": 152,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "time",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 14,
+                  "param": 2
+                },
+                {
+                  "condition": 19,
+                  "param": 4
+                },
+                {
+                  "condition": 20,
+                  "param": 0
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 2,
+              "y": 160,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "time",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 14,
+                  "param": 2
+                },
+                {
+                  "condition": 19,
+                  "param": 4
+                },
+                {
+                  "condition": 21,
+                  "param": 0
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
               "x": 91,
               "y": 160,
               "alignment": 16,
@@ -1601,6 +1708,10 @@
               "type": "stat_totals",
               "font": "Digits",
               "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                },
                 {
                   "condition": 19,
                   "param": 4
@@ -1619,6 +1730,10 @@
               "type": "time",
               "font": "Digits",
               "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                },
                 {
                   "condition": 19,
                   "param": 4
@@ -1641,6 +1756,10 @@
               "type": "time",
               "font": "Digits",
               "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                },
                 {
                   "condition": 19,
                   "param": 4
