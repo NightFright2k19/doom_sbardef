@@ -270,7 +270,8 @@
 ## Translucency added
 ## Conditions: 0 (weapon owned), 1 (weapon selected), 6 (weapon in slot owned), 7 (weapon in slot not owned), 
 ##             8 (any weapon in slot selected), 9 (any weapon in slot not selected), 
-##             10 (item not owned), 11 (item owned), 15 (session type not equal to type)
+##             10 (item not owned), 11 (item owned), 15 (session type not equal to type), 
+##             16 (game mode equal to parm), 17 (game mode not equal to parm), 22 (weapon not owned)
           {
             "graphic": {
               "x": 104,

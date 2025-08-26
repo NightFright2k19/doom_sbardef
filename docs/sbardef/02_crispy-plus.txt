@@ -1,4 +1,4 @@
-## CRISPY DOOM (WITH LABELS)
+## CRISPY PLUS
 
 ## Alignments: 0 (original), 16 (widescreen/left), 32 (widescreen/right)
 ##             top:    +0 (left), +1 (center), +2 (right)
@@ -90,7 +90,9 @@
           },
 
 ## ARMS PANEL
-## Conditions: 6 (weapon in slot owned), 7 (weapon in slot not owned), 15 (session type not equal to type)
+## Conditions: 0 (weapon owned), 6 (weapon in slot owned), 7 (weapon in slot not owned), 
+##             10 (item not owned), 11 (item owned), 15 (session type not equal to type),
+##             16 (game mode equal to parm), 17 (game mode not equal to parm), 22 (weapon not owned)
           {
             "canvas": {
               "x": 111,
@@ -105,16 +107,16 @@
               "children": [
                 {
                   "graphic": {
-                    "x": 0,
-                    "y": 0,
+                    "x": -3,
+                    "y": -1,
                     "alignment": 16,
-                    "patch": "STGNUM2",
+                    "patch": "STGNUM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 7,
-                        "param": 2
+                        "condition": 11,
+                        "param": 18
                       }
                     ],
                     "children": null
@@ -122,16 +124,50 @@
                 },
                 {
                   "graphic": {
-                    "x": 0,
-                    "y": 0,
+                    "x": -3,
+                    "y": -1,
                     "alignment": 16,
-                    "patch": "STYSNUM2",
+                    "patch": "STYSNUM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 6,
-                        "param": 2
+                        "condition": 10,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 2,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "STGNUM8",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 22,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 2,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "STYSNUM8",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 0,
+                        "param": 7
                       }
                     ],
                     "children": null
@@ -146,6 +182,10 @@
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
+                      {
+                        "condition": 17,
+                        "param": 1
+                      },
                       {
                         "condition": 7,
                         "param": 3
@@ -164,8 +204,96 @@
                     "translation": null,
                     "conditions": [
                       {
+                        "condition": 17,
+                        "param": 1
+                      },
+                      {
                         "condition": 6,
                         "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 9,
+                    "y": -1,
+                    "alignment": 16,
+                    "patch": "STGNUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 16,
+                        "param": 1
+                      },
+                      {
+                        "condition": 22,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 9,
+                    "y": -1,
+                    "alignment": 16,
+                    "patch": "STYSNUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 16,
+                        "param": 1
+                      },
+                      {
+                        "condition": 0,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 14,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "STGNUM9",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 16,
+                        "param": 1
+                      },
+                      {
+                        "condition": 22,
+                        "param": 8
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 14,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "STYSNUM9",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 16,
+                        "param": 1
+                      },
+                      {
+                        "condition": 0,
+                        "param": 8
                       }
                     ],
                     "children": null
@@ -715,7 +843,8 @@
           },
 
 ## LABELS (LEFT/RIGHT)
-## Conditions: 14 (session type equal to type), 15 (session type not equal to type)
+## Conditions: 10 (item owned), 11 (item not owned), 14 (session type equal to type), 
+##             15 (session type not equal to type)
           {
             "graphic": {
               "x": 13,
@@ -736,7 +865,29 @@
               "patch": "TAG_HEAL",
               "tranmap": null,
               "translation": null,
-              "conditions": null,
+              "conditions": [
+                {
+                  "condition": 11,
+                  "param": 21
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 69,
+              "y": 191,
+              "alignment": 16,
+              "patch": "TAG_GOD",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 21
+                }
+              ],
               "children": null
             }
           },

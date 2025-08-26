@@ -2059,16 +2059,16 @@
               "children": [
                 {
                   "graphic": {
-                    "x": 2,
-                    "y": 0,
+                    "x": -1,
+                    "y": -1,
                     "alignment": 16,
-                    "patch": "DGT7NUM2",
+                    "patch": "DGT7NUM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 7,
-                        "param": 2
+                        "condition": 11,
+                        "param": 18
                       }
                     ],
                     "children": null
@@ -2076,16 +2076,50 @@
                 },
                 {
                   "graphic": {
-                    "x": 2,
-                    "y": 0,
+                    "x": -1,
+                    "y": -1,
                     "alignment": 16,
-                    "patch": "DGT3NUM2",
+                    "patch": "DGT3NUM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 6,
-                        "param": 2
+                        "condition": 10,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "DGT7NUM8",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 22,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "DGT3NUM8",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 0,
+                        "param": 7
                       }
                     ],
                     "children": null
@@ -2680,7 +2714,29 @@
               "patch": "TAG_HEAL",
               "tranmap": null,
               "translation": null,
-              "conditions": null,
+              "conditions": [
+                {
+                  "condition": 11,
+                  "param": 21
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 69,
+              "y": 191,
+              "alignment": 16,
+              "patch": "TAG_GOD",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 21
+                }
+              ],
               "children": null
             }
           },

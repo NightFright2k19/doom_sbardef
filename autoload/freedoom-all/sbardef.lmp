@@ -2442,16 +2442,16 @@
               "children": [
                 {
                   "graphic": {
-                    "x": 0,
-                    "y": 0,
+                    "x": -3,
+                    "y": -1,
                     "alignment": 16,
-                    "patch": "STGNUM2",
+                    "patch": "STGNUM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 7,
-                        "param": 2
+                        "condition": 11,
+                        "param": 18
                       }
                     ],
                     "children": null
@@ -2459,16 +2459,50 @@
                 },
                 {
                   "graphic": {
-                    "x": 0,
-                    "y": 0,
+                    "x": -3,
+                    "y": -1,
                     "alignment": 16,
-                    "patch": "STYSNUM2",
+                    "patch": "STYSNUM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 6,
-                        "param": 2
+                        "condition": 10,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 2,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "STGNUM8",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 22,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 2,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "STYSNUM8",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 0,
+                        "param": 7
                       }
                     ],
                     "children": null
@@ -2483,6 +2517,10 @@
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
+                      {
+                        "condition": 17,
+                        "param": 1
+                      },
                       {
                         "condition": 7,
                         "param": 3
@@ -2501,8 +2539,96 @@
                     "translation": null,
                     "conditions": [
                       {
+                        "condition": 17,
+                        "param": 1
+                      },
+                      {
                         "condition": 6,
                         "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 9,
+                    "y": -1,
+                    "alignment": 16,
+                    "patch": "STGNUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 16,
+                        "param": 1
+                      },
+                      {
+                        "condition": 22,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 9,
+                    "y": -1,
+                    "alignment": 16,
+                    "patch": "STYSNUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 16,
+                        "param": 1
+                      },
+                      {
+                        "condition": 0,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 14,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "STGNUM9",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 16,
+                        "param": 1
+                      },
+                      {
+                        "condition": 22,
+                        "param": 8
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 14,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "STYSNUM9",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 16,
+                        "param": 1
+                      },
+                      {
+                        "condition": 0,
+                        "param": 8
                       }
                     ],
                     "children": null
@@ -3063,7 +3189,29 @@
               "patch": "TAG_HEAL",
               "tranmap": null,
               "translation": null,
-              "conditions": null,
+              "conditions": [
+                {
+                  "condition": 11,
+                  "param": 21
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 69,
+              "y": 191,
+              "alignment": 16,
+              "patch": "TAG_GOD",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 10,
+                  "param": 21
+                }
+              ],
               "children": null
             }
           },
