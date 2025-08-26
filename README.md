@@ -24,7 +24,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Eternity, DSDA I/II).<br>
 - **Chainsaw/Super Shotgun**: Not shown on the vanilla status bar, these weapons are listed in the Arms display in more modern ports, usually as "8" and "9".
 - **Berserk mode**: Powerup which increases punching power with Fists. Usually shown as a fully lit "1" in the Arms display. The green cross icon in Eternity II turns red. In PrBoom+ I, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
-- **God mode**: Mugshot and/or recolored health/armor numbers (gold). In Eternity II and PrBoom+ II, icons turn golden, too.<br>
+- **God mode**: Mugshot and/or recolored health/armor numbers (gold). Crispy's "Health" label switches to "God". In Eternity II and PrBoom+ II, icons turn golden, too.<br>
 - **Active ammo/weapon**: Currently selected weapon and fitting ammo. Orange numbers in the Arms/WEA/WPN panel and/or ammo overview.<br><br>
 
 **Comparison Features / Indicators:**<br>
@@ -34,9 +34,9 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10/10 | All features/indicators included |
 | Status Bar Plus | ++++ | +++++ | 9/10 | No active ammo/weapon |
 | Eternity II<br>DSDA I | +++ | ++++++ | 9/10 | No mugshot |
+| Crispy Plus | +++ | +++++ | 8/10 | No mugshot; no active ammo/weapon |
 | Boom<br>PrBoom+ | ++ | ++++++ | 8/10 | No mugshot; no ammo overview |
 | Status Bar (Vanilla)| ++++ | ++ | 6/10 | All features; backpack and god mode only |
-| Crispy | +++ | ++ | 5/10 | No mugshot; armor type and backpack only |
 | Doom 64 | + | + | 2/10 | Vitals only; armor type only; always centered |
 <br>
 Available variants:<br><br>
@@ -47,9 +47,9 @@ mode (ARMS: "1"). There's also a small frame around the mugshot telling you whic
 <img width="1917" height="328" alt="00_statusbar-plus" src="https://github.com/user-attachments/assets/cfc106e7-4680-4c1f-94b5-0983ce0d8ba2" />
 <br><br>
 
-**2) Crispy with Labels**<br>
-<a href="https://github.com/fabiangreffrath/crispy-doom" target= "_blank">Crispy Doom</a> fullscreen HUD with labels. Features armor type indicator as a bonus. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)<br>
-<img width="1917" height="328" alt="01_crispy" src="https://github.com/user-attachments/assets/ba56b38b-e02b-4f70-b6fa-2362a598b2f1" />
+**2) Crispy Plus**<br>
+<a href="https://github.com/fabiangreffrath/crispy-doom" target= "_blank">Crispy Doom</a> fullscreen HUD with labels. With additional indicators for Berserk, Chainsaw/Super Shotgun, god mode and armor type. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)<br>
+<img width="1917" height="328" alt="01_crispy-plus" src="https://github.com/user-attachments/assets/053673c8-d0c0-4c8a-9504-502a6ac9ebfb" />
 <br><br>
 
 **3) Nightdive with Labels**<br>
