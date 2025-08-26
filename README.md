@@ -24,7 +24,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Eternity, DSDA I/II).<br>
 - **Chainsaw/Super Shotgun**: Not shown on the vanilla status bar, these weapons are listed in the Arms display in more modern ports, usually as "8" and "9".
 - **Berserk mode**: Powerup which increases punching power with Fists. Usually shown as a fully lit "1" in the Arms display. The green cross icon in Eternity II turns red. In PrBoom+ I, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
-- **God mode**: Mugshot and/or recolored health/armor numbers (gold). Crispy's "Health" label switches to "God". In Eternity II and PrBoom+ II, icons turn golden, too.<br>
+- **God mode**: Mugshot and/or recolored health/armor numbers (gold). "Health" label in Crispy/Doom 64 switches to "God". In Eternity II and PrBoom+ II, icons turn golden, too.<br>
 - **Active ammo/weapon**: Currently selected weapon and fitting ammo. Orange numbers in the Arms/WEA/WPN panel and/or ammo overview.<br><br>
 
 **Comparison Features / Indicators:**<br>
@@ -37,7 +37,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | Crispy Plus | +++ | +++++ | 8/10 | No mugshot; no active ammo/weapon |
 | Boom<br>PrBoom+ | ++ | ++++++ | 8/10 | No mugshot; no ammo overview |
 | Status Bar (Vanilla)| ++++ | ++ | 6/10 | All features; backpack and god mode only |
-| Doom 64 | + | + | 2/10 | Vitals only; armor type only; always centered |
+| Doom 64 | + | ++ | 3/10 | Vitals only; armor type and god mode only; always centered |
 <br>
 Available variants:<br><br>
 
@@ -58,7 +58,7 @@ Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" targ
 <br><br>
 
 **4) Doom 64**<br>
-Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Basically nothing besides the three centered vital stats plus an indicator for armor protection level.<br>
+Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Nothing besides the three centered vital stats plus indicators for armor protection level and god mode.<br>
 <img width="1917" height="328" alt="03_doom64" src="https://github.com/user-attachments/assets/12446dc2-f1f5-4a8a-952d-c6a5a9cae056" />
 *Note: Alignment of Health, Armor and keys will adjust depending on layout type. Transparency effect can be adjusted in woof.cfg (**tran_filter_pct**).*
 <br><br>

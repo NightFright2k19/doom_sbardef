@@ -5325,7 +5325,29 @@
                     "patch": "TAG_HEAL",
                     "tranmap": null,
                     "translation": null,
-                    "conditions": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 60,
+                    "y": 178,
+                    "alignment": 1,
+                    "patch": "TAG_GOD",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 21
+                      }
+                    ],
                     "children": null
                   }
                 },
@@ -5528,7 +5550,29 @@
                     "patch": "TAG_HEAL",
                     "tranmap": null,
                     "translation": null,
-                    "conditions": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 80,
+                    "y": 178,
+                    "alignment": 1,
+                    "patch": "TAG_GOD",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 21
+                      }
+                    ],
                     "children": null
                   }
                 },
