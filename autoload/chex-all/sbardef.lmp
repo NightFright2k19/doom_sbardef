@@ -1119,58 +1119,7 @@
               "tranmap": null,
               "translation": null,
               "translucency": true,
-              "conditions": [
-                {
-                  "condition": 14,
-                  "param": 2
-                }
-              ],
-              "children": null
-            }
-          },
-          {
-            "graphic": {
-              "x": 198,
-              "y": 168,
-              "width": 105,
-              "height": 0,
-              "topoffset": 0,
-              "leftoffset": 0,
-              "midoffset": -160,
-              "alignment": 1,
-              "patch": "STBAR",
-              "tranmap": null,
-              "translation": null,
-              "translucency": true,
-              "conditions": [
-                {
-                  "condition": 15,
-                  "param": 2
-                }
-              ],
-              "children": null
-            }
-          },
-          {
-            "graphic": {
-              "x": 160,
-              "y": 168,
-              "width": 113,
-              "height": 0,
-              "topoffset": 0,
-              "leftoffset": 0,
-              "midoffset": -18,
-              "alignment": 1,
-              "patch": "STBAR",
-              "tranmap": null,
-              "translation": null,
-              "translucency": true,
-              "conditions": [
-                {
-                  "condition": 15,
-                  "param": 2
-                }
-              ],
+              "conditions": null,
               "children": null
             }
           },
@@ -1280,7 +1229,7 @@
           },
           {
             "number": {
-              "x": 85,
+              "x": 47,
               "y": 171,
               "alignment": 2,
               "font": "BigRed",
@@ -1300,7 +1249,7 @@
           },
           {
             "percent": {
-              "x": 144,
+              "x": 105,
               "y": 171,
               "alignment": 2,
               "font": "BigRed",
@@ -1330,7 +1279,7 @@
           },
           {
             "number": {
-              "x": 138,
+              "x": 142,
               "y": 171,
               "alignment": 2,
               "font": "BigRed",
@@ -1345,6 +1294,473 @@
                   "param": 2
                 }
               ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 115,
+              "y": 192,
+              "alignment": 0,
+              "patch": "TAG_ARMS",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 115,
+              "y": 192,
+              "alignment": 0,
+              "patch": "TAG_FRAG",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 14,
+                  "param": 2
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "canvas": {
+              "x": 111,
+              "y": 172,
+              "alignment": 0,
+              "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                }
+              ],
+              "children": [
+                {
+                  "graphic": {
+                    "x": -2,
+                    "y": -1,
+                    "alignment": 0,
+                    "patch": "DGT7NUM1",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": -2,
+                    "y": -1,
+                    "alignment": 0,
+                    "patch": "DGT3NUM1",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 1,
+                    "alignment": 0,
+                    "patch": "DGT7NUM8",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 22,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 1,
+                    "alignment": 0,
+                    "patch": "DGT3NUM8",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 0,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 12,
+                    "y": 0,
+                    "alignment": 0,
+                    "patch": "DGT7NUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 12,
+                    "y": 0,
+                    "alignment": 0,
+                    "patch": "DGT3NUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 23,
+                    "y": 0,
+                    "alignment": 0,
+                    "patch": "DGT7NUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 23,
+                    "y": 0,
+                    "alignment": 0,
+                    "patch": "DGT3NUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 1,
+                    "y": 10,
+                    "alignment": 0,
+                    "patch": "DGT7NUM5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 5
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 1,
+                    "y": 10,
+                    "alignment": 0,
+                    "patch": "DGT3NUM5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 5
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 12,
+                    "y": 10,
+                    "alignment": 0,
+                    "patch": "DGT7NUM6",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 6
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 12,
+                    "y": 10,
+                    "alignment": 0,
+                    "patch": "DGT3NUM6",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 6
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 23,
+                    "y": 10,
+                    "alignment": 0,
+                    "patch": "DGT7NUM7",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 23,
+                    "y": 10,
+                    "alignment": 0,
+                    "patch": "DGT3NUM7",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "graphic": {
+              "x": 259,
+              "y": 172,
+              "alignment": 0,
+              "patch": "AMMO_OV3",
+              "tranmap": null,
+              "translation": null,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 298,
+              "y": 173,
+              "alignment": 0,
+              "patch": "BOOM6SLS",
+              "tranmap": null,
+              "translation": null,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 298,
+              "y": 180,
+              "alignment": 0,
+              "patch": "BOOM6SLS",
+              "tranmap": null,
+              "translation": null,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 298,
+              "y": 187,
+              "alignment": 0,
+              "patch": "BOOM6SLS",
+              "tranmap": null,
+              "translation": null,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 298,
+              "y": 194,
+              "alignment": 0,
+              "patch": "BOOM6SLS",
+              "tranmap": null,
+              "translation": null,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 297,
+              "y": 171,
+              "alignment": 2,
+              "font": "DigitGold",
+              "tranmap": null,
+              "translation": null,
+              "type": 3,
+              "param": 0,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 318,
+              "y": 171,
+              "alignment": 2,
+              "font": "DigitGold",
+              "tranmap": null,
+              "translation": null,
+              "type": 5,
+              "param": 0,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 297,
+              "y": 178,
+              "alignment": 2,
+              "font": "DigitGold",
+              "tranmap": null,
+              "translation": null,
+              "type": 3,
+              "param": 1,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 318,
+              "y": 178,
+              "alignment": 2,
+              "font": "DigitGold",
+              "tranmap": null,
+              "translation": null,
+              "type": 5,
+              "param": 1,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 297,
+              "y": 185,
+              "alignment": 2,
+              "font": "DigitGold",
+              "tranmap": null,
+              "translation": null,
+              "type": 3,
+              "param": 3,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 318,
+              "y": 185,
+              "alignment": 2,
+              "font": "DigitGold",
+              "tranmap": null,
+              "translation": null,
+              "type": 5,
+              "param": 3,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 297,
+              "y": 192,
+              "alignment": 2,
+              "font": "DigitGold",
+              "tranmap": null,
+              "translation": null,
+              "type": 3,
+              "param": 2,
+              "maxlength": 3,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "number": {
+              "x": 318,
+              "y": 192,
+              "alignment": 2,
+              "font": "DigitGold",
+              "tranmap": null,
+              "translation": null,
+              "type": 5,
+              "param": 2,
+              "maxlength": 3,
+              "conditions": null,
               "children": null
             }
           },
@@ -1626,7 +2042,7 @@
           },
           {
             "component": {
-              "x": 2,
+              "x": 53,
               "y": 160,
               "alignment": 16,
               "tranmap": null,
@@ -1634,10 +2050,6 @@
               "type": "stat_totals",
               "font": "Digits",
               "conditions": [
-                {
-                  "condition": 14,
-                  "param": 2
-                },
                 {
                   "condition": 19,
                   "param": 4
@@ -1648,7 +2060,7 @@
           },
           {
             "component": {
-              "x": 2,
+              "x": 53,
               "y": 152,
               "alignment": 16,
               "tranmap": null,
@@ -1656,10 +2068,6 @@
               "type": "time",
               "font": "Digits",
               "conditions": [
-                {
-                  "condition": 14,
-                  "param": 2
-                },
                 {
                   "condition": 19,
                   "param": 4
@@ -1674,7 +2082,7 @@
           },
           {
             "component": {
-              "x": 2,
+              "x": 53,
               "y": 160,
               "alignment": 16,
               "tranmap": null,
@@ -1682,84 +2090,6 @@
               "type": "time",
               "font": "Digits",
               "conditions": [
-                {
-                  "condition": 14,
-                  "param": 2
-                },
-                {
-                  "condition": 19,
-                  "param": 4
-                },
-                {
-                  "condition": 21,
-                  "param": 0
-                }
-              ],
-              "children": null
-            }
-          },
-          {
-            "component": {
-              "x": 91,
-              "y": 160,
-              "alignment": 16,
-              "tranmap": null,
-              "translation": null,
-              "type": "stat_totals",
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 15,
-                  "param": 2
-                },
-                {
-                  "condition": 19,
-                  "param": 4
-                }
-              ],
-              "children": null
-            }
-          },
-          {
-            "component": {
-              "x": 91,
-              "y": 152,
-              "alignment": 16,
-              "tranmap": null,
-              "translation": null,
-              "type": "time",
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 15,
-                  "param": 2
-                },
-                {
-                  "condition": 19,
-                  "param": 4
-                },
-                {
-                  "condition": 20,
-                  "param": 0
-                }
-              ],
-              "children": null
-            }
-          },
-          {
-            "component": {
-              "x": 91,
-              "y": 160,
-              "alignment": 16,
-              "tranmap": null,
-              "translation": null,
-              "type": "time",
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 15,
-                  "param": 2
-                },
                 {
                   "condition": 19,
                   "param": 4
