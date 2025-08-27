@@ -58,7 +58,7 @@ Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" targ
 <br><br>
 
 **4) Doom 64**<br>
-Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Nothing besides the three centered vital stats plus indicators for armor protection level and god mode.<br>
+Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Nothing besides the three centered vital stats plus indicators for armor type and god mode.<br>
 <img width="1917" height="328" alt="03_doom64" src="https://github.com/user-attachments/assets/12446dc2-f1f5-4a8a-952d-c6a5a9cae056" />
 *Note: Alignment of Health, Armor and keys will adjust depending on layout type. Transparency effect can be adjusted in woof.cfg (**tran_filter_pct**).*
 <br><br>
