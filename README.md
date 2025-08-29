@@ -44,12 +44,12 @@ Available variants:<br><br>
 **1) Status Bar Plus**<br>
 Like the vanilla status bar, but with transparency (based on the *tran_filter_pct* setting in woof.cfg)! As a bonus, you'll find indicators for Chainsaw/Super Shotgun (ARMS: "8" and "9") and Berserker
 mode (ARMS: "1"). There's also a small frame around the mugshot telling you which armor type is used (green: 33%, blue: 50%). Will also work with widescreen STBAR lumps!<br>
-<img width="1917" height="328" alt="00_statusbar-plus" src="https://github.com/user-attachments/assets/d4fd48d1-d9eb-40e1-9cbb-cd10b472a490" />
+<img width="1917" height="328" alt="00_statusbar-plus" src="https://github.com/user-attachments/assets/2d7785e1-643f-40ad-8b29-dc4c7e0b9d69" />
 <br><br>
 
 **2) Crispy Plus**<br>
 <a href="https://github.com/fabiangreffrath/crispy-doom" target= "_blank">Crispy Doom</a> fullscreen HUD with labels. With additional indicators for Berserk, Chainsaw/Super Shotgun, god mode and armor type. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)<br>
-<img width="1917" height="328" alt="01_crispy-plus" src="https://github.com/user-attachments/assets/053673c8-d0c0-4c8a-9504-502a6ac9ebfb" />
+<img width="1917" height="328" alt="01_crispy-plus" src="https://github.com/user-attachments/assets/a5979915-e444-4ac5-bd8d-1fd4b2a704e2" />
 <br><br>
 
 **3) Nightdive with Labels**<br>
