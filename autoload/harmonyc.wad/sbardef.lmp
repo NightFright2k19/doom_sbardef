@@ -1361,16 +1361,16 @@
               "children": [
                 {
                   "graphic": {
-                    "x": 4,
+                    "x": 5,
                     "y": 3,
                     "alignment": 0,
-                    "patch": "STGNUM2",
+                    "patch": "STGNUM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 7,
-                        "param": 2
+                        "condition": 22,
+                        "param": 0
                       }
                     ],
                     "children": null
@@ -1378,16 +1378,16 @@
                 },
                 {
                   "graphic": {
-                    "x": 4,
+                    "x": 5,
                     "y": 3,
                     "alignment": 0,
-                    "patch": "STYSNUM2",
+                    "patch": "STYSNUM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 6,
-                        "param": 2
+                        "condition": 0,
+                        "param": 0
                       }
                     ],
                     "children": null
@@ -1429,7 +1429,75 @@
                 },
                 {
                   "graphic": {
-                    "x": 16,
+                    "x": 17,
+                    "y": 3,
+                    "alignment": 0,
+                    "patch": "STGNUM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 17,
+                    "y": 3,
+                    "alignment": 0,
+                    "patch": "STYSNUM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 21,
+                    "y": 5,
+                    "alignment": 0,
+                    "patch": "STGNUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 21,
+                    "y": 5,
+                    "alignment": 0,
+                    "patch": "STYSNUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 28,
                     "y": 3,
                     "alignment": 0,
                     "patch": "STGNUM3",
@@ -1446,7 +1514,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 16,
+                    "x": 28,
                     "y": 3,
                     "alignment": 0,
                     "patch": "STYSNUM3",
@@ -1463,7 +1531,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 21,
+                    "x": 32,
                     "y": 5,
                     "alignment": 0,
                     "patch": "STGNUM9",
@@ -1480,7 +1548,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 21,
+                    "x": 32,
                     "y": 5,
                     "alignment": 0,
                     "patch": "STYSNUM9",
@@ -1490,40 +1558,6 @@
                       {
                         "condition": 0,
                         "param": 8
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "graphic": {
-                    "x": 31,
-                    "y": 4,
-                    "alignment": 0,
-                    "patch": "STGNUM4",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 7,
-                        "param": 4
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "graphic": {
-                    "x": 31,
-                    "y": 4,
-                    "alignment": 0,
-                    "patch": "STYSNUM4",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 6,
-                        "param": 4
                       }
                     ],
                     "children": null
@@ -2379,16 +2413,16 @@
               "children": [
                 {
                   "graphic": {
-                    "x": -3,
+                    "x": -2,
                     "y": -1,
                     "alignment": 16,
-                    "patch": "STGNUM2",
+                    "patch": "STGNUM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 7,
-                        "param": 2
+                        "condition": 22,
+                        "param": 0
                       }
                     ],
                     "children": null
@@ -2396,16 +2430,16 @@
                 },
                 {
                   "graphic": {
-                    "x": -3,
+                    "x": -2,
                     "y": -1,
                     "alignment": 16,
-                    "patch": "STYSNUM2",
+                    "patch": "STYSNUM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 6,
-                        "param": 2
+                        "condition": 0,
+                        "param": 0
                       }
                     ],
                     "children": null
@@ -2447,7 +2481,75 @@
                 },
                 {
                   "graphic": {
-                    "x": 9,
+                    "x": 10,
+                    "y": -1,
+                    "alignment": 16,
+                    "patch": "STGNUM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 10,
+                    "y": -1,
+                    "alignment": 16,
+                    "patch": "STYSNUM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 14,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "STGNUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 14,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "STYSNUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 22,
                     "y": -1,
                     "alignment": 16,
                     "patch": "STGNUM3",
@@ -2464,7 +2566,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 9,
+                    "x": 22,
                     "y": -1,
                     "alignment": 16,
                     "patch": "STYSNUM3",
@@ -2481,7 +2583,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 14,
+                    "x": 26,
                     "y": 1,
                     "alignment": 16,
                     "patch": "STGNUM9",
@@ -2498,7 +2600,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 14,
+                    "x": 26,
                     "y": 1,
                     "alignment": 16,
                     "patch": "STYSNUM9",
@@ -2508,40 +2610,6 @@
                       {
                         "condition": 0,
                         "param": 8
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "graphic": {
-                    "x": 24,
-                    "y": 0,
-                    "alignment": 16,
-                    "patch": "STGNUM4",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 7,
-                        "param": 4
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "graphic": {
-                    "x": 24,
-                    "y": 0,
-                    "alignment": 16,
-                    "patch": "STYSNUM4",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 6,
-                        "param": 4
                       }
                     ],
                     "children": null

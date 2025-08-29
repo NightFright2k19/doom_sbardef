@@ -1379,7 +1379,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 4,
+                    "x": 3,
                     "y": 1,
                     "alignment": 0,
                     "patch": "DGT7NUM8",
@@ -1396,7 +1396,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 4,
+                    "x": 3,
                     "y": 1,
                     "alignment": 0,
                     "patch": "DGT3NUM8",
@@ -1413,7 +1413,75 @@
                 },
                 {
                   "graphic": {
-                    "x": 12,
+                    "x": 10,
+                    "y": -1,
+                    "alignment": 0,
+                    "patch": "DGT7NUM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 10,
+                    "y": -1,
+                    "alignment": 0,
+                    "patch": "DGT3NUM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 15,
+                    "y": 1,
+                    "alignment": 0,
+                    "patch": "DGT7NUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 15,
+                    "y": 1,
+                    "alignment": 0,
+                    "patch": "DGT3NUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 23,
                     "y": 0,
                     "alignment": 0,
                     "patch": "DGT7NUM3",
@@ -1430,7 +1498,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 12,
+                    "x": 23,
                     "y": 0,
                     "alignment": 0,
                     "patch": "DGT3NUM3",
@@ -1440,40 +1508,6 @@
                       {
                         "condition": 6,
                         "param": 3
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "graphic": {
-                    "x": 23,
-                    "y": 0,
-                    "alignment": 0,
-                    "patch": "DGT7NUM4",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 7,
-                        "param": 4
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "graphic": {
-                    "x": 23,
-                    "y": 0,
-                    "alignment": 0,
-                    "patch": "DGT3NUM4",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 6,
-                        "param": 4
                       }
                     ],
                     "children": null
@@ -2395,7 +2429,7 @@
                 {
                   "graphic": {
                     "x": -1,
-                    "y": -1,
+                    "y": 0,
                     "alignment": 16,
                     "patch": "DGT7NUM1",
                     "tranmap": null,
@@ -2412,7 +2446,7 @@
                 {
                   "graphic": {
                     "x": -1,
-                    "y": -1,
+                    "y": 0,
                     "alignment": 16,
                     "patch": "DGT3NUM1",
                     "tranmap": null,
@@ -2429,7 +2463,7 @@
                 {
                   "graphic": {
                     "x": 4,
-                    "y": 1,
+                    "y": 2,
                     "alignment": 16,
                     "patch": "DGT7NUM8",
                     "tranmap": null,
@@ -2446,7 +2480,7 @@
                 {
                   "graphic": {
                     "x": 4,
-                    "y": 1,
+                    "y": 2,
                     "alignment": 16,
                     "patch": "DGT3NUM8",
                     "tranmap": null,
@@ -2462,16 +2496,16 @@
                 },
                 {
                   "graphic": {
-                    "x": 12,
+                    "x": 11,
                     "y": 0,
                     "alignment": 16,
-                    "patch": "DGT7NUM3",
+                    "patch": "DGT7NUM2",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
                         "condition": 7,
-                        "param": 3
+                        "param": 2
                       }
                     ],
                     "children": null
@@ -2479,16 +2513,16 @@
                 },
                 {
                   "graphic": {
-                    "x": 12,
+                    "x": 11,
                     "y": 0,
                     "alignment": 16,
-                    "patch": "DGT3NUM3",
+                    "patch": "DGT3NUM2",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
                         "condition": 6,
-                        "param": 3
+                        "param": 2
                       }
                     ],
                     "children": null
@@ -2496,8 +2530,8 @@
                 },
                 {
                   "graphic": {
-                    "x": 22,
-                    "y": 0,
+                    "x": 16,
+                    "y": 2,
                     "alignment": 16,
                     "patch": "DGT7NUM4",
                     "tranmap": null,
@@ -2513,8 +2547,8 @@
                 },
                 {
                   "graphic": {
-                    "x": 22,
-                    "y": 0,
+                    "x": 16,
+                    "y": 2,
                     "alignment": 16,
                     "patch": "DGT3NUM4",
                     "tranmap": null,
@@ -2530,7 +2564,41 @@
                 },
                 {
                   "graphic": {
-                    "x": 2,
+                    "x": 23,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "DGT7NUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 23,
+                    "y": 1,
+                    "alignment": 16,
+                    "patch": "DGT3NUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 1,
                     "y": 10,
                     "alignment": 16,
                     "patch": "DGT7NUM5",
@@ -2547,7 +2615,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 2,
+                    "x": 1,
                     "y": 10,
                     "alignment": 16,
                     "patch": "DGT3NUM5",
@@ -2598,7 +2666,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 22,
+                    "x": 23,
                     "y": 10,
                     "alignment": 16,
                     "patch": "DGT7NUM7",
@@ -2615,7 +2683,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 22,
+                    "x": 23,
                     "y": 10,
                     "alignment": 16,
                     "patch": "DGT3NUM7",

@@ -361,10 +361,79 @@
                   }
                 },
 
+                {
+                  "graphic": {
+                    "x": 16,
+                    "y": 3,
+                    "alignment": 0,
+                    "patch": "STGNUM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 16,
+                    "y": 3,
+                    "alignment": 0,
+                    "patch": "STYSNUM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 21,
+                    "y": 5,
+                    "alignment": 0,
+                    "patch": "STGNUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 21,
+                    "y": 5,
+                    "alignment": 0,
+                    "patch": "STYSNUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 4
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+
 # Shotgun indicator (Doom I/II)
                 {
                   "graphic": {
-                    "x": 19,
+                    "x": 31,
                     "y": 4,
                     "alignment": 0,
                     "patch": "STGNUM3",
@@ -385,7 +454,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 19,
+                    "x": 31,
                     "y": 4,
                     "alignment": 0,
                     "patch": "STYSNUM3",
@@ -406,7 +475,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 16,
+                    "x": 28,
                     "y": 3,
                     "alignment": 0,
                     "patch": "STGNUM3",
@@ -427,7 +496,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 16,
+                    "x": 28,
                     "y": 3,
                     "alignment": 0,
                     "patch": "STYSNUM3",
@@ -450,7 +519,7 @@
 # Super Shotgun indicator (Doom II)
                 {
                   "graphic": {
-                    "x": 21,
+                    "x": 33,
                     "y": 5,
                     "alignment": 0,
                     "patch": "STGNUM9",
@@ -471,7 +540,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 21,
+                    "x": 33,
                     "y": 5,
                     "alignment": 0,
                     "patch": "STYSNUM9",
@@ -491,40 +560,6 @@
                   }
                 },
 
-                {
-                  "graphic": {
-                    "x": 31,
-                    "y": 4,
-                    "alignment": 0,
-                    "patch": "STGNUM4",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 7,
-                        "param": 4
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "graphic": {
-                    "x": 31,
-                    "y": 4,
-                    "alignment": 0,
-                    "patch": "STYSNUM4",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 6,
-                        "param": 4
-                      }
-                    ],
-                    "children": null
-                  }
-                },
                 {
                   "graphic": {
                     "x": 7,
