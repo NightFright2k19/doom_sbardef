@@ -43,7 +43,7 @@ Available variants:<br><br>
 
 **1) Status Bar Plus**<br>
 Like the vanilla status bar, but with transparency (based on the *tran_filter_pct* setting in woof.cfg)! As a bonus, you'll find indicators for Chainsaw/Super Shotgun (ARMS: "8" and "9") and Berserker
-mode (ARMS: "1"). There's also a small frame around the mugshot telling you which armor type is used (green: 33%, blue: 50%). Will also work with widescreen STBAR lumps!<br>
+mode (ARMS: "1"). There's also a small frame around the mugshot telling you which armor type is used (green: 33%, blue: 50%). Widescreen STBAR lumps are supported.<br>
 <img width="1917" height="328" alt="00_statusbar-plus" src="https://github.com/user-attachments/assets/2d7785e1-643f-40ad-8b29-dc4c7e0b9d69" />
 <br><br>
 
@@ -59,8 +59,8 @@ Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" targ
 
 **4) Doom 64**<br>
 Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Nothing besides the three centered vital stats plus indicators for armor type and god mode.<br>
-<img width="1917" height="328" alt="03_doom64" src="https://github.com/user-attachments/assets/12446dc2-f1f5-4a8a-952d-c6a5a9cae056" />
-*Note: Alignment of Health, Armor and keys will adjust depending on layout type. Transparency effect can be adjusted in woof.cfg (**tran_filter_pct**).*
+<img width="1917" height="328" alt="03_doom64" src="https://github.com/user-attachments/assets/189b7f19-debd-4d97-b2fa-0485d6afae88" />
+*Note: Alignment of Health, Armor and keys will adjust depending on layout type.*
 <br><br>
 
 **5) ﻿Eternity**<br>
@@ -84,7 +84,7 @@ A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "
 <img width="1917" height="328" alt="08_dsda-classic" src="https://github.com/user-attachments/assets/363946cf-f1f5-497a-8d99-db8f2b4cbc4f" />
    **I. Classic**: Imitates the original HUD as closely as possible.<br><br>
 <img width="1917" height="328" alt="09_dsda-enhanced" src="https://github.com/user-attachments/assets/512a5fd9-b1a6-408b-b402-04e05b7cb0ca" />
-   **II. Enhanced**: Adds mugshot and reorganizes ARM/HEL/AMM/WPN widgets on the left side.<br><br>
+   **II. Enhanced**: Adds mugshot and reorganizes vitals/WPN widgets on the left side.<br><br>
 <img width="1917" height="328" alt="10_dsda-condensed" src="https://github.com/user-attachments/assets/1a179ad2-6f3b-4c47-bd99-03d823a881c9" />
    **III. Condensed**: Widgets on the left are all aligned in a single line. Ammo overview is minimized and mugshot moves to the right side.<br><br>
 
