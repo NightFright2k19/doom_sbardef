@@ -1302,23 +1302,6 @@
               "x": 115,
               "y": 192,
               "alignment": 0,
-              "patch": "TAG_ARMS",
-              "tranmap": null,
-              "translation": null,
-              "conditions": [
-                {
-                  "condition": 15,
-                  "param": 2
-                }
-              ],
-              "children": null
-            }
-          },
-          {
-            "graphic": {
-              "x": 115,
-              "y": 192,
-              "alignment": 0,
               "patch": "TAG_FRAG",
               "tranmap": null,
               "translation": null,
@@ -1343,6 +1326,18 @@
                 }
               ],
               "children": [
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 20,
+                    "alignment": 0,
+                    "patch": "TAG_ARMS",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
                 {
                   "graphic": {
                     "x": -2,
