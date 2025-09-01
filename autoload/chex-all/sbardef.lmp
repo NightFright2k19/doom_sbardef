@@ -1157,75 +1157,78 @@
             }
           },
           {
-            "graphic": {
+            "canvas": {
               "x": 144,
               "y": 170,
               "alignment": 0,
-              "patch": "ARM_LOW",
-              "tranmap": null,
-              "translation": null,
               "conditions": [
-                {
-                  "condition": 11,
-                  "param": 15
-                },
-                {
-                  "condition": 11,
-                  "param": 21
-                },
                 {
                   "condition": 27,
                   "param": 1
                 }
               ],
-              "children": null
-            }
-          },
-          {
-            "graphic": {
-              "x": 144,
-              "y": 170,
-              "alignment": 0,
-              "patch": "ARM_HIGH",
-              "tranmap": null,
-              "translation": null,
-              "conditions": [
+              "children": [
                 {
-                  "condition": 10,
-                  "param": 15
+                  "graphic": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "patch": "ARM_LOW",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 15
+                      },
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
                 },
                 {
-                  "condition": 11,
-                  "param": 21
+                  "graphic": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "patch": "ARM_HIGH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 15
+                      },
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
                 },
                 {
-                  "condition": 27,
-                  "param": 1
+                  "graphic": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "patch": "ARM_GOD",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
                 }
-              ],
-              "children": null
-            }
-          },
-          {
-            "graphic": {
-              "x": 144,
-              "y": 170,
-              "alignment": 0,
-              "patch": "ARM_GOD",
-              "tranmap": null,
-              "translation": null,
-              "conditions": [
-                {
-                  "condition": 10,
-                  "param": 21
-                },
-                {
-                  "condition": 27,
-                  "param": 1
-                }
-              ],
-              "children": null
-            }
+	      ]
+	    }
           },
           {
             "number": {

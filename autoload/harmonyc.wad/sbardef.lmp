@@ -1106,27 +1106,52 @@
         "fillflat": null,
         "children": [
           {
-            "graphic": {
-              "x": 160,
+            "canvas": {
+              "x": 138,
               "y": 168,
-              "width": 320,
-              "height": 0,
-              "topoffset": 0,
-              "leftoffset": 0,
-              "midoffset": -160,
-              "alignment": 1,
-              "patch": "STBAR",
-              "tranmap": null,
-              "translation": null,
-              "translucency": true,
+              "alignment": 0,
               "conditions": [
                 {
                   "condition": 14,
                   "param": 2
                 }
               ],
-              "children": null
-            }
+              "children": [
+                {
+                  "graphic": {
+                    "x": 22,
+                    "y": 0,
+                    "width": 320,
+                    "height": 0,
+                    "topoffset": 0,
+                    "leftoffset": 0,
+                    "midoffset": -160,
+                    "alignment": 1,
+                    "patch": "STBAR",
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": true,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "number": {
+                    "x": 0,
+                    "y": 3,
+                    "alignment": 2,
+                    "font": "BigRed",
+                    "tranmap": null,
+                    "translation": null,
+                    "type": 2,
+                    "param": 0,
+                    "maxlength": 2,
+                    "conditions": null,
+                    "children": null
+                  }
+                }
+	      ]
+	    }
           },
           {
             "canvas": {
@@ -1527,75 +1552,78 @@
             }
           },
           {
-            "graphic": {
+            "canvas": {
               "x": 145,
               "y": 170,
               "alignment": 0,
-              "patch": "ARM_LOW",
-              "tranmap": null,
-              "translation": null,
               "conditions": [
-                {
-                  "condition": 11,
-                  "param": 15
-                },
-                {
-                  "condition": 11,
-                  "param": 21
-                },
                 {
                   "condition": 27,
                   "param": 1
                 }
               ],
-              "children": null
-            }
-          },
-          {
-            "graphic": {
-              "x": 145,
-              "y": 170,
-              "alignment": 0,
-              "patch": "ARM_HIGH",
-              "tranmap": null,
-              "translation": null,
-              "conditions": [
+              "children": [
                 {
-                  "condition": 10,
-                  "param": 15
+                  "graphic": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "patch": "ARM_LOW",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 15
+                      },
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
                 },
                 {
-                  "condition": 11,
-                  "param": 21
+                  "graphic": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "patch": "ARM_HIGH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 15
+                      },
+                      {
+                        "condition": 11,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
                 },
                 {
-                  "condition": 27,
-                  "param": 1
+                  "graphic": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "patch": "ARM_GOD",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
                 }
-              ],
-              "children": null
-            }
-          },
-          {
-            "graphic": {
-              "x": 145,
-              "y": 170,
-              "alignment": 0,
-              "patch": "ARM_GOD",
-              "tranmap": null,
-              "translation": null,
-              "conditions": [
-                {
-                  "condition": 10,
-                  "param": 21
-                },
-                {
-                  "condition": 27,
-                  "param": 1
-                }
-              ],
-              "children": null
-            }
+	      ]
+	    }
           },
           {
             "number": {
@@ -1644,26 +1672,6 @@
               "param": 0,
               "maxlength": 3,
               "conditions": null,
-              "children": null
-            }
-          },
-          {
-            "number": {
-              "x": 138,
-              "y": 171,
-              "alignment": 2,
-              "font": "BigRed",
-              "tranmap": null,
-              "translation": null,
-              "type": 2,
-              "param": 0,
-              "maxlength": 2,
-              "conditions": [
-                {
-                  "condition": 14,
-                  "param": 2
-                }
-              ],
               "children": null
             }
           },
