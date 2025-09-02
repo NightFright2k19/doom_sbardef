@@ -11,7 +11,8 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - Unzip the archive into your Woof! installation directory. Files will be copied into the proper autoload subdirectories.<br>
 - If you are using *extras.wad*, launch Woof! with command line parameter **-noextras**.<br>
 - Keep pressing F5 ingame until you get to the HUD you want.<br>
-- Note: For best visuals, be sure the "Wide Shift" slider ("Status Bar/HUD") in your Woof! menu is maxed out.<br><br>
+- Note #1: For best visuals, be sure the "Wide Shift" slider ("Status Bar/HUD") in your Woof! menu is maxed out.<br>
+- Note #2: Woof! does **not** support <a href="https://doomwiki.org/wiki/ID24HACKED" target= "_blank">ID24HACKED</a>, so no extra weapon slots and fifth ammo type with PWADs requiring *id24res.wad*.<br><br>
 
 **Features:**
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
@@ -31,7 +32,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 | HUD style | Features | Indicators |  Score | Notes |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10/10 | All features/indicators included |
+| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10/10 | All features/indicators |
 | Status Bar Plus | ++++ | +++++ | 9/10 | No active ammo/weapon |
 | Eternity II<br>DSDA I | +++ | ++++++ | 9/10 | No mugshot |
 | Crispy Plus | +++ | +++++ | 8/10 | No mugshot; no active ammo/weapon |
