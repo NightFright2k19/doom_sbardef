@@ -30,15 +30,15 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **Comparison Features / Indicators:**<br>
 
-| HUD style | Features | Indicators |  Score | Notes |
+| HUD | Features | Indicators |  Score | Notes |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10/10 | All features/indicators |
-| Status Bar Plus | ++++ | +++++ | 9/10 | No active ammo/weapon |
-| Eternity II<br>DSDA I | +++ | ++++++ | 9/10 | No mugshot |
-| Crispy Plus | +++ | +++++ | 8/10 | No mugshot; no active ammo/weapon |
-| Boom<br>PrBoom+ | ++ | ++++++ | 8/10 | No mugshot; no ammo overview |
-| Status Bar (Vanilla)| ++++ | ++ | 6/10 | All features; backpack and god mode only |
-| Doom 64 | + | ++ | 3/10 | Vitals only; armor type and god mode only; always centered |
+| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10 / 10 | All features/indicators |
+| Status Bar Plus | ++++ | +++++ | 9 / 10 | No active ammo/weapon |
+| Eternity II<br>DSDA I | +++ | ++++++ | 9 / 10 | No mugshot |
+| Crispy Plus | +++ | +++++ | 8 / 10 | No mugshot; no active ammo/weapon |
+| Boom<br>PrBoom+ | ++ | ++++++ | 8 / 10 | No mugshot; no ammo overview |
+| Status Bar (Vanilla)| ++++ | ++ | 6 / 10 | All features; backpack and god mode only |
+| Doom 64 | + | ++ | 3 / 10 | Vitals only; armor type and god mode only |
 <br>
 Available variants:<br><br>
 
@@ -56,9 +56,9 @@ mode (ARMS: "1"). There's also a small frame around the mugshot telling you whic
 **3) Nightdive**<br>
 Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Armor and ammo icons have been removed. In return, ammo overview, arms display and armor type indicator were added.<br>
 <img width="1917" height="328" alt="02_nightdive" src="https://github.com/user-attachments/assets/b28e07b3-e1d8-4945-a754-6c528c4ec98c" />
-   **I. Labels**: Vitals numbers use the STTNUM font. ARMS display arranged as a square, ammo overview minimized.<br><br>
+   **I. Labels**: Vitals use the STTNUM font. ARMS display arranged as a square, ammo overview minimized.<br><br>
 <img width="1917" height="328" alt="03_nightdive-remix" src="https://github.com/user-attachments/assets/ba020969-817e-447d-894d-2501e126c835" />
-   **II. Remix**: Ammo overview taken the DSDA HUD group; ARMS widget is a single line. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)
+   **II. Remix**: Ammo overview taken from the DSDA HUD group; ARMS widget is a single line. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)
 <br><br>
 
 **4) Doom 64**<br>
