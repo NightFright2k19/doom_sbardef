@@ -17,12 +17,12 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 **Features:**
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Animated face. Featured in Status Bar Plus, Nightdive, Eternity I and DSDA II/III.<br>
-- **Ammo overview**: Amount of ammo available for each weapon. Partial in Nightdive and DSDA III (no max amounts), full in Status Bar Plus, Crispy, Eternity and DSDA I+II.<br>
-- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA III, otherwise 1-9. Either arranged as a square (Status Bar Plus, Crispy, Nightdive) or a single line (Eternity, Boom, DSDA, PrBoom+). DSDA II splits the display into two slot-grouped panels (1-2-3-8-9 / 4-5-6-7). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA III indicates Chainsaw through a lit "1" in slot 1 and possession of both shotguns with a fully lit "3".<br><br>
+- **Ammo overview**: Amount of ammo available for each weapon. Partial in Nightdive I and DSDA III (no max amounts), full in Status Bar Plus, Crispy, Nightdive II, Eternity and DSDA I+II.<br>
+- **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA III, otherwise 1-9. Either arranged as a square (Status Bar Plus, Crispy, Nightdive I) or a single line (Nightdive II, Eternity, Boom, DSDA, PrBoom+). DSDA II splits the display into two slot-grouped panels (1-2-3-8-9 / 4-5-6-7). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA III indicates Chainsaw through a lit "1" in slot 1 and possession of both shotguns with a fully lit "3".<br><br>
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). Status Bar Plus adds a small frame around the mugshot for this purpose. In Eternity II and PrBoom+, the armor icon changes instead.<br>
-- **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Eternity, DSDA I/II).<br>
+- **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Nightdive II, Eternity, DSDA I/II).<br>
 - **Chainsaw/Super Shotgun**: Not shown on the vanilla status bar, these weapons are listed in the Arms display in more modern ports, usually as "8" and "9".
 - **Berserk mode**: Powerup which increases punching power with Fists. Usually shown as a fully lit "1" in the Arms display. The green cross icon in Eternity II turns red. In PrBoom+ I, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
 - **God mode**: Mugshot and/or recolored health/armor numbers (gold). "Health" label in Crispy/Doom 64 switches to "God". In Eternity II and PrBoom+ II, icons turn golden, too.<br>
@@ -53,9 +53,12 @@ mode (ARMS: "1"). There's also a small frame around the mugshot telling you whic
 <img width="1917" height="328" alt="01_crispy-plus" src="https://github.com/user-attachments/assets/a5979915-e444-4ac5-bd8d-1fd4b2a704e2" />
 <br><br>
 
-**3) Nightdive with Labels**<br>
+**3) Nightdive**<br>
 Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Armor and ammo icons have been removed. In return, ammo overview, arms display and armor type indicator were added.<br>
 <img width="1917" height="328" alt="02_nightdive" src="https://github.com/user-attachments/assets/b28e07b3-e1d8-4945-a754-6c528c4ec98c" />
+   **I. Labels**: Vitals numbers use the STTNUM font. ARMS display arranged as a square, ammo overview minimized.<br><br>
+<img width="1917" height="328" alt="03_nightdive-remix" src="https://github.com/user-attachments/assets/ba020969-817e-447d-894d-2501e126c835" />
+   **II. Remix**: Ammo overview taken the DSDA HUD group; ARMS widget is a single line. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)
 <br><br>
 
 **4) Doom 64**<br>
@@ -69,7 +72,7 @@ Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/et
 <img width="1917" height="328" alt="04_eternity_enhanced" src="https://github.com/user-attachments/assets/b7c6638d-00b6-416f-8df5-798dd1755581" />
    **I. Enhanced**: Uses original font with different sizes and mugshot. No labels.<br><br>
 <img width="1917" height="328" alt="05_eternity_boomified" src="https://github.com/user-attachments/assets/3cec8d62-bb93-49e9-a435-99d94a7eca50" />
-   **II. Boomified**: Uses Boom font instead, one size only, no mugshot. Health/Armor icons indicate Berserk/God modes and MegaArmor (colors depend on selected game), taken from the statusbar of <a href="https://doomwiki.org/wiki/Jenesis" target= "_blank">"Jenesis" by Jimmy</a> (with modifications by me).
+   **II. Boomified**: Uses Boom font instead, one size only, no mugshot. Health/Armor icons indicate Berserk/God modes and MegaArmor (colors depend on selected game), taken from the statusbar of <a href="https://doomwiki.org/wiki/Jenesis" target= "_blank">"Jenesis" by Jimmy</a>.
 <br><br>
 
 **6) Boom**<br>
