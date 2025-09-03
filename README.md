@@ -57,7 +57,7 @@ mode (ARMS: "1"). There's also a small frame around the mugshot telling you whic
 Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Armor and ammo icons have been removed. In return, ammo overview, arms display and armor type indicator were added.<br>
 <img width="1917" height="328" alt="02_nightdive" src="https://github.com/user-attachments/assets/b28e07b3-e1d8-4945-a754-6c528c4ec98c" />
    **I. Labels**: Vitals use the STTNUM font. ARMS display arranged as a square, ammo overview minimized.<br><br>
-<img width="1917" height="328" alt="03_nightdive-remix" src="https://github.com/user-attachments/assets/ba020969-817e-447d-894d-2501e126c835" />
+<img width="1917" height="328" alt="03_nightdive-remix" src="https://github.com/user-attachments/assets/c3cae3d1-a2ea-461e-ba7b-67055cc63f0b" />
    **II. Remix**: Ammo overview taken from the DSDA HUD group; ARMS widget is a single line. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)
 <br><br>
 
