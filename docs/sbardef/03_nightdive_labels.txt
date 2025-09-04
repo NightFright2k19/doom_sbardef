@@ -121,8 +121,25 @@
                   }
                 },
 
-## LABELS: ARMOR, HEALTH, AMMO
-## Conditions: 10 (item owned), 11 (item not owned)
+## LABELS: ARMOR, HEALTH
+## Conditions: 10 (item owned), 11 (item not owned), 27 (armor >= <parm>), 28 (armor < <parm>)
+                {
+                  "graphic": {
+                    "x": 8,
+                    "y": 189,
+                    "alignment": 16,
+                    "patch": "TAG_ARM0",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 28,
+                        "param": 1
+                      }
+                    ],
+                    "children": null
+                  }
+                },
                 {
                   "canvas": {
                     "x": 8,
@@ -130,7 +147,12 @@
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "conditions": null,
+                    "conditions": [
+                      {
+                        "condition": 27,
+                        "param": 1
+                      }
+                    ],
                     "children": [
                       {
                         "graphic": {
@@ -165,10 +187,22 @@
                           ],
                           "children": null
                         }
-                      },
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 100,
+                    "y": 189,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": [
                       {
                         "graphic": {
-                          "x": 92,
+                          "x": 0,
                           "y": 0,
                           "alignment": 16,
                           "patch": "TAG_HEAL",
@@ -180,7 +214,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 253,
+                          "x": 161,
                           "y": 0,
                           "alignment": 32,
                           "patch": "TAG_AMMO",
