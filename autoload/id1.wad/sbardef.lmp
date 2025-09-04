@@ -6827,7 +6827,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 279,
+                    "x": 278,
                     "y": 170,
                     "alignment": 32,
                     "patch": "PROGBAR7",
@@ -6839,7 +6839,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 279,
+                    "x": 278,
                     "y": 177,
                     "alignment": 32,
                     "patch": "PROGBAR7",
@@ -6851,7 +6851,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 279,
+                    "x": 278,
                     "y": 184,
                     "alignment": 32,
                     "patch": "PROGBAR7",
@@ -6863,7 +6863,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 279,
+                    "x": 278,
                     "y": 191,
                     "alignment": 32,
                     "patch": "PROGBAR7",
@@ -6875,7 +6875,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 279,
+                    "x": 278,
                     "y": 170,
                     "alignment": 0,
                     "tranmap": null,
@@ -7072,7 +7072,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 279,
+                    "x": 278,
                     "y": 177,
                     "alignment": 0,
                     "tranmap": null,
@@ -7269,7 +7269,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 279,
+                    "x": 278,
                     "y": 184,
                     "alignment": 0,
                     "tranmap": null,
@@ -7466,7 +7466,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 279,
+                    "x": 278,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -7663,7 +7663,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 279,
+                    "x": 278,
                     "y": 170,
                     "alignment": 0,
                     "tranmap": null,
@@ -7860,7 +7860,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 279,
+                    "x": 278,
                     "y": 177,
                     "alignment": 0,
                     "tranmap": null,
@@ -8057,7 +8057,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 279,
+                    "x": 278,
                     "y": 184,
                     "alignment": 0,
                     "tranmap": null,
@@ -8254,7 +8254,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 279,
+                    "x": 278,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -8451,7 +8451,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 279,
+                    "x": 278,
                     "y": 170,
                     "alignment": 0,
                     "tranmap": null,
@@ -8648,7 +8648,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 279,
+                    "x": 278,
                     "y": 177,
                     "alignment": 0,
                     "tranmap": null,
@@ -8845,7 +8845,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 279,
+                    "x": 278,
                     "y": 184,
                     "alignment": 0,
                     "tranmap": null,
@@ -9042,7 +9042,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 279,
+                    "x": 278,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -9864,33 +9864,67 @@
                     "x": 260,
                     "y": 174,
                     "alignment": 1,
-                    "patch": "TAG_ARM1",
+                    "patch": "TAG_ARM0",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 11,
-                        "param": 15
+                        "condition": 28,
+                        "param": 1
                       }
                     ],
                     "children": null
                   }
                 },
                 {
-                  "graphic": {
+                  "canvas": {
                     "x": 260,
                     "y": 174,
-                    "alignment": 1,
-                    "patch": "TAG_ARM2",
+                    "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 10,
-                        "param": 15
+                        "condition": 27,
+                        "param": 1
                       }
                     ],
-                    "children": null
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 1,
+                          "patch": "TAG_ARM1",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 15
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 1,
+                          "patch": "TAG_ARM2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 15
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
                   }
                 },
                 {
