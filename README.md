@@ -17,7 +17,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 **Features:**
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Animated face. Featured in Status Bar Plus, Nightdive, Eternity I and DSDA II/III.<br>
-- **Ammo overview**: Amount of ammo available for each weapon. Partial in Nightdive I and DSDA III (no max amounts), full in Status Bar Plus, Crispy, Nightdive II, Eternity and DSDA I+II.<br>
+- **Ammo overview**: Amount of ammo available for each weapon. Partial in Nightdive and DSDA III (no max amounts), full in Status Bar Plus, Crispy, Eternity and DSDA I+II.<br>
 - **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA III, otherwise 1-9. Either arranged as a square (Status Bar Plus, Crispy, Nightdive I) or a single line (Nightdive II, Eternity, Boom, DSDA, PrBoom+). DSDA II splits the display into two slot-grouped panels (1-2-3-8-9 / 4-5-6-7). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA III indicates Chainsaw through a lit "1" in slot 1 and possession of both shotguns with a fully lit "3".<br><br>
 
 **Indicators:**
@@ -57,8 +57,8 @@ mode (ARMS: "1"). There's also a small frame around the mugshot telling you whic
 Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Armor and ammo icons have been removed. In return, ammo overview, arms display and armor type indicator were added.<br>
 <img width="1917" height="328" alt="02_nightdive" src="https://github.com/user-attachments/assets/b28e07b3-e1d8-4945-a754-6c528c4ec98c" />
    **I. Labels**: Vitals use the STTNUM font. ARMS display arranged as a square, ammo overview minimized.<br><br>
-<img width="1917" height="328" alt="03_nightdive-remix" src="https://github.com/user-attachments/assets/c3cae3d1-a2ea-461e-ba7b-67055cc63f0b" />
-   **II. Remix**: Ammo overview taken from the DSDA HUD group; ARMS widget is a single line. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)
+<img width="1917" height="328" alt="03_nightdive-remix" src="https://github.com/user-attachments/assets/6bdc049f-040e-4920-89e5-6bcbbfa5dd88" />
+   **II. Remix**: Ammo overview taken from the DSDA HUD group (with progress bars for each ammo type); ARMS widget is a single line. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)
 <br><br>
 
 **4) Doom 64**<br>
