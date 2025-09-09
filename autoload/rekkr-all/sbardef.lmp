@@ -5332,7 +5332,7 @@
                 {
                   "canvas": {
                     "x": 25,
-                    "y": 173,
+                    "y": 172,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -5373,10 +5373,10 @@
                 },
                 {
                   "graphic": {
-                    "x": 6,
-                    "y": 191,
+                    "x": 7,
+                    "y": 190,
                     "alignment": 16,
-                    "patch": "TAG_ARM",
+                    "patch": "BMTYARM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
@@ -5385,7 +5385,41 @@
                 },
                 {
                   "graphic": {
-                    "x": 25,
+                    "x": 7,
+                    "y": 190,
+                    "alignment": 16,
+                    "patch": "BMTYARM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 15
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 7,
+                    "y": 190,
+                    "alignment": 16,
+                    "patch": "BMTYGOD2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 21
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 23,
                     "y": 191,
                     "alignment": 16,
                     "patch": "PROGBAR7",
@@ -5397,7 +5431,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 25,
+                    "x": 23,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -5588,7 +5622,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 25,
+                    "x": 23,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -5779,7 +5813,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 25,
+                    "x": 23,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -5966,16 +6000,32 @@
                 },
                 {
                   "graphic": {
-                    "x": 91,
-                    "y": 191,
+                    "x": 94,
+                    "y": 190,
                     "alignment": 16,
-                    "patch": "TAG_HEL",
+                    "patch": "BMTYHEL1",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 94,
+                    "y": 190,
+                    "alignment": 16,
+                    "patch": "BMTYHEL3",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
+                        "condition": 23,
+                        "param": 101
+                      },
+                      {
                         "condition": 11,
-                        "param": 21
+                        "param": 18
                       }
                     ],
                     "children": null
@@ -5983,10 +6033,27 @@
                 },
                 {
                   "graphic": {
-                    "x": 91,
-                    "y": 191,
+                    "x": 94,
+                    "y": 190,
                     "alignment": 16,
-                    "patch": "TAG_GOD",
+                    "patch": "BMTYHEL2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 94,
+                    "y": 190,
+                    "alignment": 16,
+                    "patch": "BMTYGOD1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -6000,7 +6067,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 110,
+                    "x": 106,
                     "y": 191,
                     "alignment": 16,
                     "patch": "PROGBAR7",
@@ -6012,7 +6079,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 110,
+                    "x": 106,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -6203,7 +6270,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 110,
+                    "x": 106,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -6344,7 +6411,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 110,
+                    "x": 106,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -14747,10 +14814,10 @@
               "children": [
                 {
                   "graphic": {
-                    "x": 4,
+                    "x": 35,
                     "y": 175,
                     "alignment": 16,
-                    "patch": "BOOMITY",
+                    "patch": "BMTYDIVD",
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
@@ -14762,7 +14829,19 @@
                     "x": 6,
                     "y": 177,
                     "alignment": 16,
-                    "patch": "BMTYHEL2",
+                    "patch": "BMTYHEL1",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 6,
+                    "y": 177,
+                    "alignment": 16,
+                    "patch": "BMTYHEL3",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -14783,7 +14862,7 @@
                     "x": 6,
                     "y": 177,
                     "alignment": 16,
-                    "patch": "BMTYHEL1",
+                    "patch": "BMTYHEL2",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -14817,7 +14896,19 @@
                     "x": 4,
                     "y": 186,
                     "alignment": 16,
-                    "patch": "BMTYARM",
+                    "patch": "BMTYARM1",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 186,
+                    "alignment": 16,
+                    "patch": "BMTYARM2",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [

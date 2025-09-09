@@ -61,7 +61,7 @@
                 {
                   "canvas": {
                     "x": 25,
-                    "y": 173,
+                    "y": 172,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -101,16 +101,51 @@
                   }
                 },
 
-## ARMOR: LABEL
+## ARMOR: ICONS
+## Condition: 10 (item owned)
                 {
                   "graphic": {
-                    "x": 5,
-                    "y": 191,
+                    "x": 6,
+                    "y": 190,
                     "alignment": 16,
-                    "patch": "TAG_ARM",
+                    "patch": "BMTYARM1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 6,
+                    "y": 190,
+                    "alignment": 16,
+                    "patch": "BMTYARM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 15
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 6,
+                    "y": 190,
+                    "alignment": 16,
+                    "patch": "BMTYGOD2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 21
+                      }
+                    ],
                     "children": null
                   }
                 },
@@ -120,7 +155,7 @@
 ## Conditions: 10 (item owned), 11 (item not owned), 27 (armor >= <parm>)
                 {
                   "graphic": {
-                    "x": 24,
+                    "x": 22,
                     "y": 191,
                     "alignment": 16,
                     "patch": "PROGBAR7",
@@ -132,7 +167,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 24,
+                    "x": 22,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -323,7 +358,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 24,
+                    "x": 22,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -514,7 +549,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 24,
+                    "x": 22,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -700,20 +735,36 @@
                   }
                 },
 
-## HEALTH: LABEL
-## Conditions: 10 (item owned), 11 (item not owned)
+## HEALTH: ICONS
+## Conditions: 10 (item owned), 11 (item not owned), 23 (health >= <parm>)
                 {
                   "graphic": {
-                    "x": 90,
-                    "y": 191,
+                    "x": 93,
+                    "y": 190,
                     "alignment": 16,
-                    "patch": "TAG_HEL",
+                    "patch": "BMTYHEL1",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": null,
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 93,
+                    "y": 190,
+                    "alignment": 16,
+                    "patch": "BMTYHEL3",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
+                        "condition": 23,
+                        "param": 101
+                      },
+                      {
                         "condition": 11,
-                        "param": 21
+                        "param": 18
                       }
                     ],
                     "children": null
@@ -721,10 +772,27 @@
                 },
                 {
                   "graphic": {
-                    "x": 90,
-                    "y": 191,
+                    "x": 93,
+                    "y": 190,
                     "alignment": 16,
-                    "patch": "TAG_GOD",
+                    "patch": "BMTYHEL2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 18
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 93,
+                    "y": 190,
+                    "alignment": 16,
+                    "patch": "BMTYGOD1",
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -742,7 +810,7 @@
 ## Conditions: 10 (item owned), 11 (item not owned), 23 (health >= <parm>), 24 (health < <parm>)
                 {
                   "graphic": {
-                    "x": 109,
+                    "x": 105,
                     "y": 191,
                     "alignment": 16,
                     "patch": "PROGBAR7",
@@ -754,7 +822,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 109,
+                    "x": 105,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -945,7 +1013,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 109,
+                    "x": 105,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -1086,7 +1154,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 109,
+                    "x": 105,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
