@@ -17,7 +17,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 **Features:**
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Animated face. Featured in Status Bar Plus, Nightdive, Eternity I and DSDA II/III.<br>
-- **Ammo overview**: Amount of ammo available for each weapon. Partial in Nightdive and DSDA III (no max amounts), full in Status Bar Plus, Crispy, Eternity and DSDA I+II.<br>
+- **Ammo overview**: Amount of ammo available for each weapon. Partial in Nightdive, Boom II and DSDA III (no max amounts), full in Status Bar Plus, Crispy, Eternity and DSDA I+II.<br>
 - **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA III, otherwise 1-9. Either arranged as a square (Status Bar Plus, Crispy, Nightdive I) or a single line (Nightdive II, Eternity, Boom, DSDA, PrBoom+). DSDA II splits the display into two slot-grouped panels (1-2-3-8-9 / 4-5-6-7). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA III indicates Chainsaw through a lit "1" in slot 1 and possession of both shotguns with a fully lit "3".<br><br>
 
 **Indicators:**
@@ -34,9 +34,9 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10 / 10 | All features/indicators |
 | Status Bar Plus | ++++ | +++++ | 9 / 10 | No active ammo/weapon |
-| Eternity II<br>DSDA I | +++ | ++++++ | 9 / 10 | No mugshot |
+| Eternity II<br>Boom II<br>DSDA I | +++ | ++++++ | 9 / 10 | No mugshot |
 | Crispy Plus | +++ | +++++ | 8 / 10 | No mugshot; no active ammo/weapon |
-| Boom<br>PrBoom+ | ++ | ++++++ | 8 / 10 | No mugshot; no ammo overview |
+| Boom I/III<br>PrBoom+ | ++ | ++++++ | 8 / 10 | No mugshot; no ammo overview |
 | Status Bar (Vanilla)| ++++ | ++ | 6 / 10 | All features; backpack and god mode only |
 | Doom 64 | + | ++ | 3 / 10 | Vitals only; armor type and god mode only |
 <br>
@@ -79,8 +79,10 @@ Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/et
 The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.png/800px-NDCP-map23-end.png" target= "_blank">Boom HUD</a> with properly aligned keys (ignores custom offsets).<br>
 <img width="1917" height="328" alt="06_boomcomp" src="https://github.com/user-attachments/assets/4414f426-05f8-450f-b582-90ea912eeb77" />
    **I. Compact**: Everything grouped on the left side of the screen.<br><br>
+<img width="1917" height="328" alt="08_boom-remix" src="https://github.com/user-attachments/assets/a71f65af-aab1-4e4f-ac8a-ddd1a4e80768" />
+   **II. Remix**: Merges Compact features with ammo overview from Nightdive Remix. More progress bars you won't find anywhere!<br><br>
 <img width="1917" height="328" alt="07_boomdist" src="https://github.com/user-attachments/assets/af056fbb-14a6-476f-b8e2-b03b58d86d9e" />
-   **II. Distributed**: Weapon and ammo-related info move to the right side, otherwise the same.
+   **III. Distributed**: Weapon and ammo-related info move to the right side, otherwise the same as Compact.
 <br><br>
 
 **7) DSDA**<br>
