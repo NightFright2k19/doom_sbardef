@@ -115,7 +115,7 @@
                   }
                 },
 
-## ARMOR: PROGRESS BAR
+## ARMOR METER
 ## Color: Green (Green Armor), Blue (Blue Armor), Gold (Invulnerability)
 ## Conditions: 10 (item owned), 11 (item not owned), 27 (armor >= <parm>)
                 {
@@ -737,7 +737,7 @@
                   }
                 },
 
-## HEALTH: PROGRESS BAR
+## HEALTH METER
 ## Color: Green (Health <= 100), Blue (Health > 100), Gold (Invulnerability)
 ## Conditions: 10 (item owned), 11 (item not owned), 23 (health >= <parm>)
                 {
@@ -2530,7 +2530,7 @@
                   }
                 },
 
-## AMMO: PROGRESS BARS
+## AMMO METERS
 ## Colors: White (no backback), Green (backpack)
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
 ## Conditions: 5 (ammo type matches selected weapon's ammo type), 10 (item owned), 

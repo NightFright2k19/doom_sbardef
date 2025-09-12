@@ -58,7 +58,7 @@ Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" targ
 <img width="1917" height="328" alt="02_nightdive" src="https://github.com/user-attachments/assets/b28e07b3-e1d8-4945-a754-6c528c4ec98c" />
    **I. Labels**: Vitals use the STTNUM font. ARMS display arranged as a square, ammo overview minimized.<br><br>
 <img width="1917" height="328" alt="03_nightdive-remix" src="https://github.com/user-attachments/assets/b78a844d-e2cb-4d00-b508-b4fb47d07036" />
-   **II. Remix**: Ammo overview taken from the DSDA HUD group (with progress bars for each ammo type); ARMS widget is a single line. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)
+   **II. Remix**: Ammo overview taken from the DSDA HUD group (with ammo type meters); ARMS widget is a single line. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)
 <br><br>
 
 **4) Doom 64**<br>
@@ -80,7 +80,7 @@ The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.pn
 <img width="1917" height="328" alt="06_boomcomp" src="https://github.com/user-attachments/assets/4414f426-05f8-450f-b582-90ea912eeb77" />
    **I. Compact**: Everything grouped on the left side of the screen.<br><br>
 <img width="1917" height="328" alt="08_boom-remix" src="https://github.com/user-attachments/assets/a71f65af-aab1-4e4f-ac8a-ddd1a4e80768" />
-   **II. Remix**: Merges Compact features with ammo overview from Nightdive Remix. More progress bars you won't find anywhere!<br><br>
+   **II. Remix**: Merges Compact features with ammo overview from Nightdive Remix. More meters you won't find anywhere!<br><br>
 <img width="1917" height="328" alt="07_boomdist" src="https://github.com/user-attachments/assets/af056fbb-14a6-476f-b8e2-b03b58d86d9e" />
    **III. Distributed**: Weapon and ammo-related info move to the right side, otherwise the same as Compact.
 <br><br>
