@@ -213,6 +213,112 @@
                   }
                 },
 
+## COLORIZED SLASHES (AMMO OVERVIEW)
+## Colors: White (no backpack), Gold (backpack), Orange (selected)
+## Conditions: 5 (ammo type matches selected weapon's ammo type), 10 (item owned), 11 (item not owned)
+                {
+                  "graphic": {
+                    "x": 299,
+                    "y": 173,
+                    "alignment": 32,
+                    "patch": "ETR6SLSH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 299,
+                    "y": 173,
+                    "alignment": 32,
+                    "patch": "ETR3SLSH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 7
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 299,
+                    "y": 173,
+                    "alignment": 32,
+                    "patch": "ETR2SLSH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 0
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 299,
+                    "y": 179,
+                    "alignment": 32,
+                    "patch": "ETR2SLSH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 1
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 299,
+                    "y": 185,
+                    "alignment": 32,
+                    "patch": "ETR2SLSH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 3
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 299,
+                    "y": 191,
+                    "alignment": 32,
+                    "patch": "ETR2SLSH",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 5,
+                        "param": 2
+                      }
+                    ],
+                    "children": null
+                  }
+                }, 
+
 ## ARMS
 ## Colors: Gray (not owned), Gold (owned), Orange (selected)
 ## Weapon IDs: 0 (Fist), 1 (Pistol), 2 (Shotgun), 3 (Chaingun), 4 (Rocket Launcher),
@@ -3006,2486 +3112,15 @@
                   }
                 },
 
-## RIGHT HUD PANEL IMAGE
-## Edit this in case ammo names deviate from what's on the display
-                {
-                  "graphic": {
-                    "x": 255,
-                    "y": 170,
-                    "alignment": 32,
-                    "patch": "AMMO_OV3",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": null,
-                    "children": null
-                  }
-                },
-
-## AMMO METERS
-## Colors: White (no backback), Gold (backpack)
-## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
-## Conditions: 5 (ammo type matches selected weapon's ammo type), 10 (item owned), 
-##             11 (item not owned), 37 (ammo % >= <parm>)
-
-# Background images
-
-                {
-                  "graphic": {
-                    "x": 255,
-                    "y": 170,
-                    "alignment": 32,
-                    "patch": "AMMO_OV3",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": null,
-                    "children": null
-                  }
-                },
-                {
-                  "graphic": {
-                    "x": 278,
-                    "y": 170,
-                    "alignment": 32,
-                    "patch": "PROGBAR7",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": null,
-                    "children": null
-                  }
-                },
-                {
-                  "graphic": {
-                    "x": 278,
-                    "y": 177,
-                    "alignment": 32,
-                    "patch": "PROGBAR7",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": null,
-                    "children": null
-                  }
-                },
-                {
-                  "graphic": {
-                    "x": 278,
-                    "y": 184,
-                    "alignment": 32,
-                    "patch": "PROGBAR7",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": null,
-                    "children": null
-                  }
-                },
-                {
-                  "graphic": {
-                    "x": 278,
-                    "y": 191,
-                    "alignment": 32,
-                    "patch": "PROGBAR7",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": null,
-                    "children": null
-                  }
-                },
-
-# No backpack (1/4): Bullets
-                {
-                  "canvas": {
-                    "x": 278,
-                    "y": 170,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 11,
-                        "param": 7
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 10,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 2,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 20,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 4,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 30,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 40,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 50,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 60,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 70,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 14,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 80,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 90,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 100,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-# No backpack (2/4): Shells
-                {
-                  "canvas": {
-                    "x": 278,
-                    "y": 177,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 11,
-                        "param": 7
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 10,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 2,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 20,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 4,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 30,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 40,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 50,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 60,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 70,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 14,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 80,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 90,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 100,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-# No backpack (3/4): Rockets
-                {
-                  "canvas": {
-                    "x": 278,
-                    "y": 184,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 11,
-                        "param": 7
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 10,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 2,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 20,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 4,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 30,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 40,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 50,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 60,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 70,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 14,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 80,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 90,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 100,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-# No backpack (4/4): Cells
-                {
-                  "canvas": {
-                    "x": 278,
-                    "y": 191,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 11,
-                        "param": 7
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 10,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 2,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 20,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 4,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 30,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 40,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 50,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 60,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 70,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 14,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 80,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 90,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 100,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-# Backpack (1/4): Bullets
-                {
-                  "canvas": {
-                    "x": 278,
-                    "y": 170,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 7
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 10,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 2,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 20,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 4,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 30,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 40,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 50,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 60,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 70,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 14,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 80,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 90,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 100,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-# Backpack (2/4): Shells
-                {
-                  "canvas": {
-                    "x": 278,
-                    "y": 177,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 7
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 10,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 2,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 20,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 4,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 30,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 40,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 50,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 60,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 70,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 14,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 80,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 90,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 100,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-# Backpack (3/4): Rockets
-                {
-                  "canvas": {
-                    "x": 278,
-                    "y": 184,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 7
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 10,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 2,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 20,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 4,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 30,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 40,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 50,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 60,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 70,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 14,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 80,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 90,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 100,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-# Backpack (4/4): Cells
-                {
-                  "canvas": {
-                    "x": 278,
-                    "y": 191,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 7
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 10,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 2,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 20,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 4,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 30,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 40,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 50,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 60,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 70,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 14,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 80,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 90,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 100,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-# Ammo highlight (1/4): Bullets
-                {
-                  "canvas": {
-                    "x": 278,
-                    "y": 170,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 5,
-                        "param": 0
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 10,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 2,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 20,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 4,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 30,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 40,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 50,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 60,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 70,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 14,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 80,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 90,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 100,
-                              "param2": 0
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-# Ammo highlight (2/4): Shells
-                {
-                  "canvas": {
-                    "x": 278,
-                    "y": 177,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 5,
-                        "param": 1
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 10,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 2,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 20,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 4,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 30,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 40,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 50,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 60,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 70,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 14,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 80,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 90,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 100,
-                              "param2": 1
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-# Ammo highlight (3/4): Rockets
-                {
-                  "canvas": {
-                    "x": 278,
-                    "y": 184,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 5,
-                        "param": 3
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 10,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 2,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 20,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 4,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 30,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 40,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 50,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 60,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 70,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 14,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 80,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 90,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 100,
-                              "param2": 3
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-# Ammo highlight (4/4): Cells
-                {
-                  "canvas": {
-                    "x": 278,
-                    "y": 191,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 5,
-                        "param": 2
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 10,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 2,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 20,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 4,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 30,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 6,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 40,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 50,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 60,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 70,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 14,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 80,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 16,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 90,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 32,
-                          "patch": "PROGBAR2",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 100,
-                              "param2": 2
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-
-## AMMO: NO BACKPACK
+## AMMO OVERVIEW: NO BACKPACK
 ## Color: White
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Types: 3 (current amount), 5 (maximum amount)
 ## Condition: 11 (item not owned)
                 {
                   "canvas": {
-                    "x": 316,
-                    "y": 169,
+                    "x": 298,
+                    "y": 173,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -5501,7 +3136,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 34,
-                          "font": "DigitWhite",
+                          "font": "EternitySmlWhite",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -5514,9 +3149,9 @@
                       {
                         "number": {
                           "x": 0,
-                          "y": 7,
+                          "y": 6,
                           "alignment": 34,
-                          "font": "DigitWhite",
+                          "font": "EternitySmlWhite",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -5529,9 +3164,9 @@
                       {
                         "number": {
                           "x": 0,
-                          "y": 14,
+                          "y": 12,
                           "alignment": 34,
-                          "font": "DigitWhite",
+                          "font": "EternitySmlWhite",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -5544,12 +3179,72 @@
                       {
                         "number": {
                           "x": 0,
-                          "y": 21,
+                          "y": 18,
                           "alignment": 34,
-                          "font": "DigitWhite",
+                          "font": "EternitySmlWhite",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 34,
+                          "font": "EternitySmlWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 18,
+                          "y": 6,
+                          "alignment": 34,
+                          "font": "EternitySmlWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 18,
+                          "y": 12,
+                          "alignment": 34,
+                          "font": "EternitySmlWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 18,
+                          "y": 18,
+                          "alignment": 34,
+                          "font": "EternitySmlWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
                           "param": 2,
                           "maxlength": 3,
                           "conditions": null,
@@ -5560,14 +3255,15 @@
                   }
                 },
 
-## AMMO: BACKPACK
+## AMMO OVERVIEW: BACKPACK
 ## Color: Gold
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Types: 3 (current amount), 5 (maximum amount)
 ## Condition: 10 (item owned)
                 {
                   "canvas": {
-                    "x": 316,
-                    "y": 169,
+                    "x": 298,
+                    "y": 173,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -5583,7 +3279,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 34,
-                          "font": "DigitGold",
+                          "font": "EternitySmlGold",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -5596,9 +3292,9 @@
                       {
                         "number": {
                           "x": 0,
-                          "y": 7,
+                          "y": 6,
                           "alignment": 34,
-                          "font": "DigitGold",
+                          "font": "EternitySmlGold",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -5611,9 +3307,9 @@
                       {
                         "number": {
                           "x": 0,
-                          "y": 14,
+                          "y": 12,
                           "alignment": 34,
-                          "font": "DigitGold",
+                          "font": "EternitySmlGold",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -5626,12 +3322,72 @@
                       {
                         "number": {
                           "x": 0,
-                          "y": 21,
+                          "y": 18,
                           "alignment": 34,
-                          "font": "DigitGold",
+                          "font": "EternitySmlGold",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 34,
+                          "font": "EternitySmlGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 18,
+                          "y": 6,
+                          "alignment": 34,
+                          "font": "EternitySmlGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 18,
+                          "y": 12,
+                          "alignment": 34,
+                          "font": "EternitySmlGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 18,
+                          "y": 18,
+                          "alignment": 34,
+                          "font": "EternitySmlGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
                           "param": 2,
                           "maxlength": 3,
                           "conditions": null,
@@ -5642,14 +3398,16 @@
                   }
                 },
 
-## AMMO: ACTIVE
+## AMMO OVERVIEW: ACTIVE
+## Must be the last ammo canvas, otherwise will be overwritten by the ones above
 ## Color: Orange
 ## Ammo IDs: 0 (bullets), 1 (shells), 2 (cells), 3 (rockets), 5 (no ammo)
+## Types: 3 (current amount), 5 (maximum amount)
 ## Condition: 5 (ammo type matches selected weapon's ammo type)
                 {
                   "canvas": {
-                    "x": 316,
-                    "y": 169,
+                    "x": 298,
+                    "y": 173,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -5660,7 +3418,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 34,
-                          "font": "DigitOrange",
+                          "font": "EternitySmlOrange",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -5678,9 +3436,9 @@
                       {
                         "number": {
                           "x": 0,
-                          "y": 7,
+                          "y": 6,
                           "alignment": 34,
-                          "font": "DigitOrange",
+                          "font": "EternitySmlOrange",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -5698,9 +3456,9 @@
                       {
                         "number": {
                           "x": 0,
-                          "y": 14,
+                          "y": 12,
                           "alignment": 34,
-                          "font": "DigitOrange",
+                          "font": "EternitySmlOrange",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
@@ -5718,12 +3476,92 @@
                       {
                         "number": {
                           "x": 0,
-                          "y": 21,
+                          "y": 18,
                           "alignment": 34,
-                          "font": "DigitOrange",
+                          "font": "EternitySmlOrange",
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 18,
+                          "y": 0,
+                          "alignment": 34,
+                          "font": "EternitySmlOrange",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 18,
+                          "y": 6,
+                          "alignment": 34,
+                          "font": "EternitySmlOrange",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 18,
+                          "y": 12,
+                          "alignment": 34,
+                          "font": "EternitySmlOrange",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 18,
+                          "y": 18,
+                          "alignment": 34,
+                          "font": "EternitySmlOrange",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
                           "param": 2,
                           "maxlength": 3,
                           "conditions": [
