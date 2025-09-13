@@ -17,7 +17,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 **Features:**
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Animated face. Featured in Status Bar Plus, Nightdive, Eternity I and DSDA II/III.<br>
-- **Ammo overview**: Amount of ammo available for each weapon. Partial in Nightdive, Boom II and DSDA III (no max amounts), full in Status Bar Plus, Crispy, Eternity and DSDA I+II.<br>
+- **Ammo overview**: Amount of ammo available for each weapon. Partial in Nightdive, Eternity, Boom II and DSDA III (no max amounts), full in Status Bar Plus, Crispy and DSDA I+II.<br>
 - **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA III, otherwise 1-9. Either arranged as a square (Status Bar Plus, Crispy, Nightdive I) or a single line (Nightdive II, Eternity, Boom, DSDA, PrBoom+). DSDA II splits the display into two slot-grouped panels (1-2-3-8-9 / 4-5-6-7). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA III indicates Chainsaw through a lit "1" in slot 1 and possession of both shotguns with a fully lit "3".<br><br>
 
 **Indicators:**
@@ -69,9 +69,9 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 
 **5) ﻿Eternity**<br>
 Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/eternity" target= "_blank">Eternity Engine</a>.<br>
-<img width="1917" height="328" alt="04_eternity_enhanced" src="https://github.com/user-attachments/assets/b7c6638d-00b6-416f-8df5-798dd1755581" />
-   **I. Enhanced**: Uses original font with different sizes and mugshot. No labels.<br><br>
-<img width="1917" height="328" alt="05_eternity_boomified" src="https://github.com/user-attachments/assets/3cec8d62-bb93-49e9-a435-99d94a7eca50" />
+<img width="1917" height="328" alt="05_eternity_enhanced" src="https://github.com/user-attachments/assets/aac81320-9209-472a-935d-3d9c5ecbd71a" />
+   **I. Enhanced**: Uses original font with different sizes and mugshot. No labels (besides ammo overview).<br><br>
+<img width="1917" height="328" alt="06_eternity_boomified" src="https://github.com/user-attachments/assets/65fa423e-452f-4759-a002-86e351fb97ea" />
    **II. Boomified**: Uses Boom font instead, one size only, no mugshot. Health/Armor icons indicate Berserk/God modes and MegaArmor (colors depend on selected game), taken from the statusbar of <a href="https://doomwiki.org/wiki/Jenesis" target= "_blank">"Jenesis" by Jimmy</a>.
 <br><br>
 
