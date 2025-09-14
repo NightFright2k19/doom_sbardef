@@ -79,7 +79,7 @@ Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/et
 The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.png/800px-NDCP-map23-end.png" target= "_blank">Boom HUD</a> with properly aligned keys (ignores custom offsets).<br>
 <img width="1917" height="328" alt="06_boomcomp" src="https://github.com/user-attachments/assets/4414f426-05f8-450f-b582-90ea912eeb77" />
    **I. Compact**: Everything grouped on the left side of the screen.<br><br>
-<img width="1917" height="328" alt="08_boom-remix" src="https://github.com/user-attachments/assets/a71f65af-aab1-4e4f-ac8a-ddd1a4e80768" />
+<img width="1917" height="328" alt="08_boom-remix" src="https://github.com/user-attachments/assets/ae2e6171-61c9-41f1-8a47-094d00fad91b" />
    **II. Remix**: Merges Compact features with ammo overview from Nightdive Remix. More meters you won't find anywhere!<br><br>
 <img width="1917" height="328" alt="07_boomdist" src="https://github.com/user-attachments/assets/af056fbb-14a6-476f-b8e2-b03b58d86d9e" />
    **III. Distributed**: Weapon and ammo-related info move to the right side, otherwise the same as Compact.
