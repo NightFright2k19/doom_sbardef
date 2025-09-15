@@ -3259,6 +3259,100 @@
                         }
                       },
 
+## HEALTH METER: BLINKING
+## Slow blinking (green) if health 11-25, fast blinking (red) if health 1-10
+## Conditions: 23 (health >= <parm>), 24 (health < <parm>)
+                      {
+                        "animation": {
+                          "x": 19,
+                          "y": 24,
+                          "alignment": 16,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 11
+                            },
+                            {
+                              "condition": 24,
+                              "param": 26
+                            }
+                          ],
+                          "children": null,
+                          "frames": [
+                            {
+                              "lump": "PROGBAR7",
+                              "duration": 1
+                            },
+                            {
+                              "lump": "TNT1A0",
+                              "duration": 1
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "animation": {
+                          "x": 19,
+                          "y": 24,
+                          "alignment": 16,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 1
+                            },
+                            {
+                              "condition": 24,
+                              "param": 11
+                            }
+                          ],
+                          "children": null,
+                          "frames": [
+                            {
+                              "lump": "PROGBAR7",
+                              "duration": 0.5
+                            },
+                            {
+                              "lump": "PROGBAR1",
+                              "duration": 0.5
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "animation": {
+                          "x": 21,
+                          "y": 24,
+                          "alignment": 16,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 10
+                            },
+                            {
+                              "condition": 24,
+                              "param": 11
+                            }
+                          ],
+                          "children": null,
+                          "frames": [
+                            {
+                              "lump": "PROGBAR7",
+                              "duration": 0.5
+                            },
+                            {
+                              "lump": "PROGBAR1",
+                              "duration": 0.5
+                            }
+                          ]
+                        }
+                      },
+
 ## HEALTH
 ## Colors: Green (0-100, no Invulnerability), Blue (>100, no Invulnerability), Gold (Invulnerability)
 ## Conditions: 10 (item owned), 11 (item not owned), 23 (health >= parm), 24 (health < parm)

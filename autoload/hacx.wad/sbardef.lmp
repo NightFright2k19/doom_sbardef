@@ -6668,6 +6668,66 @@
                   }
                 },
                 {
+                  "animation": {
+                    "x": 108,
+                    "y": 191,
+                    "alignment": 16,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 11
+                      },
+                      {
+                        "condition": 24,
+                        "param": 26
+                      }
+                    ],
+                    "children": null,
+                    "frames": [
+                      {
+                        "lump": "PROGBAR7",
+                        "duration": 1
+                      },
+                      {
+                        "lump": "TNT1A0",
+                        "duration": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "animation": {
+                    "x": 108,
+                    "y": 191,
+                    "alignment": 16,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 1
+                      },
+                      {
+                        "condition": 24,
+                        "param": 11
+                      }
+                    ],
+                    "children": null,
+                    "frames": [
+                      {
+                        "lump": "PROGBAR7",
+                        "duration": 0.5
+                      },
+                      {
+                        "lump": "PROGBAR1",
+                        "duration": 0.5
+                      }
+                    ]
+                  }
+                },
+                {
                   "canvas": {
                     "x": 247,
                     "y": 170,
@@ -26057,6 +26117,96 @@
                         }
                       },
                       {
+                        "animation": {
+                          "x": 19,
+                          "y": 24,
+                          "alignment": 16,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 11
+                            },
+                            {
+                              "condition": 24,
+                              "param": 26
+                            }
+                          ],
+                          "children": null,
+                          "frames": [
+                            {
+                              "lump": "PROGBAR7",
+                              "duration": 1
+                            },
+                            {
+                              "lump": "TNT1A0",
+                              "duration": 1
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "animation": {
+                          "x": 19,
+                          "y": 24,
+                          "alignment": 16,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 1
+                            },
+                            {
+                              "condition": 24,
+                              "param": 11
+                            }
+                          ],
+                          "children": null,
+                          "frames": [
+                            {
+                              "lump": "PROGBAR7",
+                              "duration": 0.5
+                            },
+                            {
+                              "lump": "PROGBAR1",
+                              "duration": 0.5
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "animation": {
+                          "x": 21,
+                          "y": 24,
+                          "alignment": 16,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 10
+                            },
+                            {
+                              "condition": 24,
+                              "param": 11
+                            }
+                          ],
+                          "children": null,
+                          "frames": [
+                            {
+                              "lump": "PROGBAR7",
+                              "duration": 0.5
+                            },
+                            {
+                              "lump": "PROGBAR1",
+                              "duration": 0.5
+                            }
+                          ]
+                        }
+                      },
+                      {
                         "percent": {
                           "x": 63,
                           "y": 23,
@@ -32899,6 +33049,96 @@
                                 ],
                                 "children": null
                               }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "animation": {
+                          "x": 19,
+                          "y": 24,
+                          "alignment": 16,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 11
+                            },
+                            {
+                              "condition": 24,
+                              "param": 26
+                            }
+                          ],
+                          "children": null,
+                          "frames": [
+                            {
+                              "lump": "PROGBAR7",
+                              "duration": 1
+                            },
+                            {
+                              "lump": "TNT1A0",
+                              "duration": 1
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "animation": {
+                          "x": 19,
+                          "y": 24,
+                          "alignment": 16,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 1
+                            },
+                            {
+                              "condition": 24,
+                              "param": 11
+                            }
+                          ],
+                          "children": null,
+                          "frames": [
+                            {
+                              "lump": "PROGBAR7",
+                              "duration": 0.5
+                            },
+                            {
+                              "lump": "PROGBAR1",
+                              "duration": 0.5
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "animation": {
+                          "x": 21,
+                          "y": 24,
+                          "alignment": 16,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 10
+                            },
+                            {
+                              "condition": 24,
+                              "param": 11
+                            }
+                          ],
+                          "children": null,
+                          "frames": [
+                            {
+                              "lump": "PROGBAR7",
+                              "duration": 0.5
+                            },
+                            {
+                              "lump": "PROGBAR1",
+                              "duration": 0.5
                             }
                           ]
                         }
@@ -39939,6 +40179,96 @@
                                 ],
                                 "children": null
                               }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "animation": {
+                          "x": 19,
+                          "y": 9,
+                          "alignment": 16,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 11
+                            },
+                            {
+                              "condition": 24,
+                              "param": 26
+                            }
+                          ],
+                          "children": null,
+                          "frames": [
+                            {
+                              "lump": "PROGBAR7",
+                              "duration": 1
+                            },
+                            {
+                              "lump": "TNT1A0",
+                              "duration": 1
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "animation": {
+                          "x": 19,
+                          "y": 9,
+                          "alignment": 16,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 1
+                            },
+                            {
+                              "condition": 24,
+                              "param": 11
+                            }
+                          ],
+                          "children": null,
+                          "frames": [
+                            {
+                              "lump": "PROGBAR7",
+                              "duration": 0.5
+                            },
+                            {
+                              "lump": "PROGBAR1",
+                              "duration": 0.5
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "animation": {
+                          "x": 21,
+                          "y": 9,
+                          "alignment": 16,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 10
+                            },
+                            {
+                              "condition": 24,
+                              "param": 11
+                            }
+                          ],
+                          "children": null,
+                          "frames": [
+                            {
+                              "lump": "PROGBAR7",
+                              "duration": 0.5
+                            },
+                            {
+                              "lump": "PROGBAR1",
+                              "duration": 0.5
                             }
                           ]
                         }
@@ -49278,6 +49608,66 @@
                           ],
                           "children": null
                         }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "animation": {
+                    "x": 23,
+                    "y": 175,
+                    "alignment": 16,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 11
+                      },
+                      {
+                        "condition": 24,
+                        "param": 26
+                      }
+                    ],
+                    "children": null,
+                    "frames": [
+                      {
+                        "lump": "PROGBAR7",
+                        "duration": 1
+                      },
+                      {
+                        "lump": "TNT1A0",
+                        "duration": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "animation": {
+                    "x": 23,
+                    "y": 175,
+                    "alignment": 16,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 23,
+                        "param": 1
+                      },
+                      {
+                        "condition": 24,
+                        "param": 11
+                      }
+                    ],
+                    "children": null,
+                    "frames": [
+                      {
+                        "lump": "PROGBAR7",
+                        "duration": 0.5
+                      },
+                      {
+                        "lump": "PROGBAR1",
+                        "duration": 0.5
                       }
                     ]
                   }
