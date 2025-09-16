@@ -738,7 +738,7 @@
                 },
 
 ## HEALTH METER
-## Colors: Red (Health 1-25), Gold (Health 26-50), Green (Health 51-100), Blue (Health > 100), White (Invulnerability)
+## Colors: Red (Health 1-25), Gold (Health 26-49), Green (Health 50-100), Blue (Health > 100), White (Invulnerability)
 ## Conditions: 10 (item owned), 11 (item not owned), 23 (health >= <parm>), 24 (health < <parm>)
                 {
                   "graphic": {
@@ -824,7 +824,7 @@
                       },
                       {
                         "condition": 24,
-                        "param": 51
+                        "param": 50
                       }
                     ],
                     "children": [
@@ -836,12 +836,7 @@
                           "patch": "PROGBAR3",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 23,
-                              "param": 10
-                            }
-                          ],
+                          "conditions": null,
                           "children": null
                         }
                       },
@@ -853,12 +848,7 @@
                           "patch": "PROGBAR3",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 23,
-                              "param": 20
-                            }
-                          ],
+                          "conditions": null,
                           "children": null
                         }
                       },
@@ -891,23 +881,6 @@
                             {
                               "condition": 23,
                               "param": 40
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 8,
-                          "y": 0,
-                          "alignment": 16,
-                          "patch": "PROGBAR3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 23,
-                              "param": 50
                             }
                           ],
                           "children": null
@@ -930,7 +903,7 @@
                       },
                       {
                         "condition": 23,
-                        "param": 51
+                        "param": 50
                       }
                     ],
                     "children": [
@@ -942,12 +915,7 @@
                           "patch": "PROGBAR4",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 23,
-                              "param": 10
-                            }
-                          ],
+                          "conditions": null,
                           "children": null
                         }
                       },
@@ -959,12 +927,7 @@
                           "patch": "PROGBAR4",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 23,
-                              "param": 20
-                            }
-                          ],
+                          "conditions": null,
                           "children": null
                         }
                       },
@@ -976,12 +939,7 @@
                           "patch": "PROGBAR4",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 23,
-                              "param": 30
-                            }
-                          ],
+                          "conditions": null,
                           "children": null
                         }
                       },
@@ -993,12 +951,7 @@
                           "patch": "PROGBAR4",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 23,
-                              "param": 40
-                            }
-                          ],
+                          "conditions": null,
                           "children": null
                         }
                       },
@@ -1010,12 +963,7 @@
                           "patch": "PROGBAR4",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 23,
-                              "param": 50
-                            }
-                          ],
+                          "conditions": null,
                           "children": null
                         }
                       },
@@ -1483,7 +1431,7 @@
                 },
 
 ## HEALTH METER: BLINKING
-## Slow blinking (gold) if health 26-50, fast blinking (red) if health 1-25
+## Slow blinking (gold) if health 26-49, fast blinking (red) if health 1-25
 ## Conditions: 23 (health >= <parm>), 24 (health < <parm>)
                 {
                   "animation": {
@@ -1499,7 +1447,7 @@
                       },
                       {
                         "condition": 24,
-                        "param": 51
+                        "param": 50
                       }
                     ],
                     "children": null,
