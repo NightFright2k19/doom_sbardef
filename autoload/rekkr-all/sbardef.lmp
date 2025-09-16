@@ -5781,7 +5781,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -5798,7 +5798,7 @@
                           "x": 2,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -5815,7 +5815,7 @@
                           "x": 4,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -5832,7 +5832,7 @@
                           "x": 6,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -5849,7 +5849,7 @@
                           "x": 8,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -5866,7 +5866,7 @@
                           "x": 10,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -5883,7 +5883,7 @@
                           "x": 12,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -5900,7 +5900,7 @@
                           "x": 14,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -5917,7 +5917,7 @@
                           "x": 16,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -5934,7 +5934,7 @@
                           "x": 18,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6006,6 +6006,174 @@
                       {
                         "condition": 11,
                         "param": 21
+                      },
+                      {
+                        "condition": 23,
+                        "param": 1
+                      },
+                      {
+                        "condition": 24,
+                        "param": 26
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR1",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 2,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR1",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 20
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 110,
+                    "y": 191,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 21
+                      },
+                      {
+                        "condition": 23,
+                        "param": 26
+                      },
+                      {
+                        "condition": 24,
+                        "param": 51
+                      }
+                    ],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 10
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 2,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 20
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 30
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 6,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 40
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 8,
+                          "y": 0,
+                          "alignment": 16,
+                          "patch": "PROGBAR3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 50
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 110,
+                    "y": 191,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 21
+                      },
+                      {
+                        "condition": 23,
+                        "param": 51
                       }
                     ],
                     "children": [
@@ -6388,7 +6556,7 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6405,7 +6573,7 @@
                           "x": 2,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6422,7 +6590,7 @@
                           "x": 4,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6439,7 +6607,7 @@
                           "x": 6,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6456,7 +6624,7 @@
                           "x": 8,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6473,7 +6641,7 @@
                           "x": 10,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6490,7 +6658,7 @@
                           "x": 12,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6507,7 +6675,7 @@
                           "x": 14,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6524,7 +6692,7 @@
                           "x": 16,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6541,7 +6709,7 @@
                           "x": 18,
                           "y": 0,
                           "alignment": 16,
-                          "patch": "PROGBAR3",
+                          "patch": "PROGBAR6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6566,11 +6734,11 @@
                     "conditions": [
                       {
                         "condition": 23,
-                        "param": 11
+                        "param": 26
                       },
                       {
                         "condition": 24,
-                        "param": 26
+                        "param": 51
                       }
                     ],
                     "children": null,
@@ -6600,7 +6768,7 @@
                       },
                       {
                         "condition": 24,
-                        "param": 11
+                        "param": 26
                       }
                     ],
                     "children": null,
@@ -6610,7 +6778,7 @@
                         "duration": 0.5
                       },
                       {
-                        "lump": "PROGBAR1",
+                        "lump": "TNT1A0",
                         "duration": 0.5
                       }
                     ]
