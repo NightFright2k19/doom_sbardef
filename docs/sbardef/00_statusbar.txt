@@ -5,6 +5,50 @@
 ##             center: +4 (left), +5 (center), +6 (right)
 ##             bottom: +8 (left), +9 (center), +10 (right)
 
+## DEFINITIONS HEADER
+{
+  "type": "statusbar",
+  "version": "1.1.0",
+  "metadata": null,
+  "data": {
+
+## FONT DEFINITIONS I: HUD
+    "numberfonts": [
+      {
+        "name": "BigRed",
+        "type": 0,
+        "stem": "STT"
+      },
+      {
+        "name": "SmallGrey",
+        "type": 0,
+        "stem": "STG"
+      },
+      {
+        "name": "SmallYellow",
+        "type": 0,
+        "stem": "STYS"
+      }
+    ],
+
+## FONT DEFINITIONS II: CONSOLE & WIDGETS
+    "hudfonts": [
+      {
+        "name": "Console",
+        "type": 2,
+        "stem": "STCFN"
+      },
+      {
+        "name": "Digits",
+        "type": 0,
+        "stem": "DIG"
+      }
+    ],
+
+## STATUS BAR DEFINITIONS: START
+    "statusbars": [
+
+## DEFAULT (NON-FULLSCREEN) STATUS BAR - *ALWAYS* INCLUDE!
       {
         "height": 200,
         "fullscreenrender": false,
@@ -1026,4 +1070,288 @@
             }
           }
         ]
+      },
+
+## CUSTOM FULLSCREEN STATUS BARS WOULD FOLLOW HERE
+      {
+        "height": 200,
+        "fullscreenrender": true,
+        "fillflat": null,
+        "children": [
+          {
+	    ...
+          }
+        ]
+      },
+
+## EMPTY FULLSCREEN BAR - WIDGETS ONLY (*ALWAYS* INCLUDE AT LAST POSITION!)
+      {
+        "height": 200,
+        "fullscreenrender": true,
+        "fillflat": null,
+        "children": [
+          {
+            "component": {
+              "x": 2,
+              "y": 192,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "stat_totals",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 2,
+              "y": 184,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "time",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                },
+                {
+                  "condition": 20,
+                  "param": 0
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 2,
+              "y": 192,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "time",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                },
+                {
+                  "condition": 21,
+                  "param": 0
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 2,
+              "y": 8,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "stat_totals",
+              "font": "Digits",
+              "vertical": true,
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 3
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 2,
+              "y": 40,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "time",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 3
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 318,
+              "y": 8,
+              "alignment": 34,
+              "tranmap": null,
+              "translation": null,
+              "type": "coordinates",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 256,
+              "y": 8,
+              "alignment": 32,
+              "tranmap": null,
+              "translation": null,
+              "type": "coordinates",
+              "font": "Digits",
+              "vertical": true,
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 3
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 318,
+              "y": 0,
+              "alignment": 34,
+              "tranmap": null,
+              "translation": null,
+              "type": "fps_counter",
+              "font": "Digits",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 2,
+              "y": 8,
+              "alignment": 0,
+              "tranmap": null,
+              "translation": null,
+              "type": "render_stats",
+              "font": "Digits",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 318,
+              "y": 200,
+              "alignment": 42,
+              "tranmap": null,
+              "translation": null,
+              "type": "command_history",
+              "font": "Digits",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 160,
+              "y": 200,
+              "alignment": 9,
+              "tranmap": null,
+              "translation": null,
+              "type": "speedometer",
+              "font": "Digits",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 0,
+              "y": 0,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": null,
+              "type": "message",
+              "font": "Console",
+              "duration": 4,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 160,
+              "y": 68,
+              "alignment": 1,
+              "tranmap": null,
+              "translation": null,
+              "type": "announce_level_title",
+              "font": "Console",
+              "duration": 2.5,
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 0,
+              "y": 8,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": "CRGOLD",
+              "type": "chat",
+              "font": "Console",
+              "conditions": null,
+              "children": null
+            }
+          },
+          {
+            "component": {
+              "x": 0,
+              "y": 192,
+              "alignment": 16,
+              "tranmap": null,
+              "translation": "CRGOLD",
+              "type": "level_title",
+              "font": "Console",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 3
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "carousel": {
+              "x": 0,
+              "y": 18,
+              "alignment": 0,
+              "tranmap": null,
+              "translation": null,
+              "conditions": null,
+              "children": null
+            }
+          }
+        ]
       }
+
+## STATUS BAR DEFINITIONS: END
+    ]
+  }
+}
