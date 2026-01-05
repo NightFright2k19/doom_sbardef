@@ -1,14 +1,21 @@
 ## ORIGINAL STATUS BAR
 
-## Alignments: 0 (original), 16 (widescreen/left), 32 (widescreen/right)
-##             top:    +0 (left), +1 (center), +2 (right)
-##             center: +4 (left), +5 (center), +6 (right)
-##             bottom: +8 (left), +9 (center), +10 (right)
+## Alignments:
+## 0x00	(0)   Horizontal left
+## 0x01	(1)   Horizontal middle
+## 0x02	(2)   Horizontal right
+## 0x00	(0)   Vertical top
+## 0x04	(4)   Vertical middle
+## 0x08	(8)   Vertical bottom
+## 0x10	(16)  Ignore left patch offset
+## 0x20	(32)  Ignore top patch Offset
+## 0x40	(64)  Move element to the left (widescreen mode)
+## 0x80	(128) Move element to the right in (widescreen mode)
 
 ## DEFINITIONS HEADER
 {
   "type": "statusbar",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "metadata": null,
   "data": {
 
@@ -50,7 +57,7 @@
 
 ## DEFAULT (NON-FULLSCREEN) STATUS BAR - *ALWAYS* INCLUDE!
       {
-        "height": 200,
+        "height": 32,
         "fullscreenrender": false,
         "fillflat": null,
         "children": [
@@ -60,7 +67,7 @@
           {
             "graphic": {
               "x": 160,
-              "y": 168,
+              "y": 0,
               "alignment": 1,
               "patch": "STBAR",
               "tranmap": null,
@@ -75,7 +82,7 @@
           {
             "facebackground": {
               "x": 143,
-              "y": 169,
+              "y": 1,
               "alignment": 0,
               "tranmap": null,
               "translation": null,
@@ -91,7 +98,7 @@
           {
             "face": {
               "x": 143,
-              "y": 168,
+              "y": 0,
               "alignment": 0,
               "tranmap": null,
               "translation": null,
@@ -106,7 +113,7 @@
           {
             "number": {
               "x": 44,
-              "y": 171,
+              "y": 3,
               "alignment": 2,
               "font": "BigRed",
               "tranmap": null,
@@ -126,7 +133,7 @@
           {
             "percent": {
               "x": 104,
-              "y": 171,
+              "y": 3,
               "alignment": 2,
               "font": "BigRed",
               "tranmap": null,
@@ -141,7 +148,7 @@
           {
             "percent": {
               "x": 235,
-              "y": 171,
+              "y": 3,
               "alignment": 2,
               "font": "BigRed",
               "tranmap": null,
@@ -160,7 +167,7 @@
           {
             "number": {
               "x": 138,
-              "y": 171,
+              "y": 3,
               "alignment": 2,
               "font": "BigRed",
               "tranmap": null,
@@ -183,7 +190,7 @@
           {
             "graphic": {
               "x": 104,
-              "y": 168,
+              "y": 0,
               "alignment": 0,
               "patch": "STARMS",
               "tranmap": null,
@@ -408,7 +415,7 @@
           {
             "number": {
               "x": 288,
-              "y": 173,
+              "y": 5,
               "alignment": 2,
               "font": "SmallYellow",
               "tranmap": null,
@@ -423,7 +430,7 @@
           {
             "number": {
               "x": 314,
-              "y": 173,
+              "y": 5,
               "alignment": 2,
               "font": "SmallYellow",
               "tranmap": null,
@@ -438,7 +445,7 @@
           {
             "number": {
               "x": 288,
-              "y": 179,
+              "y": 11,
               "alignment": 2,
               "font": "SmallYellow",
               "tranmap": null,
@@ -453,7 +460,7 @@
           {
             "number": {
               "x": 314,
-              "y": 179,
+              "y": 11,
               "alignment": 2,
               "font": "SmallYellow",
               "tranmap": null,
@@ -468,7 +475,7 @@
           {
             "number": {
               "x": 288,
-              "y": 185,
+              "y": 17,
               "alignment": 2,
               "font": "SmallYellow",
               "tranmap": null,
@@ -483,7 +490,7 @@
           {
             "number": {
               "x": 314,
-              "y": 185,
+              "y": 17,
               "alignment": 2,
               "font": "SmallYellow",
               "tranmap": null,
@@ -498,7 +505,7 @@
           {
             "number": {
               "x": 288,
-              "y": 191,
+              "y": 23,
               "alignment": 2,
               "font": "SmallYellow",
               "tranmap": null,
@@ -513,7 +520,7 @@
           {
             "number": {
               "x": 314,
-              "y": 191,
+              "y": 23,
               "alignment": 2,
               "font": "SmallYellow",
               "tranmap": null,
@@ -532,7 +539,7 @@
           {
             "graphic": {
               "x": 239,
-              "y": 171,
+              "y": 3,
               "alignment": 0,
               "patch": "STKEYS0",
               "tranmap": null,
@@ -553,7 +560,7 @@
           {
             "graphic": {
               "x": 239,
-              "y": 171,
+              "y": 3,
               "alignment": 0,
               "patch": "STKEYS3",
               "tranmap": null,
@@ -574,7 +581,7 @@
           {
             "graphic": {
               "x": 239,
-              "y": 171,
+              "y": 3,
               "alignment": 0,
               "patch": "STKEYS3",
               "tranmap": null,
@@ -599,7 +606,7 @@
           {
             "graphic": {
               "x": 239,
-              "y": 171,
+              "y": 3,
               "alignment": 0,
               "patch": "STKEYS6",
               "tranmap": null,
@@ -624,7 +631,7 @@
           {
             "graphic": {
               "x": 239,
-              "y": 181,
+              "y": 13,
               "alignment": 0,
               "patch": "STKEYS1",
               "tranmap": null,
@@ -645,7 +652,7 @@
           {
             "graphic": {
               "x": 239,
-              "y": 181,
+              "y": 13,
               "alignment": 0,
               "patch": "STKEYS4",
               "tranmap": null,
@@ -666,7 +673,7 @@
           {
             "graphic": {
               "x": 239,
-              "y": 181,
+              "y": 13,
               "alignment": 0,
               "patch": "STKEYS4",
               "tranmap": null,
@@ -691,7 +698,7 @@
           {
             "graphic": {
               "x": 239,
-              "y": 181,
+              "y": 13,
               "alignment": 0,
               "patch": "STKEYS7",
               "tranmap": null,
@@ -716,7 +723,7 @@
           {
             "graphic": {
               "x": 239,
-              "y": 191,
+              "y": 23,
               "alignment": 0,
               "patch": "STKEYS2",
               "tranmap": null,
@@ -737,7 +744,7 @@
           {
             "graphic": {
               "x": 239,
-              "y": 191,
+              "y": 23,
               "alignment": 0,
               "patch": "STKEYS5",
               "tranmap": null,
@@ -758,7 +765,7 @@
           {
             "graphic": {
               "x": 239,
-              "y": 191,
+              "y": 23,
               "alignment": 0,
               "patch": "STKEYS5",
               "tranmap": null,
@@ -783,7 +790,7 @@
           {
             "graphic": {
               "x": 239,
-              "y": 191,
+              "y": 23,
               "alignment": 0,
               "patch": "STKEYS8",
               "tranmap": null,
@@ -815,7 +822,7 @@
             "component": {
               "x": 2,
               "y": 160,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": null,
               "type": "stat_totals",
@@ -833,7 +840,7 @@
             "component": {
               "x": 2,
               "y": 152,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": null,
               "type": "time",
@@ -845,7 +852,7 @@
                 },
                 {
                   "condition": 20,
-                  "param": 0
+                  "param_string": "stat_totals"
                 }
               ],
               "children": null
@@ -855,7 +862,7 @@
             "component": {
               "x": 2,
               "y": 160,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": null,
               "type": "time",
@@ -867,7 +874,7 @@
                 },
                 {
                   "condition": 21,
-                  "param": 0
+                  "param_string": "stat_totals"
                 }
               ],
               "children": null
@@ -877,7 +884,7 @@
             "component": {
               "x": 2,
               "y": 8,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": null,
               "type": "stat_totals",
@@ -896,7 +903,7 @@
             "component": {
               "x": 2,
               "y": 40,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": null,
               "type": "time",
@@ -914,7 +921,7 @@
             "component": {
               "x": 318,
               "y": 8,
-              "alignment": 34,
+              "alignment": 130,
               "tranmap": null,
               "translation": null,
               "type": "coordinates",
@@ -932,7 +939,7 @@
             "component": {
               "x": 256,
               "y": 8,
-              "alignment": 32,
+              "alignment": 128,
               "tranmap": null,
               "translation": null,
               "type": "coordinates",
@@ -951,7 +958,7 @@
             "component": {
               "x": 318,
               "y": 0,
-              "alignment": 34,
+              "alignment": 130,
               "tranmap": null,
               "translation": null,
               "type": "fps_counter",
@@ -977,7 +984,7 @@
             "component": {
               "x": 318,
               "y": 167,
-              "alignment": 42,
+              "alignment": 138,
               "tranmap": null,
               "translation": null,
               "type": "command_history",
@@ -1003,7 +1010,7 @@
             "component": {
               "x": 0,
               "y": 0,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": null,
               "type": "message",
@@ -1031,7 +1038,7 @@
             "component": {
               "x": 0,
               "y": 8,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": "CRGOLD",
               "type": "chat",
@@ -1044,7 +1051,7 @@
             "component": {
               "x": 0,
               "y": 160,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": "CRGOLD",
               "type": "level_title",
@@ -1094,7 +1101,7 @@
             "component": {
               "x": 2,
               "y": 192,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": null,
               "type": "stat_totals",
@@ -1112,7 +1119,7 @@
             "component": {
               "x": 2,
               "y": 184,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": null,
               "type": "time",
@@ -1124,7 +1131,7 @@
                 },
                 {
                   "condition": 20,
-                  "param": 0
+                  "param_string": "stat_totals"
                 }
               ],
               "children": null
@@ -1134,7 +1141,7 @@
             "component": {
               "x": 2,
               "y": 192,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": null,
               "type": "time",
@@ -1146,7 +1153,7 @@
                 },
                 {
                   "condition": 21,
-                  "param": 0
+                  "param_string": "stat_totals"
                 }
               ],
               "children": null
@@ -1156,7 +1163,7 @@
             "component": {
               "x": 2,
               "y": 8,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": null,
               "type": "stat_totals",
@@ -1175,7 +1182,7 @@
             "component": {
               "x": 2,
               "y": 40,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": null,
               "type": "time",
@@ -1193,7 +1200,7 @@
             "component": {
               "x": 318,
               "y": 8,
-              "alignment": 34,
+              "alignment": 130,
               "tranmap": null,
               "translation": null,
               "type": "coordinates",
@@ -1211,7 +1218,7 @@
             "component": {
               "x": 256,
               "y": 8,
-              "alignment": 32,
+              "alignment": 128,
               "tranmap": null,
               "translation": null,
               "type": "coordinates",
@@ -1230,7 +1237,7 @@
             "component": {
               "x": 318,
               "y": 0,
-              "alignment": 34,
+              "alignment": 130,
               "tranmap": null,
               "translation": null,
               "type": "fps_counter",
@@ -1256,7 +1263,7 @@
             "component": {
               "x": 318,
               "y": 200,
-              "alignment": 42,
+              "alignment": 138,
               "tranmap": null,
               "translation": null,
               "type": "command_history",
@@ -1282,7 +1289,7 @@
             "component": {
               "x": 0,
               "y": 0,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": null,
               "type": "message",
@@ -1310,7 +1317,7 @@
             "component": {
               "x": 0,
               "y": 8,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": "CRGOLD",
               "type": "chat",
@@ -1323,7 +1330,7 @@
             "component": {
               "x": 0,
               "y": 192,
-              "alignment": 16,
+              "alignment": 64,
               "tranmap": null,
               "translation": "CRGOLD",
               "type": "level_title",
