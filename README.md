@@ -45,7 +45,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 Available variants:<br><br>
 
 **1) Status Bar Plus**<br>
-Like the vanilla status bar, but with transparency (based on the *tran_filter_pct* setting in woof.cfg)! As a bonus, you'll find indicators for Chainsaw/Super Shotgun (ARMS: "8" and "9") and Berserker
+Like the vanilla status bar, but with Transparency. As a bonus, you'll find indicators for Chainsaw/Super Shotgun (ARMS: "8" and "9") and Berserker
 mode (ARMS: "1"). There's also a small frame around the mugshot telling you which armor type is used (green: 33%, blue: 50%). Widescreen STBAR lumps are supported.<br>
 <img width="1917" height="328" alt="00_statusbar-plus" src="https://github.com/user-attachments/assets/2d7785e1-643f-40ad-8b29-dc4c7e0b9d69" />
 <br><br>
