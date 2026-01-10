@@ -34,13 +34,13 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 | HUD | Features | Indicators |  Score | Notes |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | +++++++ | 11 / 11 | All features/indicators |
-| Status Bar Plus | ++++ | ++++++ | 10 / 11 | No active ammo/weapon |
-| Eternity II<br>Boom II<br>DSDA I | +++ | +++++++ | 10 / 11 | No mugshot |
-| Crispy Plus | +++ | ++++++ | 9 / 11 | No mugshot; no active ammo/weapon |
-| Boom I/III<br>PrBoom+ | ++ | +++++++ | 9 / 11 | No mugshot; no ammo overview |
-| Status Bar (Vanilla)| ++++ | ++ | 6 / 11 | All features; backpack and god mode only |
-| Doom 64 | + | +++ | 4 / 11 | Vitals only; armor type and god mode only |
+| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10 / 10 | All features/indicators |
+| Status Bar Plus | ++++ | +++++ | 9 / 10 | No active ammo/weapon |
+| Eternity II<br>Boom II<br>DSDA I | +++ | ++++++ | 9 / 10 | No mugshot |
+| Crispy Plus | +++ | +++++ | 8 / 10 | No mugshot; no active ammo/weapon |
+| Boom I/III<br>PrBoom+ | ++ | ++++++ | 8 / 10 | No mugshot; no ammo overview |
+| Status Bar (Vanilla)| ++++ | ++ | 6 / 10 | All features; backpack and god mode only |
+| Doom 64 | + | ++ | 3 / 10 | Vitals only; armor type and god mode only |
 <br>
 Available variants:<br><br>
 
@@ -66,7 +66,7 @@ Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" targ
 **4) Doom 64**<br>
 Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Nothing besides the three centered vital stats plus indicators for armor type and god mode.<br>
 <img width="1917" height="328" alt="03_doom64" src="https://github.com/user-attachments/assets/189b7f19-debd-4d97-b2fa-0485d6afae88" />
-*Note: Alignment of Health, Armor and keys will adjust depending on layout type.*
+*Note: Alignment of Health, Armor and keys will adjust depending on whether "Hud Anchoring" is set to 4:3 or not.*
 <br><br>
 
 **5) ﻿Eternity**<br>
