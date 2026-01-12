@@ -20,23 +20,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Apply JSON compression to SBARDEF lumps
-        run: |
-          set -e
-          echo "Minifying sbardef.lmp files..."
+- name: Apply JSON compression to SBARDEF lumps
+  run: |
+    set -e
+    echo "Minifying sbardef.lmp files..."
 
-          find . -type f -name "sbardef.lmp" | while read f; do
-            echo "  → $f"
-            python3 - <<EOF
-            import json, pathlib
-            p = pathlib.Path("$f")
-            data = json.loads(p.read_text(encoding="utf-8"))
-            p.write_text(
-              json.dumps(data, separators=(",", ":")),
-              encoding="utf-8"
-            )
-          EOF
-          done
+    find . -type f -name "sbardef.lmp" | while read -r f; do
+      echo "  → $f"
+      python3 -c '
+import json
+from pathlib import Path
+p = Path("'"$f"'")
+data = json.loads(p.read_text(encoding="utf-8"))
+p.write_text(json.dumps(data, separators=(",", ":")), encoding="utf-8")
+'
+    done
 
       - name: Create sbardef_mod.pk3 files
         run: |
