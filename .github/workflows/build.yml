@@ -27,12 +27,15 @@ jobs:
           find . -type f -name "sbardef.lmp" | while read -r f; do
             echo "  → $f"
             python3 -c '
-import json
-from pathlib import Path
-p = Path("'"$f"'")
-data = json.loads(p.read_text(encoding="utf-8"))
-p.write_text(json.dumps(data, separators=(",", ":")), encoding="utf-8")
-'
+              import json
+              from pathlib import Path
+              p = Path("'"$f"'")
+              data = json.loads(p.read_text(encoding="utf-8"))
+              p.write_text(
+                  json.dumps(data, separators=(",", ":")),
+                  encoding="utf-8"
+              )
+            '
           done
 
       - name: Create sbardef_mod.pk3 files
