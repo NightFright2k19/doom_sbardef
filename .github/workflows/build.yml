@@ -3,7 +3,6 @@ name: Build SBARDEF HUD PK3s (Autobuild)
 on:
   push:
     branches: [ "main" ]
-
   workflow_dispatch:
 
 permissions:
@@ -20,21 +19,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-- name: Apply JSON compression to SBARDEF lumps
-  run: |
-    set -e
-    echo "Minifying sbardef.lmp files..."
+      - name: Apply JSON compression to SBARDEF lumps
+        run: |
+          set -e
+          echo "Minifying sbardef.lmp files..."
 
-    find . -type f -name "sbardef.lmp" | while read -r f; do
-      echo "  → $f"
-      python3 -c '
+          find . -type f -name "sbardef.lmp" | while read -r f; do
+            echo "  → $f"
+            python3 -c '
 import json
 from pathlib import Path
 p = Path("'"$f"'")
 data = json.loads(p.read_text(encoding="utf-8"))
 p.write_text(json.dumps(data, separators=(",", ":")), encoding="utf-8")
 '
-    done
+          done
 
       - name: Create sbardef_mod.pk3 files
         run: |
@@ -70,9 +69,7 @@ p.write_text(json.dumps(data, separators=(",", ":")), encoding="utf-8")
           cp -r autoload/chex3v.wad package/autoload/
           cp -r autoload/id1.wad package/autoload/
 
-          # Create deterministic content hash
           HASH=$(find package -type f -print0 | sort -z | xargs -0 sha256sum | sha256sum | cut -d' ' -f1)
-
           echo "hash=$HASH" >> $GITHUB_OUTPUT
 
       - name: Check if content changed
@@ -134,8 +131,6 @@ p.write_text(json.dumps(data, separators=(",", ":")), encoding="utf-8")
                 release.tag_name.startsWith("autobuild-") &&
                 release.tag_name !== currentTag
               ) {
-                console.log(`Deleting release ${release.tag_name}`);
-
                 await github.rest.repos.deleteRelease({
                   owner,
                   repo,
