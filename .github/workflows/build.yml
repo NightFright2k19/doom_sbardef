@@ -3,6 +3,7 @@ name: Build SBARDEF HUD PK3s (Autobuild)
 on:
   push:
     branches: [ "main" ]
+
   workflow_dispatch:
 
 permissions:
@@ -19,23 +20,21 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Apply JSON compression to SBARDEF lumps
+      - name: Minify sbardef.lmp JSON files
         run: |
           set -e
+
           echo "Minifying sbardef.lmp files..."
 
-          find . -type f -name "sbardef.lmp" | while read -r f; do
-            echo "  → $f"
-            python3 -c '
-              import json
-              from pathlib import Path
-              p = Path("'"$f"'")
-              data = json.loads(p.read_text(encoding="utf-8"))
-              p.write_text(
-                  json.dumps(data, separators=(",", ":")),
-                  encoding="utf-8"
-              )
-            '
+          find autoload -name "sbardef.lmp" -type f | while read -r file; do
+            echo "  -> $file"
+            tmpfile="$(mktemp)"
+
+            # JSON-Minify (Whitespace entfernen, Struktur beibehalten)
+            jq -c . "$file" > "$tmpfile"
+
+            # Originaldatei ersetzen
+            mv "$tmpfile" "$file"
           done
 
       - name: Create sbardef_mod.pk3 files
@@ -72,8 +71,9 @@ jobs:
           cp -r autoload/chex3v.wad package/autoload/
           cp -r autoload/id1.wad package/autoload/
 
+          # Deterministischer Content-Hash
           HASH=$(find package -type f -print0 | sort -z | xargs -0 sha256sum | sha256sum | cut -d' ' -f1)
-          echo "hash=$HASH" >> $GITHUB_OUTPUT
+          echo "hash=$HASH" >> "$GITHUB_OUTPUT"
 
       - name: Check if content changed
         id: check
@@ -99,8 +99,8 @@ jobs:
           cd package
           zip -r "$ZIP_NAME" autoload
 
-          echo "ZIP_NAME=$ZIP_NAME" >> $GITHUB_ENV
-          echo "TAG_NAME=$TAG_NAME" >> $GITHUB_ENV
+          echo "ZIP_NAME=$ZIP_NAME" >> "$GITHUB_ENV"
+          echo "TAG_NAME=$TAG_NAME" >> "$GITHUB_ENV"
 
       - name: Create GitHub pre-release
         uses: softprops/action-gh-release@v2
@@ -134,6 +134,8 @@ jobs:
                 release.tag_name.startsWith("autobuild-") &&
                 release.tag_name !== currentTag
               ) {
+                console.log(`Deleting release ${release.tag_name}`);
+
                 await github.rest.repos.deleteRelease({
                   owner,
                   repo,
