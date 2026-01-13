@@ -30,10 +30,8 @@ jobs:
             echo "  -> $file"
             tmpfile="$(mktemp)"
 
-            # JSON-Minify (Whitespace entfernen, Struktur beibehalten)
             jq -c . "$file" > "$tmpfile"
 
-            # Originaldatei ersetzen
             mv "$tmpfile" "$file"
           done
 
@@ -71,7 +69,6 @@ jobs:
           cp -r autoload/chex3v.wad package/autoload/
           cp -r autoload/id1.wad package/autoload/
 
-          # Deterministischer Content-Hash
           HASH=$(find package -type f -print0 | sort -z | xargs -0 sha256sum | sha256sum | cut -d' ' -f1)
           echo "hash=$HASH" >> "$GITHUB_OUTPUT"
 
