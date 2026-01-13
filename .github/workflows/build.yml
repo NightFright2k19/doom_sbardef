@@ -3,6 +3,10 @@ name: Build SBARDEF HUD PK3s (Autobuild)
 on:
   push:
     branches: [ "main" ]
+    paths-ignore:
+      - 'README.md'
+      - 'docs/sbardef/**'
+      - 'extras/**'
 
   workflow_dispatch:
 
@@ -71,19 +75,6 @@ jobs:
 
           HASH=$(find package -type f -print0 | sort -z | xargs -0 sha256sum | sha256sum | cut -d' ' -f1)
           echo "hash=$HASH" >> "$GITHUB_OUTPUT"
-
-      - name: Check if content changed
-        id: check
-        uses: actions/cache@v4
-        with:
-          path: .package_hash
-          key: sbardef-${{ steps.package.outputs.hash }}
-
-      - name: Stop if package is unchanged
-        if: steps.check.outputs.cache-hit == 'true'
-        run: |
-          echo "Package contents unchanged. Skipping release."
-          exit 0
 
       - name: Build final ZIP
         run: |
