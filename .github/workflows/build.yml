@@ -5,7 +5,8 @@ on:
     branches: [ "main" ]
     paths-ignore:
       - 'README.md'
-      - 'docs/sbardef/**'
+      - '.github/**'
+      - 'docs/**'
       - 'extras/**'
 
   workflow_dispatch:
