@@ -28,7 +28,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - **God mode**: Mugshot and/or recolored health/armor numbers (gold). "Health" label in Crispy/Doom 64 switches to "God". In Eternity II and PrBoom+ II, icons turn golden, too.<br>
 - **Active ammo/weapon**: Currently selected weapon and fitting ammo. Orange numbers in the Arms/WEA/WPN panel and/or ammo overview.<br>
 - **Powerup timers (SBARDEF v1.2.0 only)**: Shows bars for remaining time of Light Amplification Visor (LIT), Invisibility Sphere (VIS), Radiation Suit (RAD) and Invulnerability (GOD) in the top right corner.<br>
-- **Kills/Secrets progress bars (SBARDEF v1.2.0 only)**: Alternate way of showing K/S stats instead of the K/I/S widget. Stats and time widgets must be turned off. Only available in Boom II.
+- **Kills/Secrets progress bars (SBARDEF v1.2.0 only)**: Alternate way of showing K/S stats instead of the K/I/S widget. Level stats widget must be set to "Off" or "Automap". Only available in Boom II.
 <br><br>
 
 **Comparison Features / Indicators:**<br>
@@ -83,7 +83,7 @@ The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.pn
 <img width="1917" height="328" alt="07_boom-comp" src="https://github.com/user-attachments/assets/7481954f-1df3-482e-9722-d3c92fcc2e26" />
    **I. Compact**: Everything grouped on the left side of the screen.<br><br>
 <img width="1917" height="328" alt="08_boom-remix" src="https://github.com/user-attachments/assets/f00fa7d8-2ea7-4800-96a4-97d61c133494" />
-   **II. Remix**: Merges Compact features with ammo overview from Nightdive Remix. More meters you won't find anywhere!<br><br>
+   **II. Remix**: Merges Compact features with ammo overview from Nightdive Remix. Has an alternate display mode: Arms widget (WEA) will be replaced with two progress bars for secrets and kills if level stats widget is set to "Off" or "Automap".<br><br>
 <img width="1917" height="328" alt="09_boom-dist" src="https://github.com/user-attachments/assets/f986e76f-55b7-4ced-bc3a-baa0da67db5d" />
    **III. Distributed**: Weapon and ammo-related info move to the right side, otherwise the same as Compact.
 <br><br>
