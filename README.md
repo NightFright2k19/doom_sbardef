@@ -22,7 +22,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy, Nightdive and Doom 64. Otherwise, armor number is usually recolored (green: 33%, blue: 50%). Status Bar Plus adds a small frame around the mugshot for this purpose. In Eternity II and PrBoom+, the armor icon changes instead.<br>
-- **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Nightdive II, Eternity, DSDA I/II).<br>
+- **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Nightdive II, Doom 64 II, Eternity, DSDA I/II).<br>
 - **Chainsaw/Super Shotgun**: Not shown on the vanilla status bar, these weapons are listed in the Arms display in more modern ports, usually as "8" and "9".
 - **Berserk mode**: Powerup which increases punching power with Fists. Usually shown as a fully lit "1" in the Arms display. The green cross icon in Eternity II turns red. In PrBoom+ I, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
 - **God mode**: Mugshot and/or recolored health/armor numbers (gold). "Health" label in Crispy/Doom 64 switches to "God". In Eternity II and PrBoom+ II, icons turn golden, too.<br>
@@ -41,7 +41,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | Crispy Plus | +++ | +++++ | 8 / 10 | No mugshot; no active ammo/weapon |
 | Boom I/III<br>PrBoom+ | ++ | ++++++ | 8 / 10 | No mugshot; no ammo overview |
 | Status Bar (Vanilla)| ++++ | ++ | 6 / 10 | All features; backpack and god mode only |
-| Doom 64 II | ++ | ++ | 4 / 10 | Vitals and ammo overview only; armor type and god mode only |
+| Doom 64 II | ++ | +++ | 5 / 10 | Vitals and ammo overview only; armor type, backpack and god mode only |
 | Doom 64 I | + | ++ | 3 / 10 | Vitals only; armor type and god mode only |
 <br>
 Available variants:<br><br>
@@ -70,7 +70,7 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 <img width="1917" height="328" alt="03_doom64" src="https://github.com/user-attachments/assets/189b7f19-debd-4d97-b2fa-0485d6afae88" />
   **I. Default**: Nothing besides the three centered vital stats plus indicators for armor type and god mode. *Note: Alignment of Health, Armor and keys will adjust depending on whether "Hud Anchoring" is set to 4:3 or not.*<br><br>
 <img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/080d464f-00a8-4c23-9df3-b186b908e5dc" />
-  **II. Wide**: Moves vitals to the left edge of the screen to keep weapon view unobstructed. Keys are shifted to the right edge. Ammo overview is additionally available.
+  **II. Wide**: Moves vitals to the left edge of the screen to keep weapon view unobstructed. Keys are shifted to the right edge. Ammo overview (with backpack indicator) is additionally available.
 <br><br>
 
 **5) ﻿Eternity**<br>
