@@ -41,7 +41,8 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | Crispy Plus | +++ | +++++ | 8 / 10 | No mugshot; no active ammo/weapon |
 | Boom I/III<br>PrBoom+ | ++ | ++++++ | 8 / 10 | No mugshot; no ammo overview |
 | Status Bar (Vanilla)| ++++ | ++ | 6 / 10 | All features; backpack and god mode only |
-| Doom 64 | + | ++ | 3 / 10 | Vitals only; armor type and god mode only |
+| Doom 64 II | ++ | ++ | 4 / 10 | Vitals and ammo overview only; armor type and god mode only |
+| Doom 64 I | + | ++ | 3 / 10 | Vitals only; armor type and god mode only |
 <br>
 Available variants:<br><br>
 
@@ -65,9 +66,11 @@ Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" targ
 <br><br>
 
 **4) Doom 64**<br>
-Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Nothing besides the three centered vital stats plus indicators for armor type and god mode.<br>
+Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>.<br>
 <img width="1917" height="328" alt="03_doom64" src="https://github.com/user-attachments/assets/189b7f19-debd-4d97-b2fa-0485d6afae88" />
-*Note: Alignment of Health, Armor and keys will adjust depending on whether "Hud Anchoring" is set to 4:3 or not.*
+  **I. Default**: Nothing besides the three centered vital stats plus indicators for armor type and god mode. *Note: Alignment of Health, Armor and keys will adjust depending on whether "Hud Anchoring" is set to 4:3 or not.*<br><br>
+<img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/080d464f-00a8-4c23-9df3-b186b908e5dc" />
+  **II. Wide**: Moves vitals to the left edge of the screen to keep weapon view unobstructed. Keys are shifted to the right edge. Ammo overview is additionally available.
 <br><br>
 
 **5) ﻿Eternity**<br>
