@@ -66,9 +66,9 @@ Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" targ
 <br><br>
 
 **4) Doom 64**<br>
-Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>.<br>
+Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Alignment of elements will adjust depending on "Hud Anchoring" setting.<br>
 <img width="1917" height="328" alt="03_doom64" src="https://github.com/user-attachments/assets/189b7f19-debd-4d97-b2fa-0485d6afae88" />
-  **I. Default**: Nothing besides the three centered vital stats plus indicators for armor type and god mode. *Note: Alignment of Health, Armor and keys will adjust depending on whether "Hud Anchoring" is set to 4:3 or not.*<br><br>
+  **I. Default**: Nothing besides the three centered vital stats plus indicators for armor type and god mode. <br><br>
 <img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/5d08bac7-f476-4c9a-88f1-1becff991ce6" />
   **II. Wide**: Moves vitals to the left edge of the screen to keep weapon view unobstructed. Keys are shifted to the right edge. Ammo overview (with backpack indicator) is additionally available.
 <br><br>
