@@ -41,7 +41,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | Crispy Plus | +++ | +++++ | 8 / 10 | No mugshot; no active ammo/weapon |
 | Boom I/III<br>PrBoom+ | ++ | ++++++ | 8 / 10 | No mugshot; no ammo overview |
 | Status Bar (Vanilla)| ++++ | ++ | 6 / 10 | All features; backpack and god mode only |
-| Doom 64 II | ++ | +++ | 5 / 10 | Vitals and ammo overview only; armor type, backpack and god mode only |
+| Doom 64 II | ++ | ++++ | 6 / 10 | Vitals and ammo overview only; armor type, backpack, god mode and active ammo only |
 | Doom 64 I | + | ++ | 3 / 10 | Vitals only; armor type and god mode only |
 <br>
 Available variants:<br><br>
