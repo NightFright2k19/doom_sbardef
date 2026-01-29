@@ -16342,6 +16342,34 @@
                             {
                               "condition": 4,
                               "param": 0
+                            },
+                            {
+                              "condition": 39,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 218,
+                          "y": 0,
+                          "alignment": 129,
+                          "font": "BigRed",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 4,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 4,
+                              "param": 0
+                            },
+                            {
+                              "condition": 39,
+                              "param": 0
                             }
                           ],
                           "children": null
@@ -16470,6 +16498,31 @@
                     "conditions": [
                       {
                         "condition": 4,
+                        "param": 0
+                      },
+                      {
+                        "condition": 39,
+                        "param": 1
+                      }
+                    ],
+                    "children": null
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 233,
+                    "y": 191,
+                    "alignment": 128,
+                    "patch": "TAG_AMMO",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 4,
+                        "param": 0
+                      },
+                      {
+                        "condition": 39,
                         "param": 0
                       }
                     ],
