@@ -70,6 +70,7 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 <img width="1917" height="328" alt="04_doom64" src="https://github.com/user-attachments/assets/bff41121-b843-4734-8d73-f19185e08857" />
   **I. Default**: Nothing besides the three centered vital stats plus indicators for armor type and god mode. <br><br>
 <img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/4594ed40-3acc-48f6-82d9-3ca1068797e3" />
+  **II. Wide**: Vitals grouped on the left side, keeping weapon view unobstructed. Keys shift to the right, enhanced by ammo overview with backpack indicator.
 <br><br>
 
 **5) ﻿Eternity**<br>
