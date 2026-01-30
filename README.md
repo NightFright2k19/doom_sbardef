@@ -54,12 +54,12 @@ mode (ARMS: "1"). There's also a small frame around the mugshot telling you whic
 
 **2) Crispy Plus**<br>
 <a href="https://github.com/fabiangreffrath/crispy-doom" target= "_blank">Crispy Doom</a> fullscreen HUD with labels. With additional indicators for Berserk, Chainsaw/Super Shotgun, god mode and armor type. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)<br>
-<img width="1917" height="328" alt="01_crispy-plus" src="https://github.com/user-attachments/assets/a5979915-e444-4ac5-bd8d-1fd4b2a704e2" />
+<img width="1917" height="328" alt="01_crispy-plus" src="https://github.com/user-attachments/assets/825a2cf9-d2c4-4c9d-aeb3-3a07aafc55ba" />
 <br><br>
 
 **3) Nightdive**<br>
 Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Armor and ammo icons have been removed. In return, ammo overview, arms display and armor type indicator were added.<br>
-<img width="1917" height="328" alt="02_nightdive-labels" src="https://github.com/user-attachments/assets/d9cd2a36-8ac2-473d-a9a7-ebc6e02d32c9" />
+<img width="1917" height="328" alt="02_nightdive-labels" src="https://github.com/user-attachments/assets/52afaa63-4b2a-4ef0-a4f6-93321d98248c" />
    **I. Labels**: Vitals use the STTNUM font. ARMS display arranged as a square, ammo overview minimized.<br><br>
 <img width="1917" height="328" alt="03_nightdive-remix" src="https://github.com/user-attachments/assets/fdda6089-4d28-49d7-9266-766feb60b965" />
    **II. Remix**: Ammo overview taken from the DSDA HUD group (with ammo type meters); ARMS widget is a single line. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)
@@ -67,10 +67,9 @@ Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" targ
 
 **4) Doom 64**<br>
 Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Alignment of elements will adjust depending on "Hud Anchoring" setting.<br>
-<img width="1917" height="328" alt="03_doom64" src="https://github.com/user-attachments/assets/189b7f19-debd-4d97-b2fa-0485d6afae88" />
+<img width="1917" height="328" alt="04_doom64" src="https://github.com/user-attachments/assets/bff41121-b843-4734-8d73-f19185e08857" />
   **I. Default**: Nothing besides the three centered vital stats plus indicators for armor type and god mode. <br><br>
-<img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/5d08bac7-f476-4c9a-88f1-1becff991ce6" />
-  **II. Wide**: Moves vitals to the left edge of the screen to keep weapon view unobstructed. Keys are shifted to the right edge. Ammo overview (with backpack indicator) is additionally available.
+<img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/4594ed40-3acc-48f6-82d9-3ca1068797e3" />
 <br><br>
 
 **5) ﻿Eternity**<br>
