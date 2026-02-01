@@ -13905,32 +13905,20 @@
                 },
                 {
                   "graphic": {
-                    "x": 247,
+                    "x": 259,
                     "y": 174,
                     "alignment": 1,
-                    "patch": "TAG_ARM1",
+                    "patch": "TAG_ARM3",
                     "tranmap": null,
                     "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 28,
-                        "param": 1
-                      }
-                    ],
-                    "children": null,
-                    "crop": {
-                      "top": 0,
-                      "left": 0,
-                      "width": 25,
-                      "height": 0,
-                      "center": true
-                    }
+                    "conditions": null,
+                    "children": null
                   }
                 },
                 {
                   "canvas": {
-                    "x": 260,
-                    "y": 174,
+                    "x": 243,
+                    "y": 175,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -13946,24 +13934,19 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 1,
-                          "patch": "TAG_ARM1",
+                          "patch": "ARM_DOT",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 15
-                            }
-                          ],
+                          "conditions": null,
                           "children": null
                         }
                       },
                       {
                         "graphic": {
-                          "x": 0,
+                          "x": 33,
                           "y": 0,
                           "alignment": 1,
-                          "patch": "TAG_ARM2",
+                          "patch": "ARM_DOT",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -13977,8 +13960,7 @@
                       }
                     ]
                   }
-                },
-                {
+                },                {
                   "number": {
                     "x": 60,
                     "y": 182,
@@ -15634,34 +15616,22 @@
                     "children": null
                   }
                 },
-                {
+              {
                   "graphic": {
-                    "x": 61,
+                    "x": 56,
                     "y": 191,
                     "alignment": 64,
-                    "patch": "TAG_ARM1",
+                    "patch": "TAG_ARM3",
                     "tranmap": null,
                     "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 28,
-                        "param": 1
-                      }
-                    ],
-                    "children": null,
-                    "crop": {
-                      "top": 0,
-                      "left": 0,
-                      "width": 25,
-                      "height": 0,
-                      "center": true
-                    }
+                    "conditions": null,
+                    "children": null
                   }
                 },
                 {
                   "canvas": {
-                    "x": 53,
-                    "y": 191,
+                    "x": 56,
+                    "y": 192,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -15677,24 +15647,19 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 64,
-                          "patch": "TAG_ARM1",
+                          "patch": "ARM_DOT",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 15
-                            }
-                          ],
+                          "conditions": null,
                           "children": null
                         }
                       },
                       {
                         "graphic": {
-                          "x": 0,
+                          "x": 33,
                           "y": 0,
                           "alignment": 64,
-                          "patch": "TAG_ARM2",
+                          "patch": "ARM_DOT",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
