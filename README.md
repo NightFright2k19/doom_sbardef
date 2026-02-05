@@ -22,7 +22,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy and Nightdive. Doom 64 utilizes brackets (no bracket: 33%, bracket: 50%). Otherwise, armor number is usually recolored (green: 33%, blue: 50%). Status Bar Plus adds a small frame around the mugshot for this purpose. In Eternity II and PrBoom+, the armor icon changes instead.<br>
-- **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Nightdive II, Eternity, DSDA I/II).<br>
+- **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Nightdive II, Eternity, DSDA I/II). In Doom 64 II, the "Ammo" label lights up.<br>
 - **Chainsaw/Super Shotgun**: Not shown on the vanilla status bar, these weapons are listed in the Arms display in more modern ports, usually as "8" and "9".
 - **Berserk mode**: Powerup which increases punching power with Fists. Usually shown as a fully lit "1" in the Arms display. The green cross icon in Eternity II turns red. In PrBoom+ I, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
 - **God mode**: Mugshot and/or recolored health/armor numbers (gold). "Health" label in Crispy/Doom 64 switches to "God". In Eternity II and PrBoom+ II, icons turn golden, too.<br>
@@ -33,16 +33,16 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **Comparison Features / Indicators:**<br>
 
-| HUD | Features | Indicators |  Score | Notes |
-| ----------- | ----------- | ----------- | ----------- | ----------- |
-| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10 / 10 | All features/indicators |
-| Status Bar Plus | ++++ | +++++ | 9 / 10 | No active ammo/weapon |
-| Eternity II<br>Boom II<br>DSDA I | +++ | ++++++ | 9 / 10 | No mugshot |
-| Crispy Plus | +++ | +++++ | 8 / 10 | No mugshot; no active ammo/weapon |
-| Boom I/III<br>PrBoom+ | ++ | ++++++ | 8 / 10 | No mugshot; no ammo overview |
-| Status Bar (Vanilla)| ++++ | ++ | 6 / 10 | All features; backpack and god mode only |
-| Doom 64 II | ++ | ++++ | 4 / 10 | Vitals and ammo overview only; armor type and god mode only |
-| Doom 64 I | + | ++ | 3 / 10 | Vitals only; armor type and god mode only |
+| HUD | Features | Indicators |  Score | Features | Indicators |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10 / 10 | All | All |
+| Status Bar Plus | ++++ | +++++ | 9 / 10 | All | No active ammo/weapon |
+| Eternity II<br>Boom II<br>DSDA I | +++ | ++++++ | 9 / 10 | No mugshot | All |
+| Crispy Plus | +++ | +++++ | 8 / 10 | No mugshot | No active ammo/weapon |
+| Boom I/III<br>PrBoom+ | ++ | ++++++ | 8 / 10 | Vitals and arms only | All |
+| Status Bar (Vanilla)| ++++ | ++ | 6 / 10 | All | Backpack and god mode only |
+| Doom 64 II | ++ | ++++ | 5 / 10 | Vitals and ammo overview only | Armor type, backpack and god mode only |
+| Doom 64 I | + | ++ | 3 / 10 | Vitals only | Armor type and god mode only |
 <br>
 Available variants:<br><br>
 
@@ -70,7 +70,7 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 <img width="1917" height="328" alt="04_doom64" src="https://github.com/user-attachments/assets/a52c1d6f-b80e-4f46-a348-47547db289d4" />
   **I. Default**: Nothing besides the three centered vital stats plus indicators for armor type and god mode. <br><br>
 <img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/08a69569-c88e-4cc7-ad4b-cacf4af56d69" />
-  **II. Wide**: Vitals grouped on the left side, keeping weapon view unobstructed. Keys shift to the right, enhanced by a simplified ammo overview.
+  **II. Wide**: Vitals grouped on the left side, keeping weapon view unobstructed. Keys shift to the right, enhanced by a backpack indicator (lit "AMMO" label) and a simplified ammo overview.
 <br><br>
 
 **5) ﻿Eternity**<br>

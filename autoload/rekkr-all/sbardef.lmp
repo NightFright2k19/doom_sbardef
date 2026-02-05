@@ -15448,11 +15448,10 @@
                   }
                 },
                 {
-                  "graphic": {
+                  "canvas": {
                     "x": 123,
                     "y": 191,
-                    "alignment": 65,
-                    "patch": "TAG_AMMO",
+                    "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -15465,15 +15464,49 @@
                         "param": 1
                       }
                     ],
-                    "children": null
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 65,
+                          "patch": "TAG_AMM0",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 65,
+                          "patch": "TAG_AMMO",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
                   }
                 },
                 {
-                  "graphic": {
+                  "canvas": {
                     "x": 243,
                     "y": 191,
-                    "alignment": 129,
-                    "patch": "TAG_AMMO",
+                    "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -15486,7 +15519,42 @@
                         "param": 0
                       }
                     ],
-                    "children": null
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 129,
+                          "patch": "TAG_AMM0",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 129,
+                          "patch": "TAG_AMMO",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
                   }
                 },
                 {
