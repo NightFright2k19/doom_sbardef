@@ -33,16 +33,16 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **Comparison Features / Indicators:**<br>
 
-| HUD | Features | Indicators |  Score | Features | Indicators |
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10 / 10 | All | All |
-| Status Bar Plus | ++++ | +++++ | 9 / 10 | All | No active Ammo/Weapon |
-| Eternity II<br>Boom II<br>DSDA I | +++ | ++++++ | 9 / 10 | No Mugshot | All |
-| Crispy Plus | +++ | +++++ | 8 / 10 | No Mugshot | No active Ammo/Weapon |
-| Boom I/III<br>PrBoom+ | ++ | ++++++ | 8 / 10 | Vitals, Arms | All |
-| Status Bar (Vanilla)| ++++ | ++ | 6 / 10 | All | Backpack, God Mode |
-| Doom 64 II | ++ | +++ | 5 / 10 | Vitals, Ammo overview | Armor type, Backpack, God mode |
-| Doom 64 I | + | ++ | 3 / 10 | Vitals | Armor type, God mode |
+| HUD | Features | Indicators |  Score | Details 
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10 / 10 | Features: All<br>Indicators: All |
+| Status Bar Plus | ++++ | +++++ | 9 / 10 | Features: All<br>Indicators: No active Ammo/Weapon |
+| Eternity II<br>Boom II<br>DSDA I | +++ | ++++++ | 9 / 10 | Features: No Mugshot<br>Indicators: All |
+| Crispy Plus | +++ | +++++ | 8 / 10 | Features: No Mugshot<br>Indicators: No active Ammo/Weapon |
+| Boom I/III<br>PrBoom+ | ++ | ++++++ | 8 / 10 | Features: Vitals, Arms<br>Indicators: All |
+| Status Bar (Vanilla)| ++++ | ++ | 6 / 10 | Features: All<br>Indicators: Backpack, God Mode |
+| Doom 64 II | ++ | +++ | 5 / 10 | Features: Vitals, Ammo overview<br>Indicators: Armor type, Backpack, God mode |
+| Doom 64 I | + | ++ | 3 / 10 | Features: Vitals<br>Indicators: Armor type, God mode |
 <br>
 Available variants:<br><br>
 
