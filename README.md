@@ -21,7 +21,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA III, otherwise 1-9. Either arranged as a square (Status Bar Plus, Crispy, Nightdive I) or a single line (Nightdive II, Eternity, Boom, DSDA, PrBoom+). DSDA II splits the display into two slot-grouped panels (1-2-3-8-9 / 4-5-6-7). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA III indicates Chainsaw through a lit "1" in slot 1 and possession of both shotguns with a fully lit "3".<br><br>
 
 **Indicators:**
-- **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy and Nightdive. Doom 64 utilizes brackets (no bracket: 33%, bracket: 50%). Otherwise, armor number is usually recolored (green: 33%, blue: 50%). Status Bar Plus adds a small frame around the mugshot for this purpose. In Eternity II and PrBoom+, the armor icon changes instead.<br>
+- **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy and Nightdive. Doom 64 I/III utilizes brackets (no bracket: 33%, bracket: 50%). Otherwise, armor number is usually recolored (green: 33%, blue: 50%). Status Bar Plus adds a small frame around the mugshot for this purpose. In Eternity II and PrBoom+, the armor icon changes instead.<br>
 - **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Nightdive II, Doom 64 II, Eternity, DSDA I/II). In Doom 64 III, the "Ammo" label lights up.<br>
 - **Chainsaw/Super Shotgun**: Not shown on the vanilla status bar, these weapons are listed in the Arms display in more modern ports, usually as "8" and "9".
 - **Berserk mode**: Powerup which increases punching power with Fists. Usually shown as a fully lit "1" in the Arms display. The green cross icon in Eternity II turns red. In PrBoom+ I, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
@@ -70,7 +70,7 @@ Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" targ
 Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Alignment of elements will adjust depending on "Hud Anchoring" setting.<br>
 <img width="1917" height="328" alt="04_doom64" src="https://github.com/user-attachments/assets/a52c1d6f-b80e-4f46-a348-47547db289d4" />
   **I. Default**: Nothing besides the three centered vital stats plus indicators for armor type and god mode. <br><br>
-<img width="1917" height="328" alt="05_boom64" src="https://github.com/user-attachments/assets/9b1800bd-9d6e-4d99-b38c-f983498743c7" />
+<img width="1917" height="328" alt="05_boom64" src="https://github.com/user-attachments/assets/2d3ad03a-b2bc-4820-99b3-9cd8f1ce52e9" />
   **II. Boom 64**: Like Default, but uses Boom font and its colorization. With ammo overview, active ammo and backpack indicator.<br><br>
 <img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/08a69569-c88e-4cc7-ad4b-cacf4af56d69" />
   **III. Wide**: Vitals grouped on the left side, keeping weapon view unobstructed. Keys shift to the right, enhanced by a backpack indicator (lit "AMMO" label) and a simplified ammo overview.
