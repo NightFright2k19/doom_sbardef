@@ -2949,96 +2949,12 @@
           },
           {
             "canvas": {
-              "x": 53,
-              "y": 152,
-              "alignment": 0,
-              "tranmap": null,
-              "translation": null,
-              "conditions": [
-                {
-                  "condition": 39,
-                  "param": 1
-                }
-              ],
-              "children": [
-                {
-                  "component": {
-                    "x": 0,
-                    "y": 8,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "component": {
-                    "x": 0,
-                    "y": 0,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 20,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "component": {
-                    "x": 0,
-                    "y": 8,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": null
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "canvas": {
               "x": 0,
               "y": 152,
               "alignment": 0,
               "tranmap": null,
               "translation": null,
-              "conditions": [
-                {
-                  "condition": 39,
-                  "param": 0
-                }
-              ],
+              "conditions": null,
               "children": [
                 {
                   "component": {
