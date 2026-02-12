@@ -75,6 +75,11 @@
         "stem": "ETM6"
       },
       {
+        "name": "BoomBigGold",
+        "type": 0,
+        "stem": "BBG3"
+      },
+      {
         "name": "BoomBigGreen",
         "type": 0,
         "stem": "BBG4"
@@ -16018,26 +16023,6 @@
             }
           },
           {
-            "number": {
-              "x": 300,
-              "y": 5,
-              "alignment": 130,
-              "font": "BoomBigGreen",
-              "tranmap": null,
-              "translation": null,
-              "type": 2,
-              "param": 0,
-              "maxlength": 2,
-              "conditions": [
-                {
-                  "condition": 14,
-                  "param": 2
-                }
-              ],
-              "children": null
-            }
-          },
-          {
             "canvas": {
               "x": 0,
               "y": 0,
@@ -16052,11 +16037,10 @@
               ],
               "children": [
                 {
-                  "graphic": {
+                  "canvas": {
                     "x": 60,
                     "y": 176,
-                    "alignment": 1,
-                    "patch": "TAG_HEAL",
+                    "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -16065,15 +16049,107 @@
                         "param": 21
                       }
                     ],
-                    "children": null
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 1,
+                          "patch": "TAG_HEAL",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 7,
+                          "alignment": 1,
+                          "font": "BoomBigGreen",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 0,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 24,
+                              "param": 101
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 7,
+                          "alignment": 1,
+                          "font": "BoomBigBlue",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 0,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 101
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 200,
+                          "y": 7,
+                          "alignment": 1,
+                          "font": "BoomBigGreen",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 1,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 15
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 200,
+                          "y": 7,
+                          "alignment": 1,
+                          "font": "BoomBigBlue",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 1,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 15
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
                   }
                 },
                 {
-                  "graphic": {
+                  "canvas": {
                     "x": 60,
                     "y": 176,
-                    "alignment": 1,
-                    "patch": "TAG_GOD",
+                    "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -16082,7 +16158,50 @@
                         "param": 21
                       }
                     ],
-                    "children": null
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 1,
+                          "patch": "TAG_GOD",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 7,
+                          "alignment": 1,
+                          "font": "BoomBigGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 0,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 200,
+                          "y": 7,
+                          "alignment": 1,
+                          "font": "BoomBigGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 1,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -16094,86 +16213,6 @@
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
-                    "children": null
-                  }
-                },
-                {
-                  "number": {
-                    "x": 60,
-                    "y": 183,
-                    "alignment": 1,
-                    "font": "BoomBigGreen",
-                    "tranmap": null,
-                    "translation": null,
-                    "type": 0,
-                    "param": 0,
-                    "maxlength": 3,
-                    "conditions": [
-                      {
-                        "condition": 24,
-                        "param": 101
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "number": {
-                    "x": 60,
-                    "y": 183,
-                    "alignment": 1,
-                    "font": "BoomBigBlue",
-                    "tranmap": null,
-                    "translation": null,
-                    "type": 0,
-                    "param": 0,
-                    "maxlength": 3,
-                    "conditions": [
-                      {
-                        "condition": 23,
-                        "param": 101
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "number": {
-                    "x": 260,
-                    "y": 183,
-                    "alignment": 1,
-                    "font": "BoomBigGreen",
-                    "tranmap": null,
-                    "translation": null,
-                    "type": 1,
-                    "param": 0,
-                    "maxlength": 3,
-                    "conditions": [
-                      {
-                        "condition": 11,
-                        "param": 15
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "number": {
-                    "x": 260,
-                    "y": 183,
-                    "alignment": 1,
-                    "font": "BoomBigBlue",
-                    "tranmap": null,
-                    "translation": null,
-                    "type": 1,
-                    "param": 0,
-                    "maxlength": 3,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 15
-                      }
-                    ],
                     "children": null
                   }
                 },
@@ -16297,11 +16336,10 @@
               ],
               "children": [
                 {
-                  "graphic": {
+                  "canvas": {
                     "x": 80,
                     "y": 176,
-                    "alignment": 1,
-                    "patch": "TAG_HEAL",
+                    "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -16310,15 +16348,107 @@
                         "param": 21
                       }
                     ],
-                    "children": null
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 1,
+                          "patch": "TAG_HEAL",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 7,
+                          "alignment": 1,
+                          "font": "BoomBigGreen",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 0,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 24,
+                              "param": 101
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 7,
+                          "alignment": 1,
+                          "font": "BoomBigBlue",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 0,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 23,
+                              "param": 101
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 160,
+                          "y": 7,
+                          "alignment": 1,
+                          "font": "BoomBigGreen",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 1,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 15
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 160,
+                          "y": 7,
+                          "alignment": 1,
+                          "font": "BoomBigBlue",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 1,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 15
+                            }
+                          ],
+                          "children": null
+                        }
+                      }
+                    ]
                   }
                 },
                 {
-                  "graphic": {
+                  "canvas": {
                     "x": 80,
                     "y": 176,
-                    "alignment": 1,
-                    "patch": "TAG_GOD",
+                    "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -16327,7 +16457,50 @@
                         "param": 21
                       }
                     ],
-                    "children": null
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 1,
+                          "patch": "TAG_GOD",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 7,
+                          "alignment": 1,
+                          "font": "BoomBigGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 0,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 160,
+                          "y": 7,
+                          "alignment": 1,
+                          "font": "BoomBigGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 1,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -16339,86 +16512,6 @@
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
-                    "children": null
-                  }
-                },
-                {
-                  "number": {
-                    "x": 80,
-                    "y": 183,
-                    "alignment": 1,
-                    "font": "BoomBigGreen",
-                    "tranmap": null,
-                    "translation": null,
-                    "type": 0,
-                    "param": 0,
-                    "maxlength": 3,
-                    "conditions": [
-                      {
-                        "condition": 24,
-                        "param": 101
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "number": {
-                    "x": 80,
-                    "y": 183,
-                    "alignment": 1,
-                    "font": "BoomBigBlue",
-                    "tranmap": null,
-                    "translation": null,
-                    "type": 0,
-                    "param": 0,
-                    "maxlength": 3,
-                    "conditions": [
-                      {
-                        "condition": 23,
-                        "param": 101
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "number": {
-                    "x": 240,
-                    "y": 183,
-                    "alignment": 1,
-                    "font": "BoomBigGreen",
-                    "tranmap": null,
-                    "translation": null,
-                    "type": 1,
-                    "param": 0,
-                    "maxlength": 3,
-                    "conditions": [
-                      {
-                        "condition": 11,
-                        "param": 15
-                      }
-                    ],
-                    "children": null
-                  }
-                },
-                {
-                  "number": {
-                    "x": 240,
-                    "y": 183,
-                    "alignment": 1,
-                    "font": "BoomBigBlue",
-                    "tranmap": null,
-                    "translation": null,
-                    "type": 1,
-                    "param": 0,
-                    "maxlength": 3,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 15
-                      }
-                    ],
                     "children": null
                   }
                 },
@@ -16783,6 +16876,26 @@
                   }
                 }
               ]
+            }
+          },
+          {
+            "number": {
+              "x": 300,
+              "y": 5,
+              "alignment": 130,
+              "font": "BoomBigGreen",
+              "tranmap": null,
+              "translation": null,
+              "type": 2,
+              "param": 0,
+              "maxlength": 2,
+              "conditions": [
+                {
+                  "condition": 14,
+                  "param": 2
+                }
+              ],
+              "children": null
             }
           },
           {
