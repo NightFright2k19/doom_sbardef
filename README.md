@@ -73,7 +73,7 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 <img width="1917" height="328" alt="05_boom64" src="https://github.com/user-attachments/assets/2d3ad03a-b2bc-4820-99b3-9cd8f1ce52e9" />
   **II. Boom 64**: Like Default, but uses Boom font and its colorization. With ammo overview, active ammo and backpack indicator.<br><br>
 <img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/08a69569-c88e-4cc7-ad4b-cacf4af56d69" />
-  **III. Default Wide**: Vitals grouped on the left side, keeping weapon view unobstructed. Keys shift to the right, enhanced by a backpack indicator (lit "AMMO" label) and a simplified ammo overview.<br><br>
+  **III. Default Wide**: Vitals grouped on the left side, keeping weapon view unobstructed. Keys shift to the right, enhanced by a backpack indicator (lit "AMMO" label) and a simplified ammo overview. Since colorization is avoided (only white, gray and black), this variant should be extremely robust if combined with any custom palettes from PWADs.<br><br>
 <img width="1917" height="328" alt="07_boom64_wide" src="https://github.com/user-attachments/assets/5ab044b6-995f-4727-90f7-b8378d929ba8" />
   **IV. Boom64 Wide**: Like Default Wide, but with Boom numbers and colorization.
 <br><br>
