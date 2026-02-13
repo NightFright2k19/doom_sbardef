@@ -20744,6 +20744,18 @@
                     ],
                     "children": [
                       {
+                        "graphic": {
+                          "x": 0,
+                          "y": 17,
+                          "alignment": 65,
+                          "patch": "TAG_AMMO",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
                         "number": {
                           "x": 0,
                           "y": 0,
@@ -20792,18 +20804,6 @@
                     "y": 191,
                     "alignment": 65,
                     "patch": "TAG_ARMR",
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": null,
-                    "children": null
-                  }
-                },
-                {
-                  "graphic": {
-                    "x": 97,
-                    "y": 191,
-                    "alignment": 65,
-                    "patch": "TAG_AMMO",
                     "tranmap": null,
                     "translation": null,
                     "conditions": null,
