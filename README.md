@@ -17,12 +17,12 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 **Features:**
 - **Vitals**: Health, armor, ammo and keys. For all HUDs.<br>
 - **Mugshot**: Animated face. Featured in Status Bar Plus, Nightdive, Eternity I and DSDA II/III.<br>
-- **Ammo overview**: Amount of ammo available for each weapon. Partial in Nightdive, Doom 64 II/III, Eternity, Boom II and DSDA III (no max amounts), full in Status Bar Plus, Crispy and DSDA I+II.<br>
+- **Ammo overview**: Amount of ammo available for each weapon. Partial in Nightdive, Doom 64 II-IV, Eternity, Boom II and DSDA III (no max amounts), full in Status Bar Plus, Crispy and DSDA I+II.<br>
 - **Arms**: Available weapons. 2-7 in Crispy, 1-7 in DSDA III, otherwise 1-9. Either arranged as a square (Status Bar Plus, Crispy, Nightdive I) or a single line (Nightdive II, Eternity, Boom, DSDA, PrBoom+). DSDA II splits the display into two slot-grouped panels (1-2-3-8-9 / 4-5-6-7). A switch between panels occurs whenever a weapon of a different panel is selected. DSDA III indicates Chainsaw through a lit "1" in slot 1 and possession of both shotguns with a fully lit "3".<br><br>
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy and Nightdive. Doom 64 I/III utilizes brackets (no bracket: 33%, bracket: 50%). Otherwise, armor number is usually recolored (green: 33%, blue: 50%). Status Bar Plus adds a small frame around the mugshot for this purpose. In Eternity II and PrBoom+, the armor icon changes instead.<br>
-- **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Nightdive II, Doom 64 II, Eternity, DSDA I/II). In Doom 64 III, the "Ammo" label lights up.<br>
+- **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Nightdive II, Doom 64 II/IV, Eternity, DSDA I/II). In Doom 64 III, the "Ammo" label lights up.<br>
 - **Chainsaw/Super Shotgun**: Not shown on the vanilla status bar, these weapons are listed in the Arms display in more modern ports, usually as "8" and "9".
 - **Berserk mode**: Powerup which increases punching power with Fists. Usually shown as a fully lit "1" in the Arms display. The green cross icon in Eternity II turns red. In PrBoom+ I, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
 - **God mode**: Mugshot and/or recolored health/armor numbers (gold). "Health" label in Crispy/Doom 64 switches to "God". In Eternity II and PrBoom+ II, icons turn golden, too.<br>
@@ -41,7 +41,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | Crispy Plus | +++ | +++++ | 8 / 10 | Features: No Mugshot<br>Indicators: No active Ammo/Weapon |
 | Boom I/III<br>PrBoom+ | ++ | ++++++ | 8 / 10 | Features: Vitals, Arms<br>Indicators: All |
 | Status Bar (Vanilla)| ++++ | ++ | 6 / 10 | Features: All<br>Indicators: Backpack, God Mode |
-| Doom 64 II | ++ | ++++ | 6 / 10 | Features: Vitals, Ammo overview<br>Indicators: Armor type, Backpack, God mode, active ammo |
+| Doom 64 II/IV | ++ | ++++ | 6 / 10 | Features: Vitals, Ammo overview<br>Indicators: Armor type, Backpack, God mode, active ammo |
 | Doom 64 III | ++ | +++ | 5 / 10 | Features: Vitals, Ammo overview<br>Indicators: Armor type, Backpack, God mode |
 | Doom 64 I | + | ++ | 3 / 10 | Features: Vitals<br>Indicators: Armor type, God mode |
 <br>
@@ -73,7 +73,9 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 <img width="1917" height="328" alt="05_boom64" src="https://github.com/user-attachments/assets/2d3ad03a-b2bc-4820-99b3-9cd8f1ce52e9" />
   **II. Boom 64**: Like Default, but uses Boom font and its colorization. With ammo overview, active ammo and backpack indicator.<br><br>
 <img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/08a69569-c88e-4cc7-ad4b-cacf4af56d69" />
-  **III. Wide**: Vitals grouped on the left side, keeping weapon view unobstructed. Keys shift to the right, enhanced by a backpack indicator (lit "AMMO" label) and a simplified ammo overview.
+  **III. Default Wide**: Vitals grouped on the left side, keeping weapon view unobstructed. Keys shift to the right, enhanced by a backpack indicator (lit "AMMO" label) and a simplified ammo overview.<br><br>
+<img width="1917" height="328" alt="07_boom64_wide" src="https://github.com/user-attachments/assets/5ab044b6-995f-4727-90f7-b8378d929ba8" />
+  **IV. Boom64 Wide**: Like Default Wide, but with Boom numbers and colorization.
 <br><br>
 
 **5) ﻿Eternity**<br>
