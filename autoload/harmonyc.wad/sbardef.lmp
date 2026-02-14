@@ -45,6 +45,11 @@
         "stem": "DGT6"
       },
       {
+        "name": "DigitGrey",
+        "type": 0,
+        "stem": "DGT7"
+      },
+      {
         "name": "EternityLrgRed",
         "type": 0,
         "stem": "ETL1"
@@ -17621,30 +17626,9 @@
                       {
                         "condition": 4,
                         "param": 0
-                      },
-                      {
-                        "condition": 39,
-                        "param": 1
                       }
                     ],
                     "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 65,
-                          "patch": "TAG_AMM0",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      },
                       {
                         "graphic": {
                           "x": 0,
@@ -17655,46 +17639,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": null
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "canvas": {
-                    "x": 243,
-                    "y": 191,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 4,
-                        "param": 0
-                      },
-                      {
-                        "condition": 39,
-                        "param": 0
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 129,
-                          "patch": "TAG_AMM0",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
+                              "condition": 39,
+                              "param": 1
                             }
                           ],
                           "children": null
@@ -17702,7 +17648,7 @@
                       },
                       {
                         "graphic": {
-                          "x": 0,
+                          "x": 120,
                           "y": 0,
                           "alignment": 129,
                           "patch": "TAG_AMMO",
@@ -17710,8 +17656,8 @@
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 10,
-                              "param": 7
+                              "condition": 39,
+                              "param": 0
                             }
                           ],
                           "children": null
@@ -19382,7 +19328,89 @@
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "conditions": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 7
+                      }
+                    ],
+                    "children": [
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 130,
+                          "font": "DigitGrey",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 7,
+                          "alignment": 130,
+                          "font": "DigitGrey",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 14,
+                          "alignment": 130,
+                          "font": "DigitGrey",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 21,
+                          "alignment": 130,
+                          "font": "DigitGrey",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": null,
+                          "children": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "canvas": {
+                    "x": 316,
+                    "y": 169,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 7
+                      }
+                    ],
                     "children": [
                       {
                         "number": {

@@ -22,7 +22,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy and Nightdive. Doom 64 I and Shift 64 I utilize brackets (no bracket: 33%, bracket: 50%). Otherwise, armor number is usually recolored (green: 33%, blue: 50%). Status Bar Plus adds a small frame around the mugshot for this purpose. In Eternity II and PrBoom+, the armor icon changes instead.<br>
-- **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Nightdive II, Doom 64 II, Shift 64 II, Eternity, DSDA I/II). In Shift 64 I, the "Ammo" label lights up.<br>
+- **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Nightdive II, Doom 64 II, Shift 64, Eternity, DSDA I/II).<br>
 - **Chainsaw/Super Shotgun**: Not shown on the vanilla status bar, these weapons are listed in the Arms display in more modern ports, usually as "8" and "9".
 - **Berserk mode**: Powerup which increases punching power with Fists. Usually shown as a fully lit "1" in the Arms display. The green cross icon in Eternity II turns red. In PrBoom+ I, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
 - **God mode**: Mugshot and/or recolored health/armor numbers (gold). "Health" label in Crispy/Doom 64/Shift 64 switches to "God". In Eternity II and PrBoom+ II, icons turn golden, too.<br>
