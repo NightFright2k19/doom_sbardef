@@ -76,8 +76,8 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 
 **5) Shift 64**<br>
 Doom 64 variant with STTNUM vitals arranged on the left side, keeping weapon view unobstructed. Alignment of elements will adjust depending on "Hud Anchoring" setting.<br>
-<img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/08a69569-c88e-4cc7-ad4b-cacf4af56d69" />
-  **I. Unicolor**: Colorization is avoided (only white, gray and black), making this HUD extremely robust if combined with any custom palettes from PWADs.<br><br>
+<img width="1917" height="328" alt="06_shift64_unicolor" src="https://github.com/user-attachments/assets/2906d720-1f6a-46f9-8866-e151fcfeaf2f" />
+  **I. Unicolor**: Colorization is avoided (only white, gray and black), making this HUD extremely robust if combined with any custom palettes. Features mini ammo meters around "AMMO" label as bonus (each pixel = 20%).<br><br>
 <img width="1917" height="328" alt="07_boom64_wide" src="https://github.com/user-attachments/assets/5ab044b6-995f-4727-90f7-b8378d929ba8" />
   **II. Multicolor**: Like Default, but with Boom numbers and colorization (same as Boom 64).
   <br><br>
