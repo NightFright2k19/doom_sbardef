@@ -6097,13 +6097,69 @@
                       },
                       {
                         "graphic": {
-                          "x": 161,
+                          "x": 171,
                           "y": 0,
-                          "alignment": 128,
-                          "patch": "TAG_AMMO",
+                          "alignment": 129,
+                          "patch": "TAG_AMM1",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 0
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 171,
+                          "y": 0,
+                          "alignment": 129,
+                          "patch": "TAG_AMM2",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 1
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 171,
+                          "y": 0,
+                          "alignment": 129,
+                          "patch": "TAG_AMM3",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 3
+                            }
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 171,
+                          "y": 0,
+                          "alignment": 129,
+                          "patch": "TAG_AMM4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 2
+                            }
+                          ],
                           "children": null
                         }
                       }
@@ -18587,10 +18643,6 @@
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 4,
-                        "param": 0
-                      },
-                      {
                         "condition": 39,
                         "param": 1
                       }
@@ -18601,10 +18653,15 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 65,
-                          "patch": "TAG_AMMO",
+                          "patch": "TAG_AMM1",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 0
+                            }
+                          ],
                           "children": null
                         }
                       },
@@ -18613,383 +18670,50 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 65,
-                          "patch": "AMMO_BAR",
+                          "patch": "TAG_AMM2",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 1
+                            }
+                          ],
                           "children": null
                         }
                       },
                       {
-                        "canvas": {
-                          "x": -16,
+                        "graphic": {
+                          "x": 0,
                           "y": 0,
-                          "alignment": 0,
+                          "alignment": 65,
+                          "patch": "TAG_AMM3",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": null,
-                          "children": [
+                          "conditions": [
                             {
-                              "graphic": {
-                                "x": 0,
-                                "y": 4,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 35,
-                                    "param": 1,
-                                    "param2": 0
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 3,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 20,
-                                    "param2": 0
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 2,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 40,
-                                    "param2": 0
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 1,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 60,
-                                    "param2": 0
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 80,
-                                    "param2": 0
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 2,
-                                "y": 4,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 35,
-                                    "param": 1,
-                                    "param2": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 2,
-                                "y": 3,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 20,
-                                    "param2": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 2,
-                                "y": 2,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 40,
-                                    "param2": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 2,
-                                "y": 1,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 60,
-                                    "param2": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 2,
-                                "y": 0,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 80,
-                                    "param2": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 28,
-                                "y": 4,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 35,
-                                    "param": 1,
-                                    "param2": 3
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 28,
-                                "y": 3,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 20,
-                                    "param2": 3
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 28,
-                                "y": 2,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 40,
-                                    "param2": 3
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 28,
-                                "y": 1,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 60,
-                                    "param2": 3
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 28,
-                                "y": 0,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 80,
-                                    "param2": 3
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 30,
-                                "y": 4,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 35,
-                                    "param": 1,
-                                    "param2": 2
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 30,
-                                "y": 3,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 20,
-                                    "param2": 2
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 30,
-                                "y": 2,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 40,
-                                    "param2": 2
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 30,
-                                "y": 1,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 60,
-                                    "param2": 2
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 30,
-                                "y": 0,
-                                "alignment": 65,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 80,
-                                    "param2": 2
-                                  }
-                                ],
-                                "children": null
-                              }
+                              "condition": 5,
+                              "param": 3
                             }
-                          ]
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 65,
+                          "patch": "TAG_AMM4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
                         }
                       }
                     ]
@@ -19004,10 +18728,6 @@
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 4,
-                        "param": 0
-                      },
-                      {
                         "condition": 39,
                         "param": 0
                       }
@@ -19018,10 +18738,15 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 129,
-                          "patch": "TAG_AMMO",
+                          "patch": "TAG_AMM1",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 0
+                            }
+                          ],
                           "children": null
                         }
                       },
@@ -19030,383 +18755,50 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 129,
-                          "patch": "AMMO_BAR",
+                          "patch": "TAG_AMM2",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 1
+                            }
+                          ],
                           "children": null
                         }
                       },
                       {
-                        "canvas": {
-                          "x": -16,
+                        "graphic": {
+                          "x": 0,
                           "y": 0,
-                          "alignment": 0,
+                          "alignment": 129,
+                          "patch": "TAG_AMM3",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": null,
-                          "children": [
+                          "conditions": [
                             {
-                              "graphic": {
-                                "x": 0,
-                                "y": 4,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 35,
-                                    "param": 1,
-                                    "param2": 0
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 3,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 20,
-                                    "param2": 0
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 2,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 40,
-                                    "param2": 0
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 1,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 60,
-                                    "param2": 0
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 80,
-                                    "param2": 0
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 2,
-                                "y": 4,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 35,
-                                    "param": 1,
-                                    "param2": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 2,
-                                "y": 3,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 20,
-                                    "param2": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 2,
-                                "y": 2,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 40,
-                                    "param2": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 2,
-                                "y": 1,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 60,
-                                    "param2": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 2,
-                                "y": 0,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 80,
-                                    "param2": 1
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 28,
-                                "y": 4,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 35,
-                                    "param": 1,
-                                    "param2": 3
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 28,
-                                "y": 3,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 20,
-                                    "param2": 3
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 28,
-                                "y": 2,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 40,
-                                    "param2": 3
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 28,
-                                "y": 1,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 60,
-                                    "param2": 3
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 28,
-                                "y": 0,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 80,
-                                    "param2": 3
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 30,
-                                "y": 4,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 35,
-                                    "param": 1,
-                                    "param2": 2
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 30,
-                                "y": 3,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 20,
-                                    "param2": 2
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 30,
-                                "y": 2,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 40,
-                                    "param2": 2
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 30,
-                                "y": 1,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 60,
-                                    "param2": 2
-                                  }
-                                ],
-                                "children": null
-                              }
-                            },
-                            {
-                              "graphic": {
-                                "x": 30,
-                                "y": 0,
-                                "alignment": 129,
-                                "patch": "AMMO_20P",
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 37,
-                                    "param": 80,
-                                    "param2": 2
-                                  }
-                                ],
-                                "children": null
-                              }
+                              "condition": 5,
+                              "param": 3
                             }
-                          ]
+                          ],
+                          "children": null
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 129,
+                          "patch": "TAG_AMM4",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 2
+                            }
+                          ],
+                          "children": null
                         }
                       }
                     ]

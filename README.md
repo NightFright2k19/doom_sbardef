@@ -61,7 +61,7 @@ mode (ARMS: "1"). There's also a small frame around the mugshot telling you whic
 **3) Nightdive**<br>
 Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Armor and ammo icons have been removed. In return, ammo overview, arms display and armor type indicator were added.<br>
 <img width="1917" height="328" alt="02_nightdive-labels" src="https://github.com/user-attachments/assets/52afaa63-4b2a-4ef0-a4f6-93321d98248c" />
-   **I. Labels**: Vitals use the STTNUM font. ARMS display arranged as a square, ammo overview minimized.<br><br>
+   **I. Labels**: Vitals use the STTNUM font. ARMS display arranged as a square, ammo overview minimized. Dynamic ammo label with the "Ammo Names" addon.<br><br>
 <img width="1917" height="328" alt="03_nightdive-remix" src="https://github.com/user-attachments/assets/fdda6089-4d28-49d7-9266-766feb60b965" />
    **II. Remix**: Ammo overview taken from the DSDA HUD group (with ammo type meters); ARMS widget is a single line. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)
 <br><br>
@@ -76,8 +76,8 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 
 **5) Shift 64**<br>
 Doom 64 variant with STTNUM vitals arranged on the left side, keeping weapon view unobstructed. Alignment of elements will adjust depending on "Hud Anchoring" setting.<br>
-<img width="1917" height="328" alt="06_shift64_unicolor" src="https://github.com/user-attachments/assets/2906d720-1f6a-46f9-8866-e151fcfeaf2f" />
-  **I. Unicolor**: Colorization is avoided (only white, gray and black), making this HUD extremely robust if combined with any custom palettes. Features mini ammo meters around "AMMO" label as bonus (each pixel = 20%).<br><br>
+<img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/08a69569-c88e-4cc7-ad4b-cacf4af56d69" />
+  **I. Unicolor**: Colorization is avoided (only white, gray and black), making this HUD extremely robust if combined with any custom palettes from PWADs. Dynamic ammo label with the "Ammo Names" addon.<br><br>
 <img width="1917" height="328" alt="07_boom64_wide" src="https://github.com/user-attachments/assets/5ab044b6-995f-4727-90f7-b8378d929ba8" />
   **II. Multicolor**: Like Default, but with Boom numbers and colorization (same as Boom 64).
   <br><br>
