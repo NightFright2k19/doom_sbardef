@@ -54,7 +54,7 @@ mode (ARMS: "1"). There's also a small frame around the mugshot telling you whic
 <br><br>
 
 **2) Crispy Plus**<br>
-<a href="https://github.com/fabiangreffrath/crispy-doom" target= "_blank">Crispy Doom</a> fullscreen HUD with labels. With additional indicators for Berserk, Chainsaw/Super Shotgun, god mode and armor type. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)<br>
+<a href="https://github.com/fabiangreffrath/crispy-doom" target= "_blank">Crispy Doom</a> fullscreen HUD with labels. With additional indicators for Berserk, Chainsaw/Super Shotgun, god mode and armor type. Dynamic ammo label with the "Ammo Names" addon. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)<br>
 <img width="1917" height="328" alt="01_crispy-plus" src="https://github.com/user-attachments/assets/825a2cf9-d2c4-4c9d-aeb3-3a07aafc55ba" />
 <br><br>
 

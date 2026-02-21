@@ -3980,13 +3980,69 @@
           },
           {
             "graphic": {
-              "x": 13,
+              "x": 23,
               "y": 191,
-              "alignment": 64,
-              "patch": "TAG_AMMO",
+              "alignment": 65,
+              "patch": "TAG_AMM1",
               "tranmap": null,
               "translation": null,
-              "conditions": null,
+              "conditions": [
+                {
+                  "condition": 5,
+                  "param": 0
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 23,
+              "y": 191,
+              "alignment": 65,
+              "patch": "TAG_AMM2",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 5,
+                  "param": 1
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 23,
+              "y": 191,
+              "alignment": 65,
+              "patch": "TAG_AMM3",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 5,
+                  "param": 3
+                }
+              ],
+              "children": null
+            }
+          },
+          {
+            "graphic": {
+              "x": 23,
+              "y": 191,
+              "alignment": 65,
+              "patch": "TAG_AMM4",
+              "tranmap": null,
+              "translation": null,
+              "conditions": [
+                {
+                  "condition": 5,
+                  "param": 2
+                }
+              ],
               "children": null
             }
           },
