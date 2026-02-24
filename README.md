@@ -22,7 +22,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **Indicators:**
 - **Armor type**: Level of damage absorption. Shown explicitly as percentage in Crispy and Nightdive. Doom 64 I and Shift 64 I utilize brackets (no bracket: 33%, bracket: 50%). Otherwise, armor number is usually recolored (green: 33%, blue: 50%). Status Bar Plus adds a small frame around the mugshot for this purpose. In Eternity II and PrBoom+, the armor icon changes instead.<br>
-- **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Nightdive II, Doom 64 II, Shift 64, Eternity, DSDA I/II).<br>
+- **Backpack**: Powerup which doubles ammo amount. Recolored ammo numbers (white to gold/green) and/or doubling max ammo (Status Bar Plus, Crispy, Nightdive II/III, Doom 64 II, Shift 64, Eternity, DSDA I/II).<br>
 - **Chainsaw/Super Shotgun**: Not shown on the vanilla status bar, these weapons are listed in the Arms display in more modern ports, usually as "8" and "9".
 - **Berserk mode**: Powerup which increases punching power with Fists. Usually shown as a fully lit "1" in the Arms display. The green cross icon in Eternity II turns red. In PrBoom+ I, the Medikit icon is replaced by a Berserk pack. In Eternity and DSDA, the symbol (infinity loop or "N/A") turns red if fists are selected.<br>
 - **God mode**: Mugshot and/or recolored health/armor numbers (gold). "Health" label in Crispy/Doom 64/Shift 64 switches to "God". In Eternity II and PrBoom+ II, icons turn golden, too.<br>
@@ -35,11 +35,12 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 | HUD | Features | Indicators |  Score | Details 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Nightdive<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10 / 10 | Features: All<br>Indicators: All |
+| Nightdive I/II<br>Eternity I<br>DSDA II/III | ++++ | ++++++ | 10 / 10 | Features: All<br>Indicators: All |
 | Status Bar Plus | ++++ | +++++ | 9 / 10 | Features: All<br>Indicators: No active Ammo/Weapon |
 | Eternity II<br>Boom II<br>DSDA I | +++ | ++++++ | 9 / 10 | Features: No Mugshot<br>Indicators: All |
 | Crispy Plus | +++ | +++++ | 8 / 10 | Features: No Mugshot<br>Indicators: No active Ammo/Weapon |
 | Boom I/III<br>PrBoom+ | ++ | ++++++ | 8 / 10 | Features: Vitals, Arms<br>Indicators: All |
+| Nightdive III | +++ | ++++ | 7 / 10 | Features: No Arms<br>Indicators: No Berserk or Chainsaw/SSG |
 | Status Bar (Vanilla)| ++++ | ++ | 6 / 10 | Features: All<br>Indicators: Backpack, God Mode |
 | Doom 64 II<br>Shift 64 II | ++ | ++++ | 6 / 10 | Features: Vitals, Ammo overview<br>Indicators: Armor type, Backpack, God mode, active ammo |
 | Shift 64 I | ++ | +++ | 5 / 10 | Features: Vitals, Ammo overview<br>Indicators: Armor type, Backpack, God mode |
@@ -63,7 +64,9 @@ Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" targ
 <img width="1917" height="328" alt="02_nightdive-labels" src="https://github.com/user-attachments/assets/52afaa63-4b2a-4ef0-a4f6-93321d98248c" />
    **I. Labels**: Vitals use the STTNUM font. ARMS display arranged as a square, ammo overview minimized. Dynamic ammo label with the "Ammo Names" addon.<br><br>
 <img width="1917" height="328" alt="03_nightdive-remix" src="https://github.com/user-attachments/assets/fdda6089-4d28-49d7-9266-766feb60b965" />
-   **II. Remix**: Ammo overview taken from the DSDA HUD group (with ammo type meters); ARMS widget is a single line. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)
+   **II. Remix I**: Ammo overview taken from the DSDA HUD group (with ammo type meters); ARMS widget is a single line. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)<br><br>
+<img width="1917" height="328" alt="04_nightdive-remix2" src="https://github.com/user-attachments/assets/c8ce64b4-1c8a-48b4-81c3-bb35877752c6" />
+   **III. Remix II**: Remix I with key bar replacing the ARMS widget and big ammo number. Dynamic ammo label with the "Ammo Names" addon.
 <br><br>
 
 **4) Doom 64**<br>
