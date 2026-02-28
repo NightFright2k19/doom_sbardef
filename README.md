@@ -16,26 +16,26 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **CORE Features (provided by original HUD):**
 <ul>
-  <li>Vitals: Health, armor, ammo and keys.<br>HUDs: All</li>
-  <li>Mugshot: Animated face.<br>HUDs: Status Bar Plus, Nightdive II-IV, Eternity I, DSDA II/III</li>
-  <li>Ammo overview: Amount of ammo available for each weapon.<br>Current/total: Status Bar Plus, Crispy Plus, DSDA I+II<br>Current: Nightdive, Doom 64 II, Shift 64, Eternity, Boom II, DSDA III</li>
-  <li>Arms: Available weapons.<br>1-7: DSDA III (8/9 if selected)<br>1-9: Status Bar Plus, Crispy Plus, Nightdive I-III, Eternity, Boom, DSDA I+II, PrBoom+</li>
-  <li>Backpack*: Powerup which doubles ammo amount.<br>Doubled totals: Status Bar Plus, Crispy Plus, Eternity, Boom I+II, DSDA I+II, PrBoom+<br>Color: Nightdive, Doom 64 II, Shift 64, Eternity, Boom, DSDA, PrBoom+</li>
-  <li>God mode: Shows if player is invincible, either through powerup or cheat.<br>Mugshot: Status Bar Plus Nightdive II-IV, Eternity I, DSDA II+III<br>Icon: Eternity II, PrBoom II<br>Label: Crispy Plus, Nightdive II-IV, Doom 64, Shift 64, Boom, DSDA<br>Color: Nightdive III+IV, Doom 64 II, Shift 64 II, Eternity, Boom, DSDA</li>
+  <li><b>Vitals</b>: Health, armor, ammo and keys.<br>HUDs: All</li>
+  <li><b>Mugshot</b>: Animated face.<br>HUDs: Status Bar Plus, Nightdive II-IV, Eternity I, DSDA II/III</li>
+  <li><b>Ammo overview</b>: Amount of ammo available for each weapon.<br>Current/total: Status Bar Plus, Crispy Plus, DSDA I+II<br>Current: Nightdive, Doom 64 II, Shift 64, Eternity, Boom II, DSDA III</li>
+  <li><b>Arms</b>: Available weapons.<br>1-7: DSDA III (8/9 if selected)<br>1-9: Status Bar Plus, Crispy Plus, Nightdive I-III, Eternity, Boom, DSDA I+II, PrBoom+</li>
+  <li><b>Backpack</b>: Powerup which doubles ammo amount.<br>Doubled totals: Status Bar Plus, Crispy Plus, Eternity, Boom I+II, DSDA I+II, PrBoom+<br>Color: Nightdive, Doom 64 II, Shift 64, Eternity, Boom, DSDA, PrBoom+</li>
+  <li><b>God mode</b>: Shows if player is invincible, either through powerup or cheat.<br>Mugshot: Status Bar Plus Nightdive II-IV, Eternity I, DSDA II+III<br>Icon: Eternity II, PrBoom II<br>Label: Crispy Plus, Nightdive II-IV, Doom 64, Shift 64, Boom, DSDA<br>Color: Nightdive III+IV, Doom 64 II, Shift 64 II, Eternity, Boom, DSDA</li>
 </ul>
 
 **EXTRA Features (not provided by original HUD):**
 <ul>
-  <li>Armor type: Level of damage absorption.<br>Mugshot frame: Status Bar Plus<br>Icon: Nightdive I, Eternity II, PrBoom+<br>Percentage: Crispy Plus, Nightdive II<br>Bracket: Doom 64 I, Shift 64 I<br>Color: Nightdive III+IV, Doom 64 II, Shift 64 II, Eternity, Boom, DSDA</li>
-  <li>Berserk: Powerup which increases punching power with Fists.<br>Icon: Nightdive I, Eternity II, PrBoom+<br>Lit "1": Status Bar Plus, Crispy Plus, Nightdive I-III, Eternity, Boom, DSDA I+II, PrBoom+<br>Red "N/A" Label: Eternity II, DSDA</li>
-  <li>Chainsaw/Super Shotgun: Whether secondary weapons for slots 1 or 3 are owned.<br>8/9: Status Bar Plus, Crispy Plus, Nightdive I-III, Eternity, Boom, DSDA I+II, PrBoom+<br>Lit "1"/Fully lit "3": DSDA III</li>
-  <li>Active ammo/weapon: Currently selected weapon and fitting ammo.<br>Full: Nightdive I-III, Eternity, DSDA<br>Ammo only: Nightdive IV, Doom 64 II, Shift 64 II, Boom II<br>Weapons only: Boom I+III, PrBoom+</li>
+  <li><b>Armor type</b>: Level of damage absorption.<br>Mugshot frame: Status Bar Plus<br>Icon: Nightdive I, Eternity II, PrBoom+<br>Percentage: Crispy Plus, Nightdive II<br>Bracket: Doom 64 I, Shift 64 I<br>Color: Nightdive III+IV, Doom 64 II, Shift 64 II, Eternity, Boom, DSDA</li>
+  <li><b>Berserk</b>: Powerup which increases punching power with Fists.<br>Icon: Nightdive I, Eternity II, PrBoom+<br>Lit "1": Status Bar Plus, Crispy Plus, Nightdive I-III, Eternity, Boom, DSDA I+II, PrBoom+<br>Red "N/A" Label: Eternity II, DSDA</li>
+  <li><b>Chainsaw/Super Shotgun</b>: Whether secondary weapons for slots 1 or 3 are owned.<br>8/9: Status Bar Plus, Crispy Plus, Nightdive I-III, Eternity, Boom, DSDA I+II, PrBoom+<br>Lit "1"/Fully lit "3": DSDA III</li>
+  <li><b>Active ammo/weapon</b>: Currently selected weapon and fitting ammo.<br>Full: Nightdive I-III, Eternity, DSDA<br>Ammo only: Nightdive IV, Doom 64 II, Shift 64 II, Boom II<br>Weapons only: Boom I+III, PrBoom+</li>
 </ul>
 
 **SBARDEF v1.2.0 only:**
 <ul>
-  <li>**Powerup timers**: Shows bars for remaining time of Light Amplification Visor (LIT), Invisibility Sphere (VIS), Radiation Suit (RAD) and Invulnerability (GOD) in the top right corner. For all HUDs (except for vanilla status bar).</li>
-  <li>**Kills/Secrets progress bars**: Alternate way of showing K/S stats instead of the K/I/S widget. Level stats widget must be set to "Off" or "Automap". Only available in Boom II.</li>
+  <li><b>Powerup timers</b>: Shows bars for remaining time of Light Amplification Visor (LIT), Invisibility Sphere (VIS), Radiation Suit (RAD) and Invulnerability (GOD) in the top right corner. For all HUDs (except for vanilla status bar).</li>
+  <li><b>Kills/Secrets progress bars</b>: Alternate way of showing K/S stats instead of the K/I/S widget. Level stats widget must be set to "Off" or "Automap". Only available in Boom II.</li>
 </ul><br>
 
 **Comparison Features / Indicators:**<br>
