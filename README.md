@@ -1,6 +1,6 @@
 # SBARDEF HUD MOD FOR WOOF!
 
-The Nightdive port brought the possibility to edit the Doom statusbar and fullscreen HUD via <a href="https://doomwiki.org/wiki/SBARDEF" target= "_blank">SBARDEF</a>. Unfortunately, a proper editor for this purpose is still not completed. I couldn't wait for it and went ahead to create the HUDs I wanted, using nothing but Notepad.<br><br>
+The Nightdive port brought the possibility to edit the Doom statusbar and fullscreen HUD via <a href="https://doomwiki.org/wiki/SBARDEF" target= "_blank">SBARDEF</a>. I couldn't wait for the availability of a proper editor and went ahead to create the HUDs I wanted, using nothing but Notepad.<br><br>
 **If you want to use any (or all) of these HUDs in a mod of yours, feel free to do so. However, please be fair and credit me for my work. A lot of effort and time has been invested into this project.**<br><br>
 
 **Intended ports:**
@@ -11,8 +11,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 - Unzip the archive into your Woof! installation directory. Files will be copied into the proper autoload subdirectories.<br>
 - If you are using *extras.wad*, launch Woof! with command line parameter **-noextras**.<br>
 - Keep pressing F5 ingame until you get to the HUD you want.<br>
-- Note #1: For best visuals, be sure the "Wide Shift" slider ("Status Bar/HUD") in your Woof! menu is maxed out.<br>
-- Note #2: Woof! does **not** support <a href="https://doomwiki.org/wiki/ID24HACKED" target= "_blank">ID24HACKED</a>, so no extra weapon slots and fifth ammo type with PWADs requiring *id24res.wad*.<br><br>
+- Note: Woof! does **not** support <a href="https://doomwiki.org/wiki/ID24HACKED" target= "_blank">ID24HACKED</a>, so no extra weapon slots and fifth ammo type with PWADs requiring *id24res.wad*.<br><br>
 
 **CORE Features (provided by original HUD):**
 <ul>
