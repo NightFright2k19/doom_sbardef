@@ -92640,22 +92640,6 @@
                   }
                 },
                 {
-                  "face": {
-                    "x": 256,
-                    "y": 172,
-                    "alignment": 137,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 21
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
                   "graphic": {
                     "x": 256,
                     "y": 158,
@@ -92667,10 +92651,6 @@
                       {
                         "condition": 11,
                         "param": 18
-                      },
-                      {
-                        "condition": 11,
-                        "param": 21
                       }
                     ],
                     "children": []
@@ -92688,9 +92668,22 @@
                       {
                         "condition": 10,
                         "param": 18
-                      },
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 256,
+                    "y": 160,
+                    "alignment": 133,
+                    "patch": "TAG_GOD",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
                       {
-                        "condition": 11,
+                        "condition": 10,
                         "param": 21
                       }
                     ],

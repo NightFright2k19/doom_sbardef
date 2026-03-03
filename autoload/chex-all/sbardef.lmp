@@ -92896,22 +92896,6 @@
                   }
                 },
                 {
-                  "face": {
-                    "x": 255,
-                    "y": 176,
-                    "alignment": 137,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 21
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
                   "graphic": {
                     "x": 255,
                     "y": 169,
@@ -92923,10 +92907,6 @@
                       {
                         "condition": 11,
                         "param": 18
-                      },
-                      {
-                        "condition": 11,
-                        "param": 21
                       }
                     ],
                     "children": []
@@ -92944,9 +92924,22 @@
                       {
                         "condition": 10,
                         "param": 18
-                      },
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 255,
+                    "y": 171,
+                    "alignment": 133,
+                    "patch": "TAG_GOD",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
                       {
-                        "condition": 11,
+                        "condition": 10,
                         "param": 21
                       }
                     ],
