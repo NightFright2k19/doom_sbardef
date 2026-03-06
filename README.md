@@ -46,7 +46,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | Nightdive II<br>Eternity II<br>Boom II<br>DSDA I | +++++ | ++++ | 9 / 10 | Core: No Mugshot<br>Extras: All |
 | Crispy Plus | +++++ | +++ | 8 / 10 | Core: No Mugshot<br>Extras: No active Ammo/Weapon |
 | Boom I/III<br>PrBoom+ | ++++ | ++++ | 8 / 10 | Core: Vitals, Arms, Backpack, God mode<br>Extras: All |
-| Nightdive I | +++++ | +++ | 8 / 10 | Core: No Arms<br>Extras: Armor type, Berserk, active ammo/weapon |
+| Nightdive I | +++++ | +++ | 8 / 10 | Core: No Arms<br>Extras: No Chainsaw/SSG |
 | Nightdive V | +++++ | ++ | 7 / 10 | Core: No Arms<br>Extras: No Berserk or Chainsaw/SSG |
 | Status Bar (Vanilla)| ++++++ | | 6 / 10 | Core: All<br>Extras: None |
 | Doom 64 II<br>Shift 64 II | ++++ | ++ | 6 / 10 | Core: Vitals, Ammo overview, Backpack, God mode<br>Extras: Armor type, active ammo |
