@@ -28,7 +28,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
   <li><b>Armor type</b>: Level of damage absorption.<br>- Mugshot frame: Status Bar Plus<br>- Icon: Nightdive I+II, Eternity II, PrBoom+<br>- Percentage: Crispy Plus, Nightdive III<br>- Bracket: Doom 64 I, Shift 64 I<br>- Color: Nightdive IV+V, Doom 64 II, Shift 64 II, Eternity, Boom, DSDA</li>
   <li><b>Berserk</b>: Powerup which increases punching power with Fists.<br>- Icon: Nightdive I+II, Eternity II, PrBoom+<br>- Lit "1": Status Bar Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+<br>- Red "N/A" Label: Eternity II, DSDA</li>
   <li><b>Chainsaw/Super Shotgun</b>: Whether secondary weapons for slots 1 or 3 are owned.<br>- 8/9: Status Bar Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+<br>- Lit "1"/Fully lit "3": DSDA III</li>
-  <li><b>Active ammo/weapon</b>: Currently selected weapon and fitting ammo.<br>- Full: Nightdive II-IV, Eternity, DSDA<br>- Ammo only: Nightdive V, Doom 64 II, Shift 64 II, Boom II<br>- Weapons only: Boom I+III, PrBoom+</li>
+  <li><b>Active ammo/weapon</b>: Currently selected weapon and fitting ammo.<br>- Full: Nightdive I-IV, Eternity, DSDA<br>- Ammo only: Nightdive V, Doom 64 II, Shift 64 II, Boom II<br>- Weapons only: Boom I+III, PrBoom+</li>
 </ul>
 
 **SBARDEF v1.2.0 only:**
@@ -46,7 +46,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | Nightdive II<br>Eternity II<br>Boom II<br>DSDA I | +++++ | ++++ | 9 / 10 | Core: No Mugshot<br>Extras: All |
 | Crispy Plus | +++++ | +++ | 8 / 10 | Core: No Mugshot<br>Extras: No active Ammo/Weapon |
 | Boom I/III<br>PrBoom+ | ++++ | ++++ | 8 / 10 | Core: Vitals, Arms, Backpack, God mode<br>Extras: All |
-| Nightdive I | +++++ | ++ | 7 / 10 | Core: No Arms<br>Extras: Armor type, Berserk |
+| Nightdive I | +++++ | +++ | 8 / 10 | Core: No Arms<br>Extras: Armor type, Berserk, active ammo/weapon |
 | Nightdive V | +++++ | ++ | 7 / 10 | Core: No Arms<br>Extras: No Berserk or Chainsaw/SSG |
 | Status Bar (Vanilla)| ++++++ | | 6 / 10 | Core: All<br>Extras: None |
 | Doom 64 II<br>Shift 64 II | ++++ | ++ | 6 / 10 | Core: Vitals, Ammo overview, Backpack, God mode<br>Extras: Armor type, active ammo |
@@ -68,7 +68,7 @@ mode (ARMS: "1"). There's also a small frame around the mugshot telling you whic
 
 **3) Nightdive**<br>
 Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Ammo overview, arms display and armor type indicator were added (where possible).<br>
-<img width="1917" height="328" alt="03_nightdive-plus" src="https://github.com/user-attachments/assets/2d917e7a-736e-4e89-868c-4555b271f1c7" />
+<img width="1917" height="328" alt="03_nightdive-plus" src="https://github.com/user-attachments/assets/0ede727d-debc-450e-aef3-6214860411b8" />
    **I. Plus**: Icons and STTNUM numbers in a single row, with key widget on top of ammo. Bonus features: Ammo overview meters (four white bars in the bottom right corner) with backpack indicator, Berserk indicator (Berserk pack icon shown in ammo area if fists are selected), Armor icon hidden if armor is 0.<br><br>
 <img width="1917" height="328" alt="03_nightdive-stacked" src="https://github.com/user-attachments/assets/14b97717-821c-4082-891a-2bdb4eec357b" />
    **II. Stacked**: Focuses on icons instead of labels (just like the original Nightdive HUD). Berserker mode indicated by switching health icon. A small label is shown inside the health icon in God mode.<br><br>
