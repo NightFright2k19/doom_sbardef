@@ -17,18 +17,18 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 <ul>
   <li><b>Vitals</b>: Health, armor, ammo and keys.<br>- HUDs: All</li>
   <li><b>Mugshot</b>: Animated face.<br>- HUDs: Status Bar Plus, Nightdive I/III-V, Eternity I, DSDA II/III</li>
-  <li><b>Ammo overview</b>: Amount of ammo available for each weapon.<br>- Current/total: Status Bar Plus, Crispy Plus, DSDA I+II<br>- Current: Nightdive II-V, Doom 64 II, Shift 64, Eternity, Boom II, DSDA III<br>- Bars: Nightdive I</li>
+  <li><b>Ammo overview</b>: Amount of ammo available for each weapon.<br>- Current/total: Status Bar Plus, Crispy Plus, DSDA I+II<br>- Current: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom II, DSDA III<br>- Bars: Nightdive I</li>
   <li><b>Arms</b>: Available weapons.<br>- 1-7: DSDA III (8/9 if selected)<br>- 1-9: Status Bar Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+</li>
-  <li><b>Backpack</b>: Powerup which doubles ammo amount.<br>- Doubled totals: Status Bar Plus, Crispy Plus, Eternity, Boom I+II, DSDA I+II, PrBoom+<br>- Color: Nightdive II-V, Doom 64 II, Shift 64, Eternity, Boom, DSDA, PrBoom+<br>- Bars: Nightdive I</li>
-  <li><b>God mode</b>: Shows if player is invincible, either through powerup or cheat.<br>- Mugshot: Status Bar Plus, Nightdive I/III-V, Eternity I, DSDA II+III<br>- Icon: Eternity II, PrBoom+ II<br>- Label: Crispy Plus, Nightdive II-V, Doom 64, Shift 64, Boom, DSDA, PrBoom+ I<br>- Color: Nightdive IV+V, Doom 64 II, Shift 64 II, Eternity, Boom, DSDA</li>
+  <li><b>Backpack</b>: Powerup which doubles ammo amount.<br>- Doubled totals: Status Bar Plus, Crispy Plus, Eternity, Boom I+II, DSDA I+II, PrBoom+<br>- Color: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom, DSDA, PrBoom+<br>- Bars: Nightdive I</li>
+  <li><b>God mode</b>: Shows if player is invincible, either through powerup or cheat.<br>- Mugshot: Status Bar Plus, Nightdive I/III-V, Eternity I, DSDA II+III<br>- Icon: Eternity II, PrBoom+ II<br>- Label: Crispy Plus, Nightdive II-V, Doom 64, Trinity, Boom, DSDA, PrBoom+ I<br>- Color: Nightdive IV+V, Doom 64 II, Trinity II, Eternity, Boom, DSDA</li>
 </ul>
 
 **EXTRA Features (not provided by original HUD):**
 <ul>
-  <li><b>Armor type</b>: Level of damage absorption.<br>- Mugshot frame: Status Bar Plus<br>- Icon: Nightdive I+II, Eternity II, PrBoom+<br>- Percentage: Crispy Plus, Nightdive III<br>- Bracket: Doom 64 I, Shift 64 I<br>- Color: Nightdive IV+V, Doom 64 II, Shift 64 II, Eternity, Boom, DSDA</li>
+  <li><b>Armor type</b>: Level of damage absorption.<br>- Mugshot frame: Status Bar Plus<br>- Icon: Nightdive I+II, Eternity II, PrBoom+<br>- Percentage: Crispy Plus, Nightdive III<br>- Bracket: Doom 64 I, Trinity I<br>- Color: Nightdive IV+V, Doom 64 II, Trinity II, Eternity, Boom, DSDA</li>
   <li><b>Berserk</b>: Powerup which increases punching power with Fists.<br>- Icon: Nightdive I/II/V, Eternity II, PrBoom+<br>- Lit "1": Status Bar Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+<br>- Red "N/A" Label: Eternity II, DSDA</li>
   <li><b>Chainsaw/Super Shotgun</b>: Whether secondary weapons for slots 1 or 3 are owned.<br>- 8/9: Status Bar Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+<br>- Lit "1"/Fully lit "3": DSDA III</li>
-  <li><b>Active ammo/weapon</b>: Currently selected weapon and fitting ammo.<br>- Full: Nightdive I-IV, Eternity, DSDA<br>- Ammo only: Nightdive V, Doom 64 II, Shift 64 II, Boom II<br>- Weapons only: Boom I+III, PrBoom+</li>
+  <li><b>Active ammo/weapon</b>: Currently selected weapon and fitting ammo.<br>- Full: Nightdive I-IV, Eternity, DSDA<br>- Ammo only: Nightdive V, Doom 64 II, Trinity II, Boom II<br>- Weapons only: Boom I+III, PrBoom+</li>
 </ul>
 
 **SBARDEF v1.2.0 only:**
@@ -48,8 +48,8 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | Boom I/III<br>PrBoom+ | ++++ | ++++ | 8 / 10 | Core: Vitals, Arms, Backpack, God mode<br>Extras: All |
 | Nightdive I/V | +++++ | +++ | 8 / 10 | Core: No Arms<br>Extras: No Chainsaw/SSG |
 | Status Bar (Vanilla)| ++++++ | | 6 / 10 | Core: All<br>Extras: None |
-| Doom 64 II<br>Shift 64 II | ++++ | ++ | 6 / 10 | Core: Vitals, Ammo overview, Backpack, God mode<br>Extras: Armor type, active ammo |
-| Shift 64 I | ++++ | + | 5 / 10 | Core: Vitals, Ammo overview, Backpack, God mode<br>Extras: Armor type |
+| Doom 64 II<br>Trinity II | ++++ | ++ | 6 / 10 | Core: Vitals, Ammo overview, Backpack, God mode<br>Extras: Armor type, active ammo |
+| Trinity I | ++++ | + | 5 / 10 | Core: Vitals, Ammo overview, Backpack, God mode<br>Extras: Armor type |
 | Doom 64 I | ++ | + | 3 / 10 | Core: Vitals, God mode<br>Extras: Armor type |
 <br>
 Available variants:<br><br>
@@ -74,25 +74,25 @@ Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" targ
 <img width="1917" height="328" alt="02_nightdive-labels" src="https://github.com/user-attachments/assets/52afaa63-4b2a-4ef0-a4f6-93321d98248c" />
    **III. Labels**: Vitals use the STTNUM font. ARMS display arranged as a square, ammo overview minimized. Dynamic ammo label with the "Ammo Names" addon.<br><br>
 <img width="1917" height="328" alt="03_nightdive-remix" src="https://github.com/user-attachments/assets/fdda6089-4d28-49d7-9266-766feb60b965" />
-   **IV. Remix I**: Ammo overview taken from the DSDA HUD group (with ammo type meters); ARMS widget is a single line.<br><br>
+   **IV. Meters**: Ammo overview taken from the DSDA HUD group (with ammo type meters); ARMS widget is a single line.<br><br>
 <img width="1917" height="328" alt="04_nightdive-remix2" src="https://github.com/user-attachments/assets/c8ce64b4-1c8a-48b4-81c3-bb35877752c6" />
-   **V. Remix II**: Remix I with key bar replacing the ARMS widget and big ammo number. Dynamic ammo label with the "Ammo Names" addon.
+   **V. Invictus**: 'Meters' variant with key bar replacing the ARMS widget and big ammo number. Dynamic ammo label with the "Ammo Names" addon.
 <br><br>
 
 **4) Doom 64**<br>
 Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Alignment of elements will adjust depending on "Hud Anchoring" setting.<br>
 <img width="1917" height="328" alt="04_doom64" src="https://github.com/user-attachments/assets/a52c1d6f-b80e-4f46-a348-47547db289d4" />
-  **I. Default**: Nothing besides the three centered vital stats plus indicators for armor type and god mode. <br><br>
+  **I. Original**: Nothing besides the three centered vital stats plus indicators for armor type and god mode. <br><br>
 <img width="1917" height="328" alt="05_boom64" src="https://github.com/user-attachments/assets/2d3ad03a-b2bc-4820-99b3-9cd8f1ce52e9" />
   **II. Boom 64**: Like Default, but uses Boom font and its colorization. With ammo overview, active ammo and backpack indicator.
 <br><br>
 
-**5) Shift 64**<br>
+**5) Trinity**<br>
 Doom 64 variant with STTNUM vitals arranged on the left side, keeping weapon view unobstructed. Alignment of elements will adjust depending on "Hud Anchoring" setting.<br>
 <img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/08a69569-c88e-4cc7-ad4b-cacf4af56d69" />
-  **I. Unicolor**: Colorization is avoided (only white, gray and black), making this HUD extremely robust if combined with any custom palettes from PWADs. Dynamic ammo label with the "Ammo Names" addon.<br><br>
+  **I. Mono**: Colorization is avoided (only white, gray and black), making this HUD extremely robust if combined with any custom palettes from PWADs. Dynamic ammo label with the "Ammo Names" addon.<br><br>
 <img width="1917" height="328" alt="07_boom64_wide" src="https://github.com/user-attachments/assets/5ab044b6-995f-4727-90f7-b8378d929ba8" />
-  **II. Multicolor**: Like Default, but with Boom numbers and colorization (same as Boom 64).
+  **II. Color**: Like Default, but with Boom numbers and colorization (same as Boom 64).
   <br><br>
 
 **6) ﻿Eternity**<br>
