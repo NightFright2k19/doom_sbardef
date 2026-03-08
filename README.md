@@ -89,9 +89,9 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 
 **5) Trinity**<br>
 Doom 64 variant with STTNUM vitals arranged on the left side, keeping weapon view unobstructed. Alignment of elements will adjust depending on "Hud Anchoring" setting.<br>
-<img width="1917" height="328" alt="05_doom64_wide" src="https://github.com/user-attachments/assets/08a69569-c88e-4cc7-ad4b-cacf4af56d69" />
+<img width="1917" height="328" alt="10_trinity_mono" src="https://github.com/user-attachments/assets/7ae554d2-14ee-4cd8-ae04-254c03c7a95a" />
   **I. Mono**: Colorization is avoided (only white, gray and black), making this HUD extremely robust if combined with any custom palettes from PWADs. Dynamic ammo label with the "Ammo Names" addon.<br><br>
-<img width="1917" height="328" alt="07_boom64_wide" src="https://github.com/user-attachments/assets/5ab044b6-995f-4727-90f7-b8378d929ba8" />
+<img width="1917" height="328" alt="11_trinity_color" src="https://github.com/user-attachments/assets/b37c8c5e-b1cd-4fdf-a421-de24c683a7a7" />
   **II. Color**: Like Default, but with Boom numbers and colorization (same as Boom 64).
   <br><br>
 
