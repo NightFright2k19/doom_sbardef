@@ -67,8 +67,8 @@ mode (ARMS: "1"). There's also a small frame around the mugshot telling you whic
 
 **3) Nightdive**<br>
 Replaces the <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Ammo overview, arms display and armor type indicator were added (where possible).<br>
-<img width="1917" height="328" alt="03_nightdive-plus" src="https://github.com/user-attachments/assets/e7a889a2-637c-40cb-b64c-977b4ec4bc45" />
-   **I. Plus**: Icons and STTNUM numbers in a single row, with key widget on top of ammo. Bonus features: Ammo overview meters (four white bars in the bottom right corner) with backpack indicator, Berserk indicator (Berserk pack icon shown in ammo area if fists are selected), Armor icon hidden if armor is 0.<br><br>
+<img width="1917" height="328" alt="03_nightdive-plus" src="https://github.com/user-attachments/assets/8463da70-fd0f-4f0f-bbee-8e7bb4b06475" />
+   **I. Plus**: Icons and STTNUM numbers in a single row. Bonus features: Ammo overview meters (four white bars in the bottom right corner) with backpack indicator, Berserk indicator (Berserk pack icon shown in ammo area if fists are selected), Armor icon hidden if armor is 0.<br><br>
 <img width="1917" height="328" alt="03_nightdive-stacked" src="https://github.com/user-attachments/assets/14b97717-821c-4082-891a-2bdb4eec357b" />
    **II. Stacked**: Focuses on icons instead of labels (just like the original Nightdive HUD). Berserker mode indicated by switching health icon. A small label is shown inside the health icon in God mode.<br><br>
 <img width="1917" height="328" alt="02_nightdive-labels" src="https://github.com/user-attachments/assets/52afaa63-4b2a-4ef0-a4f6-93321d98248c" />
