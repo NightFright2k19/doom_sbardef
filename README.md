@@ -16,18 +16,18 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 **CORE Features (provided by original HUD):**
 <ul>
   <li><b>Vitals</b>: Health, armor, ammo and keys.<br>- HUDs: All</li>
-  <li><b>Mugshot</b>: Animated face.<br>- HUDs: Status Bar Plus, Nightdive I/III-V, Eternity I, DSDA II/III</li>
-  <li><b>Ammo overview</b>: Amount of ammo available for each weapon.<br>- Current/total: Status Bar Plus, Crispy Plus, DSDA I+II<br>- Current: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom II, DSDA III<br>- Bars: Nightdive I</li>
-  <li><b>Arms</b>: Available weapons.<br>- 1-7: DSDA III (8/9 if selected)<br>- 1-9: Status Bar Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+</li>
-  <li><b>Backpack</b>: Powerup which doubles ammo amount.<br>- Doubled totals: Status Bar Plus, Crispy Plus, Eternity, Boom I+II, DSDA I+II, PrBoom+<br>- Color: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom, DSDA, PrBoom+<br>- Bars: Nightdive I</li>
-  <li><b>God mode</b>: Shows if player is invincible, either through powerup or cheat.<br>- Mugshot: Status Bar Plus, Nightdive I/III-V, Eternity I, DSDA II+III<br>- Icon: Eternity II, PrBoom+ II<br>- Label: Crispy Plus, Nightdive II-V, Doom 64, Trinity, Boom, DSDA, PrBoom+ I<br>- Color: Nightdive IV+V, Doom 64 II, Trinity II, Eternity, Boom, DSDA</li>
+  <li><b>Mugshot</b>: Animated face.<br>- HUDs: Classic Plus, Nightdive I/III-V, Eternity I, DSDA II/III</li>
+  <li><b>Ammo overview</b>: Amount of ammo available for each weapon.<br>- Current/total: Classic Plus, Crispy Plus, DSDA I+II<br>- Current: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom II, DSDA III<br>- Bars: Nightdive I</li>
+  <li><b>Arms</b>: Available weapons.<br>- 1-7: DSDA III (8/9 if selected)<br>- 1-9: Classic Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+</li>
+  <li><b>Backpack</b>: Powerup which doubles ammo amount.<br>- Doubled totals: Classic Plus, Crispy Plus, Eternity, Boom I+II, DSDA I+II, PrBoom+<br>- Color: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom, DSDA, PrBoom+<br>- Bars: Nightdive I</li>
+  <li><b>God mode</b>: Shows if player is invincible, either through powerup or cheat.<br>- Mugshot: Classic Plus, Nightdive I/III-V, Eternity I, DSDA II+III<br>- Icon: Eternity II, PrBoom+ II<br>- Label: Crispy Plus, Nightdive II-V, Doom 64, Trinity, Boom, DSDA, PrBoom+ I<br>- Color: Nightdive IV+V, Doom 64 II, Trinity II, Eternity, Boom, DSDA</li>
 </ul>
 
 **EXTRA Features (not provided by original HUD):**
 <ul>
-  <li><b>Armor type</b>: Level of damage absorption.<br>- Mugshot frame: Status Bar Plus<br>- Icon: Nightdive I+II, Eternity II, PrBoom+<br>- Percentage: Crispy Plus, Nightdive III<br>- Bracket: Doom 64 I, Trinity I<br>- Color: Nightdive IV+V, Doom 64 II, Trinity II, Eternity, Boom, DSDA</li>
-  <li><b>Berserk</b>: Powerup which increases punching power with Fists.<br>- Icon: Nightdive I/II/V, Eternity II, PrBoom+<br>- Lit "1": Status Bar Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+<br>- Red "N/A" Label: Eternity II, DSDA</li>
-  <li><b>Chainsaw/Super Shotgun</b>: Whether secondary weapons for slots 1 or 3 are owned.<br>- 8/9: Status Bar Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+<br>- Lit "1"/Fully lit "3": DSDA III</li>
+  <li><b>Armor type</b>: Level of damage absorption.<br>- Mugshot frame: Classic Plus<br>- Icon: Nightdive I+II, Eternity II, PrBoom+<br>- Percentage: Crispy Plus, Nightdive III<br>- Bracket: Doom 64 I, Trinity I<br>- Color: Nightdive IV+V, Doom 64 II, Trinity II, Eternity, Boom, DSDA</li>
+  <li><b>Berserk</b>: Powerup which increases punching power with Fists.<br>- Icon: Nightdive I/II/V, Eternity II, PrBoom+<br>- Lit "1": Classic Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+<br>- Red "N/A" Label: Eternity II, DSDA</li>
+  <li><b>Chainsaw/Super Shotgun</b>: Whether secondary weapons for slots 1 or 3 are owned.<br>- 8/9: Classic Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+<br>- Lit "1"/Fully lit "3": DSDA III</li>
   <li><b>Active ammo/weapon</b>: Currently selected weapon and fitting ammo.<br>- Full: Nightdive I-IV, Eternity, DSDA<br>- Ammo only: Nightdive V, Doom 64 II, Trinity II, Boom II<br>- Weapons only: Boom I+III, PrBoom+</li>
 </ul>
 
@@ -42,7 +42,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | HUD | Core | Extras |  Score | Details 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Nightdive III/IV<br>Eternity I<br>DSDA II/III | ++++++ | ++++ | 10 / 10 | Core: All<br>Extras: All |
-| Status Bar Plus | ++++++ | +++ | 9 / 10 | Core: All<br>Extras: No active Ammo/Weapon |
+| Classic Plus | ++++++ | +++ | 9 / 10 | Core: All<br>Extras: No active Ammo/Weapon |
 | Nightdive II<br>Eternity II<br>Boom II<br>DSDA I | +++++ | ++++ | 9 / 10 | Core: No Mugshot<br>Extras: All |
 | Crispy Plus | +++++ | +++ | 8 / 10 | Core: No Mugshot<br>Extras: No active Ammo/Weapon |
 | Boom I/III<br>PrBoom+ | ++++ | ++++ | 8 / 10 | Core: Vitals, Arms, Backpack, God mode<br>Extras: All |
@@ -54,7 +54,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 <br>
 Available variants:<br><br>
 
-**1) Status Bar Plus**<br>
+**1) Classic Plus**<br>
 Like the vanilla status bar, but with Transparency. As a bonus, you'll find indicators for Chainsaw/Super Shotgun (ARMS: "8" and "9") and Berserker
 mode (ARMS: "1"). There's also a small frame around the mugshot telling you which armor type is used (green: 33%, blue: 50%). Widescreen STBAR lumps are supported.<br>
 <img width="1917" height="328" alt="00_statusbar-plus" src="https://github.com/user-attachments/assets/2d7785e1-643f-40ad-8b29-dc4c7e0b9d69" />
@@ -117,7 +117,7 @@ The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.pn
 **8) DSDA**<br>
 A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".) <br>
 <img width="1917" height="328" alt="08_dsda-classic" src="https://github.com/user-attachments/assets/363946cf-f1f5-497a-8d99-db8f2b4cbc4f" />
-   **I. Classic**: Imitates the original HUD as closely as possible.<br><br>
+   **I. Standard**: Imitates the original HUD as closely as possible.<br><br>
 <img width="1917" height="328" alt="09_dsda-enhanced" src="https://github.com/user-attachments/assets/512a5fd9-b1a6-408b-b402-04e05b7cb0ca" />
    **II. Enhanced**: Adds mugshot and reorganizes vitals/WPN widgets on the left side.<br><br>
 <img width="1917" height="328" alt="12_dsda-condensed" src="https://github.com/user-attachments/assets/6e360db4-2ddf-487e-b134-725d19db5403" />
@@ -126,7 +126,7 @@ A Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "
 **9) PrBoom+**<br>
 Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. God Mode indicator (temporary mugshot) has been added.<br>
 <img width="1917" height="328" alt="11_prboom-classic" src="https://github.com/user-attachments/assets/ceabb10f-838d-4c2c-9f5a-8f2e841d6ff8" />
-   **I. Classic**: Imitates the original HUD as closely as possible: Boom Compact with Health and Armor isolated on the right side.<br>
+   **I. Standard**: Imitates the original HUD as closely as possible: Boom Compact with Health and Armor isolated on the right side.<br>
 <em>Note: Some mods use sprites with different sizes. In such cases, manual adjustments to related HUD coordinates/graphics are required.</em>
 <br><br>
 <img width="1917" height="328" alt="12_prboom-balanced" src="https://github.com/user-attachments/assets/9e7ed4ec-21b8-421e-a681-13166d1103c1" />
