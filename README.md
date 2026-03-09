@@ -65,7 +65,7 @@ Like the vanilla status bar, but with transparency. There are also indicators fo
 
 **3) Nightdive**<br>
 Replaces the default <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Ammo overview, arms display and armor type indicator were added (where possible).<br>
-<img width="1917" height="328" alt="03_nightdive-plus" src="https://github.com/user-attachments/assets/8463da70-fd0f-4f0f-bbee-8e7bb4b06475" />
+<img width="1917" height="328" alt="03_nightdive-plus" src="https://github.com/user-attachments/assets/0b8d2185-f16d-46e5-8812-51d12552266c" />
    **I. Plus**: Icons and STTNUM numbers in a single row. Bonus features: Ammo overview meters (four white bars in the bottom right corner) with backpack indicator, Berserk indicator (Berserk pack icon shown in ammo area if fists are selected), Armor icon hidden unless some armor is owned.<br><br>
 <img width="1917" height="328" alt="03_nightdive-stacked" src="https://github.com/user-attachments/assets/14b97717-821c-4082-891a-2bdb4eec357b" />
    **II. Stacked**: Focuses on icons instead of labels. Berserker mode indicated by switching health icon. A small label is shown inside the health icon in God mode.<br><br>
