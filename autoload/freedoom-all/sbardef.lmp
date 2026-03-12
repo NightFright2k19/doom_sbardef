@@ -35808,7 +35808,7 @@
                 {
                   "graphic": {
                     "x": 65,
-                    "y": 171,
+                    "y": 173,
                     "alignment": 64,
                     "patch": "ETRDIVDR",
                     "tranmap": null,
@@ -35818,10 +35818,12 @@
                   }
                 },
                 {
-                  "canvas": {
+                  "list": {
                     "x": 70,
                     "y": 171,
-                    "alignment": 0,
+                    "alignment": 64,
+                    "horizontal": true,
+	            "spacing": 2,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [],
@@ -35830,7 +35832,28 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
+                          "patch": "ETS6NUM1",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 18
+                            },
+                            {
+                              "condition": 2,
+                              "param": 0
+                            }
+                          ],
+                          "children": []
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
                           "patch": "ETS3NUM1",
                           "tranmap": null,
                           "translation": null,
@@ -35851,7 +35874,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS2NUM1",
                           "tranmap": null,
                           "translation": null,
@@ -35866,9 +35889,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 6,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS3NUM2",
                           "tranmap": null,
                           "translation": null,
@@ -35887,9 +35910,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 6,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS2NUM2",
                           "tranmap": null,
                           "translation": null,
@@ -35904,9 +35927,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 12,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS3NUM3",
                           "tranmap": null,
                           "translation": null,
@@ -35925,9 +35948,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 12,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS2NUM3",
                           "tranmap": null,
                           "translation": null,
@@ -35942,9 +35965,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 18,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS3NUM4",
                           "tranmap": null,
                           "translation": null,
@@ -35963,9 +35986,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 18,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS2NUM4",
                           "tranmap": null,
                           "translation": null,
@@ -35980,9 +36003,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 24,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS3NUM5",
                           "tranmap": null,
                           "translation": null,
@@ -36001,9 +36024,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 24,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS2NUM5",
                           "tranmap": null,
                           "translation": null,
@@ -36018,9 +36041,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 30,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS3NUM6",
                           "tranmap": null,
                           "translation": null,
@@ -36039,9 +36062,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 30,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS2NUM6",
                           "tranmap": null,
                           "translation": null,
@@ -36056,9 +36079,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 36,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS3NUM7",
                           "tranmap": null,
                           "translation": null,
@@ -36077,9 +36100,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 36,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS2NUM7",
                           "tranmap": null,
                           "translation": null,
@@ -36094,9 +36117,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 42,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS3NUM8",
                           "tranmap": null,
                           "translation": null,
@@ -36115,9 +36138,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 42,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS2NUM8",
                           "tranmap": null,
                           "translation": null,
@@ -36132,26 +36155,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 48,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
-                          "patch": "ETS7NUM9",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 16,
-                              "param": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 48,
-                          "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS3NUM9",
                           "tranmap": null,
                           "translation": null,
@@ -36170,9 +36176,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 48,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "ETS2NUM9",
                           "tranmap": null,
                           "translation": null,
@@ -42834,129 +42840,21 @@
                   }
                 },
                 {
-                  "canvas": {
+                  "list": {
                     "x": 39,
                     "y": 172,
-                    "alignment": 0,
+                    "alignment": 64,
+                    "horizontal": true,
+	            "spacing": 2,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [],
                     "children": [
                       {
                         "graphic": {
-                          "x": 12,
-                          "y": 0,
-                          "alignment": 64,
-                          "patch": "DGT7NUM3",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 18,
-                          "y": 0,
-                          "alignment": 64,
-                          "patch": "DGT7NUM4",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 24,
-                          "y": 0,
-                          "alignment": 64,
-                          "patch": "DGT7NUM5",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 30,
-                          "y": 0,
-                          "alignment": 64,
-                          "patch": "DGT7NUM6",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 36,
-                          "y": 0,
-                          "alignment": 64,
-                          "patch": "DGT7NUM7",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 42,
-                          "y": 0,
-                          "alignment": 64,
-                          "patch": "DGT7NUM8",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 48,
-                          "y": 0,
-                          "alignment": 64,
-                          "patch": "DGT7NUM9",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 16,
-                              "param": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 64,
-                          "patch": "DGT7NUM1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 18
-                            },
-                            {
-                              "condition": 2,
-                              "param": 0
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT6NUM1",
                           "tranmap": null,
                           "translation": null,
@@ -42977,7 +42875,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT4NUM1",
                           "tranmap": null,
                           "translation": null,
@@ -42998,7 +42896,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT2NUM1",
                           "tranmap": null,
                           "translation": null,
@@ -43013,9 +42911,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 6,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT4NUM2",
                           "tranmap": null,
                           "translation": null,
@@ -43034,9 +42932,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 6,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT2NUM2",
                           "tranmap": null,
                           "translation": null,
@@ -43051,9 +42949,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 12,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT4NUM3",
                           "tranmap": null,
                           "translation": null,
@@ -43072,9 +42970,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 12,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT2NUM3",
                           "tranmap": null,
                           "translation": null,
@@ -43089,9 +42987,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 18,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT4NUM4",
                           "tranmap": null,
                           "translation": null,
@@ -43110,9 +43008,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 18,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT2NUM4",
                           "tranmap": null,
                           "translation": null,
@@ -43127,9 +43025,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 24,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT4NUM5",
                           "tranmap": null,
                           "translation": null,
@@ -43148,9 +43046,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 24,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT2NUM5",
                           "tranmap": null,
                           "translation": null,
@@ -43165,9 +43063,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 30,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT4NUM6",
                           "tranmap": null,
                           "translation": null,
@@ -43186,9 +43084,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 30,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT2NUM6",
                           "tranmap": null,
                           "translation": null,
@@ -43203,9 +43101,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 36,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT4NUM7",
                           "tranmap": null,
                           "translation": null,
@@ -43224,9 +43122,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 36,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT2NUM7",
                           "tranmap": null,
                           "translation": null,
@@ -43241,9 +43139,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 42,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT4NUM8",
                           "tranmap": null,
                           "translation": null,
@@ -43262,9 +43160,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 42,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT2NUM8",
                           "tranmap": null,
                           "translation": null,
@@ -43279,26 +43177,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 48,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
-                          "patch": "DGT7NUM9",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 16,
-                              "param": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 48,
-                          "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT4NUM9",
                           "tranmap": null,
                           "translation": null,
@@ -43317,9 +43198,9 @@
                       },
                       {
                         "graphic": {
-                          "x": 48,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "patch": "DGT2NUM9",
                           "tranmap": null,
                           "translation": null,
