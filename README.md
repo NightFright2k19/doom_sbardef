@@ -105,8 +105,8 @@ Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/et
 The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.png/800px-NDCP-map23-end.png" target= "_blank">Boom HUD</a> with properly aligned keys (ignores custom offsets).<br>
 <img width="1917" height="328" alt="07_boom-comp" src="https://github.com/user-attachments/assets/7481954f-1df3-482e-9722-d3c92fcc2e26" />
    **I. Compact**: Everything grouped on the left side of the screen.<br><br>
-<img width="1917" height="328" alt="15_boom-supply" src="https://github.com/user-attachments/assets/bfe94d32-9e46-46d9-9698-290442b7b421" />
-   **II. Supply**: 'Compact' variant with more emphasis on ammo info. The SUP widget shows ammo of all weapons not selected (color-coded, depending on amount: red/gold/green) while the WEA widget won't show active weapons any more, but rather indicate through color how much ammo you still have for each weapon (color-coded, like SUP). Keys are stacked vertically in the bottom right corner.<br><br>
+<img width="1917" height="328" alt="15_boom-supply" src="https://github.com/user-attachments/assets/3da23584-3fd7-4bac-a247-ce08aeaa7e6e" />
+   **II. Supply**: 'Compact' variant with more emphasis on ammo info. The SUP widget shows ammo of all weapons (color-coded, depending on amount: red/gold/green) while the WEA widget won't show active weapons any more, but rather indicate through color how much ammo you still have for each weapon (color-coded, like SUP). Keys are stacked vertically in the bottom right corner.<br><br>
 <img width="1917" height="328" alt="08_boom-remix" src="https://github.com/user-attachments/assets/f00fa7d8-2ea7-4800-96a4-97d61c133494" />
 <img width="1917" height="328" alt="08_boom-remix2" src="https://github.com/user-attachments/assets/4503a8a0-1368-45ec-a52c-f059a347d49f" />
    **III. Remix**: Merges 'Compact' features with ammo overview from Nightdive IV/V. Alternate display mode (second screen): Arms widget (WEA) is replaced with two progress bars for secrets and kills (level stats widget must be set to "Off" or "Automap").<br><br>
