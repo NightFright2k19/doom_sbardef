@@ -28535,7 +28535,7 @@
           {
             "component": {
               "x": 3,
-              "y": 165,
+              "y": 169,
               "alignment": 64,
               "tranmap": null,
               "translation": null,
@@ -28545,6 +28545,32 @@
                 {
                   "condition": 19,
                   "param": 4
+                },
+                {
+                  "condition": 20,
+                  "param_string": "stat_totals"
+                }
+              ],
+              "children": []
+            }
+          },
+          {
+            "component": {
+              "x": 3,
+              "y": 191,
+              "alignment": 64,
+              "tranmap": null,
+              "translation": null,
+              "type": "time",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                },
+                {
+                  "condition": 21,
+                  "param_string": "stat_totals"
                 }
               ],
               "children": []
@@ -30585,7 +30611,7 @@
           {
             "component": {
               "x": 3,
-              "y": 167,
+              "y": 168,
               "alignment": 64,
               "tranmap": null,
               "translation": null,
@@ -30595,6 +30621,32 @@
                 {
                   "condition": 19,
                   "param": 4
+                },
+                {
+                  "condition": 20,
+                  "param_string": "stat_totals"
+                }
+              ],
+              "children": []
+            }
+          },
+          {
+            "component": {
+              "x": 3,
+              "y": 190,
+              "alignment": 64,
+              "tranmap": null,
+              "translation": null,
+              "type": "time",
+              "font": "Digits",
+              "conditions": [
+                {
+                  "condition": 19,
+                  "param": 4
+                },
+                {
+                  "condition": 21,
+                  "param_string": "stat_totals"
                 }
               ],
               "children": []
