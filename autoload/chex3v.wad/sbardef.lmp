@@ -39388,7 +39388,7 @@
                     "y": 181,
                     "alignment": 64,
                     "horizontal": true,
-                    "spacing": 2,
+                    "spacing": 1,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -39431,7 +39431,7 @@
                       },
                       {
                         "number": {
-                          "x": 0,
+                          "x": 1,
                           "y": 0,
                           "alignment": 0,
                           "font": "DigitWhite",
@@ -39451,7 +39451,7 @@
                       },
                       {
                         "number": {
-                          "x": 0,
+                          "x": 1,
                           "y": 0,
                           "alignment": 0,
                           "font": "DigitWhite",
@@ -39471,7 +39471,7 @@
                       },
                       {
                         "number": {
-                          "x": 0,
+                          "x": 1,
                           "y": 0,
                           "alignment": 0,
                           "font": "DigitWhite",
@@ -39491,7 +39491,7 @@
                       },
                       {
                         "number": {
-                          "x": 0,
+                          "x": 1,
                           "y": 0,
                           "alignment": 0,
                           "font": "DigitWhite",
@@ -39518,7 +39518,7 @@
                     "y": 181,
                     "alignment": 64,
                     "horizontal": true,
-                    "spacing": 2,
+                    "spacing": 1,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -39561,7 +39561,7 @@
                       },
                       {
                         "number": {
-                          "x": 0,
+                          "x": 1,
                           "y": 0,
                           "alignment": 0,
                           "font": "DigitGreen",
@@ -39581,7 +39581,7 @@
                       },
                       {
                         "number": {
-                          "x": 0,
+                          "x": 1,
                           "y": 0,
                           "alignment": 0,
                           "font": "DigitGreen",
@@ -39601,7 +39601,7 @@
                       },
                       {
                         "number": {
-                          "x": 0,
+                          "x": 1,
                           "y": 0,
                           "alignment": 0,
                           "font": "DigitGreen",
@@ -39621,7 +39621,7 @@
                       },
                       {
                         "number": {
-                          "x": 0,
+                          "x": 1,
                           "y": 0,
                           "alignment": 0,
                           "font": "DigitGreen",
@@ -44549,20 +44549,22 @@
                         }
                       },
                       {
-                        "canvas": {
+                        "list": {
                           "x": 63,
                           "y": 15,
-                          "alignment": 0,
+                          "alignment": 64,
+                          "horizontal": true,
+                          "spacing": 1,
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 4,
-                              "param": 0
-                            },
-                            {
                               "condition": 11,
                               "param": 7
+                            },
+                            {
+                              "condition": 4,
+                              "param": 0
                             }
                           ],
                           "children": [
@@ -44570,7 +44572,7 @@
                               "number": {
                                 "x": 0,
                                 "y": 0,
-                                "alignment": 64,
+                                "alignment": 0,
                                 "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
@@ -44582,354 +44584,117 @@
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 16,
-                                "y": 0,
+                              "graphic": {
+                                "x": 0,
+                                "y": 2,
                                 "alignment": 0,
+                                "patch": "BOOM6SLS",
                                 "tranmap": null,
                                 "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 31,
-                                    "param": 100
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "conditions": [],
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 11,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 31,
-                                    "param": 10
-                                  },
-                                  {
-                                    "condition": 32,
-                                    "param": 100
+                                    "condition": 5,
+                                    "param": 0
                                   }
                                 ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 6,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 32,
-                                    "param": 10
+                                    "condition": 5,
+                                    "param": 1
                                   }
                                 ],
-                                "children": [
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
                                   {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
+                                    "condition": 5,
+                                    "param": 3
                                   }
-                                ]
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": []
                               }
                             }
                           ]
                         }
                       },
                       {
-                        "canvas": {
+                        "list": {
                           "x": 63,
                           "y": 15,
-                          "alignment": 0,
+                          "alignment": 64,
+                          "horizontal": true,
+                          "spacing": 1,
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 4,
-                              "param": 0
-                            },
-                            {
                               "condition": 10,
                               "param": 7
+                            },
+                            {
+                              "condition": 4,
+                              "param": 0
                             }
                           ],
                           "children": [
@@ -44937,7 +44702,7 @@
                               "number": {
                                 "x": 0,
                                 "y": 0,
-                                "alignment": 64,
+                                "alignment": 0,
                                 "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
@@ -44949,334 +44714,95 @@
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 16,
-                                "y": 0,
+                              "graphic": {
+                                "x": 0,
+                                "y": 2,
                                 "alignment": 0,
+                                "patch": "BOOM4SLS",
                                 "tranmap": null,
                                 "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 31,
-                                    "param": 100
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM4SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "conditions": [],
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 11,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 31,
-                                    "param": 10
-                                  },
-                                  {
-                                    "condition": 32,
-                                    "param": 100
+                                    "condition": 5,
+                                    "param": 0
                                   }
                                 ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM4SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 6,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 32,
-                                    "param": 10
+                                    "condition": 5,
+                                    "param": 1
                                   }
                                 ],
-                                "children": [
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
                                   {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM4SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
+                                    "condition": 5,
+                                    "param": 3
                                   }
-                                ]
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": []
                               }
                             }
                           ]
@@ -50306,20 +49832,22 @@
                         }
                       },
                       {
-                        "canvas": {
+                        "list": {
                           "x": 63,
                           "y": 15,
-                          "alignment": 0,
+                          "alignment": 64,
+                          "horizontal": true,
+                          "spacing": 1,
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 4,
-                              "param": 0
-                            },
-                            {
                               "condition": 11,
                               "param": 7
+                            },
+                            {
+                              "condition": 4,
+                              "param": 0
                             }
                           ],
                           "children": [
@@ -50327,7 +49855,7 @@
                               "number": {
                                 "x": 0,
                                 "y": 0,
-                                "alignment": 64,
+                                "alignment": 0,
                                 "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
@@ -50339,354 +49867,117 @@
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 16,
-                                "y": 0,
+                              "graphic": {
+                                "x": 0,
+                                "y": 2,
                                 "alignment": 0,
+                                "patch": "BOOM6SLS",
                                 "tranmap": null,
                                 "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 31,
-                                    "param": 100
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "conditions": [],
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 11,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 31,
-                                    "param": 10
-                                  },
-                                  {
-                                    "condition": 32,
-                                    "param": 100
+                                    "condition": 5,
+                                    "param": 0
                                   }
                                 ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 6,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 32,
-                                    "param": 10
+                                    "condition": 5,
+                                    "param": 1
                                   }
                                 ],
-                                "children": [
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
                                   {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
+                                    "condition": 5,
+                                    "param": 3
                                   }
-                                ]
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": []
                               }
                             }
                           ]
                         }
                       },
                       {
-                        "canvas": {
+                        "list": {
                           "x": 63,
                           "y": 15,
-                          "alignment": 0,
+                          "alignment": 64,
+                          "horizontal": true,
+                          "spacing": 1,
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 4,
-                              "param": 0
-                            },
-                            {
                               "condition": 10,
                               "param": 7
+                            },
+                            {
+                              "condition": 4,
+                              "param": 0
                             }
                           ],
                           "children": [
@@ -50694,7 +49985,7 @@
                               "number": {
                                 "x": 0,
                                 "y": 0,
-                                "alignment": 64,
+                                "alignment": 0,
                                 "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
@@ -50706,334 +49997,95 @@
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 16,
-                                "y": 0,
+                              "graphic": {
+                                "x": 0,
+                                "y": 2,
                                 "alignment": 0,
+                                "patch": "BOOM4SLS",
                                 "tranmap": null,
                                 "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 31,
-                                    "param": 100
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM4SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "conditions": [],
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 11,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 31,
-                                    "param": 10
-                                  },
-                                  {
-                                    "condition": 32,
-                                    "param": 100
+                                    "condition": 5,
+                                    "param": 0
                                   }
                                 ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM4SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 6,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 32,
-                                    "param": 10
+                                    "condition": 5,
+                                    "param": 1
                                   }
                                 ],
-                                "children": [
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
                                   {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM4SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
+                                    "condition": 5,
+                                    "param": 3
                                   }
-                                ]
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": []
                               }
                             }
                           ]
@@ -56837,20 +55889,22 @@
                         }
                       },
                       {
-                        "canvas": {
+                        "list": {
                           "x": 63,
                           "y": 15,
-                          "alignment": 0,
+                          "alignment": 64,
+                          "horizontal": true,
+                          "spacing": 1,
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 4,
-                              "param": 0
-                            },
-                            {
                               "condition": 11,
                               "param": 7
+                            },
+                            {
+                              "condition": 4,
+                              "param": 0
                             }
                           ],
                           "children": [
@@ -56858,7 +55912,7 @@
                               "number": {
                                 "x": 0,
                                 "y": 0,
-                                "alignment": 64,
+                                "alignment": 0,
                                 "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
@@ -56870,354 +55924,117 @@
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 16,
-                                "y": 0,
+                              "graphic": {
+                                "x": 0,
+                                "y": 2,
                                 "alignment": 0,
+                                "patch": "BOOM6SLS",
                                 "tranmap": null,
                                 "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 31,
-                                    "param": 100
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "conditions": [],
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 11,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 31,
-                                    "param": 10
-                                  },
-                                  {
-                                    "condition": 32,
-                                    "param": 100
+                                    "condition": 5,
+                                    "param": 0
                                   }
                                 ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 6,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 32,
-                                    "param": 10
+                                    "condition": 5,
+                                    "param": 1
                                   }
                                 ],
-                                "children": [
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
                                   {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
+                                    "condition": 5,
+                                    "param": 3
                                   }
-                                ]
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": []
                               }
                             }
                           ]
                         }
                       },
                       {
-                        "canvas": {
+                        "list": {
                           "x": 63,
                           "y": 15,
-                          "alignment": 0,
+                          "alignment": 64,
+                          "horizontal": true,
+                          "spacing": 1,
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 4,
-                              "param": 0
-                            },
-                            {
                               "condition": 10,
                               "param": 7
+                            },
+                            {
+                              "condition": 4,
+                              "param": 0
                             }
                           ],
                           "children": [
@@ -57225,7 +56042,7 @@
                               "number": {
                                 "x": 0,
                                 "y": 0,
-                                "alignment": 64,
+                                "alignment": 0,
                                 "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
@@ -57237,334 +56054,95 @@
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 16,
-                                "y": 0,
+                              "graphic": {
+                                "x": 0,
+                                "y": 2,
                                 "alignment": 0,
+                                "patch": "BOOM4SLS",
                                 "tranmap": null,
                                 "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 31,
-                                    "param": 100
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM4SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "conditions": [],
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 11,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 31,
-                                    "param": 10
-                                  },
-                                  {
-                                    "condition": 32,
-                                    "param": 100
+                                    "condition": 5,
+                                    "param": 0
                                   }
                                 ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM4SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 6,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 32,
-                                    "param": 10
+                                    "condition": 5,
+                                    "param": 1
                                   }
                                 ],
-                                "children": [
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
                                   {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM4SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
+                                    "condition": 5,
+                                    "param": 3
                                   }
-                                ]
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": []
                               }
                             }
                           ]
@@ -69451,20 +68029,22 @@
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 78,
+                        "list": {
+                          "x": 99,
                           "y": 7,
-                          "alignment": 0,
+                          "alignment": 130,
+                          "horizontal": true,
+                          "spacing": 1,
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 4,
-                              "param": 0
-                            },
-                            {
                               "condition": 11,
                               "param": 7
+                            },
+                            {
+                              "condition": 4,
+                              "param": 0
                             }
                           ],
                           "children": [
@@ -69472,7 +68052,7 @@
                               "number": {
                                 "x": 0,
                                 "y": 0,
-                                "alignment": 130,
+                                "alignment": 0,
                                 "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
@@ -69484,127 +68064,117 @@
                               }
                             },
                             {
-                              "canvas": {
+                              "graphic": {
                                 "x": 0,
-                                "y": 0,
+                                "y": 2,
                                 "alignment": 0,
+                                "patch": "BOOM6SLS",
                                 "tranmap": null,
                                 "translation": null,
                                 "conditions": [],
-                                "children": [
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
                                   {
-                                    "graphic": {
-                                      "x": 1,
-                                      "y": 2,
-                                      "alignment": 128,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 21,
-                                      "y": 0,
-                                      "alignment": 130,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 21,
-                                      "y": 0,
-                                      "alignment": 130,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 21,
-                                      "y": 0,
-                                      "alignment": 130,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 21,
-                                      "y": 0,
-                                      "alignment": 130,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
+                                    "condition": 5,
+                                    "param": 0
                                   }
-                                ]
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": []
                               }
                             }
                           ]
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 78,
+                        "list": {
+                          "x": 99,
                           "y": 7,
-                          "alignment": 0,
+                          "alignment": 130,
+                          "horizontal": true,
+                          "spacing": 1,
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 4,
-                              "param": 0
-                            },
-                            {
                               "condition": 10,
                               "param": 7
+                            },
+                            {
+                              "condition": 4,
+                              "param": 0
                             }
                           ],
                           "children": [
@@ -69612,7 +68182,7 @@
                               "number": {
                                 "x": 0,
                                 "y": 0,
-                                "alignment": 130,
+                                "alignment": 0,
                                 "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
@@ -69624,107 +68194,95 @@
                               }
                             },
                             {
-                              "canvas": {
+                              "graphic": {
                                 "x": 0,
-                                "y": 0,
+                                "y": 2,
                                 "alignment": 0,
+                                "patch": "BOOM4SLS",
                                 "tranmap": null,
                                 "translation": null,
                                 "conditions": [],
-                                "children": [
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
                                   {
-                                    "graphic": {
-                                      "x": 1,
-                                      "y": 2,
-                                      "alignment": 128,
-                                      "patch": "BOOM4SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 21,
-                                      "y": 0,
-                                      "alignment": 130,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 21,
-                                      "y": 0,
-                                      "alignment": 130,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 21,
-                                      "y": 0,
-                                      "alignment": 130,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 21,
-                                      "y": 0,
-                                      "alignment": 130,
-                                      "font": "DigitGreen",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
+                                    "condition": 5,
+                                    "param": 0
                                   }
-                                ]
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": []
                               }
                             }
                           ]
@@ -82563,20 +81121,22 @@
                         }
                       },
                       {
-                        "canvas": {
+                        "list": {
                           "x": 63,
                           "y": 15,
-                          "alignment": 0,
+                          "alignment": 64,
+                          "horizontal": true,
+                          "spacing": 1,
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
                             {
-                              "condition": 4,
-                              "param": 0
-                            },
-                            {
                               "condition": 11,
                               "param": 7
+                            },
+                            {
+                              "condition": 4,
+                              "param": 0
                             }
                           ],
                           "children": [
@@ -82584,7 +81144,7 @@
                               "number": {
                                 "x": 0,
                                 "y": 0,
-                                "alignment": 64,
+                                "alignment": 0,
                                 "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
@@ -82596,334 +81156,225 @@
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 16,
-                                "y": 0,
+                              "graphic": {
+                                "x": 0,
+                                "y": 2,
                                 "alignment": 0,
+                                "patch": "BOOM6SLS",
                                 "tranmap": null,
                                 "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 31,
-                                    "param": 100
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "conditions": [],
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 11,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 31,
-                                    "param": 10
-                                  },
-                                  {
-                                    "condition": 32,
-                                    "param": 100
+                                    "condition": 5,
+                                    "param": 0
                                   }
                                 ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 6,
+                              "number": {
+                                "x": 1,
                                 "y": 0,
                                 "alignment": 0,
+                                "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
                                 "conditions": [
                                   {
-                                    "condition": 32,
-                                    "param": 10
+                                    "condition": 5,
+                                    "param": 1
                                   }
                                 ],
-                                "children": [
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
                                   {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 0,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 0
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 1,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 1
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 3,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 3
-                                        }
-                                      ],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 5,
-                                      "param": 2,
-                                      "maxlength": 3,
-                                      "conditions": [
-                                        {
-                                          "condition": 5,
-                                          "param": 2
-                                        }
-                                      ],
-                                      "children": []
-                                    }
+                                    "condition": 5,
+                                    "param": 3
                                   }
-                                ]
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": []
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "list": {
+                          "x": 63,
+                          "y": 15,
+                          "alignment": 64,
+                          "horizontal": true,
+                          "spacing": 1,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            },
+                            {
+                              "condition": 4,
+                              "param": 0
+                            }
+                          ],
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 4,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [],
+                                "children": []
+                              }
+                            },
+                            {
+                              "graphic": {
+                                "x": 0,
+                                "y": 2,
+                                "alignment": 0,
+                                "patch": "BOOM4SLS",
+                                "tranmap": null,
+                                "translation": null,
+                                "conditions": [],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 0,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 0
+                                  }
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 1,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 1
+                                  }
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 3,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 3
+                                  }
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitGreen",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 5,
+                                "param": 2,
+                                "maxlength": 3,
+                                "conditions": [
+                                  {
+                                    "condition": 5,
+                                    "param": 2
+                                  }
+                                ],
+                                "children": []
                               }
                             }
                           ]
@@ -86030,10 +84481,12 @@
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 67,
+                        "list": {
+                          "x": 88,
                           "y": 8,
-                          "alignment": 0,
+                          "alignment": 130,
+                          "horizontal": true,
+                          "spacing": 1,
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -86047,7 +84500,7 @@
                               "number": {
                                 "x": 0,
                                 "y": 0,
-                                "alignment": 130,
+                                "alignment": 0,
                                 "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
@@ -86060,9 +84513,9 @@
                             },
                             {
                               "graphic": {
-                                "x": 1,
+                                "x": 0,
                                 "y": 2,
-                                "alignment": 128,
+                                "alignment": 0,
                                 "patch": "BOOM4SLS",
                                 "tranmap": null,
                                 "translation": null,
@@ -86072,9 +84525,9 @@
                             },
                             {
                               "number": {
-                                "x": 21,
+                                "x": 1,
                                 "y": 0,
-                                "alignment": 130,
+                                "alignment": 0,
                                 "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
@@ -86092,9 +84545,9 @@
                             },
                             {
                               "number": {
-                                "x": 21,
+                                "x": 1,
                                 "y": 0,
-                                "alignment": 130,
+                                "alignment": 0,
                                 "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
@@ -86112,9 +84565,9 @@
                             },
                             {
                               "number": {
-                                "x": 21,
+                                "x": 1,
                                 "y": 0,
-                                "alignment": 130,
+                                "alignment": 0,
                                 "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
@@ -86132,9 +84585,9 @@
                             },
                             {
                               "number": {
-                                "x": 21,
+                                "x": 1,
                                 "y": 0,
-                                "alignment": 130,
+                                "alignment": 0,
                                 "font": "DigitGreen",
                                 "tranmap": null,
                                 "translation": null,
