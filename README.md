@@ -55,82 +55,82 @@ Available variants:<br><br>
 
 **1) Classic Plus**<br>
 Like the vanilla status bar, but with transparency. There are also indicators for Chainsaw/Super Shotgun (ARMS: "8" and "9") and Berserk (ARMS: "1"). There's also a small frame around the mugshot telling you which armor type is used (green: 33%, blue: 50%). Widescreen STBAR lumps are supported.<br>
-<img width="1917" height="328" alt="00_statusbar-plus" src="https://github.com/user-attachments/assets/2d7785e1-643f-40ad-8b29-dc4c7e0b9d69" />
+![Screenshot](screenshots/01_classic-plus.png)
 <br><br>
 
 **2) Crispy Plus**<br>
 <a href="https://github.com/fabiangreffrath/crispy-doom" target= "_blank">Crispy Doom</a> fullscreen HUD with labels. With additional indicators for Berserk, Chainsaw/Super Shotgun, god mode and armor type. Dynamic ammo label with the "Ammo Names" addon. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".)<br>
-<img width="1917" height="328" alt="01_crispy-plus" src="https://github.com/user-attachments/assets/825a2cf9-d2c4-4c9d-aeb3-3a07aafc55ba" />
+![Screenshot](screenshots/02_crispy-plus.png)
 <br><br>
 
 **3) Nightdive**<br>
 Replaces the default <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Ammo overview, arms display and armor type indicator were added (where possible).<br>
-<img width="1917" height="328" alt="03_nightdive-plus" src="https://github.com/user-attachments/assets/0b8d2185-f16d-46e5-8812-51d12552266c" />
+![Screenshot](screenshots/03_nightdive-plus.png)
    **I. Plus**: Icons and STTNUM numbers in a single row. Bonus features: Ammo overview meters (four white bars in the bottom right corner) with backpack indicator, Berserk indicator (Berserk pack icon shown in ammo area if fists are selected), Armor icon hidden unless some armor is owned.<br><br>
-<img width="1917" height="328" alt="04_nightdive-stacked" src="https://github.com/user-attachments/assets/f8fc9b25-a842-45ca-94b9-92178f0e819d" />
+![Screenshot](screenshots/04_nightdive-stacked.png)
    **II. Stacked**: Focuses on icons instead of labels. Berserker mode indicated by switching health icon. A small label is shown inside the health icon in God mode. Ammo overview hides number for selected weapon.<br>
 <em>Note: Some mods use sprites with different sizes. In such cases, alignment of icons may be off.</em><br><br>
-<img width="1917" height="328" alt="02_nightdive-labels" src="https://github.com/user-attachments/assets/52afaa63-4b2a-4ef0-a4f6-93321d98248c" />
+![Screenshot](screenshots/05_nightdive-labels.png)
    **III. Labels**: Vitals use the STTNUM font. ARMS display arranged as a square, ammo overview minimized. Dynamic ammo label with the "Ammo Names" addon.<br><br>
-<img width="1917" height="328" alt="03_nightdive-remix" src="https://github.com/user-attachments/assets/fdda6089-4d28-49d7-9266-766feb60b965" />
+![Screenshot](screenshots/06_nightdive-meters.png)
    **IV. Meters**: Ammo overview taken from the DSDA HUD group (with ammo type meters); ARMS widget is a single line.<br><br>
-<img width="1917" height="328" alt="04_nightdive-remix2" src="https://github.com/user-attachments/assets/c8ce64b4-1c8a-48b4-81c3-bb35877752c6" />
+![Screenshot](screenshots/07_nightdive-invictus.png)
    **V. Invictus**: 'Meters' variant with key bar replacing the ARMS widget and big ammo number. Dynamic ammo label with the "Ammo Names" addon.
 <br><br>
 
 **4) Doom 64**<br>
 Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/media/51707/1/5.jpg" target= "_blank">Doom 64</a>. Alignment of elements will adjust depending on "Hud Anchoring" setting.<br>
-<img width="1917" height="328" alt="04_doom64" src="https://github.com/user-attachments/assets/a52c1d6f-b80e-4f46-a348-47547db289d4" />
+![Screenshot](screenshots/08_doom64.png)
   **I. Original**: Three centered vital stats plus indicators for armor type and god mode. <br><br>
-<img width="1917" height="328" alt="05_boom64" src="https://github.com/user-attachments/assets/2d3ad03a-b2bc-4820-99b3-9cd8f1ce52e9" />
+![Screenshot](screenshots/09_boom64.png)
   **II. Boom 64**: Like 'Original', but uses Boom font and its colorization. With ammo overview, active ammo and backpack indicator.
 <br><br>
 
 **5) Trinity**<br>
 Doom 64 variant with STTNUM vitals arranged on the left side, keeping weapon view unobstructed.<br>
-<img width="1917" height="328" alt="10_trinity_mono" src="https://github.com/user-attachments/assets/7ae554d2-14ee-4cd8-ae04-254c03c7a95a" />
+![Screenshot](screenshots/10_trinity_mono.png)
   **I. Mono**: Colorization is avoided (only white, gray and black), making this HUD extremely robust if combined with any custom palettes from PWADs. Alignment of elements will adjust depending on "Hud Anchoring" setting. Dynamic ammo label with the "Ammo Names" addon.<br><br>
-<img width="1917" height="328" alt="11_trinity_color" src="https://github.com/user-attachments/assets/b37c8c5e-b1cd-4fdf-a421-de24c683a7a7" />
+![Screenshot](screenshots/11_trinity_color.png)
   **II. Color**: Like 'Mono', but with Boom numbers and colorization (same as Boom 64).
   <br><br>
 
 **6) ﻿Eternity**<br>
 Mimicks the fullscreen HUD from the <a href="https://github.com/team-eternity/eternity" target= "_blank">Eternity Engine</a>.<br>
-<img width="1917" height="328" alt="05_eternity_enhanced" src="https://github.com/user-attachments/assets/aac81320-9209-472a-935d-3d9c5ecbd71a" />
+![Screenshot](screenshots/12_eternity_enhanced.png)
    **I. Enhanced**: Uses original font with different sizes and mugshot. No labels (besides ammo overview).<br><br>
-<img width="1917" height="328" alt="06_eternity_boomified" src="https://github.com/user-attachments/assets/65fa423e-452f-4759-a002-86e351fb97ea" />
+![Screenshot](screenshots/13_eternity_boomified.png)
    **II. Boomified**: Uses Boom font instead, one size only, no mugshot. Health/Armor icons indicate Berserk/God modes and MegaArmor (colors depend on selected game), taken from the status bar of <a href="https://doomwiki.org/wiki/Jenesis" target= "_blank">"Jenesis" by Jimmy</a>.
 <br><br>
 
 **7) Boom**<br>
 The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.png/800px-NDCP-map23-end.png" target= "_blank">Boom HUD</a> with properly aligned keys (ignores custom offsets).<br>
-<img width="1917" height="328" alt="07_boom-comp" src="https://github.com/user-attachments/assets/7481954f-1df3-482e-9722-d3c92fcc2e26" />
+![Screenshot](screenshots/14_boom-comp.png)
    **I. Compact**: Everything grouped on the left side of the screen.<br><br>
-<img width="1917" height="328" alt="15_boom-supply" src="https://github.com/user-attachments/assets/3da23584-3fd7-4bac-a247-ce08aeaa7e6e" />
+![Screenshot](screenshots/15_boom-supply.png)
    **II. Supply**: 'Compact' variant with more emphasis on ammo info. The SUP widget shows ammo of all weapons (color-coded, depending on amount in 25% steps: red/orange/gold/green) while the WEA widget won't show active weapons any more, but rather indicate through color how much ammo you still have for each weapon (like SUP). Keys are stacked vertically in the bottom right corner.<br><br>
-<img width="1917" height="328" alt="08_boom-remix" src="https://github.com/user-attachments/assets/f00fa7d8-2ea7-4800-96a4-97d61c133494" />
-<img width="1917" height="328" alt="08_boom-remix2" src="https://github.com/user-attachments/assets/4503a8a0-1368-45ec-a52c-f059a347d49f" />
+![Screenshot](screenshots/16a_boom-remix.png)
+![Screenshot](screenshots/16b_boom-remix2.png)
    **III. Remix**: Merges 'Compact' features with ammo overview from Nightdive IV/V. Alternate display mode (second screen): Arms widget (WEA) is replaced with two progress bars for secrets and kills (level stats widget must be set to "Off" or "Automap").<br><br>
-<img width="1917" height="328" alt="09_boom-dist" src="https://github.com/user-attachments/assets/f986e76f-55b7-4ced-bc3a-baa0da67db5d" />
+![Screenshot](screenshots/17_boom-split.png)
    **IV. Split**: Weapon and ammo-related info move to the right side. Ammo overview taken from 'Supply', otherwise the same as 'Compact'.
 <br><br>
 
 **8) DSDA**<br>
 Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_blank">DSDA-Doom</a> port. All the vital info is grouped on the left side while ammo overview and keys are to the right. (By default, slot numbers are used in ammo overview. Addons for ammo names are available below, see "Bonus Content".) <br>
-<img width="1917" height="328" alt="08_dsda-classic" src="https://github.com/user-attachments/assets/363946cf-f1f5-497a-8d99-db8f2b4cbc4f" />
+![Screenshot](screenshots/18_dsda-standard.png)
    **I. Standard**: Imitates the original HUD as closely as possible.<br><br>
-<img width="1917" height="328" alt="09_dsda-enhanced" src="https://github.com/user-attachments/assets/512a5fd9-b1a6-408b-b402-04e05b7cb0ca" />
+![Screenshot](screenshots/19_dsda-enhanced.png)
    **II. Enhanced**: Adds mugshot and reorganizes vitals/WPN widgets on the left side.<br><br>
-<img width="1917" height="328" alt="12_dsda-condensed" src="https://github.com/user-attachments/assets/6e360db4-2ddf-487e-b134-725d19db5403" />
+![Screenshot](screenshots/20_dsda-condensed.png)
    **III. Condensed**: Widgets on the left are all aligned in a single line. Ammo overview is minimized and mugshot moves to the right side.<br><br>
 
 **9) PrBoom+**<br>
 Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. God Mode indicator (label on top of health icon) has been added.<br>
-<img width="1917" height="328" alt="11_prboom-classic" src="https://github.com/user-attachments/assets/ceabb10f-838d-4c2c-9f5a-8f2e841d6ff8" />
+![Screenshot](screenshots/21_prboom-standard.png)
    **I. Standard**: Imitates the original HUD as closely as possible: 'Boom Compact' with Health and Armor isolated on the right side.<br>
 <em>Note: Some mods use sprites with different sizes. In such cases, alignment of icons may be off.</em>
 <br><br>
-<img width="1917" height="328" alt="12_prboom-balanced" src="https://github.com/user-attachments/assets/9e7ed4ec-21b8-421e-a681-13166d1103c1" />
+![Screenshot](screenshots/22_prboom-balanced.png)
    **II. Balanced**: Uses more neutral/universal icons (from 'Eternity Boomified') and splits them, using a double-sized Boom font. No colorization here (only in the WEA widget for selected weapon).<br><br>
 
 **BONUS CONTENT**<br><br>
