@@ -68129,6 +68129,192 @@
                           "x": -1,
                           "y": 1,
                           "alignment": 0,
+                          "patch": "TAG_SUP",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "DigitGreen",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "DigitGreen",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "DigitGreen",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 11,
+                              "param": 7
+                            }
+                          ],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "DigitGreen",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 3,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 10,
+                              "param": 7
+                            }
+                          ],
+                          "children": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "list": {
+                    "x": 319,
+                    "y": 174,
+                    "alignment": 130,
+                    "horizontal": true,
+                    "spacing": 3,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [],
+                    "children": [
+                      {
+                        "graphic": {
+                          "x": -1,
+                          "y": 1,
+                          "alignment": 0,
                           "patch": "TAG_WEA",
                           "tranmap": null,
                           "translation": null,
