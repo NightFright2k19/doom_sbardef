@@ -17,7 +17,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 <ul>
   <li><b>Vitals</b>: Health, armor, ammo and keys.<br>- HUDs: All</li>
   <li><b>Mugshot</b>: Animated face.<br>- HUDs: Classic Plus, Nightdive I/III-V, Eternity I, DSDA II/III</li>
-  <li><b>Ammo overview</b>: Amount of ammo available for each weapon.<br>- Current/total: Classic Plus, Crispy Plus, DSDA I+II<br>- Current: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom II+III, DSDA III<br>- Bars: Nightdive I</li>
+  <li><b>Ammo overview</b>: Amount of ammo available for each weapon.<br>- Current/total: Classic Plus, Crispy Plus, DSDA I+II<br>- Current: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom II-IV, DSDA III<br>- Bars: Nightdive I</li>
   <li><b>Arms</b>: Available weapons.<br>- 1-7: DSDA III (8/9 if selected)<br>- 1-9: Classic Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+</li>
   <li><b>Backpack</b>: Powerup which doubles ammo amount.<br>- Doubled totals: Classic Plus, Crispy Plus, Eternity, Boom, DSDA I+II, PrBoom+<br>- Color: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom, DSDA, PrBoom+<br>- Bars: Nightdive I</li>
   <li><b>God mode</b>: Shows if player is invincible, either through powerup or cheat.<br>- Mugshot: Classic Plus, Nightdive I/III-V, Eternity I, DSDA II+III<br>- Icon: Eternity II, PrBoom+ II<br>- Label: Crispy Plus, Nightdive II-V, Doom 64, Trinity, Boom, DSDA, PrBoom+ I<br>- Color: Nightdive IV+V, Doom 64 II, Trinity II, Eternity, Boom, DSDA</li>
@@ -43,9 +43,9 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | Nightdive III/IV<br>Eternity I<br>DSDA II/III | ++++++ | ++++ | 10 / 10 | Core: All<br>Extras: All |
 | Classic Plus | ++++++ | +++ | 9 / 10 | Core: All<br>Extras: No active Ammo/Weapon |
-| Nightdive II<br>Eternity II<br>Boom III<br>DSDA I | +++++ | ++++ | 9 / 10 | Core: No Mugshot<br>Extras: All |
+| Nightdive II<br>Eternity II<br>Boom III+IV<br>DSDA I | +++++ | ++++ | 9 / 10 | Core: No Mugshot<br>Extras: All |
 | Crispy Plus<br>Boom II | +++++ | +++ | 8 / 10 | Core: No Mugshot<br>Extras: No active Ammo/Weapon |
-| Boom I/IV<br>PrBoom+ | ++++ | ++++ | 8 / 10 | Core: Vitals, Arms, Backpack, God mode<br>Extras: All |
+| Boom I<br>PrBoom+ | ++++ | ++++ | 8 / 10 | Core: Vitals, Arms, Backpack, God mode<br>Extras: All |
 | Nightdive I/V | +++++ | +++ | 8 / 10 | Core: No Arms<br>Extras: No Chainsaw/SSG |
 | Doom 64 II<br>Trinity II | ++++ | ++ | 6 / 10 | Core: Vitals, Ammo overview, Backpack, God mode<br>Extras: Armor type, active ammo |
 | Trinity I | ++++ | + | 5 / 10 | Core: Vitals, Ammo overview, Backpack, God mode<br>Extras: Armor type |
@@ -112,7 +112,7 @@ The original <a href="https://doomwiki.org/w/images/thumb/5/53/NDCP-map23-end.pn
 <img width="1917" height="328" alt="08_boom-remix2" src="https://github.com/user-attachments/assets/4503a8a0-1368-45ec-a52c-f059a347d49f" />
    **III. Remix**: Merges 'Compact' features with ammo overview from Nightdive IV/V. Alternate display mode (second screen): Arms widget (WEA) is replaced with two progress bars for secrets and kills (level stats widget must be set to "Off" or "Automap").<br><br>
 <img width="1917" height="328" alt="09_boom-dist" src="https://github.com/user-attachments/assets/f986e76f-55b7-4ced-bc3a-baa0da67db5d" />
-   **IV. Split**: Weapon and ammo-related info move to the right side, otherwise the same as 'Compact'.
+   **IV. Split**: Weapon and ammo-related info move to the right side. Ammo overview taken from 'Supply', otherwise the same as 'Compact'.
 <br><br>
 
 **8) DSDA**<br>
