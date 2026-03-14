@@ -34495,10 +34495,12 @@
                   }
                 },
                 {
-                  "canvas": {
+                  "list": {
                     "x": 70,
                     "y": 180,
-                    "alignment": 0,
+                    "alignment": 64,
+                    "horizontal": true,
+                    "spacing": 2,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -34513,10 +34515,10 @@
                     ],
                     "children": [
                       {
-                        "percent": {
+                        "number": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "font": "EternityMedWhite",
                           "tranmap": null,
                           "translation": null,
@@ -34528,308 +34530,107 @@
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 31,
+                        "graphic": {
+                          "x": 0,
                           "y": 0,
                           "alignment": 0,
+                          "patch": "ETM6SLSH",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 31,
-                              "param": 100
-                            }
-                          ],
-                          "children": [
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 0,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 0
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 1,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 3,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 3
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 2,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 2
-                                  }
-                                ],
-                                "children": []
-                              }
-                            }
-                          ]
+                          "conditions": [],
+                          "children": []
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 24,
+                        "number": {
+                          "x": 0,
                           "y": 0,
                           "alignment": 0,
+                          "font": "EternityMedWhite",
                           "tranmap": null,
                           "translation": null,
+                          "type": 5,
+                          "param": 0,
+                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 31,
-                              "param": 10
-                            },
-                            {
-                              "condition": 32,
-                              "param": 100
+                              "condition": 5,
+                              "param": 0
                             }
                           ],
-                          "children": [
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 0,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 0
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 1,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 3,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 3
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 2,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 2
-                                  }
-                                ],
-                                "children": []
-                              }
-                            }
-                          ]
+                          "children": []
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 17,
+                        "number": {
+                          "x": 0,
                           "y": 0,
                           "alignment": 0,
+                          "font": "EternityMedWhite",
                           "tranmap": null,
                           "translation": null,
+                          "type": 5,
+                          "param": 1,
+                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 32,
-                              "param": 10
+                              "condition": 5,
+                              "param": 1
                             }
                           ],
-                          "children": [
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "EternityMedWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
                             {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 0,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 0
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 1,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 3,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 3
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 2,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 2
-                                  }
-                                ],
-                                "children": []
-                              }
+                              "condition": 5,
+                              "param": 3
                             }
-                          ]
+                          ],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "EternityMedWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 2
+                            }
+                          ],
+                          "children": []
                         }
                       }
                     ]
                   }
                 },
                 {
-                  "canvas": {
+                  "list": {
                     "x": 70,
                     "y": 180,
-                    "alignment": 0,
+                    "alignment": 64,
+                    "horizontal": true,
+                    "spacing": 2,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -34844,10 +34645,10 @@
                     ],
                     "children": [
                       {
-                        "percent": {
+                        "number": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "font": "EternityMedGold",
                           "tranmap": null,
                           "translation": null,
@@ -34859,298 +34660,95 @@
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 31,
+                        "graphic": {
+                          "x": 0,
                           "y": 0,
                           "alignment": 0,
+                          "patch": "ETM3SLSH",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 31,
-                              "param": 100
-                            }
-                          ],
-                          "children": [
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedGold",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 0,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 0
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedGold",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 1,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedGold",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 3,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 3
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedGold",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 2,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 2
-                                  }
-                                ],
-                                "children": []
-                              }
-                            }
-                          ]
+                          "conditions": [],
+                          "children": []
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 24,
+                        "number": {
+                          "x": 0,
                           "y": 0,
                           "alignment": 0,
+                          "font": "EternityMedGold",
                           "tranmap": null,
                           "translation": null,
+                          "type": 5,
+                          "param": 0,
+                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 31,
-                              "param": 10
-                            },
-                            {
-                              "condition": 32,
-                              "param": 100
+                              "condition": 5,
+                              "param": 0
                             }
                           ],
-                          "children": [
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedGold",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 0,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 0
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedGold",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 1,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedGold",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 3,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 3
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedGold",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 2,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 2
-                                  }
-                                ],
-                                "children": []
-                              }
-                            }
-                          ]
+                          "children": []
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 17,
+                        "number": {
+                          "x": 0,
                           "y": 0,
                           "alignment": 0,
+                          "font": "EternityMedGold",
                           "tranmap": null,
                           "translation": null,
+                          "type": 5,
+                          "param": 1,
+                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 32,
-                              "param": 10
+                              "condition": 5,
+                              "param": 1
                             }
                           ],
-                          "children": [
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "EternityMedGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
                             {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedGold",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 0,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 0
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedGold",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 1,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedGold",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 3,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 3
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "EternityMedGold",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 2,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 2
-                                  }
-                                ],
-                                "children": []
-                              }
+                              "condition": 5,
+                              "param": 3
                             }
-                          ]
+                          ],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "EternityMedGold",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 2
+                            }
+                          ],
+                          "children": []
                         }
                       }
                     ]
@@ -39232,175 +38830,6 @@
                   }
                 },
                 {
-                  "canvas": {
-                    "x": 55,
-                    "y": 183,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 4,
-                        "param": 0
-                      },
-                      {
-                        "condition": 31,
-                        "param": 100
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 64,
-                          "patch": "BOOM6SLS",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 64,
-                          "patch": "BOOM4SLS",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": []
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "canvas": {
-                    "x": 50,
-                    "y": 183,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 4,
-                        "param": 0
-                      },
-                      {
-                        "condition": 31,
-                        "param": 10
-                      },
-                      {
-                        "condition": 32,
-                        "param": 100
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 64,
-                          "patch": "BOOM6SLS",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 64,
-                          "patch": "BOOM4SLS",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": []
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "canvas": {
-                    "x": 45,
-                    "y": 183,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 4,
-                        "param": 0
-                      },
-                      {
-                        "condition": 32,
-                        "param": 10
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 64,
-                          "patch": "BOOM6SLS",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 11,
-                              "param": 7
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 64,
-                          "patch": "BOOM4SLS",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 10,
-                              "param": 7
-                            }
-                          ],
-                          "children": []
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
                   "number": {
                     "x": 33,
                     "y": 177,
@@ -39965,10 +39394,12 @@
                   }
                 },
                 {
-                  "canvas": {
+                  "list": {
                     "x": 39,
                     "y": 181,
-                    "alignment": 0,
+                    "alignment": 64,
+                    "horizontal": true,
+                    "spacing": 2,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -39986,7 +39417,7 @@
                         "number": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "font": "DigitWhite",
                           "tranmap": null,
                           "translation": null,
@@ -39998,308 +39429,107 @@
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 21,
-                          "y": 0,
+                        "graphic": {
+                          "x": 0,
+                          "y": 2,
                           "alignment": 0,
+                          "patch": "BOOM6SLS",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 31,
-                              "param": 100
-                            }
-                          ],
-                          "children": [
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 0,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 0
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 1,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 3,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 3
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 2,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 2
-                                  }
-                                ],
-                                "children": []
-                              }
-                            }
-                          ]
+                          "conditions": [],
+                          "children": []
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 16,
+                        "number": {
+                          "x": 0,
                           "y": 0,
                           "alignment": 0,
+                          "font": "DigitWhite",
                           "tranmap": null,
                           "translation": null,
+                          "type": 5,
+                          "param": 0,
+                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 31,
-                              "param": 10
-                            },
-                            {
-                              "condition": 32,
-                              "param": 100
+                              "condition": 5,
+                              "param": 0
                             }
                           ],
-                          "children": [
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 0,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 0
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 1,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 3,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 3
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 2,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 2
-                                  }
-                                ],
-                                "children": []
-                              }
-                            }
-                          ]
+                          "children": []
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 11,
+                        "number": {
+                          "x": 0,
                           "y": 0,
                           "alignment": 0,
+                          "font": "DigitWhite",
                           "tranmap": null,
                           "translation": null,
+                          "type": 5,
+                          "param": 1,
+                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 32,
-                              "param": 10
+                              "condition": 5,
+                              "param": 1
                             }
                           ],
-                          "children": [
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
                             {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 0,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 0
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 1,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 3,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 3
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 2,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 2
-                                  }
-                                ],
-                                "children": []
-                              }
+                              "condition": 5,
+                              "param": 3
                             }
-                          ]
+                          ],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 2
+                            }
+                          ],
+                          "children": []
                         }
                       }
                     ]
                   }
                 },
                 {
-                  "canvas": {
+                  "list": {
                     "x": 39,
                     "y": 181,
-                    "alignment": 0,
+                    "alignment": 64,
+                    "horizontal": true,
+                    "spacing": 2,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
@@ -40317,7 +39547,7 @@
                         "number": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 64,
+                          "alignment": 0,
                           "font": "DigitGreen",
                           "tranmap": null,
                           "translation": null,
@@ -40329,298 +39559,95 @@
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 21,
-                          "y": 0,
+                        "graphic": {
+                          "x": 0,
+                          "y": 2,
                           "alignment": 0,
+                          "patch": "BOOM4SLS",
                           "tranmap": null,
                           "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 31,
-                              "param": 100
-                            }
-                          ],
-                          "children": [
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitGreen",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 0,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 0
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitGreen",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 1,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitGreen",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 3,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 3
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitGreen",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 2,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 2
-                                  }
-                                ],
-                                "children": []
-                              }
-                            }
-                          ]
+                          "conditions": [],
+                          "children": []
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 16,
+                        "number": {
+                          "x": 0,
                           "y": 0,
                           "alignment": 0,
+                          "font": "DigitGreen",
                           "tranmap": null,
                           "translation": null,
+                          "type": 5,
+                          "param": 0,
+                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 31,
-                              "param": 10
-                            },
-                            {
-                              "condition": 32,
-                              "param": 100
+                              "condition": 5,
+                              "param": 0
                             }
                           ],
-                          "children": [
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitGreen",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 0,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 0
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitGreen",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 1,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitGreen",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 3,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 3
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitGreen",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 2,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 2
-                                  }
-                                ],
-                                "children": []
-                              }
-                            }
-                          ]
+                          "children": []
                         }
                       },
                       {
-                        "canvas": {
-                          "x": 11,
+                        "number": {
+                          "x": 0,
                           "y": 0,
                           "alignment": 0,
+                          "font": "DigitGreen",
                           "tranmap": null,
                           "translation": null,
+                          "type": 5,
+                          "param": 1,
+                          "maxlength": 3,
                           "conditions": [
                             {
-                              "condition": 32,
-                              "param": 10
+                              "condition": 5,
+                              "param": 1
                             }
                           ],
-                          "children": [
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "DigitGreen",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [
                             {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitGreen",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 0,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 0
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitGreen",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 1,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 1
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitGreen",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 3,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 3
-                                  }
-                                ],
-                                "children": []
-                              }
-                            },
-                            {
-                              "number": {
-                                "x": 0,
-                                "y": 0,
-                                "alignment": 64,
-                                "font": "DigitGreen",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 5,
-                                "param": 2,
-                                "maxlength": 3,
-                                "conditions": [
-                                  {
-                                    "condition": 5,
-                                    "param": 2
-                                  }
-                                ],
-                                "children": []
-                              }
+                              "condition": 5,
+                              "param": 3
                             }
-                          ]
+                          ],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "font": "DigitGreen",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [
+                            {
+                              "condition": 5,
+                              "param": 2
+                            }
+                          ],
+                          "children": []
                         }
                       }
                     ]
