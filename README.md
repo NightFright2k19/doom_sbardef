@@ -28,7 +28,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
   <li><b>Armor type</b>: Level of damage absorption.<br>- Mugshot frame: Classic Plus<br>- Icon: Nightdive I+II, Eternity II, PrBoom+<br>- Percentage: Crispy Plus, Nightdive III<br>- Bracket: Doom 64 I, Trinity I<br>- Color: Nightdive IV+V, Doom 64 II, Trinity II, Eternity, Boom, DSDA</li>
   <li><b>Berserk</b>: Powerup which increases punching power with Fists.<br>- Icon: Nightdive I/II/V, Eternity II, PrBoom+<br>- Lit "1": Classic Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+<br>- Red "N/A" Label: Eternity II, DSDA</li>
   <li><b>Chainsaw/Super Shotgun</b>: Whether secondary weapons for slots 1 or 3 are owned.<br>- 8/9: Classic Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+<br>- Lit "1"/Fully lit "3": DSDA III</li>
-  <li><b>Active ammo/weapon</b>: Currently selected weapon and fitting ammo.<br>- Full: Nightdive I-IV, Eternity, DSDA<br>- Ammo only: Nightdive V, Doom 64 II, Trinity II, Boom III<br>- Weapons only: Boom I+IV, PrBoom+</li>
+  <li><b>Active ammo/weapon</b>: Currently selected weapon and fitting ammo.<br>- Full: Nightdive I-IV, Eternity, Boom IV, DSDA<br>- Ammo only: Nightdive V, Doom 64 II, Trinity II, Boom III<br>- Weapons only: Boom I, PrBoom+</li>
 </ul>
 
 **SBARDEF v1.2.0 only:**
