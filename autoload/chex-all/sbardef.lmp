@@ -62090,109 +62090,6 @@
                                 ],
                                 "children": []
                               }
-                            },
-                            {
-                              "number": {
-                                "x": 44,
-                                "y": -1,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 10,
-                                "param": 0,
-                                "maxlength": 2,
-                                "conditions": [],
-                                "children": []
-                              }
-                            },
-                            {
-                              "canvas": {
-                                "x": 50,
-                                "y": -1,
-                                "alignment": 0,
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 49,
-                                    "param": 10
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 16,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "canvas": {
-                                "x": 55,
-                                "y": -1,
-                                "alignment": 0,
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 50,
-                                    "param": 10
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 16,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  }
-                                ]
-                              }
                             }
                           ]
                         }
@@ -62450,108 +62347,133 @@
                                 "conditions": [],
                                 "children": []
                               }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "list": {
+                          "x": 63,
+                          "y": -1,
+                          "alignment": 64,
+                          "horizontal": true,
+                          "spacing": 1,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [],
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 10,
+                                "param": 0,
+                                "maxlength": 5,
+                                "conditions": [
+                                  {
+                                    "condition": 55,
+                                    "param": 100
+                                  }
+                                ],
+                                "children": []
+                              }
                             },
                             {
                               "number": {
-                                "x": 44,
-                                "y": -1,
-                                "alignment": 64,
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 0,
                                 "font": "DigitBlue",
                                 "tranmap": null,
                                 "translation": null,
                                 "type": 10,
                                 "param": 0,
-                                "maxlength": 2,
-                                "conditions": [],
+                                "maxlength": 5,
+                                "conditions": [
+                                  {
+                                    "condition": 56,
+                                    "param": 100
+                                  }
+                                ],
                                 "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 50,
-                                "y": -1,
+                              "graphic": {
+                                "x": 0,
+                                "y": 2,
                                 "alignment": 0,
+                                "patch": "BOOM6SLS",
                                 "tranmap": null,
                                 "translation": null,
                                 "conditions": [
                                   {
-                                    "condition": 49,
-                                    "param": 10
+                                    "condition": 55,
+                                    "param": 100
                                   }
                                 ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM5SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitBlue",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 16,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 55,
-                                "y": -1,
+                              "graphic": {
+                                "x": 0,
+                                "y": 2,
                                 "alignment": 0,
+                                "patch": "BOOM5SLS",
                                 "tranmap": null,
                                 "translation": null,
                                 "conditions": [
                                   {
-                                    "condition": 50,
-                                    "param": 10
+                                    "condition": 56,
+                                    "param": 100
                                   }
                                 ],
-                                "children": [
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 16,
+                                "param": 0,
+                                "maxlength": 5,
+                                "conditions": [
                                   {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM5SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitBlue",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 16,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
+                                    "condition": 55,
+                                    "param": 100
                                   }
-                                ]
+                                ],
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitBlue",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 16,
+                                "param": 0,
+                                "maxlength": 5,
+                                "conditions": [
+                                  {
+                                    "condition": 56,
+                                    "param": 100
+                                  }
+                                ],
+                                "children": []
                               }
                             }
                           ]
@@ -62893,253 +62815,6 @@
                                 ],
                                 "children": []
                               }
-                            },
-                            {
-                              "number": {
-                                "x": 44,
-                                "y": -1,
-                                "alignment": 64,
-                                "font": "DigitWhite",
-                                "tranmap": null,
-                                "translation": null,
-                                "type": 8,
-                                "param": 0,
-                                "maxlength": 5,
-                                "conditions": [],
-                                "children": []
-                              }
-                            },
-                            {
-                              "canvas": {
-                                "x": 50,
-                                "y": -1,
-                                "alignment": 0,
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 45,
-                                    "param": 10
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 14,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "canvas": {
-                                "x": 55,
-                                "y": -1,
-                                "alignment": 0,
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 45,
-                                    "param": 100
-                                  },
-                                  {
-                                    "condition": 46,
-                                    "param": 10
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 14,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "canvas": {
-                                "x": 60,
-                                "y": -1,
-                                "alignment": 0,
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 45,
-                                    "param": 1000
-                                  },
-                                  {
-                                    "condition": 46,
-                                    "param": 100
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 14,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "canvas": {
-                                "x": 65,
-                                "y": -1,
-                                "alignment": 0,
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 45,
-                                    "param": 10000
-                                  },
-                                  {
-                                    "condition": 46,
-                                    "param": 1000
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 14,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "canvas": {
-                                "x": 70,
-                                "y": -1,
-                                "alignment": 0,
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 46,
-                                    "param": 10000
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM6SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitWhite",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 14,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  }
-                                ]
-                              }
                             }
                           ]
                         }
@@ -63397,252 +63072,133 @@
                                 "conditions": [],
                                 "children": []
                               }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "list": {
+                          "x": 63,
+                          "y": 7,
+                          "alignment": 64,
+                          "horizontal": true,
+                          "spacing": 1,
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [],
+                          "children": [
+                            {
+                              "number": {
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitWhite",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 8,
+                                "param": 0,
+                                "maxlength": 5,
+                                "conditions": [
+                                  {
+                                    "condition": 51,
+                                    "param": 100
+                                  }
+                                ],
+                                "children": []
+                              }
                             },
                             {
                               "number": {
-                                "x": 44,
-                                "y": -1,
-                                "alignment": 64,
+                                "x": 0,
+                                "y": 0,
+                                "alignment": 0,
                                 "font": "DigitBlue",
                                 "tranmap": null,
                                 "translation": null,
                                 "type": 8,
                                 "param": 0,
                                 "maxlength": 5,
-                                "conditions": [],
+                                "conditions": [
+                                  {
+                                    "condition": 52,
+                                    "param": 100
+                                  }
+                                ],
                                 "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 50,
-                                "y": -1,
+                              "graphic": {
+                                "x": 0,
+                                "y": 2,
                                 "alignment": 0,
+                                "patch": "BOOM6SLS",
                                 "tranmap": null,
                                 "translation": null,
                                 "conditions": [
                                   {
-                                    "condition": 45,
-                                    "param": 10
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM5SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitBlue",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 14,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "canvas": {
-                                "x": 55,
-                                "y": -1,
-                                "alignment": 0,
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 45,
-                                    "param": 100
-                                  },
-                                  {
-                                    "condition": 46,
-                                    "param": 10
-                                  }
-                                ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM5SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitBlue",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 14,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "canvas": {
-                                "x": 60,
-                                "y": -1,
-                                "alignment": 0,
-                                "tranmap": null,
-                                "translation": null,
-                                "conditions": [
-                                  {
-                                    "condition": 45,
-                                    "param": 1000
-                                  },
-                                  {
-                                    "condition": 46,
+                                    "condition": 51,
                                     "param": 100
                                   }
                                 ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM5SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitBlue",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 14,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 65,
-                                "y": -1,
+                              "graphic": {
+                                "x": 0,
+                                "y": 2,
                                 "alignment": 0,
+                                "patch": "BOOM5SLS",
                                 "tranmap": null,
                                 "translation": null,
                                 "conditions": [
                                   {
-                                    "condition": 45,
-                                    "param": 10000
-                                  },
-                                  {
-                                    "condition": 46,
-                                    "param": 1000
+                                    "condition": 52,
+                                    "param": 100
                                   }
                                 ],
-                                "children": [
-                                  {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM5SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitBlue",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 14,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  }
-                                ]
+                                "children": []
                               }
                             },
                             {
-                              "canvas": {
-                                "x": 70,
-                                "y": -1,
+                              "number": {
+                                "x": 1,
+                                "y": 0,
                                 "alignment": 0,
+                                "font": "DigitWhite",
                                 "tranmap": null,
                                 "translation": null,
+                                "type": 14,
+                                "param": 0,
+                                "maxlength": 5,
                                 "conditions": [
                                   {
-                                    "condition": 46,
-                                    "param": 10000
+                                    "condition": 51,
+                                    "param": 100
                                   }
                                 ],
-                                "children": [
+                                "children": []
+                              }
+                            },
+                            {
+                              "number": {
+                                "x": 1,
+                                "y": 0,
+                                "alignment": 0,
+                                "font": "DigitBlue",
+                                "tranmap": null,
+                                "translation": null,
+                                "type": 14,
+                                "param": 0,
+                                "maxlength": 5,
+                                "conditions": [
                                   {
-                                    "graphic": {
-                                      "x": 0,
-                                      "y": 2,
-                                      "alignment": 64,
-                                      "patch": "BOOM5SLS",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "conditions": [],
-                                      "children": []
-                                    }
-                                  },
-                                  {
-                                    "number": {
-                                      "x": 5,
-                                      "y": 0,
-                                      "alignment": 64,
-                                      "font": "DigitBlue",
-                                      "tranmap": null,
-                                      "translation": null,
-                                      "type": 14,
-                                      "param": 0,
-                                      "maxlength": 5,
-                                      "conditions": [],
-                                      "children": []
-                                    }
+                                    "condition": 52,
+                                    "param": 100
                                   }
-                                ]
+                                ],
+                                "children": []
                               }
                             }
                           ]
