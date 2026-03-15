@@ -5817,19 +5817,14 @@
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 11,
-                        "param": 7
-                      }
-                    ],
+                    "conditions": [],
                     "children": [
                       {
                         "graphic": {
                           "x": 0,
                           "y": 10,
                           "alignment": 132,
-                          "patch": "METER0A",
+                          "patch": "METERS",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [],
@@ -5839,9 +5834,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 19,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -5857,758 +5852,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 18,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 11,
-                              "param2": 0
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 17,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 21,
-                              "param2": 0
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 16,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 31,
-                              "param2": 0
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 15,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 41,
-                              "param2": 0
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 14,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 51,
-                              "param2": 0
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 13,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 61,
-                              "param2": 0
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 12,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 71,
-                              "param2": 0
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 11,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 81,
-                              "param2": 0
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
                           "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 91,
-                              "param2": 0
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 19,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 35,
-                              "param": 1,
-                              "param2": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 18,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 11,
-                              "param2": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 17,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 21,
-                              "param2": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 16,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 31,
-                              "param2": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 15,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 41,
-                              "param2": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 14,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 51,
-                              "param2": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 13,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 61,
-                              "param2": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 12,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 71,
-                              "param2": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 11,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 81,
-                              "param2": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 5,
-                          "y": 10,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 91,
-                              "param2": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 19,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 35,
-                              "param": 1,
-                              "param2": 3
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 18,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 11,
-                              "param2": 3
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 17,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 21,
-                              "param2": 3
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 16,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 31,
-                              "param2": 3
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 15,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 41,
-                              "param2": 3
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 14,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 51,
-                              "param2": 3
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 13,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 61,
-                              "param2": 3
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 12,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 71,
-                              "param2": 3
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 11,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 81,
-                              "param2": 3
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 10,
-                          "y": 10,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 91,
-                              "param2": 3
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 15,
-                          "y": 19,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 35,
-                              "param": 1,
-                              "param2": 2
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 15,
-                          "y": 18,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 11,
-                              "param2": 2
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 15,
-                          "y": 17,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 21,
-                              "param2": 2
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 15,
-                          "y": 16,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 31,
-                              "param2": 2
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 15,
-                          "y": 15,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 41,
-                              "param2": 2
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 15,
-                          "y": 14,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 51,
-                              "param2": 2
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 15,
-                          "y": 13,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 61,
-                              "param2": 2
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 15,
-                          "y": 12,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 71,
-                              "param2": 2
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 15,
-                          "y": 11,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 81,
-                              "param2": 2
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 15,
-                          "y": 10,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 37,
-                              "param": 91,
-                              "param2": 2
-                            }
-                          ],
-                          "children": []
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "canvas": {
-                    "x": 294,
-                    "y": 171,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 10,
-                        "param": 7
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 10,
-                          "alignment": 132,
-                          "patch": "METER0B",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 19,
-                          "alignment": 132,
-                          "patch": "METER1",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 35,
-                              "param": 1,
-                              "param2": 0
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 18,
-                          "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6624,9 +5870,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 17,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6642,9 +5888,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 16,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6660,9 +5906,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 15,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6678,9 +5924,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 14,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6696,9 +5942,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 13,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6714,9 +5960,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 12,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6732,9 +5978,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6752,7 +5998,7 @@
                           "x": 0,
                           "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6768,9 +6014,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 9,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6786,9 +6032,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 8,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6804,9 +6050,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 7,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6822,9 +6068,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 6,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6840,9 +6086,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 5,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6858,9 +6104,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 4,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6876,9 +6122,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 3,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6894,9 +6140,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 2,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6912,9 +6158,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 1,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6930,9 +6176,9 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 0,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6948,9 +6194,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 19,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6966,9 +6212,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 18,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -6984,9 +6230,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 17,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7002,9 +6248,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 16,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7020,9 +6266,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 15,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7038,9 +6284,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 14,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7056,9 +6302,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 13,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7074,9 +6320,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 12,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7092,9 +6338,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7112,7 +6358,7 @@
                           "x": 5,
                           "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7128,9 +6374,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 9,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7146,9 +6392,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 8,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7164,9 +6410,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 7,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7182,9 +6428,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 6,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7200,9 +6446,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 5,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7218,9 +6464,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 4,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7236,9 +6482,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 3,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7254,9 +6500,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 2,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7272,9 +6518,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 1,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7290,9 +6536,9 @@
                       {
                         "graphic": {
                           "x": 5,
-                          "y": 0,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7308,9 +6554,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 19,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7326,9 +6572,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 18,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7344,9 +6590,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 17,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7362,9 +6608,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 16,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7380,9 +6626,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 15,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7398,9 +6644,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 14,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7416,9 +6662,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 13,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7434,9 +6680,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 12,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7452,9 +6698,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7472,7 +6718,7 @@
                           "x": 10,
                           "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7488,9 +6734,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 9,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7506,9 +6752,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 8,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7524,9 +6770,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 7,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7542,9 +6788,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 6,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7560,9 +6806,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 5,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7578,9 +6824,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 4,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7596,9 +6842,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 3,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7614,9 +6860,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 2,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7632,9 +6878,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 1,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7650,9 +6896,9 @@
                       {
                         "graphic": {
                           "x": 10,
-                          "y": 0,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7668,9 +6914,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 19,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7686,9 +6932,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 18,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7704,9 +6950,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 17,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7722,9 +6968,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 16,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7740,9 +6986,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 15,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7758,9 +7004,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 14,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7776,9 +7022,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 13,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_R7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7794,9 +7040,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 12,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7812,9 +7058,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7832,7 +7078,7 @@
                           "x": 15,
                           "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7848,9 +7094,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 9,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7866,9 +7112,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 8,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7884,9 +7130,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 7,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_Y6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7902,9 +7148,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 6,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G1",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7920,9 +7166,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 5,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G2",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7938,9 +7184,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 4,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G3",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7956,9 +7202,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 3,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G4",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7974,9 +7220,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 2,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G5",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -7992,9 +7238,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 1,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G6",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [
@@ -8010,9 +7256,9 @@
                       {
                         "graphic": {
                           "x": 15,
-                          "y": 0,
+                          "y": 10,
                           "alignment": 132,
-                          "patch": "METER1",
+                          "patch": "METER_G7",
                           "tranmap": null,
                           "translation": null,
                           "conditions": [

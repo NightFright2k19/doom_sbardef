@@ -19,7 +19,7 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
   <li><b>Mugshot</b>: Animated face.<br>- HUDs: Classic Plus, Nightdive I/III-V, Eternity I, DSDA II/III</li>
   <li><b>Ammo overview</b>: Amount of ammo available for each weapon.<br>- Current/total: Classic Plus, Crispy Plus, DSDA I+II<br>- Current: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom II-IV, DSDA III<br>- Bars: Nightdive I</li>
   <li><b>Arms</b>: Available weapons.<br>- 1-7: DSDA III (8/9 if selected)<br>- 1-9: Classic Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+</li>
-  <li><b>Backpack</b>: Powerup which doubles ammo amount.<br>- Doubled totals: Classic Plus, Crispy Plus, Eternity, Boom, DSDA I+II, PrBoom+<br>- Color: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom, DSDA, PrBoom+<br>- Bars: Nightdive I</li>
+  <li><b>Backpack</b>: Powerup which doubles ammo amount.<br>- Doubled totals: Classic Plus, Crispy Plus, Eternity, Boom, DSDA I+II, PrBoom+<br>- Color: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom, DSDA, PrBoom+</li>
   <li><b>God mode</b>: Shows if player is invincible, either through powerup or cheat.<br>- Mugshot: Classic Plus, Nightdive I/III-V, Eternity I, DSDA II+III<br>- Icon: Eternity II, PrBoom+ II<br>- Label: Crispy Plus, Nightdive II-V, Doom 64, Trinity, Boom, DSDA, PrBoom+ I<br>- Color: Nightdive IV+V, Doom 64 II, Trinity II, Eternity, Boom, DSDA</li>
 </ul>
 
@@ -45,11 +45,12 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 | Classic Plus | ++++++ | +++ | 9 / 10 | Core: All<br>Extras: No active Ammo/Weapon |
 | Nightdive II<br>Eternity II<br>Boom III+IV<br>DSDA I | +++++ | ++++ | 9 / 10 | Core: No Mugshot<br>Extras: All |
 | Crispy Plus<br>Boom II | +++++ | +++ | 8 / 10 | Core: No Mugshot<br>Extras: No active Ammo/Weapon |
-| Boom I<br>PrBoom+ | ++++ | ++++ | 8 / 10 | Core: Vitals, Arms, Backpack, God mode<br>Extras: All |
-| Nightdive I/V | +++++ | +++ | 8 / 10 | Core: No Arms<br>Extras: No Chainsaw/SSG |
-| Doom 64 II<br>Trinity II | ++++ | ++ | 6 / 10 | Core: Vitals, Ammo overview, Backpack, God mode<br>Extras: Armor type, active ammo |
-| Trinity I | ++++ | + | 5 / 10 | Core: Vitals, Ammo overview, Backpack, God mode<br>Extras: Armor type |
-| Doom 64 I | ++ | + | 3 / 10 | Core: Vitals, God mode<br>Extras: Armor type |
+| Boom I<br>PrBoom+ | ++++ | ++++ | 8 / 10 | Core: Vitals, Arms, Backpack, God<br>Extras: All |
+| Nightdive V | +++++ | +++ | 8 / 10 | Core: No Arms<br>Extras: No Chainsaw/SSG |
+| Nightdive I | ++++ | +++ | 7 / 10 | Core: Vitals, Mugshot, Ammo overview, God<br>Extras: No Chainsaw/SSG |
+| Doom 64 II<br>Trinity II | ++++ | ++ | 6 / 10 | Core: Vitals, Ammo overview, Backpack, God<br>Extras: Armor type, active ammo |
+| Trinity I | ++++ | + | 5 / 10 | Core: Vitals, Ammo overview, Backpack, God<br>Extras: Armor type |
+| Doom 64 I | ++ | + | 3 / 10 | Core: Vitals, God<br>Extras: Armor type |
 <br>
 Available variants:<br><br>
 
@@ -66,7 +67,7 @@ Like the vanilla status bar, but with transparency. There are also indicators fo
 **3) Nightdive**<br>
 Replaces the default <a href="https://static.doomworld.com/pages_media/29_lor1.png" target= "_blank">Nightdive fullscreen HUD</a>. Ammo overview, arms display and armor type indicator were added (where possible).<br>
 ![Screenshot](screenshots/03_nightdive-plus.png)
-   **I. Plus**: Icons and STTNUM numbers in a single row. Bonus features: Ammo overview meters (four white bars in the bottom right corner) with backpack indicator, Berserk indicator (Berserk pack icon shown in ammo area if fists are selected), Armor icon hidden unless some armor is owned.<br><br>
+   **I. Plus**: Icons and STTNUM numbers in a single row. Bonus features: Ammo overview meters (four colorized bars in the bottom right corner) with Berserk indicator (Berserk pack icon shown in ammo area if fists are selected). Armor icon hidden unless some armor is owned.<br><br>
 ![Screenshot](screenshots/04_nightdive-stacked.png)
    **II. Stacked**: Focuses on icons instead of labels. Berserker mode indicated by switching health icon. A small label is shown inside the health icon in God mode. Ammo overview hides number for selected weapon.<br>
 <em>Note: Some mods use sprites with different sizes. In such cases, alignment of icons may be off.</em><br><br>
