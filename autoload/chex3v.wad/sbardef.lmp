@@ -28816,34 +28816,6 @@
                             {
                               "condition": 4,
                               "param": 0
-                            },
-                            {
-                              "condition": 39,
-                              "param": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 208,
-                          "y": 0,
-                          "alignment": 129,
-                          "font": "BigRed",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 4,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": [
-                            {
-                              "condition": 4,
-                              "param": 0
-                            },
-                            {
-                              "condition": 39,
-                              "param": 0
                             }
                           ],
                           "children": []
@@ -28920,12 +28892,7 @@
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 39,
-                        "param": 1
-                      }
-                    ],
+                    "conditions": [],
                     "children": [
                       {
                         "graphic": {
@@ -28983,91 +28950,6 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 121,
-                          "patch": "CELLA0",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 2
-                            }
-                          ],
-                          "children": []
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "canvas": {
-                    "x": 233,
-                    "y": 178,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "conditions": [
-                      {
-                        "condition": 39,
-                        "param": 0
-                      }
-                    ],
-                    "children": [
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 185,
-                          "patch": "CLIPA0",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 0
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 185,
-                          "patch": "SHELA0",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 1
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 185,
-                          "patch": "ROCKA0",
-                          "tranmap": null,
-                          "translation": null,
-                          "conditions": [
-                            {
-                              "condition": 5,
-                              "param": 3
-                            }
-                          ],
-                          "children": []
-                        }
-                      },
-                      {
-                        "graphic": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 185,
                           "patch": "CELLA0",
                           "tranmap": null,
                           "translation": null,
@@ -29086,7 +28968,7 @@
                 {
                   "canvas": {
                     "x": 264,
-                    "y": 172,
+                    "y": 151,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -29373,7 +29255,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 276,
+                    "x": 255,
                     "y": 170,
                     "alignment": 128,
                     "patch": "AMMO_OV3",
@@ -29385,7 +29267,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 316,
+                    "x": 295,
                     "y": 169,
                     "alignment": 0,
                     "tranmap": null,
@@ -29456,13 +29338,121 @@
                           "conditions": [],
                           "children": []
                         }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 2,
+                          "alignment": 130,
+                          "patch": "BOOM7SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 9,
+                          "alignment": 130,
+                          "patch": "BOOM7SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 16,
+                          "alignment": 130,
+                          "patch": "BOOM7SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 23,
+                          "alignment": 130,
+                          "patch": "BOOM7SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 21,
+                          "y": 0,
+                          "alignment": 130,
+                          "font": "DigitGrey",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 21,
+                          "y": 7,
+                          "alignment": 130,
+                          "font": "DigitGrey",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 21,
+                          "y": 14,
+                          "alignment": 130,
+                          "font": "DigitGrey",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 21,
+                          "y": 21,
+                          "alignment": 130,
+                          "font": "DigitGrey",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [],
+                          "children": []
+                        }
                       }
                     ]
                   }
                 },
                 {
                   "canvas": {
-                    "x": 316,
+                    "x": 295,
                     "y": 169,
                     "alignment": 0,
                     "tranmap": null,
@@ -29528,6 +29518,114 @@
                           "tranmap": null,
                           "translation": null,
                           "type": 3,
+                          "param": 2,
+                          "maxlength": 3,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 2,
+                          "alignment": 130,
+                          "patch": "BOOM6SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 9,
+                          "alignment": 130,
+                          "patch": "BOOM6SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 16,
+                          "alignment": 130,
+                          "patch": "BOOM6SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "graphic": {
+                          "x": 4,
+                          "y": 23,
+                          "alignment": 130,
+                          "patch": "BOOM6SLS",
+                          "tranmap": null,
+                          "translation": null,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 21,
+                          "y": 0,
+                          "alignment": 130,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 21,
+                          "y": 7,
+                          "alignment": 130,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 1,
+                          "maxlength": 3,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 21,
+                          "y": 14,
+                          "alignment": 130,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
+                          "param": 3,
+                          "maxlength": 3,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 21,
+                          "y": 21,
+                          "alignment": 130,
+                          "font": "DigitWhite",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 5,
                           "param": 2,
                           "maxlength": 3,
                           "conditions": [],
@@ -30429,9 +30527,9 @@
                 },
                 {
                   "list": {
-                    "x": 4,
-                    "y": 148,
-                    "alignment": 72,
+                    "x": 316,
+                    "y": 167,
+                    "alignment": 138,
                     "tranmap": null,
                     "translation": null,
                     "translucency": false,

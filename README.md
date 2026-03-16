@@ -17,9 +17,9 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 <ul>
   <li><b>Vitals</b>: Health, armor, ammo and keys.<br>- HUDs: All</li>
   <li><b>Mugshot</b>: Animated face.<br>- HUDs: Classic Plus, Nightdive I/III-V, Trinity I, Eternity I, DSDA II/III</li>
-  <li><b>Ammo overview</b>: Amount of ammo available for each weapon.<br>- Current/total: Classic Plus, Crispy Plus, DSDA I+II<br>- Current: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom II-IV, DSDA III<br>- Bars: Nightdive I</li>
+  <li><b>Ammo overview</b>: Amount of ammo available for each weapon.<br>- Current/total: Classic Plus, Crispy Plus, Trinity I, DSDA I+II<br>- Current: Nightdive II-V, Doom 64 II, Trinity II+III, Eternity, Boom II-IV, DSDA III<br>- Bars: Nightdive I</li>
   <li><b>Arms</b>: Available weapons.<br>- 1-7: DSDA III (8/9 if selected)<br>- 1-9: Classic Plus, Crispy Plus, Nightdive II-IV, Eternity, Boom, DSDA I+II, PrBoom+</li>
-  <li><b>Backpack</b>: Powerup which doubles ammo amount.<br>- Doubled totals: Classic Plus, Crispy Plus, Eternity, Boom, DSDA I+II, PrBoom+<br>- Color: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom, DSDA, PrBoom+</li>
+  <li><b>Backpack</b>: Powerup which doubles ammo amount.<br>- Doubled totals: Classic Plus, Crispy Plus, Trinity I, Eternity, Boom, DSDA I+II, PrBoom+<br>- Color: Nightdive II-V, Doom 64 II, Trinity, Eternity, Boom, DSDA, PrBoom+</li>
   <li><b>God mode</b>: Shows if player is invincible, either through powerup or cheat.<br>- Mugshot: Classic Plus, Nightdive I/III-V, Trinity I, Eternity I, DSDA II+III<br>- Icon: Eternity II, PrBoom+ II<br>- Label: Crispy Plus, Nightdive II-V, Doom 64, Trinity II+III, Boom, DSDA, PrBoom+ I<br>- Color: Nightdive IV+V, Doom 64 II, Trinity III, Eternity, Boom, DSDA</li>
 </ul>
 
@@ -91,7 +91,7 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 **5) Trinity**<br>
 Doom 64 variant with STTNUM vitals arranged on the left side, keeping weapon view unobstructed.<br>
 ![Screenshot](screenshots/10_trinity-icons.png)
-  **I. Icons**: Mugshot, armor and ammo sprites on top of numbers. Alignment of elements will adjust depending on "Hud Anchoring" setting. Dynamic ammo label with the "Ammo Names" addon.<br><br>
+  **I. Icons**: Mugshot, armor and ammo sprites on top of numbers. Dynamic ammo label with the "Ammo Names" addon.<br><br>
 ![Screenshot](screenshots/11_trinity-mono.png)
   **II. Mono**: Numbers with labels. Colorization is avoided (only white, gray and black), making this HUD extremely robust if combined with any custom palettes from PWADs. Alignment of elements will adjust depending on "Hud Anchoring" setting. Dynamic ammo label with the "Ammo Names" addon.<br><br>
 ![Screenshot](screenshots/12_trinity-color.png)
