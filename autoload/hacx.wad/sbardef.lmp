@@ -30954,8 +30954,9 @@
                 {
                   "list": {
                     "x": 316,
-                    "y": 167,
+                    "y": 168,
                     "alignment": 138,
+                    "spacing": 1,
                     "tranmap": null,
                     "translation": null,
                     "translucency": false,
@@ -39825,65 +39826,61 @@
                   }
                 },
                 {
-                  "component": {
-                    "x": 6,
-                    "y": 158,
-                    "alignment": 64,
+                  "list": {
+                    "x": 316,
+                    "y": 168,
+                    "alignment": 138,
+                    "spacing": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 6,
-                    "y": 150,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 6,
-                    "y": 158,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -44749,65 +44746,61 @@
                   }
                 },
                 {
-                  "component": {
-                    "x": 6,
-                    "y": 164,
-                    "alignment": 64,
+                  "list": {
+                    "x": 316,
+                    "y": 168,
+                    "alignment": 138,
+                    "spacing": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 6,
-                    "y": 156,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 6,
-                    "y": 164,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
