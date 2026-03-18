@@ -1,6 +1,6 @@
 {
   "type": "statusbar",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "metadata": null,
   "data": {
     "numberfonts": [
@@ -879,65 +879,61 @@
             }
           },
           {
-            "component": {
+            "list": {
               "x": 2,
-              "y": -8,
-              "alignment": 64,
+              "y": -1,
+              "alignment": 72,
+              "spacing": 0,
               "tranmap": null,
               "translation": null,
-              "type": "stat_totals",
-              "font": "Digits",
-              "conditions": [
+              "translucency": false,
+              "conditions": [],
+              "children": [
                 {
-                  "condition": 19,
-                  "param": 4
-                }
-              ],
-              "children": []
-            }
-          },
-          {
-            "component": {
-              "x": 2,
-              "y": -16,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "type": "time",
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 19,
-                  "param": 4
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4,
+                        "param2": 0
+                      }
+                    ],
+                    "children": [],
+                    "type": "time",
+                    "font": "Digits",
+                    "vertical": false,
+                    "duration": 4
+                  }
                 },
                 {
-                  "condition": 20,
-                  "param_string": "stat_totals"
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4,
+                        "param2": 0
+                      }
+                    ],
+                    "children": [],
+                    "type": "stat_totals",
+                    "font": "Digits",
+                    "vertical": false,
+                    "duration": 4
+                  }
                 }
-              ],
-              "children": []
-            }
-          },
-          {
-            "component": {
-              "x": 2,
-              "y": -8,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "type": "time",
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 19,
-                  "param": 4
-                },
-                {
-                  "condition": 21,
-                  "param_string": "stat_totals"
-                }
-              ],
-              "children": []
+              ]
             }
           },
           {
@@ -3035,30 +3031,36 @@
             }
           },
           {
-            "canvas": {
+            "list": {
               "x": 0,
-              "y": 152,
-              "alignment": 0,
+              "y": 167,
+              "alignment": 8,
+              "spacing": 0,
               "tranmap": null,
               "translation": null,
+              "translucency": false,
               "conditions": [],
               "children": [
                 {
                   "component": {
                     "x": 0,
-                    "y": 8,
+                    "y": 0,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
+                    "translucency": false,
                     "conditions": [
                       {
                         "condition": 19,
-                        "param": 4
+                        "param": 4,
+                        "param2": 0
                       }
                     ],
-                    "children": []
+                    "children": [],
+                    "type": "time",
+                    "font": "Digits",
+                    "vertical": false,
+                    "duration": 4
                   }
                 },
                 {
@@ -3068,41 +3070,19 @@
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": "time",
-                    "font": "Digits",
+                    "translucency": false,
                     "conditions": [
                       {
                         "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "param": 4,
+                        "param2": 0
                       }
                     ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 0,
-                    "y": 8,
-                    "alignment": 0,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
+                    "children": [],
+                    "type": "stat_totals",
                     "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    "vertical": false,
+                    "duration": 4
                   }
                 }
               ]
@@ -5206,65 +5186,61 @@
             }
           },
           {
-            "component": {
+            "list": {
               "x": 2,
-              "y": 162,
-              "alignment": 64,
+              "y": 169,
+              "alignment": 72,
+              "spacing": 0,
               "tranmap": null,
               "translation": null,
-              "type": "stat_totals",
-              "font": "Digits",
-              "conditions": [
+              "translucency": false,
+              "conditions": [],
+              "children": [
                 {
-                  "condition": 19,
-                  "param": 4
-                }
-              ],
-              "children": []
-            }
-          },
-          {
-            "component": {
-              "x": 2,
-              "y": 154,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "type": "time",
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 19,
-                  "param": 4
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4,
+                        "param2": 0
+                      }
+                    ],
+                    "children": [],
+                    "type": "time",
+                    "font": "Digits",
+                    "vertical": false,
+                    "duration": 4
+                  }
                 },
                 {
-                  "condition": 20,
-                  "param_string": "stat_totals"
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4,
+                        "param2": 0
+                      }
+                    ],
+                    "children": [],
+                    "type": "stat_totals",
+                    "font": "Digits",
+                    "vertical": false,
+                    "duration": 4
+                  }
                 }
-              ],
-              "children": []
-            }
-          },
-          {
-            "component": {
-              "x": 2,
-              "y": 162,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "type": "time",
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 19,
-                  "param": 4
-                },
-                {
-                  "condition": 21,
-                  "param_string": "stat_totals"
-                }
-              ],
-              "children": []
+              ]
             }
           },
           {
@@ -10951,65 +10927,61 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 7,
-                    "y": 147,
-                    "alignment": 64,
+                    "y": 154,
+                    "alignment": 72,
+                    "spacing": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 7,
-                    "y": 139,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 7,
-                    "y": 147,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -13425,65 +13397,61 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 8,
-                    "y": 159,
-                    "alignment": 64,
+                    "y": 166,
+                    "alignment": 72,
+                    "spacing": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 8,
-                    "y": 151,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 8,
-                    "y": 159,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -19406,65 +19374,61 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 4,
-                    "y": 161,
-                    "alignment": 64,
+                    "y": 168,
+                    "alignment": 72,
+                    "spacing": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 153,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 161,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -24958,65 +24922,61 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 4,
-                    "y": 161,
-                    "alignment": 64,
+                    "y": 168,
+                    "alignment": 72,
+                    "spacing": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 153,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 161,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -26576,66 +26536,61 @@
             }
           },
           {
-            "component": {
+            "list": {
               "x": 3,
-              "y": 177,
-              "alignment": 64,
+              "y": 199,
+              "alignment": 72,
+              "spacing": 1,
               "tranmap": null,
               "translation": null,
-              "type": "stat_totals",
-              "font": "Digits",
-              "vertical": true,
-              "conditions": [
+              "translucency": false,
+              "conditions": [],
+              "children": [
                 {
-                  "condition": 19,
-                  "param": 4
-                }
-              ],
-              "children": []
-            }
-          },
-          {
-            "component": {
-              "x": 3,
-              "y": 169,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "type": "time",
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 19,
-                  "param": 4
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4,
+                        "param2": 0
+                      }
+                    ],
+                    "children": [],
+                    "type": "time",
+                    "font": "Digits",
+                    "vertical": false,
+                    "duration": 4
+                  }
                 },
                 {
-                  "condition": 20,
-                  "param_string": "stat_totals"
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4,
+                        "param2": 0
+                      }
+                    ],
+                    "children": [],
+                    "type": "stat_totals",
+                    "font": "Digits",
+                    "vertical": true,
+                    "duration": 4
+                  }
                 }
-              ],
-              "children": []
-            }
-          },
-          {
-            "component": {
-              "x": 3,
-              "y": 191,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "type": "time",
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 19,
-                  "param": 4
-                },
-                {
-                  "condition": 21,
-                  "param_string": "stat_totals"
-                }
-              ],
-              "children": []
+              ]
             }
           },
           {
@@ -28652,66 +28607,61 @@
             }
           },
           {
-            "component": {
+            "list": {
               "x": 3,
-              "y": 176,
-              "alignment": 64,
+              "y": 198,
+              "alignment": 72,
+              "spacing": 1,
               "tranmap": null,
               "translation": null,
-              "type": "stat_totals",
-              "font": "Digits",
-              "vertical": true,
-              "conditions": [
+              "translucency": false,
+              "conditions": [],
+              "children": [
                 {
-                  "condition": 19,
-                  "param": 4
-                }
-              ],
-              "children": []
-            }
-          },
-          {
-            "component": {
-              "x": 3,
-              "y": 168,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "type": "time",
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 19,
-                  "param": 4
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4,
+                        "param2": 0
+                      }
+                    ],
+                    "children": [],
+                    "type": "time",
+                    "font": "Digits",
+                    "vertical": false,
+                    "duration": 4
+                  }
                 },
                 {
-                  "condition": 20,
-                  "param_string": "stat_totals"
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4,
+                        "param2": 0
+                      }
+                    ],
+                    "children": [],
+                    "type": "stat_totals",
+                    "font": "Digits",
+                    "vertical": true,
+                    "duration": 4
+                  }
                 }
-              ],
-              "children": []
-            }
-          },
-          {
-            "component": {
-              "x": 3,
-              "y": 190,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "type": "time",
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 19,
-                  "param": 4
-                },
-                {
-                  "condition": 21,
-                  "param_string": "stat_totals"
-                }
-              ],
-              "children": []
+              ]
             }
           },
           {
@@ -29153,7 +29103,7 @@
                 {
                   "canvas": {
                     "x": 243,
-                    "y": 172,
+                    "y": 173,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -29229,7 +29179,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 133,
                           "patch": "STKEYS1",
                           "tranmap": null,
@@ -29250,7 +29200,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 133,
                           "patch": "STKEYS4",
                           "tranmap": null,
@@ -29271,7 +29221,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 133,
                           "patch": "STKEYS4",
                           "tranmap": null,
@@ -29296,7 +29246,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 22,
+                          "y": 20,
                           "alignment": 133,
                           "patch": "STKEYS2",
                           "tranmap": null,
@@ -29317,7 +29267,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 22,
+                          "y": 20,
                           "alignment": 133,
                           "patch": "STKEYS5",
                           "tranmap": null,
@@ -29338,7 +29288,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 22,
+                          "y": 20,
                           "alignment": 133,
                           "patch": "STKEYS5",
                           "tranmap": null,
@@ -29397,7 +29347,7 @@
                       {
                         "animation": {
                           "x": 0,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 133,
                           "tranmap": null,
                           "translation": null,
@@ -29431,7 +29381,7 @@
                       {
                         "animation": {
                           "x": 0,
-                          "y": 22,
+                          "y": 20,
                           "alignment": 133,
                           "tranmap": null,
                           "translation": null,
@@ -30742,7 +30692,7 @@
                     "x": 316,
                     "y": 168,
                     "alignment": 138,
-                    "spacing": 1,
+                    "spacing": 0,
                     "tranmap": null,
                     "translation": null,
                     "translucency": false,
@@ -31357,7 +31307,7 @@
                 {
                   "canvas": {
                     "x": 264,
-                    "y": 172,
+                    "y": 173,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -31433,7 +31383,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 133,
                           "patch": "STKEYS1",
                           "tranmap": null,
@@ -31454,7 +31404,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 133,
                           "patch": "STKEYS4",
                           "tranmap": null,
@@ -31475,7 +31425,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 133,
                           "patch": "STKEYS4",
                           "tranmap": null,
@@ -31500,7 +31450,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 22,
+                          "y": 20,
                           "alignment": 133,
                           "patch": "STKEYS2",
                           "tranmap": null,
@@ -31521,7 +31471,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 22,
+                          "y": 20,
                           "alignment": 133,
                           "patch": "STKEYS5",
                           "tranmap": null,
@@ -31542,7 +31492,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 22,
+                          "y": 20,
                           "alignment": 133,
                           "patch": "STKEYS5",
                           "tranmap": null,
@@ -31601,7 +31551,7 @@
                       {
                         "animation": {
                           "x": 0,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 133,
                           "tranmap": null,
                           "translation": null,
@@ -31635,7 +31585,7 @@
                       {
                         "animation": {
                           "x": 0,
-                          "y": 22,
+                          "y": 20,
                           "alignment": 133,
                           "tranmap": null,
                           "translation": null,
@@ -32726,65 +32676,61 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 4,
-                    "y": 164,
-                    "alignment": 64,
+                    "y": 171,
+                    "alignment": 72,
+                    "spacing": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 156,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 164,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -33275,7 +33221,7 @@
                 {
                   "canvas": {
                     "x": 264,
-                    "y": 172,
+                    "y": 173,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -33351,7 +33297,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 133,
                           "patch": "STKEYS1",
                           "tranmap": null,
@@ -33372,7 +33318,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 133,
                           "patch": "STKEYS4",
                           "tranmap": null,
@@ -33393,7 +33339,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 133,
                           "patch": "STKEYS4",
                           "tranmap": null,
@@ -33418,7 +33364,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 22,
+                          "y": 20,
                           "alignment": 133,
                           "patch": "STKEYS2",
                           "tranmap": null,
@@ -33439,7 +33385,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 22,
+                          "y": 20,
                           "alignment": 133,
                           "patch": "STKEYS5",
                           "tranmap": null,
@@ -33460,7 +33406,7 @@
                       {
                         "graphic": {
                           "x": 0,
-                          "y": 22,
+                          "y": 20,
                           "alignment": 133,
                           "patch": "STKEYS5",
                           "tranmap": null,
@@ -33519,7 +33465,7 @@
                       {
                         "animation": {
                           "x": 0,
-                          "y": 11,
+                          "y": 10,
                           "alignment": 133,
                           "tranmap": null,
                           "translation": null,
@@ -33553,7 +33499,7 @@
                       {
                         "animation": {
                           "x": 0,
-                          "y": 22,
+                          "y": 20,
                           "alignment": 133,
                           "tranmap": null,
                           "translation": null,
@@ -34736,65 +34682,61 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 4,
-                    "y": 166,
-                    "alignment": 64,
+                    "y": 173,
+                    "alignment": 72,
+                    "spacing": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 158,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 166,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -39564,7 +39506,7 @@
                     "x": 316,
                     "y": 168,
                     "alignment": 138,
-                    "spacing": 1,
+                    "spacing": 0,
                     "tranmap": null,
                     "translation": null,
                     "translucency": false,
@@ -44446,7 +44388,7 @@
                     "x": 316,
                     "y": 168,
                     "alignment": 138,
-                    "spacing": 1,
+                    "spacing": 0,
                     "tranmap": null,
                     "translation": null,
                     "translucency": false,
@@ -49721,65 +49663,61 @@
                   }
                 },
                 {
-                  "component": {
-                    "x": 23,
-                    "y": 150,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
+                  "list": {
                     "x": 4,
-                    "y": 142,
-                    "alignment": 64,
+                    "y": 158,
+                    "alignment": 72,
+                    "spacing": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 19,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 150,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -55707,65 +55645,61 @@
                   }
                 },
                 {
-                  "component": {
-                    "x": 23,
-                    "y": 150,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
+                  "list": {
                     "x": 4,
-                    "y": 142,
-                    "alignment": 64,
+                    "y": 158,
+                    "alignment": 72,
+                    "spacing": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 19,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 150,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -65197,39 +65131,61 @@
                   }
                 },
                 {
-                  "component": {
-                    "x": 23,
-                    "y": 158,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
+                  "list": {
                     "x": 4,
-                    "y": 150,
-                    "alignment": 64,
+                    "y": 166,
+                    "alignment": 72,
+                    "spacing": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
+                      },
+                      {
+                        "component": {
+                          "x": 19,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -70809,65 +70765,61 @@
                   }
                 },
                 {
-                  "component": {
-                    "x": 23,
-                    "y": 166,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
+                  "list": {
                     "x": 4,
-                    "y": 158,
-                    "alignment": 64,
+                    "y": 174,
+                    "alignment": 72,
+                    "spacing": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 19,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 166,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -74352,65 +74304,61 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 4,
-                    "y": 166,
-                    "alignment": 64,
+                    "y": 174,
+                    "alignment": 72,
+                    "spacing": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 158,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 166,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -78823,65 +78771,61 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 4,
-                    "y": 158,
-                    "alignment": 64,
+                    "y": 166,
+                    "alignment": 72,
+                    "spacing": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 150,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 158,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -81280,65 +81224,61 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 4,
-                    "y": 175,
-                    "alignment": 64,
+                    "y": 182,
+                    "alignment": 72,
+                    "spacing": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 167,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 175,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -84568,65 +84508,61 @@
                   }
                 },
                 {
-                  "component": {
-                    "x": 23,
-                    "y": 166,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
+                  "list": {
                     "x": 4,
-                    "y": 158,
-                    "alignment": 64,
+                    "y": 174,
+                    "alignment": 72,
+                    "spacing": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 19,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 166,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -86836,65 +86772,61 @@
                   }
                 },
                 {
-                  "component": {
-                    "x": 23,
-                    "y": 164,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
+                  "list": {
                     "x": 4,
-                    "y": 156,
-                    "alignment": 64,
+                    "y": 172,
+                    "alignment": 72,
+                    "spacing": 1,
                     "tranmap": null,
                     "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [
                       {
-                        "condition": 19,
-                        "param": 4
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "time",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       },
                       {
-                        "condition": 20,
-                        "param_string": "stat_totals"
+                        "component": {
+                          "x": 19,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [
+                            {
+                              "condition": 19,
+                              "param": 4,
+                              "param2": 0
+                            }
+                          ],
+                          "children": [],
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "vertical": false,
+                          "duration": 4
+                        }
                       }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
-                    "x": 4,
-                    "y": 164,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "time",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      },
-                      {
-                        "condition": 21,
-                        "param_string": "stat_totals"
-                      }
-                    ],
-                    "children": []
+                    ]
                   }
                 },
                 {
@@ -87120,65 +87052,61 @@
         "name": "Fullscreen",
         "children": [
           {
-            "component": {
+            "list": {
               "x": 2,
-              "y": 192,
-              "alignment": 64,
+              "y": 198,
+              "alignment": 72,
+              "spacing": 0,
               "tranmap": null,
               "translation": null,
-              "type": "stat_totals",
-              "font": "Digits",
-              "conditions": [
+              "translucency": false,
+              "conditions": [],
+              "children": [
                 {
-                  "condition": 19,
-                  "param": 4
-                }
-              ],
-              "children": []
-            }
-          },
-          {
-            "component": {
-              "x": 2,
-              "y": 184,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "type": "time",
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 19,
-                  "param": 4
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4,
+                        "param2": 0
+                      }
+                    ],
+                    "children": [],
+                    "type": "time",
+                    "font": "Digits",
+                    "vertical": false,
+                    "duration": 4
+                  }
                 },
                 {
-                  "condition": 20,
-                  "param_string": "stat_totals"
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4,
+                        "param2": 0
+                      }
+                    ],
+                    "children": [],
+                    "type": "stat_totals",
+                    "font": "Digits",
+                    "vertical": false,
+                    "duration": 4
+                  }
                 }
-              ],
-              "children": []
-            }
-          },
-          {
-            "component": {
-              "x": 2,
-              "y": 192,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "type": "time",
-              "font": "Digits",
-              "conditions": [
-                {
-                  "condition": 19,
-                  "param": 4
-                },
-                {
-                  "condition": 21,
-                  "param_string": "stat_totals"
-                }
-              ],
-              "children": []
+              ]
             }
           },
           {
