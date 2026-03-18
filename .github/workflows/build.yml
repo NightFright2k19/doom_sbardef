@@ -91,7 +91,7 @@ jobs:
           echo "TAG_NAME=$TAG_NAME" >> "$GITHUB_ENV"
 
       - name: Create GitHub pre-release
-        uses: softprops/action-gh-release@v2
+        uses: ncipollo/release-action@v1
         with:
           tag_name: ${{ env.TAG_NAME }}
           name: Autobuild r${{ github.run_number }}
@@ -102,9 +102,7 @@ jobs:
             **IMPORTANT:**
             - Requires <a href="https://github.com/fabiangreffrath/woof/actions" target="_blank">latest Woof! dev snapshot</a> (topmost "Build" entry from the "master" branch)
             - Work-in-progress release, not sufficiently tested. Use at your own risk!
-
-          files: |
-            package/${{ env.ZIP_NAME }}
+          artifacts: package/${{ env.ZIP_NAME }}
 
       - name: Delete older autobuild releases
         uses: actions/github-script@v8
