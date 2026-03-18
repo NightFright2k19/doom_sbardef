@@ -65131,61 +65131,39 @@
                   }
                 },
                 {
-                  "list": {
-                    "x": 4,
-                    "y": 166,
-                    "alignment": 72,
-                    "spacing": 1,
+                  "component": {
+                    "x": 23,
+                    "y": 158,
+                    "alignment": 64,
                     "tranmap": null,
                     "translation": null,
-                    "translucency": false,
-                    "conditions": [],
-                    "children": [
+                    "type": "stat_totals",
+                    "font": "Digits",
+                    "conditions": [
                       {
-                        "component": {
-                          "x": 0,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 19,
-                              "param": 4,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "type": "time",
-                          "font": "Digits",
-                          "vertical": false,
-                          "duration": 4
-                        }
-                      },
-                      {
-                        "component": {
-                          "x": 19,
-                          "y": 0,
-                          "alignment": 0,
-                          "tranmap": null,
-                          "translation": null,
-                          "translucency": false,
-                          "conditions": [
-                            {
-                              "condition": 19,
-                              "param": 4,
-                              "param2": 0
-                            }
-                          ],
-                          "children": [],
-                          "type": "stat_totals",
-                          "font": "Digits",
-                          "vertical": false,
-                          "duration": 4
-                        }
+                        "condition": 19,
+                        "param": 4
                       }
-                    ]
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "component": {
+                    "x": 4,
+                    "y": 150,
+                    "alignment": 64,
+                    "tranmap": null,
+                    "translation": null,
+                    "type": "time",
+                    "font": "Digits",
+                    "conditions": [
+                      {
+                        "condition": 19,
+                        "param": 4
+                      }
+                    ],
+                    "children": []
                   }
                 },
                 {
