@@ -64776,39 +64776,46 @@
                   }
                 },
                 {
-                  "component": {
-                    "x": 23,
-                    "y": 158,
-                    "alignment": 64,
-                    "tranmap": null,
-                    "translation": null,
-                    "type": "stat_totals",
-                    "font": "Digits",
-                    "conditions": [
-                      {
-                        "condition": 19,
-                        "param": 4
-                      }
-                    ],
-                    "children": []
-                  }
-                },
-                {
-                  "component": {
+                  "canvas": {
                     "x": 4,
                     "y": 150,
-                    "alignment": 64,
+                    "alignment": 0,
                     "tranmap": null,
                     "translation": null,
-                    "type": "time",
-                    "font": "Digits",
                     "conditions": [
                       {
                         "condition": 19,
                         "param": 4
                       }
                     ],
-                    "children": []
+                    "children": [
+                      {
+                        "component": {
+                          "x": 19,
+                          "y": 8,
+                          "alignment": 64,
+                          "tranmap": null,
+                          "translation": null,
+                          "type": "stat_totals",
+                          "font": "Digits",
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 64,
+                          "tranmap": null,
+                          "translation": null,
+                          "type": "time",
+                          "font": "Digits",
+                          "conditions": [],
+                          "children": []
+                        }
+                      }
+                    ]
                   }
                 },
                 {
