@@ -1058,16 +1058,47 @@
             }
           },
           {
-            "component": {
+            "list": {
               "x": 0,
               "y": -160,
               "alignment": 64,
+              "spacing": 0,
+              "horizontal": false,
               "tranmap": null,
-              "translation": "CRGOLD",
-              "type": "chat",
-              "font": "Console",
-              "conditions": [],
-              "children": []
+              "translation": null,
+              "translucency": false,
+              "children": [
+                {
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": "CRGOLD",
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [],
+                    "type": "chat",
+                    "font": "Console",
+                    "vertical": false
+                  }
+                },
+                {
+                  "minimap": {
+                    "x": 2,
+                    "y": 1,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [],
+                    "width": 72,
+                    "height": 60,
+                    "background": 1
+                  }
+                }
+              ]
             }
           },
           {
@@ -1097,21 +1128,6 @@
               "translation": null,
               "conditions": [],
               "children": []
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": -159,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -3137,16 +3153,47 @@
             }
           },
           {
-            "component": {
+            "list": {
               "x": 0,
               "y": 8,
               "alignment": 64,
+              "spacing": 0,
+              "horizontal": false,
               "tranmap": null,
-              "translation": "CRGOLD",
-              "type": "chat",
-              "font": "Console",
-              "conditions": [],
-              "children": []
+              "translation": null,
+              "translucency": false,
+              "children": [
+                {
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": "CRGOLD",
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [],
+                    "type": "chat",
+                    "font": "Console",
+                    "vertical": false
+                  }
+                },
+                {
+                  "minimap": {
+                    "x": 2,
+                    "y": 1,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [],
+                    "width": 72,
+                    "height": 60,
+                    "background": 1
+                  }
+                }
+              ]
             }
           },
           {
@@ -3176,21 +3223,6 @@
               "translation": null,
               "conditions": [],
               "children": []
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -5259,16 +5291,47 @@
             }
           },
           {
-            "component": {
+            "list": {
               "x": 0,
               "y": 8,
               "alignment": 64,
+              "spacing": 0,
+              "horizontal": false,
               "tranmap": null,
-              "translation": "CRGOLD",
-              "type": "chat",
-              "font": "Console",
-              "conditions": [],
-              "children": []
+              "translation": null,
+              "translucency": false,
+              "children": [
+                {
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": "CRGOLD",
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [],
+                    "type": "chat",
+                    "font": "Console",
+                    "vertical": false
+                  }
+                },
+                {
+                  "minimap": {
+                    "x": 2,
+                    "y": 1,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [],
+                    "width": 72,
+                    "height": 60,
+                    "background": 1
+                  }
+                }
+              ]
             }
           },
           {
@@ -5298,21 +5361,6 @@
               "translation": null,
               "conditions": [],
               "children": []
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -8431,16 +8479,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -8473,21 +8552,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -10971,16 +11035,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -11013,21 +11108,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -13408,16 +13488,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -13450,21 +13561,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -19352,16 +19448,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -19394,21 +19521,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -24894,16 +25006,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -24936,21 +25079,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -26502,16 +26630,47 @@
             }
           },
           {
-            "component": {
+            "list": {
               "x": 0,
               "y": 8,
               "alignment": 64,
+              "spacing": 0,
+              "horizontal": false,
               "tranmap": null,
-              "translation": "CRGOLD",
-              "type": "chat",
-              "font": "Console",
-              "conditions": [],
-              "children": []
+              "translation": null,
+              "translucency": false,
+              "children": [
+                {
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": "CRGOLD",
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [],
+                    "type": "chat",
+                    "font": "Console",
+                    "vertical": false
+                  }
+                },
+                {
+                  "minimap": {
+                    "x": 2,
+                    "y": 1,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [],
+                    "width": 72,
+                    "height": 60,
+                    "background": 1
+                  }
+                }
+              ]
             }
           },
           {
@@ -26541,21 +26700,6 @@
               "translation": null,
               "conditions": [],
               "children": []
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -28567,16 +28711,47 @@
             }
           },
           {
-            "component": {
+            "list": {
               "x": 0,
               "y": 8,
               "alignment": 64,
+              "spacing": 0,
+              "horizontal": false,
               "tranmap": null,
-              "translation": "CRGOLD",
-              "type": "chat",
-              "font": "Console",
-              "conditions": [],
-              "children": []
+              "translation": null,
+              "translucency": false,
+              "children": [
+                {
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": "CRGOLD",
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [],
+                    "type": "chat",
+                    "font": "Console",
+                    "vertical": false
+                  }
+                },
+                {
+                  "minimap": {
+                    "x": 2,
+                    "y": 1,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [],
+                    "width": 72,
+                    "height": 60,
+                    "background": 1
+                  }
+                }
+              ]
             }
           },
           {
@@ -28606,21 +28781,6 @@
               "translation": null,
               "conditions": [],
               "children": []
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -30615,16 +30775,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -30657,21 +30848,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -32570,16 +32746,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -32612,21 +32819,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -34543,16 +34735,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -34585,21 +34808,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -39357,16 +39565,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -39399,21 +39638,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -44233,16 +44457,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -44275,21 +44530,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -49506,16 +49746,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -49548,21 +49819,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -55482,16 +55738,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -55524,21 +55811,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -64953,16 +65225,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -64995,21 +65298,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -70581,16 +70869,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -70623,21 +70942,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -74087,16 +74391,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -74129,21 +74464,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -78521,16 +78841,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -78563,21 +78914,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -80941,16 +81277,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -80983,21 +81350,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -83852,16 +84204,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -83894,21 +84277,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -86110,16 +86478,47 @@
                   }
                 },
                 {
-                  "component": {
+                  "list": {
                     "x": 0,
                     "y": 8,
                     "alignment": 64,
+                    "spacing": 0,
+                    "horizontal": false,
                     "tranmap": null,
-                    "translation": "CRGOLD",
-                    "type": "chat",
-                    "font": "Console",
-                    "conditions": [],
-                    "children": []
+                    "translation": null,
+                    "translucency": false,
+                    "children": [
+                      {
+                        "component": {
+                          "x": 0,
+                          "y": 0,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": "CRGOLD",
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "type": "chat",
+                          "font": "Console",
+                          "vertical": false
+                        }
+                      },
+                      {
+                        "minimap": {
+                          "x": 2,
+                          "y": 1,
+                          "alignment": 0,
+                          "tranmap": null,
+                          "translation": null,
+                          "translucency": false,
+                          "conditions": [],
+                          "children": [],
+                          "width": 72,
+                          "height": 60,
+                          "background": 1
+                        }
+                      }
+                    ]
                   }
                 },
                 {
@@ -86152,21 +86551,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
@@ -86384,16 +86768,47 @@
             }
           },
           {
-            "component": {
+            "list": {
               "x": 0,
               "y": 8,
               "alignment": 64,
+              "spacing": 0,
+              "horizontal": false,
               "tranmap": null,
-              "translation": "CRGOLD",
-              "type": "chat",
-              "font": "Console",
-              "conditions": [],
-              "children": []
+              "translation": null,
+              "translucency": false,
+              "children": [
+                {
+                  "component": {
+                    "x": 0,
+                    "y": 0,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": "CRGOLD",
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [],
+                    "type": "chat",
+                    "font": "Console",
+                    "vertical": false
+                  }
+                },
+                {
+                  "minimap": {
+                    "x": 2,
+                    "y": 1,
+                    "alignment": 0,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [],
+                    "children": [],
+                    "width": 72,
+                    "height": 60,
+                    "background": 1
+                  }
+                }
+              ]
             }
           },
           {
@@ -86423,21 +86838,6 @@
               "translation": null,
               "conditions": [],
               "children": []
-            }
-          },
-          {
-            "minimap": {
-              "x": 2,
-              "y": 9,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [],
-              "children": [],
-              "width": 72,
-              "height": 60,
-              "background": 1
             }
           }
         ]
