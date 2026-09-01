@@ -1162,7 +1162,7 @@
                     "conditions": [],
                     "children": [],
                     "crop": {
-                      "top": 0,
+                      "top": -16,
                       "left": -160,
                       "width": 320,
                       "height": 0,
@@ -1197,6 +1197,10 @@
                 {
                   "condition": 15,
                   "param": 2
+                },
+                {
+                  "condition": 44,
+                  "param_string": "STARMS"
                 }
               ],
               "children": [
@@ -1255,7 +1259,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 3,
+                    "x": 4,
                     "y": 3,
                     "alignment": 0,
                     "patch": "STGNUM1",
@@ -1272,7 +1276,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 3,
+                    "x": 4,
                     "y": 3,
                     "alignment": 0,
                     "patch": "STYSNUM1",
@@ -1289,7 +1293,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 8,
+                    "x": 9,
                     "y": 5,
                     "alignment": 0,
                     "patch": "STGNUM8",
@@ -1306,7 +1310,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 8,
+                    "x": 9,
                     "y": 5,
                     "alignment": 0,
                     "patch": "STYSNUM8",
@@ -1323,7 +1327,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 15,
+                    "x": 16,
                     "y": 3,
                     "alignment": 0,
                     "patch": "STGNUM2",
@@ -1340,7 +1344,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 15,
+                    "x": 16,
                     "y": 3,
                     "alignment": 0,
                     "patch": "STYSNUM2",
@@ -1357,7 +1361,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 20,
+                    "x": 21,
                     "y": 5,
                     "alignment": 0,
                     "patch": "STGNUM4",
@@ -1374,7 +1378,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 20,
+                    "x": 21,
                     "y": 5,
                     "alignment": 0,
                     "patch": "STYSNUM4",
@@ -1433,7 +1437,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 27,
+                    "x": 28,
                     "y": 3,
                     "alignment": 0,
                     "patch": "STGNUM3",
@@ -1454,7 +1458,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 27,
+                    "x": 28,
                     "y": 3,
                     "alignment": 0,
                     "patch": "STYSNUM3",
@@ -1475,7 +1479,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 32,
+                    "x": 33,
                     "y": 5,
                     "alignment": 0,
                     "patch": "STGNUM9",
@@ -1496,7 +1500,410 @@
                 },
                 {
                   "graphic": {
-                    "x": 32,
+                    "x": 33,
+                    "y": 5,
+                    "alignment": 0,
+                    "patch": "STYSNUM9",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 16,
+                        "param": 2
+                      },
+                      {
+                        "condition": 0,
+                        "param": 8
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 7,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STGNUM5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 5
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 7,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STYSNUM5",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 5
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 19,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STGNUM6",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 6
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 19,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STYSNUM6",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 6
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 31,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STGNUM7",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 7
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 31,
+                    "y": 14,
+                    "alignment": 0,
+                    "patch": "STYSNUM7",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 7
+                      }
+                    ],
+                    "children": []
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "canvas": {
+              "x": 104,
+              "y": 168,
+              "alignment": 0,
+              "conditions": [
+                {
+                  "condition": 15,
+                  "param": 2
+                },
+                {
+                  "condition": 43,
+                  "param_string": "STARMS"
+                }
+              ],
+              "children": [
+                {
+                  "graphic": {
+                    "x": 56,
+                    "y": 0,
+                    "alignment": 1,
+                    "patch": "STBAR",
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": true,
+                    "conditions": [],
+                    "children": [],
+                    "crop": {
+                      "top": -16,
+                      "left": -160,
+                      "width": 320,
+                      "height": 0,
+                      "center": true
+                    }
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 3,
+                    "alignment": 0,
+                    "patch": "STGNUM1",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 11,
+                        "param": 18
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 4,
+                    "y": 3,
+                    "alignment": 0,
+                    "patch": "STYSNUM1",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 10,
+                        "param": 18
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 9,
+                    "y": 5,
+                    "alignment": 0,
+                    "patch": "STGNUM8",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 22,
+                        "param": 7
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 9,
+                    "y": 5,
+                    "alignment": 0,
+                    "patch": "STYSNUM8",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 0,
+                        "param": 7
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 16,
+                    "y": 3,
+                    "alignment": 0,
+                    "patch": "STGNUM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 2
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 16,
+                    "y": 3,
+                    "alignment": 0,
+                    "patch": "STYSNUM2",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 2
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 21,
+                    "y": 5,
+                    "alignment": 0,
+                    "patch": "STGNUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 7,
+                        "param": 4
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 21,
+                    "y": 5,
+                    "alignment": 0,
+                    "patch": "STYSNUM4",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 6,
+                        "param": 4
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 31,
+                    "y": 4,
+                    "alignment": 0,
+                    "patch": "STGNUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 17,
+                        "param": 2
+                      },
+                      {
+                        "condition": 7,
+                        "param": 3
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 31,
+                    "y": 4,
+                    "alignment": 0,
+                    "patch": "STYSNUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 17,
+                        "param": 2
+                      },
+                      {
+                        "condition": 6,
+                        "param": 3
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 28,
+                    "y": 3,
+                    "alignment": 0,
+                    "patch": "STGNUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 16,
+                        "param": 2
+                      },
+                      {
+                        "condition": 22,
+                        "param": 2
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 28,
+                    "y": 3,
+                    "alignment": 0,
+                    "patch": "STYSNUM3",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 16,
+                        "param": 2
+                      },
+                      {
+                        "condition": 0,
+                        "param": 2
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 33,
+                    "y": 5,
+                    "alignment": 0,
+                    "patch": "STGNUM9",
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [
+                      {
+                        "condition": 16,
+                        "param": 2
+                      },
+                      {
+                        "condition": 22,
+                        "param": 8
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "graphic": {
+                    "x": 33,
                     "y": 5,
                     "alignment": 0,
                     "patch": "STYSNUM9",
