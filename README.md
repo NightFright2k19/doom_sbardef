@@ -60,9 +60,9 @@ Available variants:<br><br>
 **1) Classic**<br>
 Like the vanilla status bar, but with transparency. There are also indicators for Chainsaw/Super Shotgun (ARMS: "8" and "9") and Berserk (ARMS: "1"). There's also a small frame around the mugshot telling you which armor type is used (green: 33%, blue: 50%). Widescreen STBAR lumps are supported.<br>
 ![Screenshot](screenshots/01_classic-plus.png)
-  **I. Plus**: Centered bar.<br><br>
+  **I. Plus**: Centered bar. Large parts of the weapon will be unfortunately obscured by the status bar here.<br><br>
 ![Screenshot](screenshots/02_classic-split.png)
-  **II. Split**: Bar split in half, with the mugshot instead of the ARMS panel. ARMS info has been shifted to a widget, sitting on top of the right bar.
+  **II. Split**: Bar split in half. ARMS panel has been replaced by a widget, sitting on top of the right bar. Should look decent with many (not all!) custom STBAR lumps.
 <br><br>
 
 **2) Crispy Plus**<br>
