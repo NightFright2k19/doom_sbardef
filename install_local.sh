@@ -31,7 +31,7 @@ function Remove {
     Logger "Removed ${FILE_AND_PARENT}"
     rm "${TARGET_PATH}"
   else
-    [[ $DEBUG_REMOVE == false ]] || Logger "Target file ${FILE_AND_PARENT} does not exist, nothing to delete!"
+    [[ $DEBUG_REMOVE == false ]] || Logger "Target file ${FILE_AND_PARENT} does not exist - nothing to delete!"
   fi
 }
 
@@ -47,7 +47,7 @@ function Copy {
     Logger "Copying over ${SRC_AND_PARENT}"
     cp "${SRC_TARGET}" "${DEST_TARGET}"
   else
-    [[ $DEBUG_COPY == false ]] || Logger "Source file ${SRC_AND_PARENT} does not exist, can't copy."
+    [[ $DEBUG_COPY == false ]] || Logger "Source file ${SRC_AND_PARENT} does not exist - can't copy."
   fi
 }
 
@@ -73,8 +73,8 @@ while getopts ":d:gn" flag; do
     Logger "Usage: ${0} -d <path to autoload directory> [-g] [-n]"
     Logger ""
     Logger "  Available options:"
-    Logger "    -n Use 'ammo names' addon."
-    Logger "    -g Use 'gradient text' addon."
+    Logger "    -n Use 'Ammo Names' addon"
+    Logger "    -g Use 'Gradient Text' addon"
     Logger ""
     Logger "  Pass both -n and -g to use ammo names with gradient text."
     Logger ""
@@ -86,7 +86,7 @@ done
 if ! [[ -d "${AUTOLOAD_DIR}" ]]; then
   Logger "The defined autoload directory does not exist."
   Logger "You passed: '${AUTOLOAD_DIR}'"
-  Logger "Make sure the path exists, and run again."
+  Logger "Make sure the path exists, then run again."
   exit 1
 fi
 
@@ -95,7 +95,7 @@ AUTOLOAD_DIR_NAME="$(basename -- "$(realpath -- "${AUTOLOAD_DIR}")")"
 if [[ "${AUTOLOAD_DIR_NAME,,}" != "autoload" ]]; then
   Logger "Target autoload directory is not named 'autoload'."
   Logger "Directory's name is: '${AUTOLOAD_DIR_NAME}'."
-  Logger "Exiting."
+  Logger "Exiting..."
   exit 1
 fi
 
@@ -103,8 +103,8 @@ SRC=$(realpath "${PWD}/autoload/")
 DEST=$(realpath "${AUTOLOAD_DIR}")
 
 if [[ "${DEST}" == "${SRC}" ]]; then
-  Logger "Target directory is same as source directory."
-  Logger "Exiting."
+  Logger "Target directory is the same as source directory."
+  Logger "Exiting..."
   exit 1
 fi
 
@@ -120,11 +120,11 @@ if [[ $ADDON_ANY ]]; then
   IndentFurther
 
   if $ADDON_GRADIENT_TEXT; then
-    Logger "* Gradient text - the solid 'Boom' font will be replaced with a gradient version."
+    Logger "* Gradient text: Solid 'Boom' font will be replaced with a gradient version"
   fi
 
   if $ADDON_AMMO_NAMES; then
-    Logger "* Ammo names - ammo displays now use the name of ammo, instead of weapon slot."
+    Logger "* Ammo names: Ammo displays now use the name of ammo instead of weapon slot"
   fi
 
   IndentBack
