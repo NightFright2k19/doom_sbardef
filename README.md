@@ -142,10 +142,10 @@ Taken from the <a href="https://github.com/coelckers/prboom-plus" target= "_blan
    **II. Balanced**: Uses more neutral/universal icons (from 'Eternity Boomified') and splits them, using a double-sized Boom font. No colorization here (only in the WEA widget for selected weapon).<br><br>
 
 **BONUS CONTENT**<br><br>
-I. Addons (load externally, i.e. NOT via autoload - **currently not all are functional**):
-- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/ammo_names.pk3" target= "_blank">Ammo Names</a> (Names instead of slot numbers for ammo labels in Crispy and DSDA)
-- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/gradient.pk3" target= "_blank">Boom Font with Gradient Colors</a> (Check for a <a href="https://i.imgur.com/qdEqwTA.png" target= "_blank">preview here</a>)
-- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/gradient_names.pk3" target= "_blank">Boom Font with Gradient Colors + Ammo Names</a> (Combines both addons)
+I. Addons (mus be loaded separate, via `install_script.sh`, or manually moved to `autoload/` - **currently not all are functional**):
+- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/addons/names" target= "_blank">Ammo Names</a> (Names instead of slot numbers for ammo labels in Crispy and DSDA)
+- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/addons/gradient" target= "_blank">Boom Font with Gradient Colors</a> (Check for a <a href="https://i.imgur.com/qdEqwTA.png" target= "_blank">preview here</a>)
+- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/addons/gradient_names" target= "_blank">Boom Font with Gradient Colors + Ammo Names</a> (Combines both addons)
 <br>
 II. Developer Kit (commented code for all HUDs):<br>
 <a href="https://github.com/NightFright2k19/doom_sbardef/tree/main/docs/sbardef" target= "_blank">Github subpage</a> (Useful for anybody who wants to start with SBARDEF coding on their own)
