@@ -6,8 +6,8 @@ on:
     paths-ignore:
       - "README.md"
       - ".github/**"
+      - "addons/**"
       - "docs/**"
-      - "extras/**"
       - "screenshots/**"
 
   workflow_dispatch:
