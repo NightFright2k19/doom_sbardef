@@ -3349,7 +3349,7 @@
                     "patch": "STBAR",
                     "tranmap": null,
                     "translation": null,
-                    "translucency": true,
+                    "translucency": false,
                     "conditions": [],
                     "children": [],
                     "crop": {
@@ -3369,13 +3369,13 @@
                     "patch": "STBAR",
                     "tranmap": null,
                     "translation": null,
-                    "translucency": true,
+                    "translucency": false,
                     "conditions": [],
                     "children": [],
                     "crop": {
                       "top": -16,
-                      "left": -16,
-                      "width": 33,
+                      "left": -18,
+                      "width": 34,
                       "height": 0,
                       "center": true
                     }
@@ -3389,7 +3389,7 @@
                     "patch": "STBAR",
                     "tranmap": null,
                     "translation": null,
-                    "translucency": true,
+                    "translucency": false,
                     "conditions": [],
                     "children": [],
                     "crop": {
@@ -3406,12 +3406,12 @@
           },
           {
             "facebackground": {
-              "x": 107,
+              "x": 108,
               "y": 169,
               "alignment": 64,
               "tranmap": null,
               "translation": null,
-              "translucency": true,
+              "translucency": false,
               "conditions": [
                 {
                   "condition": 15,
@@ -3430,7 +3430,7 @@
           },
           {
             "face": {
-              "x": 107,
+              "x": 108,
               "y": 168,
               "alignment": 64,
               "tranmap": null,
@@ -3441,7 +3441,7 @@
           },
           {
             "canvas": {
-              "x": 107,
+              "x": 108,
               "y": 170,
               "alignment": 64,
               "conditions": [
