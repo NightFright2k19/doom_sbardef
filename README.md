@@ -10,7 +10,6 @@ The Nightdive port brought the possibility to edit the Doom statusbar and fullsc
 
 **How to use:**
 - Unzip the archive into your Woof! installation directory. Files will be copied into the proper autoload subdirectories.<br>
-- If you are using *extras.wad*, launch Woof! with command line parameter **-noextras**.<br>
 - Keep pressing F5 ingame until you get to the HUD you want.<br>
 - Note: Woof! does **not** support <a href="https://doomwiki.org/wiki/ID24HACKED" target= "_blank">ID24HACKED</a>, so no extra weapon slots and fifth ammo type with PWADs requiring *id24res.wad*.<br><br>
 
@@ -134,7 +133,7 @@ Boom variant from the <a href="https://github.com/kraflab/dsda-doom" target= "_b
    **III. Condensed**: Widgets on the left are all aligned in a single line. Ammo overview is minimized and mugshot moves to the right side.<br><br>
 
 **9) PrBoom+**<br>
-Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. God Mode indicator (label on top of health icon) has been added.<br>
+Taken from the <a href="https://github.com/coelckers/prboom-plus" target= "_blank">PrBoom+</a> port, this Boom variant has weapon info and keys on the left while health and armor move to the right, more emphasized by the Doom menu font. The icons change depending on whether you found the Berserk Pack or the Blue Armor. God Mode indicator (label on top of health icon) has been added.<br>
 ![Screenshot](screenshots/23_prboom-standard.png)
    **I. Standard**: Imitates the original HUD as closely as possible: 'Boom Compact' with Health and Armor isolated on the right side.<br>
 <em>Note: Some mods use sprites with different sizes. In such cases, alignment of icons may be off.</em>
@@ -143,10 +142,10 @@ Taken from the <a href="https://github.com/coelckers/prboom-plus/issues" target=
    **II. Balanced**: Uses more neutral/universal icons (from 'Eternity Boomified') and splits them, using a double-sized Boom font. No colorization here (only in the WEA widget for selected weapon).<br><br>
 
 **BONUS CONTENT**<br><br>
-I. Addons (load externally, i.e. NOT via autoload - **currently not all are functional**):
-- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/ammo_names.pk3" target= "_blank">Ammo Names</a> (Names instead of slot numbers for ammo labels in Crispy and DSDA)
-- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/gradient.pk3" target= "_blank">Boom Font with Gradient Colors</a> (Check for a <a href="https://i.imgur.com/qdEqwTA.png" target= "_blank">preview here</a>)
-- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/extras/gradient_names.pk3" target= "_blank">Boom Font with Gradient Colors + Ammo Names</a> (Combines both addons)
+I. Addons (must be loaded separately, via `install_script.sh`, or manually moved to `autoload/` - **currently not all are functional**):
+- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/addons/names" target= "_blank">Ammo Names</a> (Names instead of slot numbers for ammo labels in Crispy and DSDA)
+- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/addons/gradient" target= "_blank">Boom Font with Gradient Colors</a> (Check for a <a href="https://i.imgur.com/qdEqwTA.png" target= "_blank">preview here</a>)
+- <a href="https://github.com/NightFright2k19/doom_sbardef/blob/main/addons/gradient_names" target= "_blank">Boom Font with Gradient Colors + Ammo Names</a> (Combines both addons)
 <br>
 II. Developer Kit (commented code for all HUDs):<br>
 <a href="https://github.com/NightFright2k19/doom_sbardef/tree/main/docs/sbardef" target= "_blank">Github subpage</a> (Useful for anybody who wants to start with SBARDEF coding on their own)
