@@ -257,7 +257,7 @@ if $ADDON_ANY; then
 
   IndentFurther
 
-  # Gradient-only, names
+  # Gradient-only, no names
   if [[ $ADDON_GRADIENT_TEXT == true && $ADDON_AMMO_NAMES == false ]]; then
     Copy "${SRC_ADDONS_GRADIENT_ALL}/sbardef_gfx_gradient.wad" "${DEST_ALL}"
   fi
@@ -265,23 +265,23 @@ if $ADDON_ANY; then
   # Gradient and names
   if [[ $ADDON_GRADIENT_TEXT == true && $ADDON_AMMO_NAMES == true ]]; then
     Copy "${SRC_ADDONS_GRADIENT_NAMES_ALL}/sbardef_gfx_gradient_names.wad" "${DEST_ALL}"
-    Copy "${SRC_ADDONS_GRADIENT_NAMES_CQALL}/sbardef_gfx_gradient_names.wad" "${DEST_ALL}"
-    Copy "${SRC_ADDONS_GRADIENT_NAMES_FREEDOOM}/sbardef_gfx_gradient_names.wad" "${DEST_ALL}"
-    Copy "${SRC_ADDONS_GRADIENT_NAMES_HACX}/sbardef_gfx_gradient_names.wad" "${DEST_ALL}"
-    Copy "${SRC_ADDONS_GRADIENT_NAMES_HARMONY}/sbardef_gfx_gradient_names.wad" "${DEST_ALL}"
-    Copy "${SRC_ADDONS_GRADIENT_NAMES_LOR}/sbardef_gfx_gradient_names.wad" "${DEST_ALL}"
-    Copy "${SRC_ADDONS_GRADIENT_NAMES_REKKR}/sbardef_gfx_gradient_names.wad" "${DEST_ALL}"
+    Copy "${SRC_ADDONS_GRADIENT_NAMES_CQALL}/sbardef_gfx_gradient_names.wad" "${DEST_CQALL}"
+    Copy "${SRC_ADDONS_GRADIENT_NAMES_FREEDOOM}/sbardef_gfx_gradient_names.wad" "${DEST_FREEDOOM}"
+    Copy "${SRC_ADDONS_GRADIENT_NAMES_HACX}/sbardef_gfx_gradient_names.wad" "${DEST_HACX}"
+    Copy "${SRC_ADDONS_GRADIENT_NAMES_HARMONY}/sbardef_gfx_gradient_names.wad" "${DEST_HARMONY}"
+    Copy "${SRC_ADDONS_GRADIENT_NAMES_LOR}/sbardef_gfx_gradient_names.wad" "${DEST_LOR}"
+    Copy "${SRC_ADDONS_GRADIENT_NAMES_REKKR}/sbardef_gfx_gradient_names.wad" "${DEST_REKKR}"
   fi
 
   # Names-only, no gradient
   if [[ $ADDON_AMMO_NAMES == true && $ADDON_GRADIENT_TEXT == false ]]; then
     Copy "${SRC_ADDONS_NAMES_ALL}/sbardef_gfx_names.wad" "${DEST_ALL}"
-    Copy "${SRC_ADDONS_NAMES_CQALL}/sbardef_gfx_names.wad" "${DEST_ALL}"
-    Copy "${SRC_ADDONS_NAMES_FREEDOOM}/sbardef_gfx_names.wad" "${DEST_ALL}"
-    Copy "${SRC_ADDONS_NAMES_HACX}/sbardef_gfx_names.wad" "${DEST_ALL}"
-    Copy "${SRC_ADDONS_NAMES_HARMONY}/sbardef_gfx_names.wad" "${DEST_ALL}"
-    Copy "${SRC_ADDONS_NAMES_LOR}/sbardef_gfx_names.wad" "${DEST_ALL}"
-    Copy "${SRC_ADDONS_NAMES_REKKR}/sbardef_gfx_names.wad" "${DEST_ALL}"
+    Copy "${SRC_ADDONS_NAMES_CQALL}/sbardef_gfx_names.wad" "${DEST_CQALL}"
+    Copy "${SRC_ADDONS_NAMES_FREEDOOM}/sbardef_gfx_names.wad" "${DEST_FREEDOOM}"
+    Copy "${SRC_ADDONS_NAMES_HACX}/sbardef_gfx_names.wad" "${DEST_HACX}"
+    Copy "${SRC_ADDONS_NAMES_HARMONY}/sbardef_gfx_names.wad" "${DEST_HARMONY}"
+    Copy "${SRC_ADDONS_NAMES_LOR}/sbardef_gfx_names.wad" "${DEST_LOR}"
+    Copy "${SRC_ADDONS_NAMES_REKKR}/sbardef_gfx_names.wad" "${DEST_REKKR}"
   fi
 
   IndentBack
