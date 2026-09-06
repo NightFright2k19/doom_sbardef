@@ -4,7 +4,7 @@
 set -euo pipefail
 
 if ! (command -v convert &>/dev/null); then
-  echo "ImageMgick not found."
+  echo "ImageMagick not found!"
   echo "Make sure you have the 'convert' command installed."
   exit 1
 fi
@@ -46,13 +46,13 @@ if [[ $INPUT_DIR_SET == false || $OUTPUT_DIR_SET == false ]]; then
 fi
 
 if ! [[ -d "${INPUT_DIR}" ]]; then
-  echo "Input folder not found, make sure it exists."
+  echo "Input folder not found! Make sure it exists."
   echo "You provided: ${INPUT_DIR}"
   INPUT_DOES_NOT_EXIST=true
 fi
 
 if ! [[ -d "${OUTPUT_DIR}" ]]; then
-  echo "Output folder not found, make sure it exists."
+  echo "Output folder not found! Make sure it exists."
   echo "You provided: ${OUTPUT_DIR}"
   OUTPUT_DOES_NOT_EXIST=true
 fi
