@@ -86,7 +86,7 @@ rm "${OUTPUT_DIR}"/* -f
 
 for file in "${INPUT_DIR}"/*.png; do
   BASENAME="$(basename -- "${file}")"
-  convert "${file}" -crop 1920x280+0+800 +repage "${OUTPUT_DIR}/_${BASENAME}"
+  convert "${file}" -crop 1920x330+0+750 +repage "${OUTPUT_DIR}/_${BASENAME}"
 done
 
 convert "${OUTPUT_DIR}/_*.png" -append "${OUTPUT_DIR}/COMBINED.png"
