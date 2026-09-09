@@ -3235,14 +3235,14 @@
         "children": [
           {
             "canvas": {
-              "x": 104,
+              "x": 53,
               "y": 168,
               "alignment": 0,
               "conditions": [],
               "children": [
                 {
                   "graphic": {
-                    "x": -51,
+                    "x": 0,
                     "y": 0,
                     "alignment": 65,
                     "patch": "STBAR",
@@ -3262,7 +3262,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 21,
+                    "x": 72,
                     "y": 0,
                     "alignment": 65,
                     "patch": "STBAR",
@@ -3281,8 +3281,36 @@
                   }
                 },
                 {
+                  "facebackground": {
+                    "x": 54,
+                    "y": 1,
+                    "alignment": 64,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [
+                      {
+                        "condition": 15,
+                        "param": 0
+                      }
+                    ],
+                    "children": []
+                  }
+                },
+                {
+                  "face": {
+                    "x": 55,
+                    "y": -1,
+                    "alignment": 64,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [],
+                    "children": []
+                  }
+                },
+                {
                   "graphic": {
-                    "x": 163,
+                    "x": 214,
                     "y": 0,
                     "alignment": 129,
                     "patch": "STBAR",
@@ -3301,34 +3329,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "facebackground": {
-              "x": 107,
-              "y": 169,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [
-                {
-                  "condition": 15,
-                  "param": 0
-                }
-              ],
-              "children": []
-            }
-          },
-          {
-            "face": {
-              "x": 108,
-              "y": 167,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "conditions": [],
-              "children": []
             }
           },
           {

@@ -156,7 +156,7 @@
                 "width": 31,
                 "height": 0,
                 "center": false
-	      }
+              }
             }
           },
           {
@@ -2055,7 +2055,7 @@
                 "width": 31,
                 "height": 0,
                 "center": false
-	      }
+              }
             }
           },
           {
@@ -3748,14 +3748,14 @@
         "children": [
           {
             "canvas": {
-              "x": 104,
+              "x": 53,
               "y": 168,
               "alignment": 0,
               "conditions": [],
               "children": [
                 {
                   "graphic": {
-                    "x": -51,
+                    "x": 0,
                     "y": 0,
                     "alignment": 65,
                     "patch": "STBAR",
@@ -3775,7 +3775,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 20,
+                    "x": 71,
                     "y": 0,
                     "alignment": 65,
                     "patch": "STBAR",
@@ -3794,8 +3794,43 @@
                   }
                 },
                 {
+                  "facebackground": {
+                    "x": 56,
+                    "y": 1,
+                    "alignment": 64,
+                    "tranmap": null,
+                    "translation": null,
+                    "translucency": false,
+                    "conditions": [
+                      {
+                        "condition": 15,
+                        "param": 0
+                      }
+                    ],
+                    "children": [],
+                    "crop": {
+                      "top": 0,
+                      "left": 0,
+                      "width": 31,
+                      "height": 0,
+                      "center": false
+                    }
+                  }
+                },
+                {
+                  "face": {
+                    "x": 55,
+                    "y": 0,
+                    "alignment": 64,
+                    "tranmap": null,
+                    "translation": null,
+                    "conditions": [],
+                    "children": []
+                  }
+                },
+                {
                   "graphic": {
-                    "x": 163,
+                    "x": 214,
                     "y": 0,
                     "alignment": 129,
                     "patch": "STBAR",
@@ -3814,41 +3849,6 @@
                   }
                 }
               ]
-            }
-          },
-          {
-            "facebackground": {
-              "x": 109,
-              "y": 169,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "translucency": false,
-              "conditions": [
-                {
-                  "condition": 15,
-                  "param": 0
-                }
-              ],
-              "children": [],
-              "crop": {
-                "top": 0,
-                "left": 0,
-                "width": 31,
-                "height": 0,
-                "center": false
-	      }
-            }
-          },
-          {
-            "face": {
-              "x": 108,
-              "y": 168,
-              "alignment": 64,
-              "tranmap": null,
-              "translation": null,
-              "conditions": [],
-              "children": []
             }
           },
           {
@@ -4296,7 +4296,6 @@
               "children": []
             }
           },
-
           {
             "list": {
               "x": 318,
