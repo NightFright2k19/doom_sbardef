@@ -18,7 +18,7 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     env:
       BUILD_NUM: ${{ github.run_number }}
@@ -40,11 +40,11 @@ jobs:
             echo "  -> $file"
 
             # Validate the JSON before replacing the source file.
-            jq -e empty "$file" >/dev/null
+            jq empty "$file"
 
             tmpfile="$(mktemp)"
             trap 'rm -f "$tmpfile"' EXIT
-            jq -e -c . "$file" > "$tmpfile"
+            jq -c . "$file" > "$tmpfile"
             mv -- "$tmpfile" "$file"
             trap - EXIT
           done < <(find autoload -type f -name 'sbardef.lmp' -print0)
