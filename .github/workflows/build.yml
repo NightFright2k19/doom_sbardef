@@ -111,6 +111,21 @@ jobs:
             cp -- "$file" "$destination"
           done
 
+          # These standalone WAD files are not part of any PK3, but they must
+          # still be included in the final ZIP after minification.
+          for file in \
+            autoload/chex3v.wad/sbardef.lmp \
+            autoload/id1.wad/sbardef.lmp; do
+            if [[ ! -f "$file" ]]; then
+              echo "::error::Missing minified sbardef.lmp file: $file"
+              exit 1
+            fi
+
+            destination="package/${file}"
+            mkdir -p "$(dirname -- "$destination")"
+            cp -- "$file" "$destination"
+          done
+
       - name: Build final ZIP and checksum
         id: package
         shell: bash
