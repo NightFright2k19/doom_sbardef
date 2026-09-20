@@ -111,14 +111,6 @@ jobs:
             cp -- "$file" "$destination"
           done
 
-          for file in autoload/chex3v.wad autoload/id1.wad; do
-            if [[ ! -f "$file" ]]; then
-              echo "::error::Missing required file: $file"
-              exit 1
-            fi
-            cp -- "$file" package/autoload/
-          done
-
       - name: Build final ZIP and checksum
         id: package
         shell: bash
