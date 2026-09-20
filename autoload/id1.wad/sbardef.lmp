@@ -10,6 +10,11 @@
         "stem": "STT"
       },
       {
+        "name": "SmallRed",
+        "type": 2,
+        "stem": "WI"
+      },
+      {
         "name": "SmallGrey",
         "type": 0,
         "stem": "STG"
@@ -36322,8 +36327,8 @@
               "children": [
                 {
                   "canvas": {
-                    "x": 25,
-                    "y": 173,
+                    "x": 68,
+                    "y": 189,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
@@ -36333,23 +36338,8 @@
                         "number": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 65,
-                          "font": "BigRed",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 0,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": [],
-                          "children": []
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 49,
-                          "y": 0,
-                          "alignment": 65,
-                          "font": "BigRed",
+                          "alignment": 73,
+                          "font": "SmallRed",
                           "tranmap": null,
                           "translation": null,
                           "type": 1,
@@ -36366,10 +36356,10 @@
                       },
                       {
                         "number": {
-                          "x": 49,
+                          "x": 0,
                           "y": 0,
-                          "alignment": 65,
-                          "font": "BigRed",
+                          "alignment": 73,
+                          "font": "SmallRed",
                           "tranmap": null,
                           "translation": null,
                           "type": 4,
@@ -36394,10 +36384,10 @@
                       },
                       {
                         "number": {
-                          "x": 98,
+                          "x": 46,
                           "y": 0,
-                          "alignment": 65,
-                          "font": "BigRed",
+                          "alignment": 73,
+                          "font": "SmallRed",
                           "tranmap": null,
                           "translation": null,
                           "type": 4,
@@ -36422,10 +36412,10 @@
                       },
                       {
                         "number": {
-                          "x": 208,
+                          "x": 180,
                           "y": 0,
-                          "alignment": 129,
-                          "font": "BigRed",
+                          "alignment": 137,
+                          "font": "SmallRed",
                           "tranmap": null,
                           "translation": null,
                           "type": 4,
@@ -36449,7 +36439,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 25,
+                    "x": 22,
                     "y": 191,
                     "alignment": 65,
                     "patch": "TAG_HEAL",
@@ -36466,7 +36456,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 25,
+                    "x": 22,
                     "y": 191,
                     "alignment": 65,
                     "patch": "TAG_GOD",
@@ -36483,7 +36473,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 73,
+                    "x": 68,
                     "y": 191,
                     "alignment": 65,
                     "patch": "TAG_ARMR",
@@ -36500,7 +36490,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 73,
+                    "x": 68,
                     "y": 191,
                     "alignment": 65,
                     "patch": "ARM_BRAK",
@@ -36521,19 +36511,19 @@
                 },
                 {
                   "canvas": {
-                    "x": 73,
+                    "x": 68,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
-                      {
-                        "condition": 39,
-                        "param": 1
-                      },
                       {
                         "condition": 28,
                         "param": 1
+                      },
+                      {
+                        "condition": 39,
+                        "param": 1
                       }
                     ],
                     "children": [
@@ -36610,18 +36600,18 @@
                 },
                 {
                   "canvas": {
-                    "x": 123,
+                    "x": 114,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 39,
+                        "condition": 27,
                         "param": 1
                       },
                       {
-                        "condition": 27,
+                        "condition": 39,
                         "param": 1
                       }
                     ],
@@ -36699,7 +36689,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 233,
+                    "x": 248,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -36715,7 +36705,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 129,
+                          "alignment": 65,
                           "patch": "TAG_AMM1",
                           "tranmap": null,
                           "translation": null,
@@ -36732,7 +36722,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 129,
+                          "alignment": 65,
                           "patch": "TAG_AMM2",
                           "tranmap": null,
                           "translation": null,
@@ -36749,7 +36739,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 129,
+                          "alignment": 65,
                           "patch": "TAG_AMM3",
                           "tranmap": null,
                           "translation": null,
@@ -36766,7 +36756,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 129,
+                          "alignment": 65,
                           "patch": "TAG_AMM4",
                           "tranmap": null,
                           "translation": null,
@@ -38150,8 +38140,8 @@
                 },
                 {
                   "list": {
-                    "x": 4,
-                    "y": 171,
+                    "x": 6,
+                    "y": 187,
                     "alignment": 72,
                     "spacing": 0,
                     "tranmap": null,
@@ -38195,6 +38185,21 @@
                           "font": "Digits",
                           "vertical": false,
                           "duration": 4
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 16,
+                          "y": 2,
+                          "alignment": 1,
+                          "font": "SmallRed",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 0,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [],
+                          "children": []
                         }
                       }
                     ]
