@@ -93,13 +93,13 @@ Imitates the fullscreen HUD from <a href="https://www.nintendoworldreport.com/me
 <br><br>
 
 **5) Trinity**<br>
-Doom 64 variant with STTNUM/WINUM vitals arranged on the left side, keeping weapon view unobstructed.<br>
+Doom 64 variant with STTNUM vitals arranged on the left side, keeping weapon view unobstructed.<br>
 ![Screenshot](screenshots/11_trinity-icons.png)
   **I. Icons**: Mugshot, armor and ammo sprites on top of numbers.<br><br>
 ![Screenshot](screenshots/12_trinity-hybrid.png)
   **II. Hybrid**: Mugshot with big health/ammo numbers. Armor turns into a widget below the health number. Dynamic ammo label with the "Ammo Names" addon.<br><br>
 ![Screenshot](screenshots/13_trinity-mono.png)
-  **III. Mono**: WINUM numbers with labels. Colorization is avoided (only white, gray and black), making this HUD extremely robust when using custom palettes. Alignment of elements will adjust depending on "HUD Anchoring" setting. Dynamic ammo label with the "Ammo Names" addon.<br><br>
+  **III. Mono**: Numbers with labels. Colorization is avoided (only white, gray and black), making this HUD extremely robust when using custom palettes. Alignment of elements will adjust depending on "HUD Anchoring" setting. Dynamic ammo label with the "Ammo Names" addon.<br><br>
 ![Screenshot](screenshots/14_trinity-color.png)
   **IV. Color**: Like 'Mono', but with Boom numbers and colorization (same as Boom 64).
   <br><br>

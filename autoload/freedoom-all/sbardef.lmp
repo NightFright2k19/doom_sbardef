@@ -10,11 +10,6 @@
         "stem": "STT"
       },
       {
-        "name": "SmallRed",
-        "type": 2,
-        "stem": "WI"
-      },
-      {
         "name": "SmallGrey",
         "type": 0,
         "stem": "STG"
@@ -36307,7 +36302,7 @@
               "children": [
                 {
                   "canvas": {
-                    "x": 68,
+                    "x": 25,
                     "y": 189,
                     "alignment": 0,
                     "tranmap": null,
@@ -36319,7 +36314,22 @@
                           "x": 0,
                           "y": 0,
                           "alignment": 73,
-                          "font": "SmallRed",
+                          "font": "BigRed",
+                          "tranmap": null,
+                          "translation": null,
+                          "type": 0,
+                          "param": 0,
+                          "maxlength": 3,
+                          "conditions": [],
+                          "children": []
+                        }
+                      },
+                      {
+                        "number": {
+                          "x": 49,
+                          "y": 0,
+                          "alignment": 73,
+                          "font": "BigRed",
                           "tranmap": null,
                           "translation": null,
                           "type": 1,
@@ -36336,10 +36346,10 @@
                       },
                       {
                         "number": {
-                          "x": 0,
+                          "x": 49,
                           "y": 0,
                           "alignment": 73,
-                          "font": "SmallRed",
+                          "font": "BigRed",
                           "tranmap": null,
                           "translation": null,
                           "type": 4,
@@ -36364,10 +36374,10 @@
                       },
                       {
                         "number": {
-                          "x": 46,
+                          "x": 98,
                           "y": 0,
                           "alignment": 73,
-                          "font": "SmallRed",
+                          "font": "BigRed",
                           "tranmap": null,
                           "translation": null,
                           "type": 4,
@@ -36392,10 +36402,10 @@
                       },
                       {
                         "number": {
-                          "x": 180,
+                          "x": 221,
                           "y": 0,
                           "alignment": 137,
-                          "font": "SmallRed",
+                          "font": "BigRed",
                           "tranmap": null,
                           "translation": null,
                           "type": 4,
@@ -36419,7 +36429,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 22,
+                    "x": 25,
                     "y": 191,
                     "alignment": 65,
                     "patch": "TAG_HEAL",
@@ -36436,7 +36446,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 22,
+                    "x": 25,
                     "y": 191,
                     "alignment": 65,
                     "patch": "TAG_GOD",
@@ -36453,7 +36463,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 68,
+                    "x": 74,
                     "y": 191,
                     "alignment": 65,
                     "patch": "TAG_ARMR",
@@ -36470,7 +36480,7 @@
                 },
                 {
                   "graphic": {
-                    "x": 68,
+                    "x": 74,
                     "y": 191,
                     "alignment": 65,
                     "patch": "ARM_BRAK",
@@ -36491,19 +36501,19 @@
                 },
                 {
                   "canvas": {
-                    "x": 68,
+                    "x": 73,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
+                      {
+                        "condition": 39,
+                        "param": 1
+                      },
                       {
                         "condition": 28,
                         "param": 1
-                      },
-                      {
-                        "condition": 39,
-                        "param": 1
                       }
                     ],
                     "children": [
@@ -36580,18 +36590,18 @@
                 },
                 {
                   "canvas": {
-                    "x": 114,
+                    "x": 123,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
                     "translation": null,
                     "conditions": [
                       {
-                        "condition": 27,
+                        "condition": 39,
                         "param": 1
                       },
                       {
-                        "condition": 39,
+                        "condition": 27,
                         "param": 1
                       }
                     ],
@@ -36669,7 +36679,7 @@
                 },
                 {
                   "canvas": {
-                    "x": 248,
+                    "x": 246,
                     "y": 191,
                     "alignment": 0,
                     "tranmap": null,
@@ -36685,7 +36695,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 65,
+                          "alignment": 129,
                           "patch": "TAG_AMM1",
                           "tranmap": null,
                           "translation": null,
@@ -36702,7 +36712,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 65,
+                          "alignment": 129,
                           "patch": "TAG_AMM2",
                           "tranmap": null,
                           "translation": null,
@@ -36719,7 +36729,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 65,
+                          "alignment": 129,
                           "patch": "TAG_AMM3",
                           "tranmap": null,
                           "translation": null,
@@ -36736,7 +36746,7 @@
                         "graphic": {
                           "x": 0,
                           "y": 0,
-                          "alignment": 65,
+                          "alignment": 129,
                           "patch": "TAG_AMM4",
                           "tranmap": null,
                           "translation": null,
@@ -38120,8 +38130,8 @@
                 },
                 {
                   "list": {
-                    "x": 6,
-                    "y": 187,
+                    "x": 4,
+                    "y": 171,
                     "alignment": 72,
                     "spacing": 0,
                     "tranmap": null,
@@ -38165,21 +38175,6 @@
                           "font": "Digits",
                           "vertical": false,
                           "duration": 4
-                        }
-                      },
-                      {
-                        "number": {
-                          "x": 16,
-                          "y": 2,
-                          "alignment": 1,
-                          "font": "SmallRed",
-                          "tranmap": null,
-                          "translation": null,
-                          "type": 0,
-                          "param": 0,
-                          "maxlength": 3,
-                          "conditions": [],
-                          "children": []
                         }
                       }
                     ]
