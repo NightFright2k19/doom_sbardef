@@ -1,21 +1,22 @@
 #!/usr/bin/env python3
 """
-SBARDEF-Optimierer fuer Woof! (basiert auf der Parser-Logik von st_sbardef.c)
+SBARDEF optimizer for Woof! (based on the parser logic of st_sbardef.c)
 
-Entfernt NUR Werte, die Woof beim Einlesen ohnehin als Default behandelt:
-  - tranmap/translation/fillflat = null          -> Feld fehlt (JS_GetStringValue -> NULL)
-  - conditions/children = []                     -> Feld fehlt (yyjson-Iterator ist NULL-sicher)
-  - translucency = false                         -> Feld fehlt
-  - condition.param / param2 = 0                 -> JS_GetIntegerValue Default 0
-  - list.spacing = 0, list.horizontal = false    -> Default
-  - component.vertical = false                   -> Default
-  - crop mit lauter 0/false                      -> no_crop = {0}
-Bewusst NICHT angefasst: number/percent.param/type/maxlength (Woof verlangt sie),
-x/y/alignment (Pflicht), height/fullscreenrender (Pflicht), Fonts, Reihenfolge.
+Removes ONLY values that Woof already treats as defaults when parsing:
+  - tranmap/translation/fillflat = null   -> field missing (JS_GetStringValue -> NULL)
+  - conditions/children = []              -> field missing (yyjson iterator is NULL-safe)
+  - translucency = false                  -> field missing
+  - condition.param / param2 = 0          -> JS_GetIntegerValue default 0
+  - list.spacing = 0, list.horizontal = false -> default
+  - component.vertical = false            -> default
+  - crop with all 0/false                 -> no_crop = {0}
 
-Benutzung:
-  optimize_sbardef.py <eingabe.lmp> <ausgabe.lmp> [--minify]
-  optimize_sbardef.py --check <original.lmp> <optimiert.lmp>   # nur verifizieren
+Deliberately NOT touched: number/percent.param/type/maxlength (Woof requires them),
+x/y/alignment (required), height/fullscreenrender (required), fonts, ordering.
+
+Usage:
+  optimize_sbardef.py <input.lmp> <output.lmp> [--minify]
+  optimize_sbardef.py --check <original.lmp> <optimized.lmp>   # verify only
 """
 import json, sys
 
@@ -37,7 +38,7 @@ def prune_crop(body):
 
 
 def prune_elem(elem):
-    """elem = {"graphic": {...}} usw."""
+    """elem = {"graphic": {...}} etc."""
     for tname in ELEMENT_TYPES:
         body = elem.get(tname)
         if not isinstance(body, dict):
@@ -65,7 +66,7 @@ def prune_elem(elem):
             prune_crop(body)
         for child in body.get("children", []):
             prune_elem(child)
-        break  # genau ein Typ pro Element (Woof nimmt den ersten Treffer)
+        break  # exactly one type per element (Woof takes the first match)
 
 
 def optimize(data):
@@ -80,8 +81,9 @@ def optimize(data):
 
 
 # ---------------------------------------------------------------------------
-# Verifizierer: bildet Woofs Parsing nach (Defaults inklusive) und vergleicht
+# Verifier: replicates Woof's parsing (including defaults) and compares
 # ---------------------------------------------------------------------------
+
 def num(o, k, default=0):
     v = o.get(k)
     return v if isinstance(v, (int, float)) and not isinstance(v, bool) else default
@@ -102,7 +104,7 @@ def parse_elem(e):
             continue
         out = {"type": tname, "x": b["x"], "y": b["y"], "alignment": b["alignment"],
                "tranmap": b.get("tranmap") if isinstance(b.get("tranmap"), str) else
-               (True if b.get("translucency") is True else None),
+                          (True if b.get("translucency") is True else None),
                "cr": b.get("translation") if isinstance(b.get("translation"), str) else None,
                "conds": [(c["condition"], num(c, "param"), num(c, "param2"),
                           c.get("param_string"))
@@ -166,7 +168,7 @@ def main(argv):
             json.dump(opt, f, separators=(",", ":"))
         else:
             json.dump(opt, f, indent=2)
-            f.write("\n")
+        f.write("\n")
     return 0
 
 
