@@ -11,7 +11,7 @@ on:
 
 concurrency:
   group: sbardef-autobuild
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -19,9 +19,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-24.04
-
-    env:
-      BUILD_NUM: ${{ github.run_number }}
 
     steps:
       - name: Checkout repository
@@ -39,114 +36,221 @@ jobs:
           # parsing semantics; the build fails if the result is not identical.
           # Required fields (x, y, alignment, height, fullscreenrender and
           # number/percent type, param, maxlength) are never touched.
+
           python3 - <<'PY'
-          import json, sys
+          import json
+          import sys
           from pathlib import Path
 
-          ELEMENTS = ("canvas", "graphic", "animation", "face", "facebackground",
-                      "number", "percent", "component", "carousel", "list",
-                      "string", "minimap")
+          ELEMENTS = (
+              "canvas",
+              "graphic",
+              "animation",
+              "face",
+              "facebackground",
+              "number",
+              "percent",
+              "component",
+              "carousel",
+              "list",
+              "string",
+              "minimap",
+          )
 
           def prune_crop(body):
               crop = body.get("crop")
+
               if not isinstance(crop, dict):
                   return
+
               for k in ("top", "left", "width", "height"):
                   if crop.get(k) == 0:
                       del crop[k]
+
               if crop.get("center") is False:
                   del crop["center"]
+
               if not crop:
                   del body["crop"]
 
           def prune_elem(elem):
               for name in ELEMENTS:
                   body = elem.get(name)
+
                   if not isinstance(body, dict):
                       continue
+
                   for k in ("tranmap", "translation"):
                       if k in body and body[k] is None:
                           del body[k]
+
                   if body.get("translucency") is False:
                       del body["translucency"]
+
                   for k in ("children", "conditions"):
                       if k in body and body[k] == []:
                           del body[k]
+
                   for cond in body.get("conditions", []):
                       for k in ("param", "param2"):
                           if cond.get(k) == 0:
                               del cond[k]
+
                   if name == "list":
                       if body.get("spacing") == 0:
                           del body["spacing"]
+
                       if body.get("horizontal") is False:
                           del body["horizontal"]
+
                   if name == "component" and body.get("vertical") is False:
                       del body["vertical"]
+
                   if name in ("graphic", "face", "facebackground"):
                       prune_crop(body)
+
                   for child in body.get("children", []):
                       prune_elem(child)
+
                   break  # Woof takes the first matching element type only
 
           def optimize(data):
               for sb in data["data"]["statusbars"]:
                   if sb.get("fillflat") is None:
                       sb.pop("fillflat", None)
+
                   if sb.get("children") == []:
                       del sb["children"]
+
                   for elem in sb.get("children", []):
                       prune_elem(elem)
 
           # --- Verification: mirror Woof's parsing (defaults included) ---------
+
           def num(o, k, default=0):
               v = o.get(k)
-              return v if isinstance(v, (int, float)) and not isinstance(v, bool) else default
+
+              return (
+                  v
+                  if isinstance(v, (int, float)) and not isinstance(v, bool)
+                  else default
+              )
 
           def crop_of(b):
               c = b.get("crop")
+
               if not isinstance(c, dict):
                   return (0, 0, False, 0, 0)
-              return (num(c, "top"), num(c, "left"), c.get("center") is True,
-                      num(c, "width"), num(c, "height"))
+
+              return (
+                  num(c, "top"),
+                  num(c, "left"),
+                  c.get("center") is True,
+                  num(c, "width"),
+                  num(c, "height"),
+              )
 
           def parse_elem(e):
               for name in ELEMENTS:
                   b = e.get(name)
+
                   if not isinstance(b, dict):
                       continue
-                  tran = b.get("tranmap") if isinstance(b.get("tranmap"), str) \
-                      else (True if b.get("translucency") is True else None)
+
+                  tran = (
+                      b.get("tranmap")
+                      if isinstance(b.get("tranmap"), str)
+                      else (
+                          True
+                          if b.get("translucency") is True
+                          else None
+                      )
+                  )
+
                   out = {
-                      "type": name, "x": b["x"], "y": b["y"],
-                      "alignment": b["alignment"], "tranmap": tran,
-                      "cr": b["translation"] if isinstance(b.get("translation"), str) else None,
-                      "conds": [(c["condition"], num(c, "param"), num(c, "param2"),
-                                 c.get("param_string"))
-                                for c in (b.get("conditions") or []) if "condition" in c],
-                      "children": [parse_elem(c) for c in (b.get("children") or [])],
+                      "type": name,
+                      "x": b["x"],
+                      "y": b["y"],
+                      "alignment": b["alignment"],
+                      "tranmap": tran,
+                      "cr": (
+                          b["translation"]
+                          if isinstance(b.get("translation"), str)
+                          else None
+                      ),
+                      "conds": [
+                          (
+                              c["condition"],
+                              num(c, "param"),
+                              num(c, "param2"),
+                              c.get("param_string"),
+                          )
+                          for c in (b.get("conditions") or [])
+                          if "condition" in c
+                      ],
+                      "children": [
+                          parse_elem(c)
+                          for c in (b.get("children") or [])
+                      ],
                   }
+
                   if name == "list":
-                      out["sub"] = (b.get("horizontal") is True, num(b, "spacing"))
+                      out["sub"] = (
+                          b.get("horizontal") is True,
+                          num(b, "spacing"),
+                      )
+
                   elif name == "graphic":
-                      out["sub"] = (b.get("patch"), crop_of(b))
+                      out["sub"] = (
+                          b.get("patch"),
+                          crop_of(b),
+                      )
+
                   elif name in ("face", "facebackground"):
                       out["sub"] = crop_of(b)
+
                   elif name == "animation":
-                      out["sub"] = [(f["lump"], f["duration"]) for f in (b.get("frames") or [])]
+                      out["sub"] = [
+                          (f["lump"], f["duration"])
+                          for f in (b.get("frames") or [])
+                      ]
+
                   elif name in ("number", "percent"):
-                      out["sub"] = (b["font"], b["type"], b["param"], b["maxlength"])
+                      out["sub"] = (
+                          b["font"],
+                          b["type"],
+                          b["param"],
+                          b["maxlength"],
+                      )
+
                   elif name == "component":
-                      out["sub"] = (b["font"], b["type"], b.get("vertical") is True,
-                                    num(b, "duration"))
+                      out["sub"] = (
+                          b["font"],
+                          b["type"],
+                          b.get("vertical") is True,
+                          num(b, "duration"),
+                      )
+
                   elif name == "string":
-                      out["sub"] = (b["font"], num(b, "type"), b.get("data"))
+                      out["sub"] = (
+                          b["font"],
+                          num(b, "type"),
+                          b.get("data"),
+                      )
+
                   elif name == "minimap":
-                      out["sub"] = (num(b, "width"), num(b, "height"),
-                                    num(b, "scale") or 1.0, num(b, "background"))
+                      out["sub"] = (
+                          num(b, "width"),
+                          num(b, "height"),
+                          num(b, "scale") or 1.0,
+                          num(b, "background"),
+                      )
+
                   else:
                       out["sub"] = None
+
                   return out
+
               return None
 
           def parse_all(d):
@@ -154,42 +258,81 @@ jobs:
                   "numberfonts": d["data"]["numberfonts"],
                   "hudfonts": d["data"]["hudfonts"],
                   "statusbars": [
-                      (sb["height"], sb["fullscreenrender"],
-                       sb["fillflat"] if isinstance(sb.get("fillflat"), str) else None,
-                       sb.get("name"),
-                       [parse_elem(c) for c in (sb.get("children") or [])])
+                      (
+                          sb["height"],
+                          sb["fullscreenrender"],
+                          (
+                              sb["fillflat"]
+                              if isinstance(sb.get("fillflat"), str)
+                              else None
+                          ),
+                          sb.get("name"),
+                          [
+                              parse_elem(c)
+                              for c in (sb.get("children") or [])
+                          ],
+                      )
                       for sb in d["data"]["statusbars"]
                   ],
               }
 
           files = sorted(Path("autoload").rglob("sbardef.lmp"))
+
           if not files:
               print("::error::No sbardef.lmp files were found under autoload/")
               sys.exit(1)
 
-          total_before = total_after = 0
+          total_before = 0
+          total_after = 0
+
           for path in files:
               raw = path.read_text(encoding="utf-8")
+
               try:
                   original = json.loads(raw)
                   optimized = json.loads(raw)
+
                   optimize(optimized)
+
                   identical = parse_all(original) == parse_all(optimized)
+
               except (ValueError, KeyError, TypeError) as exc:
-                  print(f"::error file={path}::Cannot optimize ({type(exc).__name__}: {exc})")
-                  sys.exit(1)
-              if not identical:
-                  print(f"::error file={path}::Optimization changed parsed content, aborting")
+                  print(
+                      f"::error file={path}::Cannot optimize "
+                      f"({type(exc).__name__}: {exc})"
+                  )
                   sys.exit(1)
 
-              out = json.dumps(optimized, indent=2, ensure_ascii=False) + "\n"
+              if not identical:
+                  print(
+                      f"::error file={path}::Optimization changed "
+                      f"parsed content, aborting"
+                  )
+                  sys.exit(1)
+
+              out = json.dumps(
+                  optimized,
+                  indent=2,
+                  ensure_ascii=False,
+              ) + "\n"
+
               path.write_text(out, encoding="utf-8")
+
               total_before += len(raw)
               total_after += len(out)
-              print(f"  -> {path}: {len(raw):>8} -> {len(out):>8} bytes (verified)")
 
-          print(f"Optimized {len(files)} files: {total_before} -> {total_after} bytes "
-                f"({100 * (total_before - total_after) / total_before:.1f}% smaller before minification)")
+              print(
+                  f"  -> {path}: "
+                  f"{len(raw):>8} -> {len(out):>8} bytes "
+                  f"(verified)"
+              )
+
+          print(
+              f"Optimized {len(files)} files: "
+              f"{total_before} -> {total_after} bytes "
+              f"({100 * (total_before - total_after) / total_before:.1f}% "
+              f"smaller before minification)"
+          )
           PY
 
       - name: Validate and minify sbardef.lmp JSON files
@@ -209,10 +352,14 @@ jobs:
 
             tmpfile="$(mktemp)"
             trap 'rm -f "$tmpfile"' EXIT
+
             jq -c . "$file" > "$tmpfile"
             mv -- "$tmpfile" "$file"
+
             trap - EXIT
-          done < <(find autoload -type f -name 'sbardef.lmp' -print0)
+          done < <(
+            find autoload -type f -name 'sbardef.lmp' -print0
+          )
 
           if [[ "$found" -eq 0 ]]; then
             echo "::error::No sbardef.lmp files were found under autoload/"
@@ -240,13 +387,20 @@ jobs:
             fi
 
             echo "Processing $dir"
+
             (
-              cd -- "$dir"
+              cd "$dir"
+
               rm -f -- sbardef_mod.pk3
 
-              # -X omits host-specific extra attributes. The output file is
-              # removed first so it cannot accidentally be included in itself.
-              find . -mindepth 1 -maxdepth 1 ! -name 'sbardef_mod.pk3' -print0 \
+              # -X omits host-specific extra attributes.
+              # The output file is removed first so it cannot
+              # accidentally be included in itself.
+              find . \
+                -mindepth 1 \
+                -maxdepth 1 \
+                ! -name 'sbardef_mod.pk3' \
+                -print0 \
                 | xargs -0 zip -9 -r -X sbardef_mod.pk3
             )
 
@@ -264,7 +418,13 @@ jobs:
           rm -rf package
           mkdir -p package/autoload
 
-          mapfile -d '' pk3_files < <(find autoload -type f -name 'sbardef_mod.pk3' -print0)
+          mapfile -d '' pk3_files < <(
+            find autoload \
+              -type f \
+              -name 'sbardef_mod.pk3' \
+              -print0
+          )
+
           if [[ "${#pk3_files[@]}" -eq 0 ]]; then
             echo "::error::No sbardef_mod.pk3 files were created"
             exit 1
@@ -272,28 +432,72 @@ jobs:
 
           for file in "${pk3_files[@]}"; do
             destination="package/${file}"
+
             mkdir -p "$(dirname -- "$destination")"
             cp -- "$file" "$destination"
           done
 
-          # These standalone WAD files are not part of any PK3, but they must
-          # still be included in the final ZIP after minification.
+          # These standalone WAD files are not part of any PK3,
+          # but they must still be included in the final ZIP
+          # after minification.
           for file in \
             autoload/chex3v.wad/sbardef.lmp \
             autoload/id1.wad/sbardef.lmp; do
+
             if [[ ! -f "$file" ]]; then
               echo "::error::Missing minified sbardef.lmp file: $file"
               exit 1
             fi
 
             destination="package/${file}"
+
             mkdir -p "$(dirname -- "$destination")"
             cp -- "$file" "$destination"
           done
 
+      - name: Determine next Autobuild revision
+        id: version
+        uses: actions/github-script@v8
+        with:
+          script: |
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            const releases = await github.paginate(
+              github.rest.repos.listReleases,
+              {
+                owner,
+                repo,
+                per_page: 100
+              }
+            );
+
+            let maxRevision = 0;
+
+            for (const release of releases) {
+              const match = release.tag_name.match(/^autobuild-r(\d+)$/);
+
+              if (match) {
+                maxRevision = Math.max(
+                  maxRevision,
+                  parseInt(match[1], 10)
+                );
+              }
+            }
+
+            const nextRevision = maxRevision + 1;
+
+            core.setOutput('revision', nextRevision);
+            core.setOutput('tag', `autobuild-r${nextRevision}`);
+
+            console.log(`Latest successful Autobuild: r${maxRevision}`);
+            console.log(`Next Autobuild revision: r${nextRevision}`);
+
       - name: Build final ZIP and checksum
         id: package
         shell: bash
+        env:
+          BUILD_NUM: ${{ steps.version.outputs.revision }}
         run: |
           set -Eeuo pipefail
 
@@ -303,8 +507,11 @@ jobs:
 
           (
             cd package
+
             rm -f -- "$ZIP_NAME" "$CHECKSUM_NAME"
+
             zip -9 -r -X "$ZIP_NAME" autoload
+
             sha256sum "$ZIP_NAME" > "$CHECKSUM_NAME"
           )
 
@@ -321,14 +528,13 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           tag: ${{ steps.package.outputs.TAG_NAME }}
-          name: Autobuild r${{ env.BUILD_NUM }}
+          name: Autobuild r${{ steps.version.outputs.revision }}
           prerelease: true
           allowUpdates: true
           replacesArtifacts: true
           artifacts: package/${{ steps.package.outputs.ZIP_NAME }},package/${{ steps.package.outputs.CHECKSUM_NAME }}
           body: |
             This "SBARDEF HUD Mod" release has been generated by an automated script.
-
             **IMPORTANT:**
             - Requires latest Woof! dev snapshot (master branch, newest build)
             - Work-in-progress release, not sufficiently tested. Use at your own risk!
@@ -347,7 +553,11 @@ jobs:
 
             const releases = await github.paginate(
               github.rest.repos.listReleases,
-              { owner, repo, per_page: 100 }
+              {
+                owner,
+                repo,
+                per_page: 100
+              }
             );
 
             for (const release of releases) {
@@ -356,7 +566,9 @@ jobs:
                 release.tag_name.startsWith("autobuild-") &&
                 release.tag_name !== currentTag
               ) {
-                core.info(`Deleting release ${release.tag_name}`);
+                core.info(
+                  `Deleting release ${release.tag_name}`
+                );
 
                 await github.rest.repos.deleteRelease({
                   owner,
@@ -371,8 +583,13 @@ jobs:
                     ref: `tags/${release.tag_name}`
                   });
                 } catch (error) {
-                  if (error.status !== 404) throw error;
-                  core.info(`Tag ${release.tag_name} was already absent`);
+                  if (error.status !== 404) {
+                    throw error;
+                  }
+
+                  core.info(
+                    `Tag ${release.tag_name} was already absent`
+                  );
                 }
               }
             }
