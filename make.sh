@@ -3,7 +3,7 @@
 # Stricter shell handling
 set -euo pipefail
 
-if ! (command -v zip &>/dev/null); then
+if ! command -v zip &>/dev/null; then
   echo "ZIP not found!"
   echo "Make sure you have the 'zip' command installed."
   exit 1
