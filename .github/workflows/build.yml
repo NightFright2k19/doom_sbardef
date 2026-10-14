@@ -436,15 +436,21 @@ jobs:
           TAG_NAME="autobuild-r${BUILD_NUM}"
 
           (
-            cd dist
+             # create the ZIP and checksum from the repository root, writing outputs into dist/
+             rm -f -- "dist/$ZIP_NAME" "dist/$CHECKSUM_NAME"
 
-            rm -f -- "$ZIP_NAME" "$CHECKSUM_NAME"
+             # Ensure dist exists and is not empty
+             if [ ! -d dist ] || [ -z "$(ls -A dist 2>/dev/null)" ]; then
+             echo "::error::dist directory is missing or empty, nothing to package"
+             exit 1
+             fi
 
-            zip -9 -r -X "$ZIP_NAME" dist
+             # Archive the dist directory into dist/<ZIP_NAME>
+             zip -9 -r -X "dist/$ZIP_NAME" dist
 
-            sha256sum "$ZIP_NAME" > "$CHECKSUM_NAME"
+             sha256sum "dist/$ZIP_NAME" > "dist/$CHECKSUM_NAME"
           )
-
+          
           {
             echo "ZIP_NAME=$ZIP_NAME"
             echo "CHECKSUM_NAME=$CHECKSUM_NAME"
